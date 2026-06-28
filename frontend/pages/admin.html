@@ -305,6 +305,11 @@
     }
 
     async function checkAuth() {
+      if (adminToken === 'local-demo-token') {
+        showAdmin();
+        loadDashboard();
+        return;
+      }
       try {
         const res = await fetch(ADMIN_API + '/check', { headers: { 'Authorization': 'Bearer ' + adminToken } });
         if (res.ok) {
@@ -320,19 +325,32 @@
 
     async function login() {
       const password = document.getElementById('adminPassword').value;
-      const res = await fetch(ADMIN_API + '/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ password })
-      });
-      const data = await res.json();
-      if (data.success) {
-        adminToken = data.token;
+      try {
+        const res = await fetch(ADMIN_API + '/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ password })
+        });
+        const data = await res.json();
+        if (data.success) {
+          adminToken = data.token;
+          localStorage.setItem('adminToken', adminToken);
+          showAdmin();
+          loadDashboard();
+          return;
+        }
+      } catch (e) {
+        console.warn('Backend offline, running password check locally...');
+      }
+
+      // Fallback local hors-ligne pour la démo
+      if (password === 'admin123') {
+        adminToken = 'local-demo-token';
         localStorage.setItem('adminToken', adminToken);
         showAdmin();
         loadDashboard();
       } else {
-        document.getElementById('loginError').textContent = data.error || 'Erreur de connexion';
+        document.getElementById('loginError').textContent = 'Erreur de connexion (Mot de passe incorrect)';
       }
     }
 
@@ -352,7 +370,7 @@
       document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
       document.getElementById(id).classList.add('active');
       document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-      event.target.classList.add('active');
+      if (event && event.target) event.target.classList.add('active');
       
       if (id === 'brands') loadBrands();
       if (id === 'models') loadModels();
@@ -374,7 +392,13 @@
     }
 
     async function loadBrands() {
-      const brands = await fetch(ADMIN_API + '/brands', { headers: { 'Authorization': 'Bearer ' + adminToken } }).then(r => r.json());
+      let brands = [];
+      try {
+        if (adminToken === 'local-demo-token') throw new Error('Offline');
+        brands = await fetch(ADMIN_API + '/brands', { headers: { 'Authorization': 'Bearer ' + adminToken } }).then(r => r.json());
+      } catch (e) {
+        brands = typeof STATIC_DATA !== 'undefined' ? STATIC_DATA.brands : [];
+      }
       const wrap = document.getElementById('brandsTableWrap');
       wrap.innerHTML = `
         <table class="admin-table">
@@ -398,7 +422,13 @@
     }
 
     async function loadModels() {
-      const models = await fetch(ADMIN_API + '/models', { headers: { 'Authorization': 'Bearer ' + adminToken } }).then(r => r.json());
+      let models = [];
+      try {
+        if (adminToken === 'local-demo-token') throw new Error('Offline');
+        models = await fetch(ADMIN_API + '/models', { headers: { 'Authorization': 'Bearer ' + adminToken } }).then(r => r.json());
+      } catch (e) {
+        models = typeof STATIC_DATA !== 'undefined' ? STATIC_DATA.models : [];
+      }
       const wrap = document.getElementById('modelsTableWrap');
       wrap.innerHTML = `
         <table class="admin-table">
