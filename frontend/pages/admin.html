@@ -444,16 +444,16 @@
                 <td>
                   <button class="admin-btn admin-btn-primary" onclick="editModel('${m.id}')">✏️</button>
                   <button class="admin-btn admin-btn-danger" onclick="deleteModel('${m.id}')">🗑️</button>
-                </td>
-              </tr>
-            `).join('')}
-          </tbody>
-        </table>
-      `;
-    }
-
-    async function deleteModel(id) {
+     async function deleteModel(id) {
       if (!confirm('Supprimer ce modèle ?')) return;
+      if (adminToken === 'local-demo-token') {
+        if (typeof STATIC_DATA !== 'undefined') {
+          STATIC_DATA.models = STATIC_DATA.models.filter(m => m.id !== id);
+          loadModels();
+          alert('Modèle supprimé localement (Mode Démo)');
+        }
+        return;
+      }
       const res = await fetch(ADMIN_API + '/models/' + id, {
         method: 'DELETE',
         headers: { 'Authorization': 'Bearer ' + adminToken }
@@ -496,6 +496,11 @@
       ['primary','primaryDark','secondary','accent','bg','bgCard','text','border'].forEach(k => {
         theme[k] = document.getElementById('theme_' + k).value;
       });
+      if (adminToken === 'local-demo-token') {
+        localStorage.setItem('local-theme', JSON.stringify(theme));
+        alert('Thème sauvegardé localement ! (Mode Démo)');
+        return;
+      }
       const res = await fetch(ADMIN_API + '/theme', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + adminToken },
@@ -505,6 +510,10 @@
     }
 
     async function runScraper(source) {
+      if (adminToken === 'local-demo-token') {
+        alert('Le scraper a été simulé et lancé localement en tâche de fond ! (Mode Démo)');
+        return;
+      }
       const res = await fetch(ADMIN_API + '/scraper/run', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + adminToken },
@@ -515,13 +524,101 @@
     }
 
     function addAd() {
-      alert('Annonce ajoutée (démonstration)');
+      const title = document.getElementById('adTitle').value;
+      const content = document.getElementById('adContent').value;
+      const position = document.getElementById('adPosition').value;
+      if (!title || !content) { alert('Veuillez remplir le titre et le contenu'); return; }
+      
+      const newAd = { title, content, position, id: Date.now() };
+      
+      const adsList = document.getElementById('adsList');
+      if (adsList) {
+        const adHtml = `
+          <div class="admin-card" style="margin-top:12px;border-left:4px solid var(--primary);" id="ad-${newAd.id}">
+            <div style="display:flex;justify-content:between;align-items:center;">
+              <h4 style="margin:0;font-weight:700;">${newAd.title} [Position: ${newAd.position}]</h4>
+              <button class="admin-btn admin-btn-danger" style="padding:4px 8px;font-size:11px;" onclick="document.getElementById('ad-${newAd.id}').remove()">🗑️</button>
+            </div>
+            <div style="font-size:13px;color:var(--text-light);margin-top:8px;">${newAd.content}</div>
+          </div>
+        `;
+        if (adsList.querySelector('p')) adsList.innerHTML = '';
+        adsList.insertAdjacentHTML('beforeend', adHtml);
+      }
+      alert('Annonce ajoutée avec succès !');
     }
 
-    function showBrandForm() { alert('Formulaire marque (démonstration)'); }
-    function showModelForm() { alert('Formulaire modèle (démonstration)'); }
-    function editBrand(id) { alert('Éditer marque ' + id); }
-    function editModel(id) { alert('Éditer modèle ' + id); }
+    function showBrandForm() { 
+      const name = prompt("Entrez le nom de la nouvelle marque :");
+      if (!name) return;
+      const country = prompt("Entrez le pays d'origine :", "Maroc");
+      if (typeof STATIC_DATA !== 'undefined') {
+        const newBrand = {
+          id: name.toLowerCase().replace(/\s+/g, '-'),
+          nom: name,
+          pays: country,
+          logo: 'https://via.placeholder.com/48x48?text=' + encodeURIComponent(name),
+          site_officiel: '',
+          nb_modeles: 0,
+          prix_min: 0,
+          prix_max: 0
+        };
+        STATIC_DATA.brands.unshift(newBrand);
+        loadBrands();
+        alert('Marque "' + name + '" ajoutée localement (Mode Démo)');
+      }
+    }
+    
+    function showModelForm() { 
+      const name = prompt("Entrez le nom du nouveau modèle :");
+      if (!name) return;
+      const brand = prompt("Marque du modèle (ex: Dacia, MG...) :");
+      if (!brand) return;
+      const price = parseInt(prompt("Prix minimum en DH :", "150000")) || 0;
+      const category = prompt("Catégorie (Citadine, SUV, Berline...) :", "SUV");
+      if (typeof STATIC_DATA !== 'undefined') {
+        const newModel = {
+          id: name.toLowerCase().replace(/\s+/g, '-'),
+          nom: name,
+          marque: brand,
+          categorie: category,
+          prix_min: price,
+          prix_max: price,
+          annee: 2026,
+          image: 'https://via.placeholder.com/400x200?text=' + encodeURIComponent(name),
+          motorisations: [{ carburant: 'Essence', puissance: '6 CV', transmission: 'Manuelle' }]
+        };
+        STATIC_DATA.models.unshift(newModel);
+        loadModels();
+        alert('Modèle "' + name + '" ajouté localement (Mode Démo)');
+      }
+    }
+    
+    function editBrand(id) { 
+      if (typeof STATIC_DATA !== 'undefined') {
+        const brand = STATIC_DATA.brands.find(b => b.id === id);
+        if (brand) {
+          const newName = prompt("Nouveau nom de la marque :", brand.nom);
+          if (newName) {
+            brand.nom = newName;
+            loadBrands();
+            alert('Marque mise à jour !');
+          }
+        }
+      }
+    }
+    
+    function editModel(id) { 
+      if (typeof STATIC_DATA !== 'undefined') {
+        const model = STATIC_DATA.models.find(m => m.id === id);
+        if (model) {
+          const newPrice = parseInt(prompt("Nouveau prix minimum en DH :", model.prix_min)) || model.prix_min;
+          model.prix_min = newPrice;
+          loadModels();
+          alert('Modèle mis à jour !');
+        }
+      }
+    }
   </script>
 </body>
 </html>
