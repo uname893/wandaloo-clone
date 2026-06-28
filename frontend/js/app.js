@@ -26,9 +26,39 @@ async function fetchAPI(endpoint) {
   try {
     const res = await fetch(API_URL + endpoint);
     if (!res.ok) throw new Error('HTTP ' + res.status);
-    return res.json();
+    return await res.json();
   } catch (e) {
-    console.error('API Error:', e);
+    console.warn('API Error (falling back to static local data):', e);
+    // FALLBACK STATIQUE SI LE SERVEUR RENDER EST HORS-LIGNE
+    if (typeof STATIC_DATA !== 'undefined') {
+      if (endpoint === '/brands') return STATIC_DATA.brands;
+      if (endpoint === '/models') return STATIC_DATA.models;
+      if (endpoint === '/categories') return STATIC_DATA.categories;
+      if (endpoint === '/carburants') return STATIC_DATA.carburants;
+      if (endpoint === '/promos') return STATIC_DATA.promos;
+      if (endpoint.startsWith('/brands/')) {
+        const brandId = endpoint.split('/')[2];
+        const brand = STATIC_DATA.brands.find(b => b.id === brandId);
+        if (brand) {
+          // Attacher ses modèles
+          const models = STATIC_DATA.models.filter(m => m.marque.toLowerCase() === brand.nom.toLowerCase());
+          return { ...brand, modeles: models };
+        }
+      }
+      if (endpoint.startsWith('/models/')) {
+        const modelId = endpoint.split('/')[2];
+        const model = STATIC_DATA.models.find(m => m.id === modelId);
+        if (model) {
+          // Simuler specs
+          return model;
+        }
+      }
+      if (endpoint.startsWith('/compare')) {
+        const urlParams = new URLSearchParams(endpoint.split('?')[1]);
+        const ids = (urlParams.get('ids') || '').split(',');
+        return STATIC_DATA.models.filter(m => ids.includes(m.id));
+      }
+    }
     return [];
   }
 }
