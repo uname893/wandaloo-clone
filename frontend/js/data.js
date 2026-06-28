@@ -565,6 +565,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2061,
+          "model_id": "alfa-romeo-junior",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/junior-neuve-maroc.jpg",
+          "alt": "Alfa Romeo junior",
+          "is_primary": 1
+        },
+        {
+          "id": 2062,
+          "model_id": "alfa-romeo-junior",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/junior-neuve-maroc-01.jpg",
+          "alt": "Alfa Romeo junior photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2063,
+          "model_id": "alfa-romeo-junior",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/junior-neuve-maroc-02.jpg",
+          "alt": "Alfa Romeo junior photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2064,
+          "model_id": "alfa-romeo-junior",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/junior-neuve-maroc-03.jpg",
+          "alt": "Alfa Romeo junior photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -590,6 +621,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2065,
+          "model_id": "alfa-romeo-junior-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/junior-ev-neuve-maroc.jpg",
+          "alt": "Alfa Romeo junior ev",
+          "is_primary": 1
+        },
+        {
+          "id": 2066,
+          "model_id": "alfa-romeo-junior-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/junior-ev-neuve-maroc-01.jpg",
+          "alt": "Alfa Romeo junior ev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2067,
+          "model_id": "alfa-romeo-junior-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/junior-ev-neuve-maroc-02.jpg",
+          "alt": "Alfa Romeo junior ev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2068,
+          "model_id": "alfa-romeo-junior-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/junior-ev-neuve-maroc-03.jpg",
+          "alt": "Alfa Romeo junior ev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -617,6 +679,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2073,
+          "model_id": "alfa-romeo-stelvio",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/stelvio-neuve-maroc.jpg",
+          "alt": "Alfa Romeo stelvio",
+          "is_primary": 1
+        },
+        {
+          "id": 2074,
+          "model_id": "alfa-romeo-stelvio",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/stelvio-neuve-maroc-01.jpg",
+          "alt": "Alfa Romeo stelvio photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2075,
+          "model_id": "alfa-romeo-stelvio",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/stelvio-neuve-maroc-02.jpg",
+          "alt": "Alfa Romeo stelvio photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2076,
+          "model_id": "alfa-romeo-stelvio",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/stelvio-neuve-maroc-03.jpg",
+          "alt": "Alfa Romeo stelvio photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -643,6 +736,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2069,
+          "model_id": "alfa-romeo-tonale",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/tonale-neuve-maroc.jpg",
+          "alt": "Alfa Romeo tonale",
+          "is_primary": 1
+        },
+        {
+          "id": 2070,
+          "model_id": "alfa-romeo-tonale",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/tonale-neuve-maroc-01.jpg",
+          "alt": "Alfa Romeo tonale photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2071,
+          "model_id": "alfa-romeo-tonale",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/tonale-neuve-maroc-02.jpg",
+          "alt": "Alfa Romeo tonale photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2072,
+          "model_id": "alfa-romeo-tonale",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/alfa-romeo/tonale-neuve-maroc-03.jpg",
+          "alt": "Alfa Romeo tonale photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -668,6 +792,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1117,
+          "model_id": "audi-a1-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a1-sportback-neuve-maroc.jpg",
+          "alt": "Audi a1 sportback",
+          "is_primary": 1
+        },
+        {
+          "id": 1118,
+          "model_id": "audi-a1-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a1-sportback-neuve-maroc-01.jpg",
+          "alt": "Audi a1 sportback photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1119,
+          "model_id": "audi-a1-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a1-sportback-neuve-maroc-02.jpg",
+          "alt": "Audi a1 sportback photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1120,
+          "model_id": "audi-a1-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a1-sportback-neuve-maroc-03.jpg",
+          "alt": "Audi a1 sportback photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -704,6 +859,38 @@ const STATIC_DATA = {
           "transmission": "S tronic 7 Quattro",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 245,
+        "model_id": "audi-a3",
+        "motorisation_id": null,
+        "longueur": "4504 mm",
+        "largeur": "1816 mm",
+        "hauteur": "1432 mm",
+        "empattement": "2636 mm",
+        "poids": "1325 kg",
+        "coffre": "325 L",
+        "cylindree": "1498 cc",
+        "cylindres": "4",
+        "turbo": "Oui (TFSI)",
+        "vitesse_max": "225 km/h",
+        "acceleration": "8.2 s",
+        "conso_urbaine": "6.2 L/100km",
+        "conso_extra": "4.8 L/100km",
+        "conso_mixte": "5.3 L/100km",
+        "emission_co2": "120 g/km",
+        "reservoir": "50 L",
+        "roues": "17 pouces",
+        "pneus": "215/50 R17"
+      },
+      "images": [
+        {
+          "id": 2353,
+          "model_id": "audi-a3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/Audi-A3-2024-Neuve-Maroc-01.jpg",
+          "alt": "A3 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -730,6 +917,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 54,
+        "model_id": "audi-a3-berline",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "A3 2.0 TDI 110 ch - Aucun regret ! \n          El_M",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1125,
+          "model_id": "audi-a3-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a3-berline-neuve-maroc.jpg",
+          "alt": "Audi a3 berline",
+          "is_primary": 1
+        },
+        {
+          "id": 1126,
+          "model_id": "audi-a3-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a3-berline-neuve-maroc-01.jpg",
+          "alt": "Audi a3 berline photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1127,
+          "model_id": "audi-a3-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a3-berline-neuve-maroc-02.jpg",
+          "alt": "Audi a3 berline photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1128,
+          "model_id": "audi-a3-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a3-berline-neuve-maroc-03.jpg",
+          "alt": "Audi a3 berline photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -755,6 +995,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1121,
+          "model_id": "audi-a3-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a3-sportback-neuve-maroc.jpg",
+          "alt": "Audi a3 sportback",
+          "is_primary": 1
+        },
+        {
+          "id": 1122,
+          "model_id": "audi-a3-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a3-sportback-neuve-maroc-01.jpg",
+          "alt": "Audi a3 sportback photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1123,
+          "model_id": "audi-a3-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a3-sportback-neuve-maroc-02.jpg",
+          "alt": "Audi a3 sportback photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1124,
+          "model_id": "audi-a3-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a3-sportback-neuve-maroc-03.jpg",
+          "alt": "Audi a3 sportback photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -791,6 +1062,38 @@ const STATIC_DATA = {
           "transmission": "S tronic 7",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 246,
+        "model_id": "audi-a4",
+        "motorisation_id": null,
+        "longueur": "4762 mm",
+        "largeur": "1847 mm",
+        "hauteur": "1410 mm",
+        "empattement": "2826 mm",
+        "poids": "1495 kg",
+        "coffre": "460 L",
+        "cylindree": "1984 cc",
+        "cylindres": "4",
+        "turbo": "Oui (TFSI)",
+        "vitesse_max": "240 km/h",
+        "acceleration": "7.9 s",
+        "conso_urbaine": "7.0 L/100km",
+        "conso_extra": "5.5 L/100km",
+        "conso_mixte": "6.0 L/100km",
+        "emission_co2": "138 g/km",
+        "reservoir": "58 L",
+        "roues": "17 pouces",
+        "pneus": "225/55 R17"
+      },
+      "images": [
+        {
+          "id": 2354,
+          "model_id": "audi-a4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/Audi-A4-2024-Neuve-Maroc-01.jpg",
+          "alt": "A4 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -816,6 +1119,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1129,
+          "model_id": "audi-a5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a5-neuve-maroc.jpg",
+          "alt": "Audi a5",
+          "is_primary": 1
+        },
+        {
+          "id": 1130,
+          "model_id": "audi-a5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a5-neuve-maroc-01.jpg",
+          "alt": "Audi a5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1131,
+          "model_id": "audi-a5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a5-neuve-maroc-02.jpg",
+          "alt": "Audi a5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1132,
+          "model_id": "audi-a5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a5-neuve-maroc-03.jpg",
+          "alt": "Audi a5 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -843,6 +1177,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1133,
+          "model_id": "audi-a6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-neuve-maroc.jpg",
+          "alt": "Audi a6",
+          "is_primary": 1
+        },
+        {
+          "id": 1134,
+          "model_id": "audi-a6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-neuve-maroc-01.jpg",
+          "alt": "Audi a6 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1135,
+          "model_id": "audi-a6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-neuve-maroc-02.jpg",
+          "alt": "Audi a6 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1136,
+          "model_id": "audi-a6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-neuve-maroc-03.jpg",
+          "alt": "Audi a6 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -868,6 +1233,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1141,
+          "model_id": "audi-a6-e-tron",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-e-tron-neuve-maroc.jpg",
+          "alt": "Audi a6 e tron",
+          "is_primary": 1
+        },
+        {
+          "id": 1142,
+          "model_id": "audi-a6-e-tron",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-e-tron-neuve-maroc-01.jpg",
+          "alt": "Audi a6 e tron photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1143,
+          "model_id": "audi-a6-e-tron",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-e-tron-neuve-maroc-02.jpg",
+          "alt": "Audi a6 e tron photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1144,
+          "model_id": "audi-a6-e-tron",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-e-tron-neuve-maroc-03.jpg",
+          "alt": "Audi a6 e tron photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -895,6 +1291,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1137,
+          "model_id": "audi-a6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-phev-neuve-maroc.jpg",
+          "alt": "Audi a6 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1138,
+          "model_id": "audi-a6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-phev-neuve-maroc-01.jpg",
+          "alt": "Audi a6 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1139,
+          "model_id": "audi-a6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-phev-neuve-maroc-02.jpg",
+          "alt": "Audi a6 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1140,
+          "model_id": "audi-a6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a6-phev-neuve-maroc-03.jpg",
+          "alt": "Audi a6 phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -920,6 +1347,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1145,
+          "model_id": "audi-a8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a8-neuve-maroc.jpg",
+          "alt": "Audi a8",
+          "is_primary": 1
+        },
+        {
+          "id": 1146,
+          "model_id": "audi-a8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a8-neuve-maroc-01.jpg",
+          "alt": "Audi a8 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1147,
+          "model_id": "audi-a8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a8-neuve-maroc-02.jpg",
+          "alt": "Audi a8 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1148,
+          "model_id": "audi-a8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/a8-neuve-maroc-03.jpg",
+          "alt": "Audi a8 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -947,6 +1405,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 55,
+        "model_id": "audi-q2",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "AUDI Q2 et Fiche technique erronée \n          Ferr",
+        "acceleration": "AUDI Q2 et Fiche technique erronée \n          Ferr",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1149,
+          "model_id": "audi-q2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q2-neuve-maroc.jpg",
+          "alt": "Audi q2",
+          "is_primary": 1
+        },
+        {
+          "id": 1150,
+          "model_id": "audi-q2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q2-neuve-maroc-01.jpg",
+          "alt": "Audi q2 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1151,
+          "model_id": "audi-q2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q2-neuve-maroc-02.jpg",
+          "alt": "Audi q2 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1152,
+          "model_id": "audi-q2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q2-neuve-maroc-03.jpg",
+          "alt": "Audi q2 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -973,6 +1484,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1153,
+          "model_id": "audi-q3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q3-neuve-maroc.jpg",
+          "alt": "Audi q3",
+          "is_primary": 1
+        },
+        {
+          "id": 1154,
+          "model_id": "audi-q3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q3-neuve-maroc-01.jpg",
+          "alt": "Audi q3 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1155,
+          "model_id": "audi-q3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q3-neuve-maroc-02.jpg",
+          "alt": "Audi q3 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1156,
+          "model_id": "audi-q3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q3-neuve-maroc-03.jpg",
+          "alt": "Audi q3 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -998,6 +1540,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 57,
+        "model_id": "audi-q3-sportback",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "PORSCHE Macan\n      \n                4         sel",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1157,
+          "model_id": "audi-q3-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q3-sportback-neuve-maroc.jpg",
+          "alt": "Audi q3 sportback",
+          "is_primary": 1
+        },
+        {
+          "id": 1158,
+          "model_id": "audi-q3-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q3-sportback-neuve-maroc-01.jpg",
+          "alt": "Audi q3 sportback photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1159,
+          "model_id": "audi-q3-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q3-sportback-neuve-maroc-02.jpg",
+          "alt": "Audi q3 sportback photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1160,
+          "model_id": "audi-q3-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q3-sportback-neuve-maroc-03.jpg",
+          "alt": "Audi q3 sportback photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1034,6 +1629,38 @@ const STATIC_DATA = {
           "transmission": "S tronic 7 Quattro",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 247,
+        "model_id": "audi-q5",
+        "motorisation_id": null,
+        "longueur": "4682 mm",
+        "largeur": "1893 mm",
+        "hauteur": "1659 mm",
+        "empattement": "2825 mm",
+        "poids": "1755 kg",
+        "coffre": "550 L",
+        "cylindree": "1984 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "235 km/h",
+        "acceleration": "7.4 s",
+        "conso_urbaine": "7.5 L/100km",
+        "conso_extra": "6.0 L/100km",
+        "conso_mixte": "6.5 L/100km",
+        "emission_co2": "148 g/km",
+        "reservoir": "75 L",
+        "roues": "18 pouces",
+        "pneus": "235/60 R18"
+      },
+      "images": [
+        {
+          "id": 2355,
+          "model_id": "audi-q5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/Audi-Q5-2024-Neuve-Maroc-01.jpg",
+          "alt": "Q5 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -1059,6 +1686,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 58,
+        "model_id": "audi-q5-sportback",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Fidèle aux attentes du SUV coupé haut de gamme, le",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1165,
+          "model_id": "audi-q5-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q5-sportback-neuve-maroc.jpg",
+          "alt": "Audi q5 sportback",
+          "is_primary": 1
+        },
+        {
+          "id": 1166,
+          "model_id": "audi-q5-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q5-sportback-neuve-maroc-01.jpg",
+          "alt": "Audi q5 sportback photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1167,
+          "model_id": "audi-q5-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q5-sportback-neuve-maroc-02.jpg",
+          "alt": "Audi q5 sportback photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1168,
+          "model_id": "audi-q5-sportback",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q5-sportback-neuve-maroc-03.jpg",
+          "alt": "Audi q5 sportback photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1086,6 +1766,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 59,
+        "model_id": "audi-q6-e-tron",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "AUDI Q6 e-tron est un SUV familial 100% électrique",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1169,
+          "model_id": "audi-q6-e-tron",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q6-e-tron-neuve-maroc.jpg",
+          "alt": "Audi q6 e tron",
+          "is_primary": 1
+        },
+        {
+          "id": 1170,
+          "model_id": "audi-q6-e-tron",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q6-e-tron-neuve-maroc-01.jpg",
+          "alt": "Audi q6 e tron photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1171,
+          "model_id": "audi-q6-e-tron",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q6-e-tron-neuve-maroc-02.jpg",
+          "alt": "Audi q6 e tron photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1172,
+          "model_id": "audi-q6-e-tron",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q6-e-tron-neuve-maroc-03.jpg",
+          "alt": "Audi q6 e tron photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1111,6 +1844,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1173,
+          "model_id": "audi-q7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q7-neuve-maroc.jpg",
+          "alt": "Audi q7",
+          "is_primary": 1
+        },
+        {
+          "id": 1174,
+          "model_id": "audi-q7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q7-neuve-maroc-01.jpg",
+          "alt": "Audi q7 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1175,
+          "model_id": "audi-q7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q7-neuve-maroc-02.jpg",
+          "alt": "Audi q7 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1176,
+          "model_id": "audi-q7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q7-neuve-maroc-03.jpg",
+          "alt": "Audi q7 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1138,6 +1902,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1177,
+          "model_id": "audi-q7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q7-phev-neuve-maroc.jpg",
+          "alt": "Audi q7 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1178,
+          "model_id": "audi-q7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q7-phev-neuve-maroc-01.jpg",
+          "alt": "Audi q7 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1179,
+          "model_id": "audi-q7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q7-phev-neuve-maroc-02.jpg",
+          "alt": "Audi q7 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1180,
+          "model_id": "audi-q7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q7-phev-neuve-maroc-03.jpg",
+          "alt": "Audi q7 phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1163,6 +1958,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1181,
+          "model_id": "audi-q8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q8-neuve-maroc.jpg",
+          "alt": "Audi q8",
+          "is_primary": 1
+        },
+        {
+          "id": 1182,
+          "model_id": "audi-q8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q8-neuve-maroc-01.jpg",
+          "alt": "Audi q8 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1183,
+          "model_id": "audi-q8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q8-neuve-maroc-02.jpg",
+          "alt": "Audi q8 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1184,
+          "model_id": "audi-q8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/audi/q8-neuve-maroc-03.jpg",
+          "alt": "Audi q8 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1190,6 +2016,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2161,
+          "model_id": "baic-bj30e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/bj30e-neuve-maroc.jpg",
+          "alt": "BAIC bj30e",
+          "is_primary": 1
+        },
+        {
+          "id": 2162,
+          "model_id": "baic-bj30e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/bj30e-neuve-maroc-01.jpg",
+          "alt": "BAIC bj30e photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2163,
+          "model_id": "baic-bj30e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/bj30e-neuve-maroc-02.jpg",
+          "alt": "BAIC bj30e photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2164,
+          "model_id": "baic-bj30e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/bj30e-neuve-maroc-03.jpg",
+          "alt": "BAIC bj30e photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1215,6 +2072,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2145,
+          "model_id": "baic-u5-plus",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/u5-plus-neuve-maroc.jpg",
+          "alt": "BAIC u5 plus",
+          "is_primary": 1
+        },
+        {
+          "id": 2146,
+          "model_id": "baic-u5-plus",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/u5-plus-neuve-maroc-01.jpg",
+          "alt": "BAIC u5 plus photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2147,
+          "model_id": "baic-u5-plus",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/u5-plus-neuve-maroc-02.jpg",
+          "alt": "BAIC u5 plus photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2148,
+          "model_id": "baic-u5-plus",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/u5-plus-neuve-maroc-03.jpg",
+          "alt": "BAIC u5 plus photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1242,6 +2130,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2149,
+          "model_id": "baic-x35",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x35-neuve-maroc.jpg",
+          "alt": "BAIC x35",
+          "is_primary": 1
+        },
+        {
+          "id": 2150,
+          "model_id": "baic-x35",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x35-neuve-maroc-01.jpg",
+          "alt": "BAIC x35 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2151,
+          "model_id": "baic-x35",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x35-neuve-maroc-02.jpg",
+          "alt": "BAIC x35 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2152,
+          "model_id": "baic-x35",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x35-neuve-maroc-03.jpg",
+          "alt": "BAIC x35 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1267,6 +2186,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 60,
+        "model_id": "baic-x55",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Le BAIC X55 s’adresse aux clients dynamiques qui c",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 2153,
+          "model_id": "baic-x55",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x55-neuve-maroc.jpg",
+          "alt": "BAIC x55",
+          "is_primary": 1
+        },
+        {
+          "id": 2154,
+          "model_id": "baic-x55",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x55-neuve-maroc-01.jpg",
+          "alt": "BAIC x55 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2155,
+          "model_id": "baic-x55",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x55-neuve-maroc-02.jpg",
+          "alt": "BAIC x55 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2156,
+          "model_id": "baic-x55",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x55-neuve-maroc-03.jpg",
+          "alt": "BAIC x55 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1294,6 +2266,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2157,
+          "model_id": "baic-x7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x7-neuve-maroc.jpg",
+          "alt": "BAIC x7",
+          "is_primary": 1
+        },
+        {
+          "id": 2158,
+          "model_id": "baic-x7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x7-neuve-maroc-01.jpg",
+          "alt": "BAIC x7 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2159,
+          "model_id": "baic-x7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x7-neuve-maroc-02.jpg",
+          "alt": "BAIC x7 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2160,
+          "model_id": "baic-x7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/baic/x7-neuve-maroc-03.jpg",
+          "alt": "BAIC x7 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1320,6 +2323,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1217,
+          "model_id": "bmw-i5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/i5-neuve-maroc.jpg",
+          "alt": "BMW i5",
+          "is_primary": 1
+        },
+        {
+          "id": 1218,
+          "model_id": "bmw-i5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/i5-neuve-maroc-01.jpg",
+          "alt": "BMW i5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1219,
+          "model_id": "bmw-i5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/i5-neuve-maroc-02.jpg",
+          "alt": "BMW i5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1220,
+          "model_id": "bmw-i5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/i5-neuve-maroc-03.jpg",
+          "alt": "BMW i5 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1345,6 +2379,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1261,
+          "model_id": "bmw-ix",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/ix-neuve-maroc.jpg",
+          "alt": "BMW ix",
+          "is_primary": 1
+        },
+        {
+          "id": 1262,
+          "model_id": "bmw-ix",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/ix-neuve-maroc-01.jpg",
+          "alt": "BMW ix photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1263,
+          "model_id": "bmw-ix",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/ix-neuve-maroc-02.jpg",
+          "alt": "BMW ix photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1264,
+          "model_id": "bmw-ix",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/ix-neuve-maroc-03.jpg",
+          "alt": "BMW ix photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1381,6 +2446,38 @@ const STATIC_DATA = {
           "transmission": "8AT xDrive",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 237,
+        "model_id": "bmw-serie-1",
+        "motorisation_id": null,
+        "longueur": "4361 mm",
+        "largeur": "1800 mm",
+        "hauteur": "1452 mm",
+        "empattement": "2670 mm",
+        "poids": "1385 kg",
+        "coffre": "380 L",
+        "cylindree": "1499 cc",
+        "cylindres": "3",
+        "turbo": "Oui",
+        "vitesse_max": "240 km/h",
+        "acceleration": "6.1 s",
+        "conso_urbaine": "6.2 L/100km",
+        "conso_extra": "4.8 L/100km",
+        "conso_mixte": "5.3 L/100km",
+        "emission_co2": "120 g/km",
+        "reservoir": "47 L",
+        "roues": "17 pouces",
+        "pneus": "205/55 R17"
+      },
+      "images": [
+        {
+          "id": 2345,
+          "model_id": "bmw-serie-1",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/BMW-Serie-1-2024-Neuve-Maroc-01.jpg",
+          "alt": "Série 1 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -1406,6 +2503,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1189,
+          "model_id": "bmw-serie-2-gran-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-2-gran-coupe-neuve-maroc.jpg",
+          "alt": "BMW serie 2 gran coupe",
+          "is_primary": 1
+        },
+        {
+          "id": 1190,
+          "model_id": "bmw-serie-2-gran-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-2-gran-coupe-neuve-maroc-01.jpg",
+          "alt": "BMW serie 2 gran coupe photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1191,
+          "model_id": "bmw-serie-2-gran-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-2-gran-coupe-neuve-maroc-02.jpg",
+          "alt": "BMW serie 2 gran coupe photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1192,
+          "model_id": "bmw-serie-2-gran-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-2-gran-coupe-neuve-maroc-03.jpg",
+          "alt": "BMW serie 2 gran coupe photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1451,6 +2579,38 @@ const STATIC_DATA = {
           "transmission": "8AT xDrive",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 238,
+        "model_id": "bmw-serie-3",
+        "motorisation_id": null,
+        "longueur": "4709 mm",
+        "largeur": "1827 mm",
+        "hauteur": "1435 mm",
+        "empattement": "2851 mm",
+        "poids": "1510 kg",
+        "coffre": "480 L",
+        "cylindree": "1998 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "250 km/h",
+        "acceleration": "5.8 s",
+        "conso_urbaine": "7.2 L/100km",
+        "conso_extra": "5.5 L/100km",
+        "conso_mixte": "6.1 L/100km",
+        "emission_co2": "139 g/km",
+        "reservoir": "59 L",
+        "roues": "18 pouces",
+        "pneus": "225/50 R18"
+      },
+      "images": [
+        {
+          "id": 2346,
+          "model_id": "bmw-serie-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/BMW-Serie-3-2024-Neuve-Maroc-01.jpg",
+          "alt": "Série 3 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -1476,6 +2636,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1197,
+          "model_id": "bmw-serie-4-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-cabriolet-neuve-maroc.jpg",
+          "alt": "BMW serie 4 cabriolet",
+          "is_primary": 1
+        },
+        {
+          "id": 1198,
+          "model_id": "bmw-serie-4-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-cabriolet-neuve-maroc-01.jpg",
+          "alt": "BMW serie 4 cabriolet photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1199,
+          "model_id": "bmw-serie-4-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-cabriolet-neuve-maroc-02.jpg",
+          "alt": "BMW serie 4 cabriolet photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1200,
+          "model_id": "bmw-serie-4-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-cabriolet-neuve-maroc-03.jpg",
+          "alt": "BMW serie 4 cabriolet photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1503,6 +2694,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1201,
+          "model_id": "bmw-serie-4-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-coupe-neuve-maroc.jpg",
+          "alt": "BMW serie 4 coupe",
+          "is_primary": 1
+        },
+        {
+          "id": 1202,
+          "model_id": "bmw-serie-4-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-coupe-neuve-maroc-01.jpg",
+          "alt": "BMW serie 4 coupe photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1203,
+          "model_id": "bmw-serie-4-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-coupe-neuve-maroc-02.jpg",
+          "alt": "BMW serie 4 coupe photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1204,
+          "model_id": "bmw-serie-4-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-coupe-neuve-maroc-03.jpg",
+          "alt": "BMW serie 4 coupe photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1528,6 +2750,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1205,
+          "model_id": "bmw-serie-4-gran-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-gran-coupe-neuve-maroc.jpg",
+          "alt": "BMW serie 4 gran coupe",
+          "is_primary": 1
+        },
+        {
+          "id": 1206,
+          "model_id": "bmw-serie-4-gran-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-gran-coupe-neuve-maroc-01.jpg",
+          "alt": "BMW serie 4 gran coupe photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1207,
+          "model_id": "bmw-serie-4-gran-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-gran-coupe-neuve-maroc-02.jpg",
+          "alt": "BMW serie 4 gran coupe photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1208,
+          "model_id": "bmw-serie-4-gran-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-4-gran-coupe-neuve-maroc-03.jpg",
+          "alt": "BMW serie 4 gran coupe photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1573,6 +2826,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 240,
+        "model_id": "bmw-serie-5",
+        "motorisation_id": null,
+        "longueur": "5060 mm",
+        "largeur": "1900 mm",
+        "hauteur": "1515 mm",
+        "empattement": "2995 mm",
+        "poids": "1730 kg",
+        "coffre": "520 L",
+        "cylindree": "1998 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "250 km/h",
+        "acceleration": "6.2 s",
+        "conso_urbaine": "7.5 L/100km",
+        "conso_extra": "5.8 L/100km",
+        "conso_mixte": "6.4 L/100km",
+        "emission_co2": "146 g/km",
+        "reservoir": "69 L",
+        "roues": "19 pouces",
+        "pneus": "245/45 R19"
+      },
+      "images": [
+        {
+          "id": 2348,
+          "model_id": "bmw-serie-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/BMW-Serie-5-2024-Neuve-Maroc-01.jpg",
+          "alt": "Série 5 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -1598,6 +2883,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1213,
+          "model_id": "bmw-serie-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-5-phev-neuve-maroc.jpg",
+          "alt": "BMW serie 5 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1214,
+          "model_id": "bmw-serie-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-5-phev-neuve-maroc-01.jpg",
+          "alt": "BMW serie 5 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1215,
+          "model_id": "bmw-serie-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-5-phev-neuve-maroc-02.jpg",
+          "alt": "BMW serie 5 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1216,
+          "model_id": "bmw-serie-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-5-phev-neuve-maroc-03.jpg",
+          "alt": "BMW serie 5 phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1625,6 +2941,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1221,
+          "model_id": "bmw-serie-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-7-neuve-maroc.jpg",
+          "alt": "BMW serie 7",
+          "is_primary": 1
+        },
+        {
+          "id": 1222,
+          "model_id": "bmw-serie-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-7-neuve-maroc-01.jpg",
+          "alt": "BMW serie 7 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1223,
+          "model_id": "bmw-serie-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-7-neuve-maroc-02.jpg",
+          "alt": "BMW serie 7 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1224,
+          "model_id": "bmw-serie-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-7-neuve-maroc-03.jpg",
+          "alt": "BMW serie 7 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1650,6 +2997,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 61,
+        "model_id": "bmw-serie-7-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "PORSCHE Panamera\n      \n                4 E-Hybrid",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1225,
+          "model_id": "bmw-serie-7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-7-phev-neuve-maroc.jpg",
+          "alt": "BMW serie 7 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1226,
+          "model_id": "bmw-serie-7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-7-phev-neuve-maroc-01.jpg",
+          "alt": "BMW serie 7 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1227,
+          "model_id": "bmw-serie-7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-7-phev-neuve-maroc-02.jpg",
+          "alt": "BMW serie 7 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1228,
+          "model_id": "bmw-serie-7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/serie-7-phev-neuve-maroc-03.jpg",
+          "alt": "BMW serie 7 phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1677,6 +3077,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 62,
+        "model_id": "bmw-x1",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "son extérieur est marqué par des porte-à-faux cour",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1229,
+          "model_id": "bmw-x1",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x1-neuve-maroc.jpg",
+          "alt": "BMW x1",
+          "is_primary": 1
+        },
+        {
+          "id": 1230,
+          "model_id": "bmw-x1",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x1-neuve-maroc-01.jpg",
+          "alt": "BMW x1 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1231,
+          "model_id": "bmw-x1",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x1-neuve-maroc-02.jpg",
+          "alt": "BMW x1 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1232,
+          "model_id": "bmw-x1",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x1-neuve-maroc-03.jpg",
+          "alt": "BMW x1 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1702,6 +3155,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1233,
+          "model_id": "bmw-x2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x2-neuve-maroc.jpg",
+          "alt": "BMW x2",
+          "is_primary": 1
+        },
+        {
+          "id": 1234,
+          "model_id": "bmw-x2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x2-neuve-maroc-01.jpg",
+          "alt": "BMW x2 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1235,
+          "model_id": "bmw-x2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x2-neuve-maroc-02.jpg",
+          "alt": "BMW x2 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1236,
+          "model_id": "bmw-x2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x2-neuve-maroc-03.jpg",
+          "alt": "BMW x2 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1738,6 +3222,38 @@ const STATIC_DATA = {
           "transmission": "8AT xDrive",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 239,
+        "model_id": "bmw-x3",
+        "motorisation_id": null,
+        "longueur": "4708 mm",
+        "largeur": "1897 mm",
+        "hauteur": "1676 mm",
+        "empattement": "2864 mm",
+        "poids": "1745 kg",
+        "coffre": "570 L",
+        "cylindree": "1998 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "235 km/h",
+        "acceleration": "6.4 s",
+        "conso_urbaine": "8.0 L/100km",
+        "conso_extra": "6.2 L/100km",
+        "conso_mixte": "6.9 L/100km",
+        "emission_co2": "157 g/km",
+        "reservoir": "65 L",
+        "roues": "18 pouces",
+        "pneus": "225/60 R18"
+      },
+      "images": [
+        {
+          "id": 2347,
+          "model_id": "bmw-x3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/BMW-X3-2024-Neuve-Maroc-01.jpg",
+          "alt": "X3 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -1763,6 +3279,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1241,
+          "model_id": "bmw-x4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x4-neuve-maroc.jpg",
+          "alt": "BMW x4",
+          "is_primary": 1
+        },
+        {
+          "id": 1242,
+          "model_id": "bmw-x4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x4-neuve-maroc-01.jpg",
+          "alt": "BMW x4 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1243,
+          "model_id": "bmw-x4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x4-neuve-maroc-02.jpg",
+          "alt": "BMW x4 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1244,
+          "model_id": "bmw-x4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x4-neuve-maroc-03.jpg",
+          "alt": "BMW x4 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1790,6 +3337,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1245,
+          "model_id": "bmw-x5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x5-neuve-maroc.jpg",
+          "alt": "BMW x5",
+          "is_primary": 1
+        },
+        {
+          "id": 1246,
+          "model_id": "bmw-x5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x5-neuve-maroc-01.jpg",
+          "alt": "BMW x5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1247,
+          "model_id": "bmw-x5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x5-neuve-maroc-02.jpg",
+          "alt": "BMW x5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1248,
+          "model_id": "bmw-x5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x5-neuve-maroc-03.jpg",
+          "alt": "BMW x5 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1815,6 +3393,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1249,
+          "model_id": "bmw-x5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x5-phev-neuve-maroc.jpg",
+          "alt": "BMW x5 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1250,
+          "model_id": "bmw-x5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x5-phev-neuve-maroc-01.jpg",
+          "alt": "BMW x5 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1251,
+          "model_id": "bmw-x5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x5-phev-neuve-maroc-02.jpg",
+          "alt": "BMW x5 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1252,
+          "model_id": "bmw-x5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x5-phev-neuve-maroc-03.jpg",
+          "alt": "BMW x5 phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1842,6 +3451,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 64,
+        "model_id": "bmw-x6",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "Dans la Nouvelle BMW X6, la dynamique sportive max",
+        "turbo": "Dans la Nouvelle BMW X6, la dynamique sportive max",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1253,
+          "model_id": "bmw-x6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x6-neuve-maroc.jpg",
+          "alt": "BMW x6",
+          "is_primary": 1
+        },
+        {
+          "id": 1254,
+          "model_id": "bmw-x6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x6-neuve-maroc-01.jpg",
+          "alt": "BMW x6 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1255,
+          "model_id": "bmw-x6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x6-neuve-maroc-02.jpg",
+          "alt": "BMW x6 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1256,
+          "model_id": "bmw-x6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x6-neuve-maroc-03.jpg",
+          "alt": "BMW x6 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1867,6 +3529,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1257,
+          "model_id": "bmw-x7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x7-neuve-maroc.jpg",
+          "alt": "BMW x7",
+          "is_primary": 1
+        },
+        {
+          "id": 1258,
+          "model_id": "bmw-x7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x7-neuve-maroc-01.jpg",
+          "alt": "BMW x7 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1259,
+          "model_id": "bmw-x7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x7-neuve-maroc-02.jpg",
+          "alt": "BMW x7 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1260,
+          "model_id": "bmw-x7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/x7-neuve-maroc-03.jpg",
+          "alt": "BMW x7 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1894,6 +3587,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1265,
+          "model_id": "bmw-xm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/xm-neuve-maroc.jpg",
+          "alt": "BMW xm",
+          "is_primary": 1
+        },
+        {
+          "id": 1266,
+          "model_id": "bmw-xm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/xm-neuve-maroc-01.jpg",
+          "alt": "BMW xm photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1267,
+          "model_id": "bmw-xm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/xm-neuve-maroc-02.jpg",
+          "alt": "BMW xm photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1268,
+          "model_id": "bmw-xm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/xm-neuve-maroc-03.jpg",
+          "alt": "BMW xm photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1919,6 +3643,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1269,
+          "model_id": "bmw-z4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/z4-neuve-maroc.jpg",
+          "alt": "BMW z4",
+          "is_primary": 1
+        },
+        {
+          "id": 1270,
+          "model_id": "bmw-z4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/z4-neuve-maroc-01.jpg",
+          "alt": "BMW z4 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1271,
+          "model_id": "bmw-z4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/z4-neuve-maroc-02.jpg",
+          "alt": "BMW z4 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1272,
+          "model_id": "bmw-z4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/z4-neuve-maroc-03.jpg",
+          "alt": "BMW z4 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -1946,6 +3701,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1841,
+          "model_id": "byd-atto-2-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-2-phev-neuve-maroc.jpg",
+          "alt": "BYD atto 2 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1842,
+          "model_id": "byd-atto-2-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-2-phev-neuve-maroc-01.jpg",
+          "alt": "BYD atto 2 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1843,
+          "model_id": "byd-atto-2-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-2-phev-neuve-maroc-02.jpg",
+          "alt": "BYD atto 2 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1844,
+          "model_id": "byd-atto-2-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-2-phev-neuve-maroc-03.jpg",
+          "alt": "BYD atto 2 phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1972,6 +3758,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1845,
+          "model_id": "byd-atto-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-3-neuve-maroc.jpg",
+          "alt": "BYD atto 3",
+          "is_primary": 1
+        },
+        {
+          "id": 1846,
+          "model_id": "byd-atto-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-3-neuve-maroc-01.jpg",
+          "alt": "BYD atto 3 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1847,
+          "model_id": "byd-atto-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-3-neuve-maroc-02.jpg",
+          "alt": "BYD atto 3 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1848,
+          "model_id": "byd-atto-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-3-neuve-maroc-03.jpg",
+          "alt": "BYD atto 3 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -1997,6 +3814,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 65,
+        "model_id": "byd-atto-3-evo",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "313 et 449 ch avec transmission 2 et 4  motrices.",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1849,
+          "model_id": "byd-atto-3-evo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-3-evo-neuve-maroc.jpg",
+          "alt": "BYD atto 3 evo",
+          "is_primary": 1
+        },
+        {
+          "id": 1850,
+          "model_id": "byd-atto-3-evo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-3-evo-neuve-maroc-01.jpg",
+          "alt": "BYD atto 3 evo photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1851,
+          "model_id": "byd-atto-3-evo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-3-evo-neuve-maroc-02.jpg",
+          "alt": "BYD atto 3 evo photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1852,
+          "model_id": "byd-atto-3-evo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/atto-3-evo-neuve-maroc-03.jpg",
+          "alt": "BYD atto 3 evo photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2033,6 +3903,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 248,
+        "model_id": "byd-atto3",
+        "motorisation_id": null,
+        "longueur": "4455 mm",
+        "largeur": "1875 mm",
+        "hauteur": "1615 mm",
+        "empattement": "2720 mm",
+        "poids": "1750 kg",
+        "coffre": "440 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "160 km/h",
+        "acceleration": "7.3 s",
+        "conso_urbaine": "18.5 kWh/100km",
+        "conso_extra": "14.5 kWh/100km",
+        "conso_mixte": "16.2 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "60.5 kWh",
+        "roues": "18 pouces",
+        "pneus": "235/50 R18"
+      },
+      "images": [
+        {
+          "id": 2356,
+          "model_id": "byd-atto3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/BYD-Atto-3-2024-Neuve-Maroc-01.jpg",
+          "alt": "Atto 3 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -2068,6 +3970,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 251,
+        "model_id": "byd-dolphin",
+        "motorisation_id": null,
+        "longueur": "4290 mm",
+        "largeur": "1770 mm",
+        "hauteur": "1570 mm",
+        "empattement": "2700 mm",
+        "poids": "1490 kg",
+        "coffre": "345 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "160 km/h",
+        "acceleration": "7.0 s",
+        "conso_urbaine": "15.0 kWh/100km",
+        "conso_extra": "12.5 kWh/100km",
+        "conso_mixte": "13.5 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "60.4 kWh",
+        "roues": "17 pouces",
+        "pneus": "205/55 R17"
+      },
+      "images": [
+        {
+          "id": 2359,
+          "model_id": "byd-dolphin",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/BYD-Dolphin-2024-Neuve-Maroc-01.jpg",
+          "alt": "Dolphin vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -2094,6 +4028,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 66,
+        "model_id": "byd-han",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "La berline BYD Han au profil de coupé se veut très",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1837,
+          "model_id": "byd-han",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/han-neuve-maroc.jpg",
+          "alt": "BYD han",
+          "is_primary": 1
+        },
+        {
+          "id": 1838,
+          "model_id": "byd-han",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/han-neuve-maroc-01.jpg",
+          "alt": "BYD han photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1839,
+          "model_id": "byd-han",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/han-neuve-maroc-02.jpg",
+          "alt": "BYD han photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1840,
+          "model_id": "byd-han",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/han-neuve-maroc-03.jpg",
+          "alt": "BYD han photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2119,6 +4106,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1825,
+          "model_id": "byd-seagull",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seagull-neuve-maroc.jpg",
+          "alt": "BYD seagull",
+          "is_primary": 1
+        },
+        {
+          "id": 1826,
+          "model_id": "byd-seagull",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seagull-neuve-maroc-01.jpg",
+          "alt": "BYD seagull photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1827,
+          "model_id": "byd-seagull",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seagull-neuve-maroc-02.jpg",
+          "alt": "BYD seagull photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1828,
+          "model_id": "byd-seagull",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seagull-neuve-maroc-03.jpg",
+          "alt": "BYD seagull photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2155,6 +4173,38 @@ const STATIC_DATA = {
           "transmission": "Automatique AWD",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 249,
+        "model_id": "byd-seal",
+        "motorisation_id": null,
+        "longueur": "4800 mm",
+        "largeur": "1875 mm",
+        "hauteur": "1460 mm",
+        "empattement": "2920 mm",
+        "poids": "2150 kg",
+        "coffre": "400 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "180 km/h",
+        "acceleration": "3.8 s",
+        "conso_urbaine": "19.0 kWh/100km",
+        "conso_extra": "15.5 kWh/100km",
+        "conso_mixte": "17.0 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "82.5 kWh",
+        "roues": "19 pouces",
+        "pneus": "235/45 R19"
+      },
+      "images": [
+        {
+          "id": 2357,
+          "model_id": "byd-seal",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/BYD-Seal-2024-Neuve-Maroc-01.jpg",
+          "alt": "Seal vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -2180,6 +4230,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1829,
+          "model_id": "byd-seal-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seal-5-phev-neuve-maroc.jpg",
+          "alt": "BYD seal 5 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1830,
+          "model_id": "byd-seal-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seal-5-phev-neuve-maroc-01.jpg",
+          "alt": "BYD seal 5 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1831,
+          "model_id": "byd-seal-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seal-5-phev-neuve-maroc-02.jpg",
+          "alt": "BYD seal 5 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1832,
+          "model_id": "byd-seal-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seal-5-phev-neuve-maroc-03.jpg",
+          "alt": "BYD seal 5 phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2207,6 +4288,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 67,
+        "model_id": "byd-seal-u-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "Voiture chinoise \n          Said oubejja  - le 20 ",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1861,
+          "model_id": "byd-seal-u-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seal-u-phev-neuve-maroc.jpg",
+          "alt": "BYD seal u phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1862,
+          "model_id": "byd-seal-u-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seal-u-phev-neuve-maroc-01.jpg",
+          "alt": "BYD seal u phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1863,
+          "model_id": "byd-seal-u-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seal-u-phev-neuve-maroc-02.jpg",
+          "alt": "BYD seal u phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1864,
+          "model_id": "byd-seal-u-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/seal-u-phev-neuve-maroc-03.jpg",
+          "alt": "BYD seal u phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2232,6 +4366,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1853,
+          "model_id": "byd-sealion-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/sealion-5-phev-neuve-maroc.jpg",
+          "alt": "BYD sealion 5 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1854,
+          "model_id": "byd-sealion-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/sealion-5-phev-neuve-maroc-01.jpg",
+          "alt": "BYD sealion 5 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1855,
+          "model_id": "byd-sealion-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/sealion-5-phev-neuve-maroc-02.jpg",
+          "alt": "BYD sealion 5 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1856,
+          "model_id": "byd-sealion-5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/sealion-5-phev-neuve-maroc-03.jpg",
+          "alt": "BYD sealion 5 phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2259,6 +4424,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 68,
+        "model_id": "byd-sealion-7",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "Le BYD, SEALION 7 transcende la définition traditi",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1857,
+          "model_id": "byd-sealion-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/sealion-7-neuve-maroc.jpg",
+          "alt": "BYD sealion 7",
+          "is_primary": 1
+        },
+        {
+          "id": 1858,
+          "model_id": "byd-sealion-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/sealion-7-neuve-maroc-01.jpg",
+          "alt": "BYD sealion 7 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1859,
+          "model_id": "byd-sealion-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/sealion-7-neuve-maroc-02.jpg",
+          "alt": "BYD sealion 7 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1860,
+          "model_id": "byd-sealion-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/sealion-7-neuve-maroc-03.jpg",
+          "alt": "BYD sealion 7 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2284,6 +4502,38 @@ const STATIC_DATA = {
           "puissance": "456 ch",
           "transmission": "Automatique 4WD",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 250,
+        "model_id": "byd-tang",
+        "motorisation_id": null,
+        "longueur": "4870 mm",
+        "largeur": "1955 mm",
+        "hauteur": "1725 mm",
+        "empattement": "2820 mm",
+        "poids": "2618 kg",
+        "coffre": "235 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "190 km/h",
+        "acceleration": "4.6 s",
+        "conso_urbaine": "26.5 kWh/100km",
+        "conso_extra": "21.5 kWh/100km",
+        "conso_mixte": "23.6 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "108.8 kWh",
+        "roues": "22 pouces",
+        "pneus": "265/45 R22"
+      },
+      "images": [
+        {
+          "id": 2358,
+          "model_id": "byd-tang",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/BYD-Tang-2024-Neuve-Maroc-01.jpg",
+          "alt": "Tang vue de face",
+          "is_primary": 1
         }
       ]
     },
@@ -2311,6 +4561,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1929,
+          "model_id": "changan-alsvin",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/alsvin-neuve-maroc.jpg",
+          "alt": "Changan alsvin",
+          "is_primary": 1
+        },
+        {
+          "id": 1930,
+          "model_id": "changan-alsvin",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/alsvin-neuve-maroc-01.jpg",
+          "alt": "Changan alsvin photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1931,
+          "model_id": "changan-alsvin",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/alsvin-neuve-maroc-02.jpg",
+          "alt": "Changan alsvin photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1932,
+          "model_id": "changan-alsvin",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/alsvin-neuve-maroc-03.jpg",
+          "alt": "Changan alsvin photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2336,6 +4617,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1933,
+          "model_id": "changan-cs15",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs15-neuve-maroc.jpg",
+          "alt": "Changan cs15",
+          "is_primary": 1
+        },
+        {
+          "id": 1934,
+          "model_id": "changan-cs15",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs15-neuve-maroc-01.jpg",
+          "alt": "Changan cs15 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1935,
+          "model_id": "changan-cs15",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs15-neuve-maroc-02.jpg",
+          "alt": "Changan cs15 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1936,
+          "model_id": "changan-cs15",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs15-neuve-maroc-03.jpg",
+          "alt": "Changan cs15 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2363,6 +4675,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 69,
+        "model_id": "changan-cs35",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "1.4 Turbo 158 AT Exclusive\n                       ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1937,
+          "model_id": "changan-cs35",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs35-neuve-maroc.jpg",
+          "alt": "Changan cs35",
+          "is_primary": 1
+        },
+        {
+          "id": 1938,
+          "model_id": "changan-cs35",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs35-neuve-maroc-01.jpg",
+          "alt": "Changan cs35 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1939,
+          "model_id": "changan-cs35",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs35-neuve-maroc-02.jpg",
+          "alt": "Changan cs35 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1940,
+          "model_id": "changan-cs35",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs35-neuve-maroc-03.jpg",
+          "alt": "Changan cs35 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2388,6 +4753,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 70,
+        "model_id": "changan-cs55",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "1.5 Turbo 181 AT Exclusive\n                       ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1941,
+          "model_id": "changan-cs55",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs55-neuve-maroc.jpg",
+          "alt": "Changan cs55",
+          "is_primary": 1
+        },
+        {
+          "id": 1942,
+          "model_id": "changan-cs55",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs55-neuve-maroc-01.jpg",
+          "alt": "Changan cs55 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1943,
+          "model_id": "changan-cs55",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs55-neuve-maroc-02.jpg",
+          "alt": "Changan cs55 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1944,
+          "model_id": "changan-cs55",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/cs55-neuve-maroc-03.jpg",
+          "alt": "Changan cs55 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2415,6 +4833,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 71,
+        "model_id": "changan-uni-k",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "2.0 Turbo 226 AT Exclusive\n                       ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1945,
+          "model_id": "changan-uni-k",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/uni-k-neuve-maroc.jpg",
+          "alt": "Changan uni k",
+          "is_primary": 1
+        },
+        {
+          "id": 1946,
+          "model_id": "changan-uni-k",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/uni-k-neuve-maroc-01.jpg",
+          "alt": "Changan uni k photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1947,
+          "model_id": "changan-uni-k",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/uni-k-neuve-maroc-02.jpg",
+          "alt": "Changan uni k photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1948,
+          "model_id": "changan-uni-k",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/changan/uni-k-neuve-maroc-03.jpg",
+          "alt": "Changan uni k photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2440,6 +4911,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 72,
+        "model_id": "chery-arrizo-6",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "La CHERY Arrizo 6 est une berline statutaire qui s",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1869,
+          "model_id": "chery-arrizo-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/arrizo-6-neuve-maroc.jpg",
+          "alt": "Chery arrizo 6",
+          "is_primary": 1
+        },
+        {
+          "id": 1870,
+          "model_id": "chery-arrizo-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/arrizo-6-neuve-maroc-01.jpg",
+          "alt": "Chery arrizo 6 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1871,
+          "model_id": "chery-arrizo-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/arrizo-6-neuve-maroc-02.jpg",
+          "alt": "Chery arrizo 6 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1872,
+          "model_id": "chery-arrizo-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/arrizo-6-neuve-maroc-03.jpg",
+          "alt": "Chery arrizo 6 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2476,6 +5000,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 254,
+        "model_id": "chery-omoda5",
+        "motorisation_id": null,
+        "longueur": "4400 mm",
+        "largeur": "1833 mm",
+        "hauteur": "1588 mm",
+        "empattement": "2630 mm",
+        "poids": "1520 kg",
+        "coffre": "390 L",
+        "cylindree": "1597 cc",
+        "cylindres": "4",
+        "turbo": "Oui (TGDI)",
+        "vitesse_max": "185 km/h",
+        "acceleration": "9.0 s",
+        "conso_urbaine": "8.0 L/100km",
+        "conso_extra": "6.0 L/100km",
+        "conso_mixte": "6.8 L/100km",
+        "emission_co2": "154 g/km",
+        "reservoir": "50 L",
+        "roues": "18 pouces",
+        "pneus": "235/50 R18"
+      },
+      "images": [
+        {
+          "id": 2362,
+          "model_id": "chery-omoda5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/Chery-Omoda-5-2024-Neuve-Maroc-01.jpg",
+          "alt": "Omoda 5 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -2502,6 +5058,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1873,
+          "model_id": "chery-tiggo-2-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-2-pro-neuve-maroc.jpg",
+          "alt": "Chery tiggo 2 pro",
+          "is_primary": 1
+        },
+        {
+          "id": 1874,
+          "model_id": "chery-tiggo-2-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-2-pro-neuve-maroc-01.jpg",
+          "alt": "Chery tiggo 2 pro photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1875,
+          "model_id": "chery-tiggo-2-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-2-pro-neuve-maroc-02.jpg",
+          "alt": "Chery tiggo 2 pro photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1876,
+          "model_id": "chery-tiggo-2-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-2-pro-neuve-maroc-03.jpg",
+          "alt": "Chery tiggo 2 pro photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2527,6 +5114,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 73,
+        "model_id": "chery-tiggo-3-x",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Le CHERY Tiggo 3X est un crossover urbain ultra-co",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1877,
+          "model_id": "chery-tiggo-3-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-3-x-neuve-maroc.jpg",
+          "alt": "Chery tiggo 3 x",
+          "is_primary": 1
+        },
+        {
+          "id": 1878,
+          "model_id": "chery-tiggo-3-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-3-x-neuve-maroc-01.jpg",
+          "alt": "Chery tiggo 3 x photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1879,
+          "model_id": "chery-tiggo-3-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-3-x-neuve-maroc-02.jpg",
+          "alt": "Chery tiggo 3 x photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1880,
+          "model_id": "chery-tiggo-3-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-3-x-neuve-maroc-03.jpg",
+          "alt": "Chery tiggo 3 x photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2563,6 +5203,38 @@ const STATIC_DATA = {
           "transmission": "CVT Automatique",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 252,
+        "model_id": "chery-tiggo-4",
+        "motorisation_id": null,
+        "longueur": "4318 mm",
+        "largeur": "1818 mm",
+        "hauteur": "1669 mm",
+        "empattement": "2630 mm",
+        "poids": "1371 kg",
+        "coffre": "385 L",
+        "cylindree": "1497 cc",
+        "cylindres": "4",
+        "turbo": "Oui (TGDI)",
+        "vitesse_max": "178 km/h",
+        "acceleration": "9.8 s",
+        "conso_urbaine": "7.8 L/100km",
+        "conso_extra": "5.9 L/100km",
+        "conso_mixte": "6.6 L/100km",
+        "emission_co2": "149 g/km",
+        "reservoir": "50 L",
+        "roues": "17 pouces",
+        "pneus": "215/55 R17"
+      },
+      "images": [
+        {
+          "id": 2360,
+          "model_id": "chery-tiggo-4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/Chery-Tiggo-4-Pro-2024-Neuve-Maroc-01.jpg",
+          "alt": "Tiggo 4 Pro vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -2588,6 +5260,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1885,
+          "model_id": "chery-tiggo-4-cross-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-4-cross-hev-neuve-maroc.jpg",
+          "alt": "Chery tiggo 4 cross hev",
+          "is_primary": 1
+        },
+        {
+          "id": 1886,
+          "model_id": "chery-tiggo-4-cross-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-4-cross-hev-neuve-maroc-01.jpg",
+          "alt": "Chery tiggo 4 cross hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1887,
+          "model_id": "chery-tiggo-4-cross-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-4-cross-hev-neuve-maroc-02.jpg",
+          "alt": "Chery tiggo 4 cross hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1888,
+          "model_id": "chery-tiggo-4-cross-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-4-cross-hev-neuve-maroc-03.jpg",
+          "alt": "Chery tiggo 4 cross hev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2615,6 +5318,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1881,
+          "model_id": "chery-tiggo-4-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-4-pro-neuve-maroc.jpg",
+          "alt": "Chery tiggo 4 pro",
+          "is_primary": 1
+        },
+        {
+          "id": 1882,
+          "model_id": "chery-tiggo-4-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-4-pro-neuve-maroc-01.jpg",
+          "alt": "Chery tiggo 4 pro photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1883,
+          "model_id": "chery-tiggo-4-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-4-pro-neuve-maroc-02.jpg",
+          "alt": "Chery tiggo 4 pro photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1884,
+          "model_id": "chery-tiggo-4-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-4-pro-neuve-maroc-03.jpg",
+          "alt": "Chery tiggo 4 pro photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2640,6 +5374,38 @@ const STATIC_DATA = {
           "puissance": "197 ch",
           "transmission": "CVT Automatique",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 253,
+        "model_id": "chery-tiggo-7",
+        "motorisation_id": null,
+        "longueur": "4547 mm",
+        "largeur": "1862 mm",
+        "hauteur": "1694 mm",
+        "empattement": "2672 mm",
+        "poids": "1600 kg",
+        "coffre": "507 L",
+        "cylindree": "1597 cc",
+        "cylindres": "4",
+        "turbo": "Oui (TGDI)",
+        "vitesse_max": "195 km/h",
+        "acceleration": "7.9 s",
+        "conso_urbaine": "8.3 L/100km",
+        "conso_extra": "6.5 L/100km",
+        "conso_mixte": "7.2 L/100km",
+        "emission_co2": "163 g/km",
+        "reservoir": "60 L",
+        "roues": "18 pouces",
+        "pneus": "235/55 R18"
+      },
+      "images": [
+        {
+          "id": 2361,
+          "model_id": "chery-tiggo-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/Chery-Tiggo-7-Pro-2024-Neuve-Maroc-01.jpg",
+          "alt": "Tiggo 7 Pro vue de face",
+          "is_primary": 1
         }
       ]
     },
@@ -2667,6 +5433,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1889,
+          "model_id": "chery-tiggo-7-pro-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-7-pro-phev-neuve-maroc.jpg",
+          "alt": "Chery tiggo 7 pro phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1890,
+          "model_id": "chery-tiggo-7-pro-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-7-pro-phev-neuve-maroc-01.jpg",
+          "alt": "Chery tiggo 7 pro phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1891,
+          "model_id": "chery-tiggo-7-pro-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-7-pro-phev-neuve-maroc-02.jpg",
+          "alt": "Chery tiggo 7 pro phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1892,
+          "model_id": "chery-tiggo-7-pro-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-7-pro-phev-neuve-maroc-03.jpg",
+          "alt": "Chery tiggo 7 pro phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2693,6 +5490,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1893,
+          "model_id": "chery-tiggo-8-pro-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-8-pro-phev-neuve-maroc.jpg",
+          "alt": "Chery tiggo 8 pro phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1894,
+          "model_id": "chery-tiggo-8-pro-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-8-pro-phev-neuve-maroc-01.jpg",
+          "alt": "Chery tiggo 8 pro phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1895,
+          "model_id": "chery-tiggo-8-pro-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-8-pro-phev-neuve-maroc-02.jpg",
+          "alt": "Chery tiggo 8 pro phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1896,
+          "model_id": "chery-tiggo-8-pro-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/chery/tiggo-8-pro-phev-neuve-maroc-03.jpg",
+          "alt": "Chery tiggo 8 pro phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -2718,6 +5546,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1061,
+          "model_id": "citroen-ami",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/ami-neuve-maroc.jpg",
+          "alt": "Citroën ami",
+          "is_primary": 1
+        },
+        {
+          "id": 1062,
+          "model_id": "citroen-ami",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/ami-neuve-maroc-01.jpg",
+          "alt": "Citroën ami photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1063,
+          "model_id": "citroen-ami",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/ami-neuve-maroc-02.jpg",
+          "alt": "Citroën ami photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1064,
+          "model_id": "citroen-ami",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/ami-neuve-maroc-03.jpg",
+          "alt": "Citroën ami photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2754,6 +5613,38 @@ const STATIC_DATA = {
           "transmission": "EAT8",
           "carburant": "Diesel"
         }
+      ],
+      "specifications": {
+        "id": 210,
+        "model_id": "citroen-berlingo",
+        "motorisation_id": null,
+        "longueur": "4403 mm",
+        "largeur": "1848 mm",
+        "hauteur": "1843 mm",
+        "empattement": "2785 mm",
+        "poids": "1405 kg",
+        "coffre": "775 L",
+        "cylindree": "1199 cc",
+        "cylindres": "3",
+        "turbo": "Oui",
+        "vitesse_max": "182 km/h",
+        "acceleration": "10.3 s",
+        "conso_urbaine": "7.1 L/100km",
+        "conso_extra": "5.4 L/100km",
+        "conso_mixte": "6.0 L/100km",
+        "emission_co2": "138 g/km",
+        "reservoir": "50 L",
+        "roues": "16 pouces",
+        "pneus": "195/65 R16"
+      },
+      "images": [
+        {
+          "id": 2318,
+          "model_id": "citroen-berlingo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-Berlingo-2024-Neuve-Maroc-01.jpg",
+          "alt": "Berlingo vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -2789,6 +5680,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 6",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 208,
+        "model_id": "citroen-c3",
+        "motorisation_id": null,
+        "longueur": "4015 mm",
+        "largeur": "1755 mm",
+        "hauteur": "1577 mm",
+        "empattement": "2540 mm",
+        "poids": "1046 kg",
+        "coffre": "316 L",
+        "cylindree": "1199 cc",
+        "cylindres": "3",
+        "turbo": "Oui (PureTech)",
+        "vitesse_max": "178 km/h",
+        "acceleration": "11.3 s",
+        "conso_urbaine": "5.9 L/100km",
+        "conso_extra": "4.4 L/100km",
+        "conso_mixte": "5.0 L/100km",
+        "emission_co2": "114 g/km",
+        "reservoir": "44 L",
+        "roues": "16 pouces",
+        "pneus": "195/55 R16"
+      },
+      "images": [
+        {
+          "id": 2316,
+          "model_id": "citroen-c3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-C3-2024-Neuve-Maroc-01.jpg",
+          "alt": "C3 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -2814,6 +5737,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1077,
+          "model_id": "citroen-c3-aircross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/c3-aircross-neuve-maroc.jpg",
+          "alt": "Citroën c3 aircross",
+          "is_primary": 1
+        },
+        {
+          "id": 1078,
+          "model_id": "citroen-c3-aircross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/c3-aircross-neuve-maroc-01.jpg",
+          "alt": "Citroën c3 aircross photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1079,
+          "model_id": "citroen-c3-aircross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/c3-aircross-neuve-maroc-02.jpg",
+          "alt": "Citroën c3 aircross photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1080,
+          "model_id": "citroen-c3-aircross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/c3-aircross-neuve-maroc-03.jpg",
+          "alt": "Citroën c3 aircross photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2859,6 +5813,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 211,
+        "model_id": "citroen-c4",
+        "motorisation_id": null,
+        "longueur": "4360 mm",
+        "largeur": "1800 mm",
+        "hauteur": "1525 mm",
+        "empattement": "2670 mm",
+        "poids": "1232 kg",
+        "coffre": "380 L",
+        "cylindree": "1199 cc",
+        "cylindres": "3",
+        "turbo": "Oui",
+        "vitesse_max": "193 km/h",
+        "acceleration": "9.6 s",
+        "conso_urbaine": "6.5 L/100km",
+        "conso_extra": "5.0 L/100km",
+        "conso_mixte": "5.5 L/100km",
+        "emission_co2": "126 g/km",
+        "reservoir": "50 L",
+        "roues": "17 pouces",
+        "pneus": "215/55 R17"
+      },
+      "images": [
+        {
+          "id": 2319,
+          "model_id": "citroen-c4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-C4-2024-Neuve-Maroc-01.jpg",
+          "alt": "C4 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -2884,6 +5870,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1073,
+          "model_id": "citroen-c4-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/c4-x-neuve-maroc.jpg",
+          "alt": "Citroën c4 x",
+          "is_primary": 1
+        },
+        {
+          "id": 1074,
+          "model_id": "citroen-c4-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/c4-x-neuve-maroc-01.jpg",
+          "alt": "Citroën c4 x photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1075,
+          "model_id": "citroen-c4-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/c4-x-neuve-maroc-02.jpg",
+          "alt": "Citroën c4 x photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1076,
+          "model_id": "citroen-c4-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroën/c4-x-neuve-maroc-03.jpg",
+          "alt": "Citroën c4 x photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2929,6 +5946,38 @@ const STATIC_DATA = {
           "transmission": "EAT8",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 209,
+        "model_id": "citroen-c5-aircross",
+        "motorisation_id": null,
+        "longueur": "4500 mm",
+        "largeur": "1844 mm",
+        "hauteur": "1670 mm",
+        "empattement": "2730 mm",
+        "poids": "1447 kg",
+        "coffre": "580 L",
+        "cylindree": "1199 cc",
+        "cylindres": "3",
+        "turbo": "Oui",
+        "vitesse_max": "210 km/h",
+        "acceleration": "8.9 s",
+        "conso_urbaine": "7.0 L/100km",
+        "conso_extra": "5.4 L/100km",
+        "conso_mixte": "6.0 L/100km",
+        "emission_co2": "137 g/km",
+        "reservoir": "53 L",
+        "roues": "18 pouces",
+        "pneus": "225/50 R18"
+      },
+      "images": [
+        {
+          "id": 2317,
+          "model_id": "citroen-c5-aircross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-C5-Aircross-2024-Neuve-Maroc-01.jpg",
+          "alt": "C5 Aircross vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -2954,6 +6003,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2025,
+          "model_id": "cupra-formentor",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/formentor-neuve-maroc.jpg",
+          "alt": "Cupra formentor",
+          "is_primary": 1
+        },
+        {
+          "id": 2026,
+          "model_id": "cupra-formentor",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/formentor-neuve-maroc-01.jpg",
+          "alt": "Cupra formentor photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2027,
+          "model_id": "cupra-formentor",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/formentor-neuve-maroc-02.jpg",
+          "alt": "Cupra formentor photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2028,
+          "model_id": "cupra-formentor",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/formentor-neuve-maroc-03.jpg",
+          "alt": "Cupra formentor photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -2981,6 +6061,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2029,
+          "model_id": "cupra-formentor-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/formentor-phev-neuve-maroc.jpg",
+          "alt": "Cupra formentor phev",
+          "is_primary": 1
+        },
+        {
+          "id": 2030,
+          "model_id": "cupra-formentor-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/formentor-phev-neuve-maroc-01.jpg",
+          "alt": "Cupra formentor phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2031,
+          "model_id": "cupra-formentor-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/formentor-phev-neuve-maroc-02.jpg",
+          "alt": "Cupra formentor phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2032,
+          "model_id": "cupra-formentor-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/formentor-phev-neuve-maroc-03.jpg",
+          "alt": "Cupra formentor phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3006,6 +6117,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2021,
+          "model_id": "cupra-leon",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/leon-neuve-maroc.jpg",
+          "alt": "Cupra leon",
+          "is_primary": 1
+        },
+        {
+          "id": 2022,
+          "model_id": "cupra-leon",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/leon-neuve-maroc-01.jpg",
+          "alt": "Cupra leon photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2023,
+          "model_id": "cupra-leon",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/leon-neuve-maroc-02.jpg",
+          "alt": "Cupra leon photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2024,
+          "model_id": "cupra-leon",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/leon-neuve-maroc-03.jpg",
+          "alt": "Cupra leon photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3033,6 +6175,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2033,
+          "model_id": "cupra-terramar",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/terramar-neuve-maroc.jpg",
+          "alt": "Cupra terramar",
+          "is_primary": 1
+        },
+        {
+          "id": 2034,
+          "model_id": "cupra-terramar",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/terramar-neuve-maroc-01.jpg",
+          "alt": "Cupra terramar photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2035,
+          "model_id": "cupra-terramar",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/terramar-neuve-maroc-02.jpg",
+          "alt": "Cupra terramar photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2036,
+          "model_id": "cupra-terramar",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/terramar-neuve-maroc-03.jpg",
+          "alt": "Cupra terramar photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3058,6 +6231,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2037,
+          "model_id": "cupra-terramar-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/terramar-phev-neuve-maroc.jpg",
+          "alt": "Cupra terramar phev",
+          "is_primary": 1
+        },
+        {
+          "id": 2038,
+          "model_id": "cupra-terramar-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/terramar-phev-neuve-maroc-01.jpg",
+          "alt": "Cupra terramar phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2039,
+          "model_id": "cupra-terramar-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/terramar-phev-neuve-maroc-02.jpg",
+          "alt": "Cupra terramar phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2040,
+          "model_id": "cupra-terramar-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/cupra/terramar-phev-neuve-maroc-03.jpg",
+          "alt": "Cupra terramar phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3085,6 +6289,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 74,
+        "model_id": "dacia-bigster",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "DACIA Bigster est arrivé au Maroc. D'un point vue ",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "J’ai un bigster expression  \n          Mounir - le"
+      },
+      "images": [
+        {
+          "id": 1013,
+          "model_id": "dacia-bigster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/bigster-neuve-maroc.jpg",
+          "alt": "Dacia bigster",
+          "is_primary": 1
+        },
+        {
+          "id": 1014,
+          "model_id": "dacia-bigster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/bigster-neuve-maroc-01.jpg",
+          "alt": "Dacia bigster photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1015,
+          "model_id": "dacia-bigster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/bigster-neuve-maroc-02.jpg",
+          "alt": "Dacia bigster photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1016,
+          "model_id": "dacia-bigster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/bigster-neuve-maroc-03.jpg",
+          "alt": "Dacia bigster photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3110,6 +6367,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1017,
+          "model_id": "dacia-bigster-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/bigster-hev-neuve-maroc.jpg",
+          "alt": "Dacia bigster hev",
+          "is_primary": 1
+        },
+        {
+          "id": 1018,
+          "model_id": "dacia-bigster-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/bigster-hev-neuve-maroc-01.jpg",
+          "alt": "Dacia bigster hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1019,
+          "model_id": "dacia-bigster-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/bigster-hev-neuve-maroc-02.jpg",
+          "alt": "Dacia bigster hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1020,
+          "model_id": "dacia-bigster-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/bigster-hev-neuve-maroc-03.jpg",
+          "alt": "Dacia bigster hev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3155,6 +6443,38 @@ const STATIC_DATA = {
           "transmission": "4WD Manuelle 6",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 200,
+        "model_id": "dacia-duster",
+        "motorisation_id": null,
+        "longueur": "4341 mm",
+        "largeur": "1804 mm",
+        "hauteur": "1694 mm",
+        "empattement": "2656 mm",
+        "poids": "1275 kg",
+        "coffre": "472 L",
+        "cylindree": "1333 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "184 km/h",
+        "acceleration": "10.7 s",
+        "conso_urbaine": "7.5 L/100km",
+        "conso_extra": "5.7 L/100km",
+        "conso_mixte": "6.4 L/100km",
+        "emission_co2": "145 g/km",
+        "reservoir": "50 L",
+        "roues": "17 pouces",
+        "pneus": "215/60 R17"
+      },
+      "images": [
+        {
+          "id": 2308,
+          "model_id": "dacia-duster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Duster-2024-Neuve-Maroc-01.jpg",
+          "alt": "Duster vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -3190,6 +6510,38 @@ const STATIC_DATA = {
           "transmission": "Manuelle 6",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 201,
+        "model_id": "dacia-jogger",
+        "motorisation_id": null,
+        "longueur": "4547 mm",
+        "largeur": "1777 mm",
+        "hauteur": "1632 mm",
+        "empattement": "2898 mm",
+        "poids": "1257 kg",
+        "coffre": "708 L",
+        "cylindree": "999 cc",
+        "cylindres": "3",
+        "turbo": "Oui",
+        "vitesse_max": "176 km/h",
+        "acceleration": "11.5 s",
+        "conso_urbaine": "7.2 L/100km",
+        "conso_extra": "5.5 L/100km",
+        "conso_mixte": "6.1 L/100km",
+        "emission_co2": "140 g/km",
+        "reservoir": "50 L",
+        "roues": "16 pouces",
+        "pneus": "205/60 R16"
+      },
+      "images": [
+        {
+          "id": 2309,
+          "model_id": "dacia-jogger",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Jogger-2024-Neuve-Maroc-01.jpg",
+          "alt": "Jogger vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -3216,6 +6568,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 76,
+        "model_id": "dacia-jogger-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "le nouveau Jogger est l'allié de tous vos trajets ",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1005,
+          "model_id": "dacia-jogger-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/jogger-hev-neuve-maroc.jpg",
+          "alt": "Dacia jogger hev",
+          "is_primary": 1
+        },
+        {
+          "id": 1006,
+          "model_id": "dacia-jogger-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/jogger-hev-neuve-maroc-01.jpg",
+          "alt": "Dacia jogger hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1007,
+          "model_id": "dacia-jogger-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/jogger-hev-neuve-maroc-02.jpg",
+          "alt": "Dacia jogger hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1008,
+          "model_id": "dacia-jogger-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/jogger-hev-neuve-maroc-03.jpg",
+          "alt": "Dacia jogger hev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3241,6 +6646,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 997,
+          "model_id": "dacia-logan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/logan-neuve-maroc.jpg",
+          "alt": "Dacia logan",
+          "is_primary": 1
+        },
+        {
+          "id": 998,
+          "model_id": "dacia-logan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/logan-neuve-maroc-01.jpg",
+          "alt": "Dacia logan photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 999,
+          "model_id": "dacia-logan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/logan-neuve-maroc-02.jpg",
+          "alt": "Dacia logan photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1000,
+          "model_id": "dacia-logan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/logan-neuve-maroc-03.jpg",
+          "alt": "Dacia logan photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3286,6 +6722,38 @@ const STATIC_DATA = {
           "transmission": "Manuelle 6",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 199,
+        "model_id": "dacia-sandero",
+        "motorisation_id": null,
+        "longueur": "4088 mm",
+        "largeur": "1769 mm",
+        "hauteur": "1497 mm",
+        "empattement": "2588 mm",
+        "poids": "993 kg",
+        "coffre": "328 L",
+        "cylindree": "999 cc",
+        "cylindres": "3",
+        "turbo": "Oui (TCe)",
+        "vitesse_max": "164 km/h",
+        "acceleration": "13.5 s",
+        "conso_urbaine": "6.4 L/100km",
+        "conso_extra": "4.7 L/100km",
+        "conso_mixte": "5.3 L/100km",
+        "emission_co2": "120 g/km",
+        "reservoir": "50 L",
+        "roues": "15 pouces",
+        "pneus": "185/65 R15"
+      },
+      "images": [
+        {
+          "id": 2307,
+          "model_id": "dacia-sandero",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Sandero-2024-Neuve-Maroc-01.jpg",
+          "alt": "Sandero vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -3312,6 +6780,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 993,
+          "model_id": "dacia-sandero-stepway",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/sandero-stepway-neuve-maroc.jpg",
+          "alt": "Dacia sandero stepway",
+          "is_primary": 1
+        },
+        {
+          "id": 994,
+          "model_id": "dacia-sandero-stepway",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/sandero-stepway-neuve-maroc-01.jpg",
+          "alt": "Dacia sandero stepway photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 995,
+          "model_id": "dacia-sandero-stepway",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/sandero-stepway-neuve-maroc-02.jpg",
+          "alt": "Dacia sandero stepway photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 996,
+          "model_id": "dacia-sandero-stepway",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/sandero-stepway-neuve-maroc-03.jpg",
+          "alt": "Dacia sandero stepway photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3337,6 +6836,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 989,
+          "model_id": "dacia-sandero-streetway",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/sandero-streetway-neuve-maroc.jpg",
+          "alt": "Dacia sandero streetway",
+          "is_primary": 1
+        },
+        {
+          "id": 990,
+          "model_id": "dacia-sandero-streetway",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/sandero-streetway-neuve-maroc-01.jpg",
+          "alt": "Dacia sandero streetway photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 991,
+          "model_id": "dacia-sandero-streetway",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/sandero-streetway-neuve-maroc-02.jpg",
+          "alt": "Dacia sandero streetway photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 992,
+          "model_id": "dacia-sandero-streetway",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/sandero-streetway-neuve-maroc-03.jpg",
+          "alt": "Dacia sandero streetway photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3373,6 +6903,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 202,
+        "model_id": "dacia-spring",
+        "motorisation_id": null,
+        "longueur": "3701 mm",
+        "largeur": "1622 mm",
+        "hauteur": "1519 mm",
+        "empattement": "2423 mm",
+        "poids": "984 kg",
+        "coffre": "308 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "125 km/h",
+        "acceleration": "13.7 s",
+        "conso_urbaine": "14.5 kWh/100km",
+        "conso_extra": "11.5 kWh/100km",
+        "conso_mixte": "13.0 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "26.8 kWh",
+        "roues": "15 pouces",
+        "pneus": "165/70 R15"
+      },
+      "images": [
+        {
+          "id": 2310,
+          "model_id": "dacia-spring",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Spring-2024-Neuve-Maroc-01.jpg",
+          "alt": "Spring vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -3398,6 +6960,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 77,
+        "model_id": "deepal-g318",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Imposant et résolument baroudeur, le DEEPAL G318 a",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 2185,
+          "model_id": "deepal-g318",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/g318-neuve-maroc.jpg",
+          "alt": "Deepal g318",
+          "is_primary": 1
+        },
+        {
+          "id": 2186,
+          "model_id": "deepal-g318",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/g318-neuve-maroc-01.jpg",
+          "alt": "Deepal g318 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2187,
+          "model_id": "deepal-g318",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/g318-neuve-maroc-02.jpg",
+          "alt": "Deepal g318 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2188,
+          "model_id": "deepal-g318",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/g318-neuve-maroc-03.jpg",
+          "alt": "Deepal g318 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3425,6 +7040,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2177,
+          "model_id": "deepal-s05-reev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/s05-reev-neuve-maroc.jpg",
+          "alt": "Deepal s05 reev",
+          "is_primary": 1
+        },
+        {
+          "id": 2178,
+          "model_id": "deepal-s05-reev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/s05-reev-neuve-maroc-01.jpg",
+          "alt": "Deepal s05 reev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2179,
+          "model_id": "deepal-s05-reev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/s05-reev-neuve-maroc-02.jpg",
+          "alt": "Deepal s05 reev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2180,
+          "model_id": "deepal-s05-reev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/s05-reev-neuve-maroc-03.jpg",
+          "alt": "Deepal s05 reev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3450,6 +7096,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2181,
+          "model_id": "deepal-s07-reev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/s07-reev-neuve-maroc.jpg",
+          "alt": "Deepal s07 reev",
+          "is_primary": 1
+        },
+        {
+          "id": 2182,
+          "model_id": "deepal-s07-reev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/s07-reev-neuve-maroc-01.jpg",
+          "alt": "Deepal s07 reev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2183,
+          "model_id": "deepal-s07-reev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/s07-reev-neuve-maroc-02.jpg",
+          "alt": "Deepal s07 reev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2184,
+          "model_id": "deepal-s07-reev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/deepal/s07-reev-neuve-maroc-03.jpg",
+          "alt": "Deepal s07 reev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3477,6 +7154,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2017,
+          "model_id": "dfsk-e5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dfsk/e5-neuve-maroc.jpg",
+          "alt": "DFSK e5",
+          "is_primary": 1
+        },
+        {
+          "id": 2018,
+          "model_id": "dfsk-e5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dfsk/e5-neuve-maroc-01.jpg",
+          "alt": "DFSK e5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2019,
+          "model_id": "dfsk-e5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dfsk/e5-neuve-maroc-02.jpg",
+          "alt": "DFSK e5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2020,
+          "model_id": "dfsk-e5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dfsk/e5-neuve-maroc-03.jpg",
+          "alt": "DFSK e5 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3502,6 +7210,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2013,
+          "model_id": "dfsk-glory-500",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dfsk/glory-500-neuve-maroc.jpg",
+          "alt": "DFSK glory 500",
+          "is_primary": 1
+        },
+        {
+          "id": 2014,
+          "model_id": "dfsk-glory-500",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dfsk/glory-500-neuve-maroc-01.jpg",
+          "alt": "DFSK glory 500 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2015,
+          "model_id": "dfsk-glory-500",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dfsk/glory-500-neuve-maroc-02.jpg",
+          "alt": "DFSK glory 500 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2016,
+          "model_id": "dfsk-glory-500",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dfsk/glory-500-neuve-maroc-03.jpg",
+          "alt": "DFSK glory 500 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3529,6 +7268,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2125,
+          "model_id": "dongfeng-box",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/box-neuve-maroc.jpg",
+          "alt": "Dongfeng box",
+          "is_primary": 1
+        },
+        {
+          "id": 2126,
+          "model_id": "dongfeng-box",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/box-neuve-maroc-01.jpg",
+          "alt": "Dongfeng box photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2127,
+          "model_id": "dongfeng-box",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/box-neuve-maroc-02.jpg",
+          "alt": "Dongfeng box photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2128,
+          "model_id": "dongfeng-box",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/box-neuve-maroc-03.jpg",
+          "alt": "Dongfeng box photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3554,6 +7324,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2141,
+          "model_id": "dongfeng-huge",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/huge-neuve-maroc.jpg",
+          "alt": "Dongfeng huge",
+          "is_primary": 1
+        },
+        {
+          "id": 2142,
+          "model_id": "dongfeng-huge",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/huge-neuve-maroc-01.jpg",
+          "alt": "Dongfeng huge photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2143,
+          "model_id": "dongfeng-huge",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/huge-neuve-maroc-02.jpg",
+          "alt": "Dongfeng huge photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2144,
+          "model_id": "dongfeng-huge",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/huge-neuve-maroc-03.jpg",
+          "alt": "Dongfeng huge photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3581,6 +7382,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2137,
+          "model_id": "dongfeng-mage",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/mage-neuve-maroc.jpg",
+          "alt": "Dongfeng mage",
+          "is_primary": 1
+        },
+        {
+          "id": 2138,
+          "model_id": "dongfeng-mage",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/mage-neuve-maroc-01.jpg",
+          "alt": "Dongfeng mage photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2139,
+          "model_id": "dongfeng-mage",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/mage-neuve-maroc-02.jpg",
+          "alt": "Dongfeng mage photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2140,
+          "model_id": "dongfeng-mage",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/mage-neuve-maroc-03.jpg",
+          "alt": "Dongfeng mage photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3606,6 +7438,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2129,
+          "model_id": "dongfeng-shine",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/shine-neuve-maroc.jpg",
+          "alt": "Dongfeng shine",
+          "is_primary": 1
+        },
+        {
+          "id": 2130,
+          "model_id": "dongfeng-shine",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/shine-neuve-maroc-01.jpg",
+          "alt": "Dongfeng shine photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2131,
+          "model_id": "dongfeng-shine",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/shine-neuve-maroc-02.jpg",
+          "alt": "Dongfeng shine photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2132,
+          "model_id": "dongfeng-shine",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/shine-neuve-maroc-03.jpg",
+          "alt": "Dongfeng shine photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3633,6 +7496,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2133,
+          "model_id": "dongfeng-shine-max",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/shine-max-neuve-maroc.jpg",
+          "alt": "Dongfeng shine max",
+          "is_primary": 1
+        },
+        {
+          "id": 2134,
+          "model_id": "dongfeng-shine-max",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/shine-max-neuve-maroc-01.jpg",
+          "alt": "Dongfeng shine max photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2135,
+          "model_id": "dongfeng-shine-max",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/shine-max-neuve-maroc-02.jpg",
+          "alt": "Dongfeng shine max photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2136,
+          "model_id": "dongfeng-shine-max",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/dongfeng/shine-max-neuve-maroc-03.jpg",
+          "alt": "Dongfeng shine max photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3658,6 +7552,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2041,
+          "model_id": "ds-ds-4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-4-neuve-maroc.jpg",
+          "alt": "DS ds 4",
+          "is_primary": 1
+        },
+        {
+          "id": 2042,
+          "model_id": "ds-ds-4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-4-neuve-maroc-01.jpg",
+          "alt": "DS ds 4 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2043,
+          "model_id": "ds-ds-4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-4-neuve-maroc-02.jpg",
+          "alt": "DS ds 4 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2044,
+          "model_id": "ds-ds-4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-4-neuve-maroc-03.jpg",
+          "alt": "DS ds 4 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3685,6 +7610,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2049,
+          "model_id": "ds-ds-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-7-neuve-maroc.jpg",
+          "alt": "DS ds 7",
+          "is_primary": 1
+        },
+        {
+          "id": 2050,
+          "model_id": "ds-ds-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-7-neuve-maroc-01.jpg",
+          "alt": "DS ds 7 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2051,
+          "model_id": "ds-ds-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-7-neuve-maroc-02.jpg",
+          "alt": "DS ds 7 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2052,
+          "model_id": "ds-ds-7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-7-neuve-maroc-03.jpg",
+          "alt": "DS ds 7 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3710,6 +7666,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2053,
+          "model_id": "ds-ds-7-e-tense",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-7-e-tense-neuve-maroc.jpg",
+          "alt": "DS ds 7 e tense",
+          "is_primary": 1
+        },
+        {
+          "id": 2054,
+          "model_id": "ds-ds-7-e-tense",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-7-e-tense-neuve-maroc-01.jpg",
+          "alt": "DS ds 7 e tense photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2055,
+          "model_id": "ds-ds-7-e-tense",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-7-e-tense-neuve-maroc-02.jpg",
+          "alt": "DS ds 7 e tense photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2056,
+          "model_id": "ds-ds-7-e-tense",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/ds-7-e-tense-neuve-maroc-03.jpg",
+          "alt": "DS ds 7 e tense photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3737,6 +7724,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2045,
+          "model_id": "ds-n4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/n4-neuve-maroc.jpg",
+          "alt": "DS n4",
+          "is_primary": 1
+        },
+        {
+          "id": 2046,
+          "model_id": "ds-n4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/n4-neuve-maroc-01.jpg",
+          "alt": "DS n4 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2047,
+          "model_id": "ds-n4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/n4-neuve-maroc-02.jpg",
+          "alt": "DS n4 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2048,
+          "model_id": "ds-n4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ds/n4-neuve-maroc-03.jpg",
+          "alt": "DS n4 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3762,6 +7780,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1625,
+          "model_id": "fiat-500x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/500x-neuve-maroc.jpg",
+          "alt": "Fiat 500x",
+          "is_primary": 1
+        },
+        {
+          "id": 1626,
+          "model_id": "fiat-500x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/500x-neuve-maroc-01.jpg",
+          "alt": "Fiat 500x photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1627,
+          "model_id": "fiat-500x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/500x-neuve-maroc-02.jpg",
+          "alt": "Fiat 500x photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1628,
+          "model_id": "fiat-500x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/500x-neuve-maroc-03.jpg",
+          "alt": "Fiat 500x photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3789,6 +7838,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1629,
+          "model_id": "fiat-600",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/600-neuve-maroc.jpg",
+          "alt": "Fiat 600",
+          "is_primary": 1
+        },
+        {
+          "id": 1630,
+          "model_id": "fiat-600",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/600-neuve-maroc-01.jpg",
+          "alt": "Fiat 600 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1631,
+          "model_id": "fiat-600",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/600-neuve-maroc-02.jpg",
+          "alt": "Fiat 600 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1632,
+          "model_id": "fiat-600",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/600-neuve-maroc-03.jpg",
+          "alt": "Fiat 600 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3815,6 +7895,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1633,
+          "model_id": "fiat-600e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/600e-neuve-maroc.jpg",
+          "alt": "Fiat 600e",
+          "is_primary": 1
+        },
+        {
+          "id": 1634,
+          "model_id": "fiat-600e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/600e-neuve-maroc-01.jpg",
+          "alt": "Fiat 600e photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1635,
+          "model_id": "fiat-600e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/600e-neuve-maroc-02.jpg",
+          "alt": "Fiat 600e photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1636,
+          "model_id": "fiat-600e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/600e-neuve-maroc-03.jpg",
+          "alt": "Fiat 600e photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -3840,6 +7951,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1637,
+          "model_id": "fiat-doblo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/doblo-neuve-maroc.jpg",
+          "alt": "Fiat doblo",
+          "is_primary": 1
+        },
+        {
+          "id": 1638,
+          "model_id": "fiat-doblo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/doblo-neuve-maroc-01.jpg",
+          "alt": "Fiat doblo photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1639,
+          "model_id": "fiat-doblo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/doblo-neuve-maroc-02.jpg",
+          "alt": "Fiat doblo photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1640,
+          "model_id": "fiat-doblo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/fiat/doblo-neuve-maroc-03.jpg",
+          "alt": "Fiat doblo photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -3885,6 +8027,38 @@ const STATIC_DATA = {
           "transmission": "CVT",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 235,
+        "model_id": "ford-kuga",
+        "motorisation_id": null,
+        "longueur": "4629 mm",
+        "largeur": "1882 mm",
+        "hauteur": "1679 mm",
+        "empattement": "2710 mm",
+        "poids": "1638 kg",
+        "coffre": "645 L",
+        "cylindree": "1497 cc",
+        "cylindres": "3",
+        "turbo": "Oui (EcoBoost)",
+        "vitesse_max": "198 km/h",
+        "acceleration": "8.8 s",
+        "conso_urbaine": "7.0 L/100km",
+        "conso_extra": "5.5 L/100km",
+        "conso_mixte": "6.1 L/100km",
+        "emission_co2": "139 g/km",
+        "reservoir": "52 L",
+        "roues": "18 pouces",
+        "pneus": "235/50 R18"
+      },
+      "images": [
+        {
+          "id": 2343,
+          "model_id": "ford-kuga",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/Ford-Kuga-2024-Neuve-Maroc-01.jpg",
+          "alt": "Kuga vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -3919,6 +8093,38 @@ const STATIC_DATA = {
           "puissance": "450 ch",
           "transmission": "Manuelle 6 / Automatique 10",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 236,
+        "model_id": "ford-mustang",
+        "motorisation_id": null,
+        "longueur": "4785 mm",
+        "largeur": "1916 mm",
+        "hauteur": "1381 mm",
+        "empattement": "2720 mm",
+        "poids": "1680 kg",
+        "coffre": "408 L",
+        "cylindree": "4951 cc",
+        "cylindres": "8",
+        "turbo": "Non (V8 atmosphérique)",
+        "vitesse_max": "250 km/h",
+        "acceleration": "4.6 s",
+        "conso_urbaine": "15.8 L/100km",
+        "conso_extra": "9.4 L/100km",
+        "conso_mixte": "11.9 L/100km",
+        "emission_co2": "270 g/km",
+        "reservoir": "61 L",
+        "roues": "19 pouces",
+        "pneus": "255/40 R19"
+      },
+      "images": [
+        {
+          "id": 2344,
+          "model_id": "ford-mustang",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/Ford-Mustang-2024-Neuve-Maroc-01.jpg",
+          "alt": "Mustang vue de face",
+          "is_primary": 1
         }
       ]
     },
@@ -3955,6 +8161,38 @@ const STATIC_DATA = {
           "transmission": "DCT7",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 234,
+        "model_id": "ford-puma",
+        "motorisation_id": null,
+        "longueur": "4208 mm",
+        "largeur": "1805 mm",
+        "hauteur": "1537 mm",
+        "empattement": "2588 mm",
+        "poids": "1278 kg",
+        "coffre": "456 L",
+        "cylindree": "999 cc",
+        "cylindres": "3",
+        "turbo": "Oui (EcoBoost)",
+        "vitesse_max": "200 km/h",
+        "acceleration": "9.0 s",
+        "conso_urbaine": "6.3 L/100km",
+        "conso_extra": "4.7 L/100km",
+        "conso_mixte": "5.3 L/100km",
+        "emission_co2": "120 g/km",
+        "reservoir": "42 L",
+        "roues": "17 pouces",
+        "pneus": "215/55 R17"
+      },
+      "images": [
+        {
+          "id": 2342,
+          "model_id": "ford-puma",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/Ford-Puma-2024-Neuve-Maroc-01.jpg",
+          "alt": "Puma vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -3980,6 +8218,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 78,
+        "model_id": "ford-ranger",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "En 2020, Le FORD Ranger a été épaulé par une versi",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1533,
+          "model_id": "ford-ranger",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/ranger-neuve-maroc.jpg",
+          "alt": "Ford ranger",
+          "is_primary": 1
+        },
+        {
+          "id": 1534,
+          "model_id": "ford-ranger",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/ranger-neuve-maroc-01.jpg",
+          "alt": "Ford ranger photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1535,
+          "model_id": "ford-ranger",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/ranger-neuve-maroc-02.jpg",
+          "alt": "Ford ranger photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1536,
+          "model_id": "ford-ranger",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/ranger-neuve-maroc-03.jpg",
+          "alt": "Ford ranger photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4007,6 +8298,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1529,
+          "model_id": "ford-territory",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/territory-neuve-maroc.jpg",
+          "alt": "Ford territory",
+          "is_primary": 1
+        },
+        {
+          "id": 1530,
+          "model_id": "ford-territory",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/territory-neuve-maroc-01.jpg",
+          "alt": "Ford territory photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1531,
+          "model_id": "ford-territory",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/territory-neuve-maroc-02.jpg",
+          "alt": "Ford territory photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1532,
+          "model_id": "ford-territory",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/ford/territory-neuve-maroc-03.jpg",
+          "alt": "Ford territory photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4032,6 +8354,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1917,
+          "model_id": "geely-cityray",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/cityray-neuve-maroc.jpg",
+          "alt": "Geely cityray",
+          "is_primary": 1
+        },
+        {
+          "id": 1918,
+          "model_id": "geely-cityray",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/cityray-neuve-maroc-01.jpg",
+          "alt": "Geely cityray photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1919,
+          "model_id": "geely-cityray",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/cityray-neuve-maroc-02.jpg",
+          "alt": "Geely cityray photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1920,
+          "model_id": "geely-cityray",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/cityray-neuve-maroc-03.jpg",
+          "alt": "Geely cityray photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4059,6 +8412,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 79,
+        "model_id": "geely-coolray",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "Très Satisfait  \n          Driss - le 9 janvier 20",
+        "cylindree": "",
+        "cylindres": "Le nouveau GEELY Coolray facelift 2026 se métamorp",
+        "turbo": "Le nouveau GEELY Coolray facelift 2026 se métamorp",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1909,
+          "model_id": "geely-coolray",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/coolray-neuve-maroc.jpg",
+          "alt": "Geely coolray",
+          "is_primary": 1
+        },
+        {
+          "id": 1910,
+          "model_id": "geely-coolray",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/coolray-neuve-maroc-01.jpg",
+          "alt": "Geely coolray photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1911,
+          "model_id": "geely-coolray",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/coolray-neuve-maroc-02.jpg",
+          "alt": "Geely coolray photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1912,
+          "model_id": "geely-coolray",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/coolray-neuve-maroc-03.jpg",
+          "alt": "Geely coolray photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4084,6 +8490,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1905,
+          "model_id": "geely-emgrand",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/emgrand-neuve-maroc.jpg",
+          "alt": "Geely emgrand",
+          "is_primary": 1
+        },
+        {
+          "id": 1906,
+          "model_id": "geely-emgrand",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/emgrand-neuve-maroc-01.jpg",
+          "alt": "Geely emgrand photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1907,
+          "model_id": "geely-emgrand",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/emgrand-neuve-maroc-02.jpg",
+          "alt": "Geely emgrand photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1908,
+          "model_id": "geely-emgrand",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/emgrand-neuve-maroc-03.jpg",
+          "alt": "Geely emgrand photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4111,6 +8548,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1901,
+          "model_id": "geely-ex2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/ex2-neuve-maroc.jpg",
+          "alt": "Geely ex2",
+          "is_primary": 1
+        },
+        {
+          "id": 1902,
+          "model_id": "geely-ex2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/ex2-neuve-maroc-01.jpg",
+          "alt": "Geely ex2 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1903,
+          "model_id": "geely-ex2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/ex2-neuve-maroc-02.jpg",
+          "alt": "Geely ex2 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1904,
+          "model_id": "geely-ex2",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/ex2-neuve-maroc-03.jpg",
+          "alt": "Geely ex2 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4136,6 +8604,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1921,
+          "model_id": "geely-ex5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/ex5-phev-neuve-maroc.jpg",
+          "alt": "Geely ex5 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1922,
+          "model_id": "geely-ex5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/ex5-phev-neuve-maroc-01.jpg",
+          "alt": "Geely ex5 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1923,
+          "model_id": "geely-ex5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/ex5-phev-neuve-maroc-02.jpg",
+          "alt": "Geely ex5 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1924,
+          "model_id": "geely-ex5-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/ex5-phev-neuve-maroc-03.jpg",
+          "alt": "Geely ex5 phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4163,6 +8662,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1913,
+          "model_id": "geely-geometry-c",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/geometry-c-neuve-maroc.jpg",
+          "alt": "Geely geometry c",
+          "is_primary": 1
+        },
+        {
+          "id": 1914,
+          "model_id": "geely-geometry-c",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/geometry-c-neuve-maroc-01.jpg",
+          "alt": "Geely geometry c photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1915,
+          "model_id": "geely-geometry-c",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/geometry-c-neuve-maroc-02.jpg",
+          "alt": "Geely geometry c photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1916,
+          "model_id": "geely-geometry-c",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/geometry-c-neuve-maroc-03.jpg",
+          "alt": "Geely geometry c photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4188,6 +8718,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1897,
+          "model_id": "geely-gx3-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/gx3-pro-neuve-maroc.jpg",
+          "alt": "Geely gx3 pro",
+          "is_primary": 1
+        },
+        {
+          "id": 1898,
+          "model_id": "geely-gx3-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/gx3-pro-neuve-maroc-01.jpg",
+          "alt": "Geely gx3 pro photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1899,
+          "model_id": "geely-gx3-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/gx3-pro-neuve-maroc-02.jpg",
+          "alt": "Geely gx3 pro photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1900,
+          "model_id": "geely-gx3-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/gx3-pro-neuve-maroc-03.jpg",
+          "alt": "Geely gx3 pro photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4215,6 +8776,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1925,
+          "model_id": "geely-riddara-rd6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/riddara-rd6-phev-neuve-maroc.jpg",
+          "alt": "Geely riddara rd6 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1926,
+          "model_id": "geely-riddara-rd6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/riddara-rd6-phev-neuve-maroc-01.jpg",
+          "alt": "Geely riddara rd6 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1927,
+          "model_id": "geely-riddara-rd6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/riddara-rd6-phev-neuve-maroc-02.jpg",
+          "alt": "Geely riddara rd6 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1928,
+          "model_id": "geely-riddara-rd6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/geely/riddara-rd6-phev-neuve-maroc-03.jpg",
+          "alt": "Geely riddara rd6 phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4240,6 +8832,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1961,
+          "model_id": "gwm-haval-h6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h6-neuve-maroc.jpg",
+          "alt": "GWM haval h6",
+          "is_primary": 1
+        },
+        {
+          "id": 1962,
+          "model_id": "gwm-haval-h6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h6-neuve-maroc-01.jpg",
+          "alt": "GWM haval h6 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1963,
+          "model_id": "gwm-haval-h6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h6-neuve-maroc-02.jpg",
+          "alt": "GWM haval h6 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1964,
+          "model_id": "gwm-haval-h6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h6-neuve-maroc-03.jpg",
+          "alt": "GWM haval h6 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4267,6 +8890,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1965,
+          "model_id": "gwm-haval-h6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h6-phev-neuve-maroc.jpg",
+          "alt": "GWM haval h6 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1966,
+          "model_id": "gwm-haval-h6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h6-phev-neuve-maroc-01.jpg",
+          "alt": "GWM haval h6 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1967,
+          "model_id": "gwm-haval-h6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h6-phev-neuve-maroc-02.jpg",
+          "alt": "GWM haval h6 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1968,
+          "model_id": "gwm-haval-h6-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h6-phev-neuve-maroc-03.jpg",
+          "alt": "GWM haval h6 phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4292,6 +8946,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1969,
+          "model_id": "gwm-haval-h7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h7-neuve-maroc.jpg",
+          "alt": "GWM haval h7",
+          "is_primary": 1
+        },
+        {
+          "id": 1970,
+          "model_id": "gwm-haval-h7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h7-neuve-maroc-01.jpg",
+          "alt": "GWM haval h7 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1971,
+          "model_id": "gwm-haval-h7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h7-neuve-maroc-02.jpg",
+          "alt": "GWM haval h7 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1972,
+          "model_id": "gwm-haval-h7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-h7-neuve-maroc-03.jpg",
+          "alt": "GWM haval h7 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4319,6 +9004,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1957,
+          "model_id": "gwm-haval-jolion",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-jolion-neuve-maroc.jpg",
+          "alt": "GWM haval jolion",
+          "is_primary": 1
+        },
+        {
+          "id": 1958,
+          "model_id": "gwm-haval-jolion",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-jolion-neuve-maroc-01.jpg",
+          "alt": "GWM haval jolion photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1959,
+          "model_id": "gwm-haval-jolion",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-jolion-neuve-maroc-02.jpg",
+          "alt": "GWM haval jolion photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1960,
+          "model_id": "gwm-haval-jolion",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-jolion-neuve-maroc-03.jpg",
+          "alt": "GWM haval jolion photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4344,6 +9060,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1953,
+          "model_id": "gwm-haval-jolion-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-jolion-pro-neuve-maroc.jpg",
+          "alt": "GWM haval jolion pro",
+          "is_primary": 1
+        },
+        {
+          "id": 1954,
+          "model_id": "gwm-haval-jolion-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-jolion-pro-neuve-maroc-01.jpg",
+          "alt": "GWM haval jolion pro photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1955,
+          "model_id": "gwm-haval-jolion-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-jolion-pro-neuve-maroc-02.jpg",
+          "alt": "GWM haval jolion pro photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1956,
+          "model_id": "gwm-haval-jolion-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/haval-jolion-pro-neuve-maroc-03.jpg",
+          "alt": "GWM haval jolion pro photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4371,6 +9118,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1949,
+          "model_id": "gwm-ora-03",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/ora-03-neuve-maroc.jpg",
+          "alt": "GWM ora 03",
+          "is_primary": 1
+        },
+        {
+          "id": 1950,
+          "model_id": "gwm-ora-03",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/ora-03-neuve-maroc-01.jpg",
+          "alt": "GWM ora 03 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1951,
+          "model_id": "gwm-ora-03",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/ora-03-neuve-maroc-02.jpg",
+          "alt": "GWM ora 03 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1952,
+          "model_id": "gwm-ora-03",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/ora-03-neuve-maroc-03.jpg",
+          "alt": "GWM ora 03 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4396,6 +9174,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1985,
+          "model_id": "gwm-poer-dc",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/poer-dc-neuve-maroc.jpg",
+          "alt": "GWM poer dc",
+          "is_primary": 1
+        },
+        {
+          "id": 1986,
+          "model_id": "gwm-poer-dc",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/poer-dc-neuve-maroc-01.jpg",
+          "alt": "GWM poer dc photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1987,
+          "model_id": "gwm-poer-dc",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/poer-dc-neuve-maroc-02.jpg",
+          "alt": "GWM poer dc photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1988,
+          "model_id": "gwm-poer-dc",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/poer-dc-neuve-maroc-03.jpg",
+          "alt": "GWM poer dc photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4423,6 +9232,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1977,
+          "model_id": "gwm-tank-300",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/tank-300-neuve-maroc.jpg",
+          "alt": "GWM tank 300",
+          "is_primary": 1
+        },
+        {
+          "id": 1978,
+          "model_id": "gwm-tank-300",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/tank-300-neuve-maroc-01.jpg",
+          "alt": "GWM tank 300 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1979,
+          "model_id": "gwm-tank-300",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/tank-300-neuve-maroc-02.jpg",
+          "alt": "GWM tank 300 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1980,
+          "model_id": "gwm-tank-300",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/tank-300-neuve-maroc-03.jpg",
+          "alt": "GWM tank 300 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4448,6 +9288,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 80,
+        "model_id": "gwm-tank-500",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Grandiose, ce SUV 7 places est aussi majestueux en",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1981,
+          "model_id": "gwm-tank-500",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/tank-500-neuve-maroc.jpg",
+          "alt": "GWM tank 500",
+          "is_primary": 1
+        },
+        {
+          "id": 1982,
+          "model_id": "gwm-tank-500",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/tank-500-neuve-maroc-01.jpg",
+          "alt": "GWM tank 500 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1983,
+          "model_id": "gwm-tank-500",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/tank-500-neuve-maroc-02.jpg",
+          "alt": "GWM tank 500 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1984,
+          "model_id": "gwm-tank-500",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/tank-500-neuve-maroc-03.jpg",
+          "alt": "GWM tank 500 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4475,6 +9368,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1973,
+          "model_id": "gwm-wey-05",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/wey-05-neuve-maroc.jpg",
+          "alt": "GWM wey 05",
+          "is_primary": 1
+        },
+        {
+          "id": 1974,
+          "model_id": "gwm-wey-05",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/wey-05-neuve-maroc-01.jpg",
+          "alt": "GWM wey 05 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1975,
+          "model_id": "gwm-wey-05",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/wey-05-neuve-maroc-02.jpg",
+          "alt": "GWM wey 05 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1976,
+          "model_id": "gwm-wey-05",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/gwm/wey-05-neuve-maroc-03.jpg",
+          "alt": "GWM wey 05 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4500,6 +9424,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1785,
+          "model_id": "honda-accord",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/accord-neuve-maroc.jpg",
+          "alt": "Honda accord",
+          "is_primary": 1
+        },
+        {
+          "id": 1786,
+          "model_id": "honda-accord",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/accord-neuve-maroc-01.jpg",
+          "alt": "Honda accord photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1787,
+          "model_id": "honda-accord",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/accord-neuve-maroc-02.jpg",
+          "alt": "Honda accord photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1788,
+          "model_id": "honda-accord",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/accord-neuve-maroc-03.jpg",
+          "alt": "Honda accord photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4527,6 +9482,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1781,
+          "model_id": "honda-cr-v",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/cr-v-neuve-maroc.jpg",
+          "alt": "Honda cr v",
+          "is_primary": 1
+        },
+        {
+          "id": 1782,
+          "model_id": "honda-cr-v",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/cr-v-neuve-maroc-01.jpg",
+          "alt": "Honda cr v photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1783,
+          "model_id": "honda-cr-v",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/cr-v-neuve-maroc-02.jpg",
+          "alt": "Honda cr v photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1784,
+          "model_id": "honda-cr-v",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/cr-v-neuve-maroc-03.jpg",
+          "alt": "Honda cr v photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4552,6 +9538,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1777,
+          "model_id": "honda-hr-v",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/hr-v-neuve-maroc.jpg",
+          "alt": "Honda hr v",
+          "is_primary": 1
+        },
+        {
+          "id": 1778,
+          "model_id": "honda-hr-v",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/hr-v-neuve-maroc-01.jpg",
+          "alt": "Honda hr v photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1779,
+          "model_id": "honda-hr-v",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/hr-v-neuve-maroc-02.jpg",
+          "alt": "Honda hr v photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1780,
+          "model_id": "honda-hr-v",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/hr-v-neuve-maroc-03.jpg",
+          "alt": "Honda hr v photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4579,6 +9596,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1773,
+          "model_id": "honda-jazz",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/jazz-neuve-maroc.jpg",
+          "alt": "Honda jazz",
+          "is_primary": 1
+        },
+        {
+          "id": 1774,
+          "model_id": "honda-jazz",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/jazz-neuve-maroc-01.jpg",
+          "alt": "Honda jazz photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1775,
+          "model_id": "honda-jazz",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/jazz-neuve-maroc-02.jpg",
+          "alt": "Honda jazz photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1776,
+          "model_id": "honda-jazz",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/honda/jazz-neuve-maroc-03.jpg",
+          "alt": "Honda jazz photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4604,6 +9652,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 81,
+        "model_id": "hyundai-accent",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1437,
+          "model_id": "hyundai-accent",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/accent-neuve-maroc.jpg",
+          "alt": "Hyundai accent",
+          "is_primary": 1
+        },
+        {
+          "id": 1438,
+          "model_id": "hyundai-accent",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/accent-neuve-maroc-01.jpg",
+          "alt": "Hyundai accent photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1439,
+          "model_id": "hyundai-accent",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/accent-neuve-maroc-02.jpg",
+          "alt": "Hyundai accent photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1440,
+          "model_id": "hyundai-accent",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/accent-neuve-maroc-03.jpg",
+          "alt": "Hyundai accent photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4631,6 +9732,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 82,
+        "model_id": "hyundai-creta",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "CRETA_USB_DEFFECTUEX_ Très déçu \n          Salam  "
+      },
+      "images": [
+        {
+          "id": 1433,
+          "model_id": "hyundai-creta",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/creta-neuve-maroc.jpg",
+          "alt": "Hyundai creta",
+          "is_primary": 1
+        },
+        {
+          "id": 1434,
+          "model_id": "hyundai-creta",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/creta-neuve-maroc-01.jpg",
+          "alt": "Hyundai creta photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1435,
+          "model_id": "hyundai-creta",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/creta-neuve-maroc-02.jpg",
+          "alt": "Hyundai creta photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1436,
+          "model_id": "hyundai-creta",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/creta-neuve-maroc-03.jpg",
+          "alt": "Hyundai creta photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4656,6 +9810,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 83,
+        "model_id": "hyundai-elantra",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1441,
+          "model_id": "hyundai-elantra",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/elantra-neuve-maroc.jpg",
+          "alt": "Hyundai elantra",
+          "is_primary": 1
+        },
+        {
+          "id": 1442,
+          "model_id": "hyundai-elantra",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/elantra-neuve-maroc-01.jpg",
+          "alt": "Hyundai elantra photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1443,
+          "model_id": "hyundai-elantra",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/elantra-neuve-maroc-02.jpg",
+          "alt": "Hyundai elantra photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1444,
+          "model_id": "hyundai-elantra",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/elantra-neuve-maroc-03.jpg",
+          "alt": "Hyundai elantra photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4683,6 +9890,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 84,
+        "model_id": "hyundai-grand-i10-sedan",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1421,
+          "model_id": "hyundai-grand-i10-sedan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/grand-i10-sedan-neuve-maroc.jpg",
+          "alt": "Hyundai grand i10 sedan",
+          "is_primary": 1
+        },
+        {
+          "id": 1422,
+          "model_id": "hyundai-grand-i10-sedan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/grand-i10-sedan-neuve-maroc-01.jpg",
+          "alt": "Hyundai grand i10 sedan photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1423,
+          "model_id": "hyundai-grand-i10-sedan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/grand-i10-sedan-neuve-maroc-02.jpg",
+          "alt": "Hyundai grand i10 sedan photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1424,
+          "model_id": "hyundai-grand-i10-sedan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/grand-i10-sedan-neuve-maroc-03.jpg",
+          "alt": "Hyundai grand i10 sedan photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4708,6 +9968,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 85,
+        "model_id": "hyundai-i10",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "Incroyablement sculpté du capot au  avec une calan",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1417,
+          "model_id": "hyundai-i10",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/i10-neuve-maroc.jpg",
+          "alt": "Hyundai i10",
+          "is_primary": 1
+        },
+        {
+          "id": 1418,
+          "model_id": "hyundai-i10",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/i10-neuve-maroc-01.jpg",
+          "alt": "Hyundai i10 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1419,
+          "model_id": "hyundai-i10",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/i10-neuve-maroc-02.jpg",
+          "alt": "Hyundai i10 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1420,
+          "model_id": "hyundai-i10",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/i10-neuve-maroc-03.jpg",
+          "alt": "Hyundai i10 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4753,6 +10066,38 @@ const STATIC_DATA = {
           "transmission": "DCT7",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 220,
+        "model_id": "hyundai-i20",
+        "motorisation_id": null,
+        "longueur": "4040 mm",
+        "largeur": "1775 mm",
+        "hauteur": "1450 mm",
+        "empattement": "2580 mm",
+        "poids": "1080 kg",
+        "coffre": "352 L",
+        "cylindree": "998 cc",
+        "cylindres": "3",
+        "turbo": "Oui (T-GDi)",
+        "vitesse_max": "185 km/h",
+        "acceleration": "10.3 s",
+        "conso_urbaine": "5.6 L/100km",
+        "conso_extra": "4.3 L/100km",
+        "conso_mixte": "4.8 L/100km",
+        "emission_co2": "108 g/km",
+        "reservoir": "40 L",
+        "roues": "16 pouces",
+        "pneus": "195/55 R16"
+      },
+      "images": [
+        {
+          "id": 2328,
+          "model_id": "hyundai-i20",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/Hyundai-i20-2024-Neuve-Maroc-01.jpg",
+          "alt": "i20 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -4779,6 +10124,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 87,
+        "model_id": "hyundai-ioniq-5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1465,
+          "model_id": "hyundai-ioniq-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/ioniq-5-neuve-maroc.jpg",
+          "alt": "Hyundai ioniq 5",
+          "is_primary": 1
+        },
+        {
+          "id": 1466,
+          "model_id": "hyundai-ioniq-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/ioniq-5-neuve-maroc-01.jpg",
+          "alt": "Hyundai ioniq 5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1467,
+          "model_id": "hyundai-ioniq-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/ioniq-5-neuve-maroc-02.jpg",
+          "alt": "Hyundai ioniq 5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1468,
+          "model_id": "hyundai-ioniq-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/ioniq-5-neuve-maroc-03.jpg",
+          "alt": "Hyundai ioniq 5 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4804,6 +10202,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 88,
+        "model_id": "hyundai-ioniq-6",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1469,
+          "model_id": "hyundai-ioniq-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/ioniq-6-neuve-maroc.jpg",
+          "alt": "Hyundai ioniq 6",
+          "is_primary": 1
+        },
+        {
+          "id": 1470,
+          "model_id": "hyundai-ioniq-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/ioniq-6-neuve-maroc-01.jpg",
+          "alt": "Hyundai ioniq 6 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1471,
+          "model_id": "hyundai-ioniq-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/ioniq-6-neuve-maroc-02.jpg",
+          "alt": "Hyundai ioniq 6 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1472,
+          "model_id": "hyundai-ioniq-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/ioniq-6-neuve-maroc-03.jpg",
+          "alt": "Hyundai ioniq 6 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -4849,6 +10300,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 4WD",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 222,
+        "model_id": "hyundai-ioniq5",
+        "motorisation_id": null,
+        "longueur": "4635 mm",
+        "largeur": "1890 mm",
+        "hauteur": "1605 mm",
+        "empattement": "3000 mm",
+        "poids": "1985 kg",
+        "coffre": "527 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "185 km/h",
+        "acceleration": "5.1 s",
+        "conso_urbaine": "18.8 kWh/100km",
+        "conso_extra": "15.2 kWh/100km",
+        "conso_mixte": "16.7 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "77.4 kWh",
+        "roues": "20 pouces",
+        "pneus": "255/45 R20"
+      },
+      "images": [
+        {
+          "id": 2330,
+          "model_id": "hyundai-ioniq5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/Hyundai-IONIQ-5-2024-Neuve-Maroc-01.jpg",
+          "alt": "IONIQ 5 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -4883,6 +10366,38 @@ const STATIC_DATA = {
           "puissance": "218 ch",
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 224,
+        "model_id": "hyundai-kona",
+        "motorisation_id": null,
+        "longueur": "4355 mm",
+        "largeur": "1825 mm",
+        "hauteur": "1575 mm",
+        "empattement": "2660 mm",
+        "poids": "1330 kg",
+        "coffre": "466 L",
+        "cylindree": "998 cc",
+        "cylindres": "3",
+        "turbo": "Oui (T-GDi)",
+        "vitesse_max": "185 km/h",
+        "acceleration": "10.7 s",
+        "conso_urbaine": "6.1 L/100km",
+        "conso_extra": "4.9 L/100km",
+        "conso_mixte": "5.3 L/100km",
+        "emission_co2": "121 g/km",
+        "reservoir": "50 L",
+        "roues": "17 pouces",
+        "pneus": "215/55 R17"
+      },
+      "images": [
+        {
+          "id": 2332,
+          "model_id": "hyundai-kona",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/Hyundai-Kona-2024-Neuve-Maroc-01.jpg",
+          "alt": "Kona vue de face",
+          "is_primary": 1
         }
       ]
     },
@@ -4919,6 +10434,38 @@ const STATIC_DATA = {
           "transmission": "6AT AWD",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 223,
+        "model_id": "hyundai-santa-fe",
+        "motorisation_id": null,
+        "longueur": "4830 mm",
+        "largeur": "1900 mm",
+        "hauteur": "1700 mm",
+        "empattement": "2815 mm",
+        "poids": "1870 kg",
+        "coffre": "628 L",
+        "cylindree": "2497 cc",
+        "cylindres": "4",
+        "turbo": "Oui (T-GDi)",
+        "vitesse_max": "220 km/h",
+        "acceleration": "7.8 s",
+        "conso_urbaine": "8.9 L/100km",
+        "conso_extra": "6.9 L/100km",
+        "conso_mixte": "7.7 L/100km",
+        "emission_co2": "175 g/km",
+        "reservoir": "67 L",
+        "roues": "20 pouces",
+        "pneus": "255/45 R20"
+      },
+      "images": [
+        {
+          "id": 2331,
+          "model_id": "hyundai-santa-fe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/Hyundai-Santa-Fe-2024-Neuve-Maroc-01.jpg",
+          "alt": "Santa Fe vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -4945,6 +10492,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 90,
+        "model_id": "hyundai-santa-fe-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1461,
+          "model_id": "hyundai-santa-fe-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/santa-fe-hev-neuve-maroc.jpg",
+          "alt": "Hyundai santa fe hev",
+          "is_primary": 1
+        },
+        {
+          "id": 1462,
+          "model_id": "hyundai-santa-fe-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/santa-fe-hev-neuve-maroc-01.jpg",
+          "alt": "Hyundai santa fe hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1463,
+          "model_id": "hyundai-santa-fe-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/santa-fe-hev-neuve-maroc-02.jpg",
+          "alt": "Hyundai santa fe hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1464,
+          "model_id": "hyundai-santa-fe-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/santa-fe-hev-neuve-maroc-03.jpg",
+          "alt": "Hyundai santa fe hev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -4970,6 +10570,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 91,
+        "model_id": "hyundai-sonata",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1445,
+          "model_id": "hyundai-sonata",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/sonata-neuve-maroc.jpg",
+          "alt": "Hyundai sonata",
+          "is_primary": 1
+        },
+        {
+          "id": 1446,
+          "model_id": "hyundai-sonata",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/sonata-neuve-maroc-01.jpg",
+          "alt": "Hyundai sonata photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1447,
+          "model_id": "hyundai-sonata",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/sonata-neuve-maroc-02.jpg",
+          "alt": "Hyundai sonata photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1448,
+          "model_id": "hyundai-sonata",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/sonata-neuve-maroc-03.jpg",
+          "alt": "Hyundai sonata photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5015,6 +10668,38 @@ const STATIC_DATA = {
           "transmission": "6AT AWD",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 221,
+        "model_id": "hyundai-tucson",
+        "motorisation_id": null,
+        "longueur": "4500 mm",
+        "largeur": "1865 mm",
+        "hauteur": "1650 mm",
+        "empattement": "2680 mm",
+        "poids": "1559 kg",
+        "coffre": "620 L",
+        "cylindree": "1598 cc",
+        "cylindres": "4",
+        "turbo": "Oui (T-GDi)",
+        "vitesse_max": "205 km/h",
+        "acceleration": "8.5 s",
+        "conso_urbaine": "7.1 L/100km",
+        "conso_extra": "5.5 L/100km",
+        "conso_mixte": "6.1 L/100km",
+        "emission_co2": "138 g/km",
+        "reservoir": "54 L",
+        "roues": "18 pouces",
+        "pneus": "235/50 R18"
+      },
+      "images": [
+        {
+          "id": 2329,
+          "model_id": "hyundai-tucson",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/Hyundai-Tucson-2024-Neuve-Maroc-01.jpg",
+          "alt": "Tucson vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -5040,6 +10725,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 93,
+        "model_id": "hyundai-tucson-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1453,
+          "model_id": "hyundai-tucson-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/tucson-hev-neuve-maroc.jpg",
+          "alt": "Hyundai tucson hev",
+          "is_primary": 1
+        },
+        {
+          "id": 1454,
+          "model_id": "hyundai-tucson-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/tucson-hev-neuve-maroc-01.jpg",
+          "alt": "Hyundai tucson hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1455,
+          "model_id": "hyundai-tucson-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/tucson-hev-neuve-maroc-02.jpg",
+          "alt": "Hyundai tucson hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1456,
+          "model_id": "hyundai-tucson-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/tucson-hev-neuve-maroc-03.jpg",
+          "alt": "Hyundai tucson hev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5067,6 +10805,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 94,
+        "model_id": "hyundai-tucson-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1457,
+          "model_id": "hyundai-tucson-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/tucson-phev-neuve-maroc.jpg",
+          "alt": "Hyundai tucson phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1458,
+          "model_id": "hyundai-tucson-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/tucson-phev-neuve-maroc-01.jpg",
+          "alt": "Hyundai tucson phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1459,
+          "model_id": "hyundai-tucson-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/tucson-phev-neuve-maroc-02.jpg",
+          "alt": "Hyundai tucson phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1460,
+          "model_id": "hyundai-tucson-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/tucson-phev-neuve-maroc-03.jpg",
+          "alt": "Hyundai tucson phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5092,6 +10883,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2213,
+          "model_id": "jac-e30x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/e30x-neuve-maroc.jpg",
+          "alt": "JAC e30x",
+          "is_primary": 1
+        },
+        {
+          "id": 2214,
+          "model_id": "jac-e30x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/e30x-neuve-maroc-01.jpg",
+          "alt": "JAC e30x photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2215,
+          "model_id": "jac-e30x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/e30x-neuve-maroc-02.jpg",
+          "alt": "JAC e30x photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2216,
+          "model_id": "jac-e30x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/e30x-neuve-maroc-03.jpg",
+          "alt": "JAC e30x photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5119,6 +10941,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 95,
+        "model_id": "jac-t8",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "JAC T8 est un pick-up double cabine robuste et mod",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 2217,
+          "model_id": "jac-t8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/t8-neuve-maroc.jpg",
+          "alt": "JAC t8",
+          "is_primary": 1
+        },
+        {
+          "id": 2218,
+          "model_id": "jac-t8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/t8-neuve-maroc-01.jpg",
+          "alt": "JAC t8 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2219,
+          "model_id": "jac-t8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/t8-neuve-maroc-02.jpg",
+          "alt": "JAC t8 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2220,
+          "model_id": "jac-t8",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/t8-neuve-maroc-03.jpg",
+          "alt": "JAC t8 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5144,6 +11019,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 96,
+        "model_id": "jac-t8-pro",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Le JAC T8 Pro est un pick-up robuste au design aff",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 2221,
+          "model_id": "jac-t8-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/t8-pro-neuve-maroc.jpg",
+          "alt": "JAC t8 pro",
+          "is_primary": 1
+        },
+        {
+          "id": 2222,
+          "model_id": "jac-t8-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/t8-pro-neuve-maroc-01.jpg",
+          "alt": "JAC t8 pro photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2223,
+          "model_id": "jac-t8-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/t8-pro-neuve-maroc-02.jpg",
+          "alt": "JAC t8 pro photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2224,
+          "model_id": "jac-t8-pro",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jac/t8-pro-neuve-maroc-03.jpg",
+          "alt": "JAC t8 pro photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5171,6 +11099,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1989,
+          "model_id": "jaecoo-j7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaecoo/j7-neuve-maroc.jpg",
+          "alt": "Jaecoo j7",
+          "is_primary": 1
+        },
+        {
+          "id": 1990,
+          "model_id": "jaecoo-j7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaecoo/j7-neuve-maroc-01.jpg",
+          "alt": "Jaecoo j7 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1991,
+          "model_id": "jaecoo-j7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaecoo/j7-neuve-maroc-02.jpg",
+          "alt": "Jaecoo j7 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1992,
+          "model_id": "jaecoo-j7",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaecoo/j7-neuve-maroc-03.jpg",
+          "alt": "Jaecoo j7 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5196,6 +11155,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1993,
+          "model_id": "jaecoo-j7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaecoo/j7-phev-neuve-maroc.jpg",
+          "alt": "Jaecoo j7 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1994,
+          "model_id": "jaecoo-j7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaecoo/j7-phev-neuve-maroc-01.jpg",
+          "alt": "Jaecoo j7 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1995,
+          "model_id": "jaecoo-j7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaecoo/j7-phev-neuve-maroc-02.jpg",
+          "alt": "Jaecoo j7 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1996,
+          "model_id": "jaecoo-j7-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaecoo/j7-phev-neuve-maroc-03.jpg",
+          "alt": "Jaecoo j7 phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5223,6 +11213,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2057,
+          "model_id": "jaguar-f-pace",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaguar/f-pace-neuve-maroc.jpg",
+          "alt": "Jaguar f pace",
+          "is_primary": 1
+        },
+        {
+          "id": 2058,
+          "model_id": "jaguar-f-pace",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaguar/f-pace-neuve-maroc-01.jpg",
+          "alt": "Jaguar f pace photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2059,
+          "model_id": "jaguar-f-pace",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaguar/f-pace-neuve-maroc-02.jpg",
+          "alt": "Jaguar f pace photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2060,
+          "model_id": "jaguar-f-pace",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jaguar/f-pace-neuve-maroc-03.jpg",
+          "alt": "Jaguar f pace photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5248,6 +11269,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1641,
+          "model_id": "jeep-avenger",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/avenger-neuve-maroc.jpg",
+          "alt": "Jeep avenger",
+          "is_primary": 1
+        },
+        {
+          "id": 1642,
+          "model_id": "jeep-avenger",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/avenger-neuve-maroc-01.jpg",
+          "alt": "Jeep avenger photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1643,
+          "model_id": "jeep-avenger",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/avenger-neuve-maroc-02.jpg",
+          "alt": "Jeep avenger photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1644,
+          "model_id": "jeep-avenger",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/avenger-neuve-maroc-03.jpg",
+          "alt": "Jeep avenger photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5275,6 +11327,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 97,
+        "model_id": "jeep-compass",
+        "motorisation_id": null,
+        "longueur": "La nouvelle génération du JEEP Compass gagne en st",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1645,
+          "model_id": "jeep-compass",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/compass-neuve-maroc.jpg",
+          "alt": "Jeep compass",
+          "is_primary": 1
+        },
+        {
+          "id": 1646,
+          "model_id": "jeep-compass",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/compass-neuve-maroc-01.jpg",
+          "alt": "Jeep compass photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1647,
+          "model_id": "jeep-compass",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/compass-neuve-maroc-02.jpg",
+          "alt": "Jeep compass photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1648,
+          "model_id": "jeep-compass",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/compass-neuve-maroc-03.jpg",
+          "alt": "Jeep compass photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5300,6 +11405,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1649,
+          "model_id": "jeep-wrangler",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/wrangler-neuve-maroc.jpg",
+          "alt": "Jeep wrangler",
+          "is_primary": 1
+        },
+        {
+          "id": 1650,
+          "model_id": "jeep-wrangler",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/wrangler-neuve-maroc-01.jpg",
+          "alt": "Jeep wrangler photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1651,
+          "model_id": "jeep-wrangler",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/wrangler-neuve-maroc-02.jpg",
+          "alt": "Jeep wrangler photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1652,
+          "model_id": "jeep-wrangler",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/jeep/wrangler-neuve-maroc-03.jpg",
+          "alt": "Jeep wrangler photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5327,6 +11463,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1501,
+          "model_id": "kia-carnival",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/carnival-neuve-maroc.jpg",
+          "alt": "Kia carnival",
+          "is_primary": 1
+        },
+        {
+          "id": 1502,
+          "model_id": "kia-carnival",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/carnival-neuve-maroc-01.jpg",
+          "alt": "Kia carnival photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1503,
+          "model_id": "kia-carnival",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/carnival-neuve-maroc-02.jpg",
+          "alt": "Kia carnival photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1504,
+          "model_id": "kia-carnival",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/carnival-neuve-maroc-03.jpg",
+          "alt": "Kia carnival photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5353,6 +11520,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 98,
+        "model_id": "kia-ev3",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "le KIA EV3 surprend par son habitabilité avec un  ",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1505,
+          "model_id": "kia-ev3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev3-neuve-maroc.jpg",
+          "alt": "Kia ev3",
+          "is_primary": 1
+        },
+        {
+          "id": 1506,
+          "model_id": "kia-ev3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev3-neuve-maroc-01.jpg",
+          "alt": "Kia ev3 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1507,
+          "model_id": "kia-ev3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev3-neuve-maroc-02.jpg",
+          "alt": "Kia ev3 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1508,
+          "model_id": "kia-ev3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev3-neuve-maroc-03.jpg",
+          "alt": "Kia ev3 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5378,6 +11598,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1509,
+          "model_id": "kia-ev5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev5-neuve-maroc.jpg",
+          "alt": "Kia ev5",
+          "is_primary": 1
+        },
+        {
+          "id": 1510,
+          "model_id": "kia-ev5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev5-neuve-maroc-01.jpg",
+          "alt": "Kia ev5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1511,
+          "model_id": "kia-ev5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev5-neuve-maroc-02.jpg",
+          "alt": "Kia ev5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1512,
+          "model_id": "kia-ev5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev5-neuve-maroc-03.jpg",
+          "alt": "Kia ev5 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5414,6 +11665,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 227,
+        "model_id": "kia-ev6",
+        "motorisation_id": null,
+        "longueur": "4695 mm",
+        "largeur": "1890 mm",
+        "hauteur": "1550 mm",
+        "empattement": "2900 mm",
+        "poids": "1960 kg",
+        "coffre": "490 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "185 km/h",
+        "acceleration": "5.2 s",
+        "conso_urbaine": "17.5 kWh/100km",
+        "conso_extra": "14.5 kWh/100km",
+        "conso_mixte": "15.7 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "77.4 kWh",
+        "roues": "20 pouces",
+        "pneus": "255/45 R20"
+      },
+      "images": [
+        {
+          "id": 2335,
+          "model_id": "kia-ev6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/Kia-EV6-2024-Neuve-Maroc-01.jpg",
+          "alt": "EV6 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -5439,6 +11722,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1517,
+          "model_id": "kia-ev9",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev9-neuve-maroc.jpg",
+          "alt": "Kia ev9",
+          "is_primary": 1
+        },
+        {
+          "id": 1518,
+          "model_id": "kia-ev9",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev9-neuve-maroc-01.jpg",
+          "alt": "Kia ev9 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1519,
+          "model_id": "kia-ev9",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev9-neuve-maroc-02.jpg",
+          "alt": "Kia ev9 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1520,
+          "model_id": "kia-ev9",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/ev9-neuve-maroc-03.jpg",
+          "alt": "Kia ev9 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5475,6 +11789,38 @@ const STATIC_DATA = {
           "transmission": "DCT7",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 226,
+        "model_id": "kia-picanto",
+        "motorisation_id": null,
+        "longueur": "3595 mm",
+        "largeur": "1595 mm",
+        "hauteur": "1485 mm",
+        "empattement": "2400 mm",
+        "poids": "890 kg",
+        "coffre": "255 L",
+        "cylindree": "998 cc",
+        "cylindres": "3",
+        "turbo": "Oui (T-GDi)",
+        "vitesse_max": "167 km/h",
+        "acceleration": "12.2 s",
+        "conso_urbaine": "5.4 L/100km",
+        "conso_extra": "4.0 L/100km",
+        "conso_mixte": "4.5 L/100km",
+        "emission_co2": "103 g/km",
+        "reservoir": "35 L",
+        "roues": "14 pouces",
+        "pneus": "165/65 R14"
+      },
+      "images": [
+        {
+          "id": 2334,
+          "model_id": "kia-picanto",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/Kia-Picanto-2024-Neuve-Maroc-01.jpg",
+          "alt": "Picanto vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -5501,6 +11847,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1481,
+          "model_id": "kia-seltos",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/seltos-neuve-maroc.jpg",
+          "alt": "Kia seltos",
+          "is_primary": 1
+        },
+        {
+          "id": 1482,
+          "model_id": "kia-seltos",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/seltos-neuve-maroc-01.jpg",
+          "alt": "Kia seltos photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1483,
+          "model_id": "kia-seltos",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/seltos-neuve-maroc-02.jpg",
+          "alt": "Kia seltos photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1484,
+          "model_id": "kia-seltos",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/seltos-neuve-maroc-03.jpg",
+          "alt": "Kia seltos photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5526,6 +11903,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1477,
+          "model_id": "kia-sonet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sonet-neuve-maroc.jpg",
+          "alt": "Kia sonet",
+          "is_primary": 1
+        },
+        {
+          "id": 1478,
+          "model_id": "kia-sonet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sonet-neuve-maroc-01.jpg",
+          "alt": "Kia sonet photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1479,
+          "model_id": "kia-sonet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sonet-neuve-maroc-02.jpg",
+          "alt": "Kia sonet photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1480,
+          "model_id": "kia-sonet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sonet-neuve-maroc-03.jpg",
+          "alt": "Kia sonet photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5562,6 +11970,38 @@ const STATIC_DATA = {
           "transmission": "6AT",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 228,
+        "model_id": "kia-sorento",
+        "motorisation_id": null,
+        "longueur": "4810 mm",
+        "largeur": "1900 mm",
+        "hauteur": "1700 mm",
+        "empattement": "2815 mm",
+        "poids": "1815 kg",
+        "coffre": "813 L",
+        "cylindree": "2497 cc",
+        "cylindres": "4",
+        "turbo": "Non",
+        "vitesse_max": "220 km/h",
+        "acceleration": "8.6 s",
+        "conso_urbaine": "9.0 L/100km",
+        "conso_extra": "7.2 L/100km",
+        "conso_mixte": "7.9 L/100km",
+        "emission_co2": "179 g/km",
+        "reservoir": "67 L",
+        "roues": "20 pouces",
+        "pneus": "255/45 R20"
+      },
+      "images": [
+        {
+          "id": 2336,
+          "model_id": "kia-sorento",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/Kia-Sorento-2024-Neuve-Maroc-01.jpg",
+          "alt": "Sorento vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -5587,6 +12027,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1497,
+          "model_id": "kia-sorento-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sorento-hev-neuve-maroc.jpg",
+          "alt": "Kia sorento hev",
+          "is_primary": 1
+        },
+        {
+          "id": 1498,
+          "model_id": "kia-sorento-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sorento-hev-neuve-maroc-01.jpg",
+          "alt": "Kia sorento hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1499,
+          "model_id": "kia-sorento-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sorento-hev-neuve-maroc-02.jpg",
+          "alt": "Kia sorento hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1500,
+          "model_id": "kia-sorento-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sorento-hev-neuve-maroc-03.jpg",
+          "alt": "Kia sorento hev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5632,6 +12103,38 @@ const STATIC_DATA = {
           "transmission": "6AT",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 225,
+        "model_id": "kia-sportage",
+        "motorisation_id": null,
+        "longueur": "4516 mm",
+        "largeur": "1865 mm",
+        "hauteur": "1676 mm",
+        "empattement": "2680 mm",
+        "poids": "1579 kg",
+        "coffre": "587 L",
+        "cylindree": "1598 cc",
+        "cylindres": "4",
+        "turbo": "Oui (T-GDi)",
+        "vitesse_max": "205 km/h",
+        "acceleration": "8.5 s",
+        "conso_urbaine": "7.2 L/100km",
+        "conso_extra": "5.7 L/100km",
+        "conso_mixte": "6.2 L/100km",
+        "emission_co2": "141 g/km",
+        "reservoir": "54 L",
+        "roues": "18 pouces",
+        "pneus": "235/55 R18"
+      },
+      "images": [
+        {
+          "id": 2333,
+          "model_id": "kia-sportage",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/Kia-Sportage-2024-Neuve-Maroc-01.jpg",
+          "alt": "Sportage vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -5657,6 +12160,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1489,
+          "model_id": "kia-sportage-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sportage-hev-neuve-maroc.jpg",
+          "alt": "Kia sportage hev",
+          "is_primary": 1
+        },
+        {
+          "id": 1490,
+          "model_id": "kia-sportage-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sportage-hev-neuve-maroc-01.jpg",
+          "alt": "Kia sportage hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1491,
+          "model_id": "kia-sportage-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sportage-hev-neuve-maroc-02.jpg",
+          "alt": "Kia sportage hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1492,
+          "model_id": "kia-sportage-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/sportage-hev-neuve-maroc-03.jpg",
+          "alt": "Kia sportage hev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5684,6 +12218,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1521,
+          "model_id": "kia-tasman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/tasman-neuve-maroc.jpg",
+          "alt": "Kia tasman",
+          "is_primary": 1
+        },
+        {
+          "id": 1522,
+          "model_id": "kia-tasman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/tasman-neuve-maroc-01.jpg",
+          "alt": "Kia tasman photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1523,
+          "model_id": "kia-tasman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/tasman-neuve-maroc-02.jpg",
+          "alt": "Kia tasman photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1524,
+          "model_id": "kia-tasman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/kia/tasman-neuve-maroc-03.jpg",
+          "alt": "Kia tasman photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5709,6 +12274,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1661,
+          "model_id": "land-rover-defender-110",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/defender-110-neuve-maroc.jpg",
+          "alt": "Land Rover defender 110",
+          "is_primary": 1
+        },
+        {
+          "id": 1662,
+          "model_id": "land-rover-defender-110",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/defender-110-neuve-maroc-01.jpg",
+          "alt": "Land Rover defender 110 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1663,
+          "model_id": "land-rover-defender-110",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/defender-110-neuve-maroc-02.jpg",
+          "alt": "Land Rover defender 110 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1664,
+          "model_id": "land-rover-defender-110",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/defender-110-neuve-maroc-03.jpg",
+          "alt": "Land Rover defender 110 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5736,6 +12332,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1665,
+          "model_id": "land-rover-defender-110-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/defender-110-phev-neuve-maroc.jpg",
+          "alt": "Land Rover defender 110 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1666,
+          "model_id": "land-rover-defender-110-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/defender-110-phev-neuve-maroc-01.jpg",
+          "alt": "Land Rover defender 110 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1667,
+          "model_id": "land-rover-defender-110-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/defender-110-phev-neuve-maroc-02.jpg",
+          "alt": "Land Rover defender 110 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1668,
+          "model_id": "land-rover-defender-110-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/defender-110-phev-neuve-maroc-03.jpg",
+          "alt": "Land Rover defender 110 phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5761,6 +12388,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 99,
+        "model_id": "land-rover-range-rover",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "PORSCHE Cayenne\n      \n                E-Hybrid   ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1677,
+          "model_id": "land-rover-range-rover",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-neuve-maroc.jpg",
+          "alt": "Land Rover range rover",
+          "is_primary": 1
+        },
+        {
+          "id": 1678,
+          "model_id": "land-rover-range-rover",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-neuve-maroc-01.jpg",
+          "alt": "Land Rover range rover photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1679,
+          "model_id": "land-rover-range-rover",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-neuve-maroc-02.jpg",
+          "alt": "Land Rover range rover photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1680,
+          "model_id": "land-rover-range-rover",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-neuve-maroc-03.jpg",
+          "alt": "Land Rover range rover photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5788,6 +12468,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1653,
+          "model_id": "land-rover-range-rover-evoque",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-evoque-neuve-maroc.jpg",
+          "alt": "Land Rover range rover evoque",
+          "is_primary": 1
+        },
+        {
+          "id": 1654,
+          "model_id": "land-rover-range-rover-evoque",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-evoque-neuve-maroc-01.jpg",
+          "alt": "Land Rover range rover evoque photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1655,
+          "model_id": "land-rover-range-rover-evoque",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-evoque-neuve-maroc-02.jpg",
+          "alt": "Land Rover range rover evoque photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1656,
+          "model_id": "land-rover-range-rover-evoque",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-evoque-neuve-maroc-03.jpg",
+          "alt": "Land Rover range rover evoque photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5813,6 +12524,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1681,
+          "model_id": "land-rover-range-rover-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-phev-neuve-maroc.jpg",
+          "alt": "Land Rover range rover phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1682,
+          "model_id": "land-rover-range-rover-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-phev-neuve-maroc-01.jpg",
+          "alt": "Land Rover range rover phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1683,
+          "model_id": "land-rover-range-rover-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-phev-neuve-maroc-02.jpg",
+          "alt": "Land Rover range rover phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1684,
+          "model_id": "land-rover-range-rover-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-phev-neuve-maroc-03.jpg",
+          "alt": "Land Rover range rover phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5840,6 +12582,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 100,
+        "model_id": "land-rover-range-rover-sport",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "PORSCHE Cayenne\n      \n                E-Hybrid   ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1669,
+          "model_id": "land-rover-range-rover-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-sport-neuve-maroc.jpg",
+          "alt": "Land Rover range rover sport",
+          "is_primary": 1
+        },
+        {
+          "id": 1670,
+          "model_id": "land-rover-range-rover-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-sport-neuve-maroc-01.jpg",
+          "alt": "Land Rover range rover sport photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1671,
+          "model_id": "land-rover-range-rover-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-sport-neuve-maroc-02.jpg",
+          "alt": "Land Rover range rover sport photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1672,
+          "model_id": "land-rover-range-rover-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-sport-neuve-maroc-03.jpg",
+          "alt": "Land Rover range rover sport photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5865,6 +12660,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1673,
+          "model_id": "land-rover-range-rover-sport-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-sport-phev-neuve-maroc.jpg",
+          "alt": "Land Rover range rover sport phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1674,
+          "model_id": "land-rover-range-rover-sport-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-sport-phev-neuve-maroc-01.jpg",
+          "alt": "Land Rover range rover sport phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1675,
+          "model_id": "land-rover-range-rover-sport-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-sport-phev-neuve-maroc-02.jpg",
+          "alt": "Land Rover range rover sport phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1676,
+          "model_id": "land-rover-range-rover-sport-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-sport-phev-neuve-maroc-03.jpg",
+          "alt": "Land Rover range rover sport phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5892,6 +12718,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1657,
+          "model_id": "land-rover-range-rover-velar",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-velar-neuve-maroc.jpg",
+          "alt": "Land Rover range rover velar",
+          "is_primary": 1
+        },
+        {
+          "id": 1658,
+          "model_id": "land-rover-range-rover-velar",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-velar-neuve-maroc-01.jpg",
+          "alt": "Land Rover range rover velar photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1659,
+          "model_id": "land-rover-range-rover-velar",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-velar-neuve-maroc-02.jpg",
+          "alt": "Land Rover range rover velar photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1660,
+          "model_id": "land-rover-range-rover-velar",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/land-rover/range-rover-velar-neuve-maroc-03.jpg",
+          "alt": "Land Rover range rover velar photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5917,6 +12774,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1753,
+          "model_id": "lexus-es",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/es-neuve-maroc.jpg",
+          "alt": "Lexus es",
+          "is_primary": 1
+        },
+        {
+          "id": 1754,
+          "model_id": "lexus-es",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/es-neuve-maroc-01.jpg",
+          "alt": "Lexus es photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1755,
+          "model_id": "lexus-es",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/es-neuve-maroc-02.jpg",
+          "alt": "Lexus es photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1756,
+          "model_id": "lexus-es",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/es-neuve-maroc-03.jpg",
+          "alt": "Lexus es photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5944,6 +12832,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1761,
+          "model_id": "lexus-nx",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/nx-neuve-maroc.jpg",
+          "alt": "Lexus nx",
+          "is_primary": 1
+        },
+        {
+          "id": 1762,
+          "model_id": "lexus-nx",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/nx-neuve-maroc-01.jpg",
+          "alt": "Lexus nx photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1763,
+          "model_id": "lexus-nx",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/nx-neuve-maroc-02.jpg",
+          "alt": "Lexus nx photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1764,
+          "model_id": "lexus-nx",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/nx-neuve-maroc-03.jpg",
+          "alt": "Lexus nx photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -5969,6 +12888,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1765,
+          "model_id": "lexus-rx",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/rx-neuve-maroc.jpg",
+          "alt": "Lexus rx",
+          "is_primary": 1
+        },
+        {
+          "id": 1766,
+          "model_id": "lexus-rx",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/rx-neuve-maroc-01.jpg",
+          "alt": "Lexus rx photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1767,
+          "model_id": "lexus-rx",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/rx-neuve-maroc-02.jpg",
+          "alt": "Lexus rx photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1768,
+          "model_id": "lexus-rx",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/rx-neuve-maroc-03.jpg",
+          "alt": "Lexus rx photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -5996,6 +12946,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 101,
+        "model_id": "lexus-rz",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "PORSCHE Cayenne\n      \n                E-Hybrid   ",
+        "vitesse_max": "",
+        "acceleration": "LEXUS RZ 500e est une variante du SUV 100% électri",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1769,
+          "model_id": "lexus-rz",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/rz-neuve-maroc.jpg",
+          "alt": "Lexus rz",
+          "is_primary": 1
+        },
+        {
+          "id": 1770,
+          "model_id": "lexus-rz",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/rz-neuve-maroc-01.jpg",
+          "alt": "Lexus rz photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1771,
+          "model_id": "lexus-rz",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/rz-neuve-maroc-02.jpg",
+          "alt": "Lexus rz photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1772,
+          "model_id": "lexus-rz",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/rz-neuve-maroc-03.jpg",
+          "alt": "Lexus rz photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6021,6 +13024,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1757,
+          "model_id": "lexus-ux",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/ux-neuve-maroc.jpg",
+          "alt": "Lexus ux",
+          "is_primary": 1
+        },
+        {
+          "id": 1758,
+          "model_id": "lexus-ux",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/ux-neuve-maroc-01.jpg",
+          "alt": "Lexus ux photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1759,
+          "model_id": "lexus-ux",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/ux-neuve-maroc-02.jpg",
+          "alt": "Lexus ux photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1760,
+          "model_id": "lexus-ux",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lexus/ux-neuve-maroc-03.jpg",
+          "alt": "Lexus ux photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6048,6 +13082,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2229,
+          "model_id": "lynk-et-co-01",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/01-neuve-maroc.jpg",
+          "alt": "Lynk & Co 01",
+          "is_primary": 1
+        },
+        {
+          "id": 2230,
+          "model_id": "lynk-et-co-01",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/01-neuve-maroc-01.jpg",
+          "alt": "Lynk & Co 01 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2231,
+          "model_id": "lynk-et-co-01",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/01-neuve-maroc-02.jpg",
+          "alt": "Lynk & Co 01 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2232,
+          "model_id": "lynk-et-co-01",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/01-neuve-maroc-03.jpg",
+          "alt": "Lynk & Co 01 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6073,6 +13138,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2233,
+          "model_id": "lynk-et-co-02",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/02-neuve-maroc.jpg",
+          "alt": "Lynk & Co 02",
+          "is_primary": 1
+        },
+        {
+          "id": 2234,
+          "model_id": "lynk-et-co-02",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/02-neuve-maroc-01.jpg",
+          "alt": "Lynk & Co 02 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2235,
+          "model_id": "lynk-et-co-02",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/02-neuve-maroc-02.jpg",
+          "alt": "Lynk & Co 02 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2236,
+          "model_id": "lynk-et-co-02",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/02-neuve-maroc-03.jpg",
+          "alt": "Lynk & Co 02 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6100,6 +13196,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2225,
+          "model_id": "lynk-et-co-06",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/06-neuve-maroc.jpg",
+          "alt": "Lynk & Co 06",
+          "is_primary": 1
+        },
+        {
+          "id": 2226,
+          "model_id": "lynk-et-co-06",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/06-neuve-maroc-01.jpg",
+          "alt": "Lynk & Co 06 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2227,
+          "model_id": "lynk-et-co-06",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/06-neuve-maroc-02.jpg",
+          "alt": "Lynk & Co 06 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2228,
+          "model_id": "lynk-et-co-06",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/06-neuve-maroc-03.jpg",
+          "alt": "Lynk & Co 06 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6125,6 +13252,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 102,
+        "model_id": "lynk-et-co-08",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Récemment sacré \"Voiture de l'Année 2026\" au Maroc",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 2237,
+          "model_id": "lynk-et-co-08",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/08-neuve-maroc.jpg",
+          "alt": "Lynk & Co 08",
+          "is_primary": 1
+        },
+        {
+          "id": 2238,
+          "model_id": "lynk-et-co-08",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/08-neuve-maroc-01.jpg",
+          "alt": "Lynk & Co 08 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2239,
+          "model_id": "lynk-et-co-08",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/08-neuve-maroc-02.jpg",
+          "alt": "Lynk & Co 08 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2240,
+          "model_id": "lynk-et-co-08",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/lynk-&-co/08-neuve-maroc-03.jpg",
+          "alt": "Lynk & Co 08 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6152,6 +13332,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2093,
+          "model_id": "mahindra-kuv-100",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/kuv-100-neuve-maroc.jpg",
+          "alt": "Mahindra kuv 100",
+          "is_primary": 1
+        },
+        {
+          "id": 2094,
+          "model_id": "mahindra-kuv-100",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/kuv-100-neuve-maroc-01.jpg",
+          "alt": "Mahindra kuv 100 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2095,
+          "model_id": "mahindra-kuv-100",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/kuv-100-neuve-maroc-02.jpg",
+          "alt": "Mahindra kuv 100 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2096,
+          "model_id": "mahindra-kuv-100",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/kuv-100-neuve-maroc-03.jpg",
+          "alt": "Mahindra kuv 100 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6177,6 +13388,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2101,
+          "model_id": "mahindra-pik-up",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/pik-up-neuve-maroc.jpg",
+          "alt": "Mahindra pik up",
+          "is_primary": 1
+        },
+        {
+          "id": 2102,
+          "model_id": "mahindra-pik-up",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/pik-up-neuve-maroc-01.jpg",
+          "alt": "Mahindra pik up photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2103,
+          "model_id": "mahindra-pik-up",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/pik-up-neuve-maroc-02.jpg",
+          "alt": "Mahindra pik up photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2104,
+          "model_id": "mahindra-pik-up",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/pik-up-neuve-maroc-03.jpg",
+          "alt": "Mahindra pik up photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6204,6 +13446,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 103,
+        "model_id": "mahindra-xuv-3xo",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "1.2 l Turbo 110 AT AX7L\n              promo       ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 2097,
+          "model_id": "mahindra-xuv-3xo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/xuv-3xo-neuve-maroc.jpg",
+          "alt": "Mahindra xuv 3xo",
+          "is_primary": 1
+        },
+        {
+          "id": 2098,
+          "model_id": "mahindra-xuv-3xo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/xuv-3xo-neuve-maroc-01.jpg",
+          "alt": "Mahindra xuv 3xo photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2099,
+          "model_id": "mahindra-xuv-3xo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/xuv-3xo-neuve-maroc-02.jpg",
+          "alt": "Mahindra xuv 3xo photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2100,
+          "model_id": "mahindra-xuv-3xo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mahindra/xuv-3xo-neuve-maroc-03.jpg",
+          "alt": "Mahindra xuv 3xo photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6229,6 +13524,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2113,
+          "model_id": "maserati-ghibli",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/ghibli-neuve-maroc.jpg",
+          "alt": "Maserati ghibli",
+          "is_primary": 1
+        },
+        {
+          "id": 2114,
+          "model_id": "maserati-ghibli",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/ghibli-neuve-maroc-01.jpg",
+          "alt": "Maserati ghibli photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2115,
+          "model_id": "maserati-ghibli",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/ghibli-neuve-maroc-02.jpg",
+          "alt": "Maserati ghibli photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2116,
+          "model_id": "maserati-ghibli",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/ghibli-neuve-maroc-03.jpg",
+          "alt": "Maserati ghibli photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6256,6 +13582,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2105,
+          "model_id": "maserati-granturismo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/granturismo-neuve-maroc.jpg",
+          "alt": "Maserati granturismo",
+          "is_primary": 1
+        },
+        {
+          "id": 2106,
+          "model_id": "maserati-granturismo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/granturismo-neuve-maroc-01.jpg",
+          "alt": "Maserati granturismo photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2107,
+          "model_id": "maserati-granturismo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/granturismo-neuve-maroc-02.jpg",
+          "alt": "Maserati granturismo photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2108,
+          "model_id": "maserati-granturismo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/granturismo-neuve-maroc-03.jpg",
+          "alt": "Maserati granturismo photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6281,6 +13638,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2117,
+          "model_id": "maserati-grecale",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/grecale-neuve-maroc.jpg",
+          "alt": "Maserati grecale",
+          "is_primary": 1
+        },
+        {
+          "id": 2118,
+          "model_id": "maserati-grecale",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/grecale-neuve-maroc-01.jpg",
+          "alt": "Maserati grecale photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2119,
+          "model_id": "maserati-grecale",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/grecale-neuve-maroc-02.jpg",
+          "alt": "Maserati grecale photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2120,
+          "model_id": "maserati-grecale",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/grecale-neuve-maroc-03.jpg",
+          "alt": "Maserati grecale photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6308,6 +13696,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2121,
+          "model_id": "maserati-levante",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/levante-neuve-maroc.jpg",
+          "alt": "Maserati levante",
+          "is_primary": 1
+        },
+        {
+          "id": 2122,
+          "model_id": "maserati-levante",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/levante-neuve-maroc-01.jpg",
+          "alt": "Maserati levante photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2123,
+          "model_id": "maserati-levante",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/levante-neuve-maroc-02.jpg",
+          "alt": "Maserati levante photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2124,
+          "model_id": "maserati-levante",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/levante-neuve-maroc-03.jpg",
+          "alt": "Maserati levante photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6333,6 +13752,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2109,
+          "model_id": "maserati-mc20",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/mc20-neuve-maroc.jpg",
+          "alt": "Maserati mc20",
+          "is_primary": 1
+        },
+        {
+          "id": 2110,
+          "model_id": "maserati-mc20",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/mc20-neuve-maroc-01.jpg",
+          "alt": "Maserati mc20 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2111,
+          "model_id": "maserati-mc20",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/mc20-neuve-maroc-02.jpg",
+          "alt": "Maserati mc20 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2112,
+          "model_id": "maserati-mc20",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/maserati/mc20-neuve-maroc-03.jpg",
+          "alt": "Maserati mc20 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6360,6 +13810,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1797,
+          "model_id": "mazda-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/3-neuve-maroc.jpg",
+          "alt": "Mazda 3",
+          "is_primary": 1
+        },
+        {
+          "id": 1798,
+          "model_id": "mazda-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/3-neuve-maroc-01.jpg",
+          "alt": "Mazda 3 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1799,
+          "model_id": "mazda-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/3-neuve-maroc-02.jpg",
+          "alt": "Mazda 3 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1800,
+          "model_id": "mazda-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/3-neuve-maroc-03.jpg",
+          "alt": "Mazda 3 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6385,6 +13866,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1801,
+          "model_id": "mazda-3-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/3-berline-neuve-maroc.jpg",
+          "alt": "Mazda 3 berline",
+          "is_primary": 1
+        },
+        {
+          "id": 1802,
+          "model_id": "mazda-3-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/3-berline-neuve-maroc-01.jpg",
+          "alt": "Mazda 3 berline photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1803,
+          "model_id": "mazda-3-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/3-berline-neuve-maroc-02.jpg",
+          "alt": "Mazda 3 berline photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1804,
+          "model_id": "mazda-3-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/3-berline-neuve-maroc-03.jpg",
+          "alt": "Mazda 3 berline photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6412,6 +13924,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1805,
+          "model_id": "mazda-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/6-neuve-maroc.jpg",
+          "alt": "Mazda 6",
+          "is_primary": 1
+        },
+        {
+          "id": 1806,
+          "model_id": "mazda-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/6-neuve-maroc-01.jpg",
+          "alt": "Mazda 6 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1807,
+          "model_id": "mazda-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/6-neuve-maroc-02.jpg",
+          "alt": "Mazda 6 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1808,
+          "model_id": "mazda-6",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/6-neuve-maroc-03.jpg",
+          "alt": "Mazda 6 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6437,6 +13980,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1809,
+          "model_id": "mazda-cx-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/cx-3-neuve-maroc.jpg",
+          "alt": "Mazda cx 3",
+          "is_primary": 1
+        },
+        {
+          "id": 1810,
+          "model_id": "mazda-cx-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/cx-3-neuve-maroc-01.jpg",
+          "alt": "Mazda cx 3 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1811,
+          "model_id": "mazda-cx-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/cx-3-neuve-maroc-02.jpg",
+          "alt": "Mazda cx 3 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1812,
+          "model_id": "mazda-cx-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/cx-3-neuve-maroc-03.jpg",
+          "alt": "Mazda cx 3 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6464,6 +14038,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1813,
+          "model_id": "mazda-cx-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/cx-5-neuve-maroc.jpg",
+          "alt": "Mazda cx 5",
+          "is_primary": 1
+        },
+        {
+          "id": 1814,
+          "model_id": "mazda-cx-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/cx-5-neuve-maroc-01.jpg",
+          "alt": "Mazda cx 5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1815,
+          "model_id": "mazda-cx-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/cx-5-neuve-maroc-02.jpg",
+          "alt": "Mazda cx 5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1816,
+          "model_id": "mazda-cx-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mazda/cx-5-neuve-maroc-03.jpg",
+          "alt": "Mazda cx 5 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6489,6 +14094,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 104,
+        "model_id": "mercedes-cla",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Le nouveau MERCEDES-Benz CLA fait sa révolution en",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1285,
+          "model_id": "mercedes-cla",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz cla",
+          "is_primary": 1
+        },
+        {
+          "id": 1286,
+          "model_id": "mercedes-cla",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz cla photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1287,
+          "model_id": "mercedes-cla",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz cla photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1288,
+          "model_id": "mercedes-cla",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz cla photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6516,6 +14174,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1293,
+          "model_id": "mercedes-cla-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-coupe-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz cla coupe",
+          "is_primary": 1
+        },
+        {
+          "id": 1294,
+          "model_id": "mercedes-cla-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-coupe-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz cla coupe photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1295,
+          "model_id": "mercedes-cla-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-coupe-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz cla coupe photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1296,
+          "model_id": "mercedes-cla-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-coupe-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz cla coupe photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6541,6 +14230,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1289,
+          "model_id": "mercedes-cla-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-ev-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz cla ev",
+          "is_primary": 1
+        },
+        {
+          "id": 1290,
+          "model_id": "mercedes-cla-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-ev-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz cla ev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1291,
+          "model_id": "mercedes-cla-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-ev-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz cla ev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1292,
+          "model_id": "mercedes-cla-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cla-ev-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz cla ev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6577,6 +14297,38 @@ const STATIC_DATA = {
           "transmission": "DCT8 4MATIC",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 241,
+        "model_id": "mercedes-classe-a",
+        "motorisation_id": null,
+        "longueur": "4419 mm",
+        "largeur": "1796 mm",
+        "hauteur": "1433 mm",
+        "empattement": "2729 mm",
+        "poids": "1375 kg",
+        "coffre": "370 L",
+        "cylindree": "1332 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "232 km/h",
+        "acceleration": "7.1 s",
+        "conso_urbaine": "6.6 L/100km",
+        "conso_extra": "5.2 L/100km",
+        "conso_mixte": "5.7 L/100km",
+        "emission_co2": "130 g/km",
+        "reservoir": "43 L",
+        "roues": "17 pouces",
+        "pneus": "225/45 R17"
+      },
+      "images": [
+        {
+          "id": 2349,
+          "model_id": "mercedes-classe-a",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/Mercedes-Classe-A-2024-Neuve-Maroc-01.jpg",
+          "alt": "Classe A vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -6602,6 +14354,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1277,
+          "model_id": "mercedes-classe-a-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-a-berline-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz classe a berline",
+          "is_primary": 1
+        },
+        {
+          "id": 1278,
+          "model_id": "mercedes-classe-a-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-a-berline-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz classe a berline photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1279,
+          "model_id": "mercedes-classe-a-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-a-berline-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz classe a berline photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1280,
+          "model_id": "mercedes-classe-a-berline",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-a-berline-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz classe a berline photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6647,6 +14430,38 @@ const STATIC_DATA = {
           "transmission": "9AT",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 242,
+        "model_id": "mercedes-classe-c",
+        "motorisation_id": null,
+        "longueur": "4751 mm",
+        "largeur": "1820 mm",
+        "hauteur": "1438 mm",
+        "empattement": "2865 mm",
+        "poids": "1625 kg",
+        "coffre": "455 L",
+        "cylindree": "1497 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "250 km/h",
+        "acceleration": "7.3 s",
+        "conso_urbaine": "6.8 L/100km",
+        "conso_extra": "5.3 L/100km",
+        "conso_mixte": "5.9 L/100km",
+        "emission_co2": "134 g/km",
+        "reservoir": "66 L",
+        "roues": "18 pouces",
+        "pneus": "225/55 R18"
+      },
+      "images": [
+        {
+          "id": 2350,
+          "model_id": "mercedes-classe-c",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/Mercedes-Classe-C-2024-Neuve-Maroc-01.jpg",
+          "alt": "Classe C vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -6682,6 +14497,38 @@ const STATIC_DATA = {
           "transmission": "9AT",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 244,
+        "model_id": "mercedes-classe-e",
+        "motorisation_id": null,
+        "longueur": "4949 mm",
+        "largeur": "1880 mm",
+        "hauteur": "1468 mm",
+        "empattement": "2961 mm",
+        "poids": "1870 kg",
+        "coffre": "540 L",
+        "cylindree": "1497 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "250 km/h",
+        "acceleration": "7.4 s",
+        "conso_urbaine": "7.1 L/100km",
+        "conso_extra": "5.7 L/100km",
+        "conso_mixte": "6.2 L/100km",
+        "emission_co2": "141 g/km",
+        "reservoir": "66 L",
+        "roues": "19 pouces",
+        "pneus": "245/45 R19"
+      },
+      "images": [
+        {
+          "id": 2352,
+          "model_id": "mercedes-classe-e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/Mercedes-Classe-E-2024-Neuve-Maroc-01.jpg",
+          "alt": "Classe E vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -6707,6 +14554,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 106,
+        "model_id": "mercedes-classe-e-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "Le statut de la Classe E se lit sur son visage. Le",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1301,
+          "model_id": "mercedes-classe-e-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-e-phev-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz classe e phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1302,
+          "model_id": "mercedes-classe-e-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-e-phev-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz classe e phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1303,
+          "model_id": "mercedes-classe-e-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-e-phev-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz classe e phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1304,
+          "model_id": "mercedes-classe-e-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-e-phev-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz classe e phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6734,6 +14634,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1349,
+          "model_id": "mercedes-classe-g",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-g-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz classe g",
+          "is_primary": 1
+        },
+        {
+          "id": 1350,
+          "model_id": "mercedes-classe-g",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-g-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz classe g photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1351,
+          "model_id": "mercedes-classe-g",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-g-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz classe g photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1352,
+          "model_id": "mercedes-classe-g",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-g-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz classe g photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6759,6 +14690,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1313,
+          "model_id": "mercedes-classe-s",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-s-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz classe s",
+          "is_primary": 1
+        },
+        {
+          "id": 1314,
+          "model_id": "mercedes-classe-s",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-s-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz classe s photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1315,
+          "model_id": "mercedes-classe-s",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-s-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz classe s photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1316,
+          "model_id": "mercedes-classe-s",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-s-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz classe s photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6786,6 +14748,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1317,
+          "model_id": "mercedes-classe-s-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-s-phev-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz classe s phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1318,
+          "model_id": "mercedes-classe-s-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-s-phev-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz classe s phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1319,
+          "model_id": "mercedes-classe-s-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-s-phev-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz classe s phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1320,
+          "model_id": "mercedes-classe-s-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/classe-s-phev-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz classe s phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6811,6 +14804,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1309,
+          "model_id": "mercedes-cle-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cle-cabriolet-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz cle cabriolet",
+          "is_primary": 1
+        },
+        {
+          "id": 1310,
+          "model_id": "mercedes-cle-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cle-cabriolet-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz cle cabriolet photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1311,
+          "model_id": "mercedes-cle-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cle-cabriolet-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz cle cabriolet photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1312,
+          "model_id": "mercedes-cle-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cle-cabriolet-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz cle cabriolet photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6838,6 +14862,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1305,
+          "model_id": "mercedes-cle-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cle-coupe-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz cle coupe",
+          "is_primary": 1
+        },
+        {
+          "id": 1306,
+          "model_id": "mercedes-cle-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cle-coupe-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz cle coupe photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1307,
+          "model_id": "mercedes-cle-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cle-coupe-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz cle coupe photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1308,
+          "model_id": "mercedes-cle-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/cle-coupe-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz cle coupe photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6863,6 +14918,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1353,
+          "model_id": "mercedes-eqa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqa-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz eqa",
+          "is_primary": 1
+        },
+        {
+          "id": 1354,
+          "model_id": "mercedes-eqa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqa-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz eqa photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1355,
+          "model_id": "mercedes-eqa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqa-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz eqa photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1356,
+          "model_id": "mercedes-eqa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqa-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz eqa photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6890,6 +14976,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1357,
+          "model_id": "mercedes-eqb",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqb-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz eqb",
+          "is_primary": 1
+        },
+        {
+          "id": 1358,
+          "model_id": "mercedes-eqb",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqb-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz eqb photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1359,
+          "model_id": "mercedes-eqb",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqb-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz eqb photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1360,
+          "model_id": "mercedes-eqb",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqb-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz eqb photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6915,6 +15032,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1361,
+          "model_id": "mercedes-eqe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqe-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz eqe",
+          "is_primary": 1
+        },
+        {
+          "id": 1362,
+          "model_id": "mercedes-eqe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqe-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz eqe photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1363,
+          "model_id": "mercedes-eqe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqe-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz eqe photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1364,
+          "model_id": "mercedes-eqe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqe-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz eqe photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6942,6 +15090,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1369,
+          "model_id": "mercedes-eqe-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqe-suv-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz eqe suv",
+          "is_primary": 1
+        },
+        {
+          "id": 1370,
+          "model_id": "mercedes-eqe-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqe-suv-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz eqe suv photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1371,
+          "model_id": "mercedes-eqe-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqe-suv-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz eqe suv photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1372,
+          "model_id": "mercedes-eqe-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqe-suv-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz eqe suv photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -6967,6 +15146,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1365,
+          "model_id": "mercedes-eqs",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqs-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz eqs",
+          "is_primary": 1
+        },
+        {
+          "id": 1366,
+          "model_id": "mercedes-eqs",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqs-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz eqs photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1367,
+          "model_id": "mercedes-eqs",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqs-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz eqs photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1368,
+          "model_id": "mercedes-eqs",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqs-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz eqs photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -6994,6 +15204,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1373,
+          "model_id": "mercedes-eqs-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqs-suv-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz eqs suv",
+          "is_primary": 1
+        },
+        {
+          "id": 1374,
+          "model_id": "mercedes-eqs-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqs-suv-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz eqs suv photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1375,
+          "model_id": "mercedes-eqs-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqs-suv-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz eqs suv photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1376,
+          "model_id": "mercedes-eqs-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/eqs-suv-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz eqs suv photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7019,6 +15260,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1321,
+          "model_id": "mercedes-gla",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gla-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz gla",
+          "is_primary": 1
+        },
+        {
+          "id": 1322,
+          "model_id": "mercedes-gla",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gla-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz gla photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1323,
+          "model_id": "mercedes-gla",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gla-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz gla photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1324,
+          "model_id": "mercedes-gla",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gla-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz gla photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7064,6 +15336,38 @@ const STATIC_DATA = {
           "transmission": "9AT 4MATIC",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 243,
+        "model_id": "mercedes-glc",
+        "motorisation_id": null,
+        "longueur": "4716 mm",
+        "largeur": "1890 mm",
+        "hauteur": "1640 mm",
+        "empattement": "2888 mm",
+        "poids": "1945 kg",
+        "coffre": "620 L",
+        "cylindree": "1497 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "230 km/h",
+        "acceleration": "6.5 s",
+        "conso_urbaine": "7.4 L/100km",
+        "conso_extra": "6.1 L/100km",
+        "conso_mixte": "6.6 L/100km",
+        "emission_co2": "150 g/km",
+        "reservoir": "70 L",
+        "roues": "19 pouces",
+        "pneus": "235/55 R19"
+      },
+      "images": [
+        {
+          "id": 2351,
+          "model_id": "mercedes-glc",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/Mercedes-GLC-2024-Neuve-Maroc-01.jpg",
+          "alt": "GLC vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -7089,6 +15393,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1333,
+          "model_id": "mercedes-glc-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/glc-coupe-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz glc coupe",
+          "is_primary": 1
+        },
+        {
+          "id": 1334,
+          "model_id": "mercedes-glc-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/glc-coupe-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz glc coupe photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1335,
+          "model_id": "mercedes-glc-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/glc-coupe-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz glc coupe photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1336,
+          "model_id": "mercedes-glc-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/glc-coupe-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz glc coupe photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7116,6 +15451,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1329,
+          "model_id": "mercedes-glc-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/glc-phev-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz glc phev",
+          "is_primary": 1
+        },
+        {
+          "id": 1330,
+          "model_id": "mercedes-glc-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/glc-phev-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz glc phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1331,
+          "model_id": "mercedes-glc-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/glc-phev-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz glc phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1332,
+          "model_id": "mercedes-glc-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/glc-phev-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz glc phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7141,6 +15507,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 107,
+        "model_id": "mercedes-gle",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "PORSCHE Cayenne\n      \n                E-Hybrid   ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1337,
+          "model_id": "mercedes-gle",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gle-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz gle",
+          "is_primary": 1
+        },
+        {
+          "id": 1338,
+          "model_id": "mercedes-gle",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gle-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz gle photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1339,
+          "model_id": "mercedes-gle",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gle-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz gle photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1340,
+          "model_id": "mercedes-gle",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gle-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz gle photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7168,6 +15587,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1341,
+          "model_id": "mercedes-gle-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gle-coupe-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz gle coupe",
+          "is_primary": 1
+        },
+        {
+          "id": 1342,
+          "model_id": "mercedes-gle-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gle-coupe-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz gle coupe photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1343,
+          "model_id": "mercedes-gle-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gle-coupe-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz gle coupe photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1344,
+          "model_id": "mercedes-gle-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gle-coupe-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz gle coupe photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7194,6 +15644,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1345,
+          "model_id": "mercedes-gls",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gls-neuve-maroc.jpg",
+          "alt": "Mercedes-Benz gls",
+          "is_primary": 1
+        },
+        {
+          "id": 1346,
+          "model_id": "mercedes-gls",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gls-neuve-maroc-01.jpg",
+          "alt": "Mercedes-Benz gls photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1347,
+          "model_id": "mercedes-gls",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gls-neuve-maroc-02.jpg",
+          "alt": "Mercedes-Benz gls photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1348,
+          "model_id": "mercedes-gls",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/gls-neuve-maroc-03.jpg",
+          "alt": "Mercedes-Benz gls photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7219,6 +15700,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 108,
+        "model_id": "mg-cyberster",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "Le MG Cyberster réinvente brillamment l'héritage d",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 929,
+          "model_id": "mg-cyberster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/cyberster-neuve-maroc.jpg",
+          "alt": "MG cyberster",
+          "is_primary": 1
+        },
+        {
+          "id": 930,
+          "model_id": "mg-cyberster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/cyberster-neuve-maroc-01.jpg",
+          "alt": "MG cyberster photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 931,
+          "model_id": "mg-cyberster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/cyberster-neuve-maroc-02.jpg",
+          "alt": "MG cyberster photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 932,
+          "model_id": "mg-cyberster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/cyberster-neuve-maroc-03.jpg",
+          "alt": "MG cyberster photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7273,6 +15807,38 @@ const STATIC_DATA = {
           "transmission": "Automatique",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 214,
+        "model_id": "mg-hs",
+        "motorisation_id": null,
+        "longueur": "4571 mm",
+        "largeur": "1876 mm",
+        "hauteur": "1693 mm",
+        "empattement": "2765 mm",
+        "poids": "1590 kg",
+        "coffre": "504 L",
+        "cylindree": "1499 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "200 km/h",
+        "acceleration": "8.6 s",
+        "conso_urbaine": "7.9 L/100km",
+        "conso_extra": "6.1 L/100km",
+        "conso_mixte": "6.8 L/100km",
+        "emission_co2": "155 g/km",
+        "reservoir": "55 L",
+        "roues": "18 pouces",
+        "pneus": "235/50 R18"
+      },
+      "images": [
+        {
+          "id": 2322,
+          "model_id": "mg-hs",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/MG-HS-2025-Neuve-Maroc-12.jpg",
+          "alt": "HS vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -7298,6 +15864,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 109,
+        "model_id": "mg-hs-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "Avec un design modernisé et une plateforme inédite",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 921,
+          "model_id": "mg-hs-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/hs-hev-neuve-maroc.jpg",
+          "alt": "MG hs hev",
+          "is_primary": 1
+        },
+        {
+          "id": 922,
+          "model_id": "mg-hs-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/hs-hev-neuve-maroc-01.jpg",
+          "alt": "MG hs hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 923,
+          "model_id": "mg-hs-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/hs-hev-neuve-maroc-02.jpg",
+          "alt": "MG hs hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 924,
+          "model_id": "mg-hs-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/hs-hev-neuve-maroc-03.jpg",
+          "alt": "MG hs hev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7325,6 +15944,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 925,
+          "model_id": "mg-marvel-r",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/marvel-r-neuve-maroc.jpg",
+          "alt": "MG marvel r",
+          "is_primary": 1
+        },
+        {
+          "id": 926,
+          "model_id": "mg-marvel-r",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/marvel-r-neuve-maroc-01.jpg",
+          "alt": "MG marvel r photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 927,
+          "model_id": "mg-marvel-r",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/marvel-r-neuve-maroc-02.jpg",
+          "alt": "MG marvel r photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 928,
+          "model_id": "mg-marvel-r",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/marvel-r-neuve-maroc-03.jpg",
+          "alt": "MG marvel r photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7350,6 +16000,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 110,
+        "model_id": "mg-mg-5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "Doté d’un design élégant et sportif, la MG5 vous p",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 905,
+          "model_id": "mg-mg-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/mg-5-neuve-maroc.jpg",
+          "alt": "MG mg 5",
+          "is_primary": 1
+        },
+        {
+          "id": 906,
+          "model_id": "mg-mg-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/mg-5-neuve-maroc-01.jpg",
+          "alt": "MG mg 5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 907,
+          "model_id": "mg-mg-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/mg-5-neuve-maroc-02.jpg",
+          "alt": "MG mg 5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 908,
+          "model_id": "mg-mg-5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/mg-5-neuve-maroc-03.jpg",
+          "alt": "MG mg 5 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7386,6 +16089,38 @@ const STATIC_DATA = {
           "transmission": "Automatique",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 215,
+        "model_id": "mg-mg3",
+        "motorisation_id": null,
+        "longueur": "4112 mm",
+        "largeur": "1760 mm",
+        "hauteur": "1502 mm",
+        "empattement": "2570 mm",
+        "poids": "1352 kg",
+        "coffre": "293 L",
+        "cylindree": "1499 cc",
+        "cylindres": "4",
+        "turbo": "Non (Hybride)",
+        "vitesse_max": "185 km/h",
+        "acceleration": "7.0 s",
+        "conso_urbaine": "5.0 L/100km",
+        "conso_extra": "5.2 L/100km",
+        "conso_mixte": "5.1 L/100km",
+        "emission_co2": "115 g/km",
+        "reservoir": "40 L",
+        "roues": "17 pouces",
+        "pneus": "205/55 R17"
+      },
+      "images": [
+        {
+          "id": 2323,
+          "model_id": "mg-mg3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/MG-3-HEV-2025-Neuve-Maroc-01.jpg",
+          "alt": "MG3 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -7420,6 +16155,38 @@ const STATIC_DATA = {
           "puissance": "106 ch",
           "transmission": "Automatique CVT",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 212,
+        "model_id": "mg-zs",
+        "motorisation_id": null,
+        "longueur": "4323 mm",
+        "largeur": "1809 mm",
+        "hauteur": "1664 mm",
+        "empattement": "2585 mm",
+        "poids": "1339 kg",
+        "coffre": "448 L",
+        "cylindree": "1499 cc",
+        "cylindres": "4",
+        "turbo": "Non",
+        "vitesse_max": "175 km/h",
+        "acceleration": "11.8 s",
+        "conso_urbaine": "7.4 L/100km",
+        "conso_extra": "5.7 L/100km",
+        "conso_mixte": "6.3 L/100km",
+        "emission_co2": "144 g/km",
+        "reservoir": "50 L",
+        "roues": "17 pouces",
+        "pneus": "215/55 R17"
+      },
+      "images": [
+        {
+          "id": 2320,
+          "model_id": "mg-zs",
+          "url": "https://www.wandaloo.com/backoffice/uploads/images/modeles/photos/mg-zs-face.jpg",
+          "alt": "MG ZS vue de face",
+          "is_primary": 1
         }
       ]
     },
@@ -7456,6 +16223,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 213,
+        "model_id": "mg-zs-ev",
+        "motorisation_id": null,
+        "longueur": "4323 mm",
+        "largeur": "1809 mm",
+        "hauteur": "1664 mm",
+        "empattement": "2585 mm",
+        "poids": "1620 kg",
+        "coffre": "448 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "175 km/h",
+        "acceleration": "8.2 s",
+        "conso_urbaine": "17.5 kWh/100km",
+        "conso_extra": "14.0 kWh/100km",
+        "conso_mixte": "15.5 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "72 kWh",
+        "roues": "17 pouces",
+        "pneus": "215/55 R17"
+      },
+      "images": [
+        {
+          "id": 2321,
+          "model_id": "mg-zs-ev",
+          "url": "https://www.wandaloo.com/files/2023/03/MG-Motors-MG-ZS-EV-2023-Neuve-Maroc-video.jpg",
+          "alt": "ZS EV vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -7481,6 +16280,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 111,
+        "model_id": "mg-zs-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "CHANGAN CS55+\n      \n                1.5 Turbo 181",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 913,
+          "model_id": "mg-zs-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/zs-hev-neuve-maroc.jpg",
+          "alt": "MG zs hev",
+          "is_primary": 1
+        },
+        {
+          "id": 914,
+          "model_id": "mg-zs-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/zs-hev-neuve-maroc-01.jpg",
+          "alt": "MG zs hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 915,
+          "model_id": "mg-zs-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/zs-hev-neuve-maroc-02.jpg",
+          "alt": "MG zs hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 916,
+          "model_id": "mg-zs-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mg/zs-hev-neuve-maroc-03.jpg",
+          "alt": "MG zs hev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7508,6 +16360,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1741,
+          "model_id": "mini-aceman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/aceman-neuve-maroc.jpg",
+          "alt": "Mini aceman",
+          "is_primary": 1
+        },
+        {
+          "id": 1742,
+          "model_id": "mini-aceman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/aceman-neuve-maroc-01.jpg",
+          "alt": "Mini aceman photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1743,
+          "model_id": "mini-aceman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/aceman-neuve-maroc-02.jpg",
+          "alt": "Mini aceman photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1744,
+          "model_id": "mini-aceman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/aceman-neuve-maroc-03.jpg",
+          "alt": "Mini aceman photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7533,6 +16416,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1729,
+          "model_id": "mini-cooper-3-portes",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-3-portes-neuve-maroc.jpg",
+          "alt": "Mini cooper 3 portes",
+          "is_primary": 1
+        },
+        {
+          "id": 1730,
+          "model_id": "mini-cooper-3-portes",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-3-portes-neuve-maroc-01.jpg",
+          "alt": "Mini cooper 3 portes photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1731,
+          "model_id": "mini-cooper-3-portes",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-3-portes-neuve-maroc-02.jpg",
+          "alt": "Mini cooper 3 portes photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1732,
+          "model_id": "mini-cooper-3-portes",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-3-portes-neuve-maroc-03.jpg",
+          "alt": "Mini cooper 3 portes photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7560,6 +16474,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1733,
+          "model_id": "mini-cooper-3-portes-electric",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-3-portes-electric-neuve-maroc.jpg",
+          "alt": "Mini cooper 3 portes electric",
+          "is_primary": 1
+        },
+        {
+          "id": 1734,
+          "model_id": "mini-cooper-3-portes-electric",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-3-portes-electric-neuve-maroc-01.jpg",
+          "alt": "Mini cooper 3 portes electric photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1735,
+          "model_id": "mini-cooper-3-portes-electric",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-3-portes-electric-neuve-maroc-02.jpg",
+          "alt": "Mini cooper 3 portes electric photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1736,
+          "model_id": "mini-cooper-3-portes-electric",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-3-portes-electric-neuve-maroc-03.jpg",
+          "alt": "Mini cooper 3 portes electric photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7585,6 +16530,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1737,
+          "model_id": "mini-cooper-5-portes",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-5-portes-neuve-maroc.jpg",
+          "alt": "Mini cooper 5 portes",
+          "is_primary": 1
+        },
+        {
+          "id": 1738,
+          "model_id": "mini-cooper-5-portes",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-5-portes-neuve-maroc-01.jpg",
+          "alt": "Mini cooper 5 portes photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1739,
+          "model_id": "mini-cooper-5-portes",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-5-portes-neuve-maroc-02.jpg",
+          "alt": "Mini cooper 5 portes photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1740,
+          "model_id": "mini-cooper-5-portes",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/cooper-5-portes-neuve-maroc-03.jpg",
+          "alt": "Mini cooper 5 portes photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7612,6 +16588,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1745,
+          "model_id": "mini-countryman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/countryman-neuve-maroc.jpg",
+          "alt": "Mini countryman",
+          "is_primary": 1
+        },
+        {
+          "id": 1746,
+          "model_id": "mini-countryman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/countryman-neuve-maroc-01.jpg",
+          "alt": "Mini countryman photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1747,
+          "model_id": "mini-countryman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/countryman-neuve-maroc-02.jpg",
+          "alt": "Mini countryman photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1748,
+          "model_id": "mini-countryman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/countryman-neuve-maroc-03.jpg",
+          "alt": "Mini countryman photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7637,6 +16644,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1749,
+          "model_id": "mini-countryman-electric",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/countryman-electric-neuve-maroc.jpg",
+          "alt": "Mini countryman electric",
+          "is_primary": 1
+        },
+        {
+          "id": 1750,
+          "model_id": "mini-countryman-electric",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/countryman-electric-neuve-maroc-01.jpg",
+          "alt": "Mini countryman electric photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1751,
+          "model_id": "mini-countryman-electric",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/countryman-electric-neuve-maroc-02.jpg",
+          "alt": "Mini countryman electric photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1752,
+          "model_id": "mini-countryman-electric",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mini/countryman-electric-neuve-maroc-03.jpg",
+          "alt": "Mini countryman electric photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7664,6 +16702,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1817,
+          "model_id": "mitsubishi-outlander",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mitsubishi/outlander-neuve-maroc.jpg",
+          "alt": "Mitsubishi outlander",
+          "is_primary": 1
+        },
+        {
+          "id": 1818,
+          "model_id": "mitsubishi-outlander",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mitsubishi/outlander-neuve-maroc-01.jpg",
+          "alt": "Mitsubishi outlander photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1819,
+          "model_id": "mitsubishi-outlander",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mitsubishi/outlander-neuve-maroc-02.jpg",
+          "alt": "Mitsubishi outlander photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1820,
+          "model_id": "mitsubishi-outlander",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mitsubishi/outlander-neuve-maroc-03.jpg",
+          "alt": "Mitsubishi outlander photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7689,6 +16758,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1821,
+          "model_id": "mitsubishi-pajero-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mitsubishi/pajero-sport-neuve-maroc.jpg",
+          "alt": "Mitsubishi pajero sport",
+          "is_primary": 1
+        },
+        {
+          "id": 1822,
+          "model_id": "mitsubishi-pajero-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mitsubishi/pajero-sport-neuve-maroc-01.jpg",
+          "alt": "Mitsubishi pajero sport photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1823,
+          "model_id": "mitsubishi-pajero-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mitsubishi/pajero-sport-neuve-maroc-02.jpg",
+          "alt": "Mitsubishi pajero sport photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1824,
+          "model_id": "mitsubishi-pajero-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/mitsubishi/pajero-sport-neuve-maroc-03.jpg",
+          "alt": "Mitsubishi pajero sport photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7716,6 +16816,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1541,
+          "model_id": "nissan-juke",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/juke-neuve-maroc.jpg",
+          "alt": "Nissan juke",
+          "is_primary": 1
+        },
+        {
+          "id": 1542,
+          "model_id": "nissan-juke",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/juke-neuve-maroc-01.jpg",
+          "alt": "Nissan juke photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1543,
+          "model_id": "nissan-juke",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/juke-neuve-maroc-02.jpg",
+          "alt": "Nissan juke photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1544,
+          "model_id": "nissan-juke",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/juke-neuve-maroc-03.jpg",
+          "alt": "Nissan juke photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7741,6 +16872,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1537,
+          "model_id": "nissan-magnite",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/magnite-neuve-maroc.jpg",
+          "alt": "Nissan magnite",
+          "is_primary": 1
+        },
+        {
+          "id": 1538,
+          "model_id": "nissan-magnite",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/magnite-neuve-maroc-01.jpg",
+          "alt": "Nissan magnite photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1539,
+          "model_id": "nissan-magnite",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/magnite-neuve-maroc-02.jpg",
+          "alt": "Nissan magnite photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1540,
+          "model_id": "nissan-magnite",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/magnite-neuve-maroc-03.jpg",
+          "alt": "Nissan magnite photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7768,6 +16930,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1545,
+          "model_id": "nissan-qashqai-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/qashqai-hev-neuve-maroc.jpg",
+          "alt": "Nissan qashqai hev",
+          "is_primary": 1
+        },
+        {
+          "id": 1546,
+          "model_id": "nissan-qashqai-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/qashqai-hev-neuve-maroc-01.jpg",
+          "alt": "Nissan qashqai hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1547,
+          "model_id": "nissan-qashqai-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/qashqai-hev-neuve-maroc-02.jpg",
+          "alt": "Nissan qashqai hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1548,
+          "model_id": "nissan-qashqai-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/qashqai-hev-neuve-maroc-03.jpg",
+          "alt": "Nissan qashqai hev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7793,6 +16986,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 112,
+        "model_id": "nissan-x-trail",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "A propos du X-Trail \n          ABDELLAH TAOURATI -",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1549,
+          "model_id": "nissan-x-trail",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/x-trail-neuve-maroc.jpg",
+          "alt": "Nissan x trail",
+          "is_primary": 1
+        },
+        {
+          "id": 1550,
+          "model_id": "nissan-x-trail",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/x-trail-neuve-maroc-01.jpg",
+          "alt": "Nissan x trail photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1551,
+          "model_id": "nissan-x-trail",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/x-trail-neuve-maroc-02.jpg",
+          "alt": "Nissan x trail photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1552,
+          "model_id": "nissan-x-trail",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/nissan/x-trail-neuve-maroc-03.jpg",
+          "alt": "Nissan x trail photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7820,6 +17066,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1997,
+          "model_id": "omoda-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/3-neuve-maroc.jpg",
+          "alt": "Omoda 3",
+          "is_primary": 1
+        },
+        {
+          "id": 1998,
+          "model_id": "omoda-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/3-neuve-maroc-01.jpg",
+          "alt": "Omoda 3 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1999,
+          "model_id": "omoda-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/3-neuve-maroc-02.jpg",
+          "alt": "Omoda 3 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2000,
+          "model_id": "omoda-3",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/3-neuve-maroc-03.jpg",
+          "alt": "Omoda 3 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7845,6 +17122,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2009,
+          "model_id": "omoda-5-shs-h",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/5-shs-h-neuve-maroc.jpg",
+          "alt": "Omoda 5 shs h",
+          "is_primary": 1
+        },
+        {
+          "id": 2010,
+          "model_id": "omoda-5-shs-h",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/5-shs-h-neuve-maroc-01.jpg",
+          "alt": "Omoda 5 shs h photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2011,
+          "model_id": "omoda-5-shs-h",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/5-shs-h-neuve-maroc-02.jpg",
+          "alt": "Omoda 5 shs h photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2012,
+          "model_id": "omoda-5-shs-h",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/5-shs-h-neuve-maroc-03.jpg",
+          "alt": "Omoda 5 shs h photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7872,6 +17180,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2001,
+          "model_id": "omoda-c5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/c5-neuve-maroc.jpg",
+          "alt": "Omoda c5",
+          "is_primary": 1
+        },
+        {
+          "id": 2002,
+          "model_id": "omoda-c5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/c5-neuve-maroc-01.jpg",
+          "alt": "Omoda c5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2003,
+          "model_id": "omoda-c5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/c5-neuve-maroc-02.jpg",
+          "alt": "Omoda c5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2004,
+          "model_id": "omoda-c5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/c5-neuve-maroc-03.jpg",
+          "alt": "Omoda c5 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7897,6 +17236,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2005,
+          "model_id": "omoda-e5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/e5-neuve-maroc.jpg",
+          "alt": "Omoda e5",
+          "is_primary": 1
+        },
+        {
+          "id": 2006,
+          "model_id": "omoda-e5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/e5-neuve-maroc-01.jpg",
+          "alt": "Omoda e5 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2007,
+          "model_id": "omoda-e5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/e5-neuve-maroc-02.jpg",
+          "alt": "Omoda e5 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2008,
+          "model_id": "omoda-e5",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/omoda/e5-neuve-maroc-03.jpg",
+          "alt": "Omoda e5 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7924,6 +17294,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1561,
+          "model_id": "opel-astra",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/astra-neuve-maroc.jpg",
+          "alt": "Opel astra",
+          "is_primary": 1
+        },
+        {
+          "id": 1562,
+          "model_id": "opel-astra",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/astra-neuve-maroc-01.jpg",
+          "alt": "Opel astra photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1563,
+          "model_id": "opel-astra",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/astra-neuve-maroc-02.jpg",
+          "alt": "Opel astra photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1564,
+          "model_id": "opel-astra",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/astra-neuve-maroc-03.jpg",
+          "alt": "Opel astra photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -7949,6 +17350,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1557,
+          "model_id": "opel-corsa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/corsa-neuve-maroc.jpg",
+          "alt": "Opel corsa",
+          "is_primary": 1
+        },
+        {
+          "id": 1558,
+          "model_id": "opel-corsa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/corsa-neuve-maroc-01.jpg",
+          "alt": "Opel corsa photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1559,
+          "model_id": "opel-corsa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/corsa-neuve-maroc-02.jpg",
+          "alt": "Opel corsa photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1560,
+          "model_id": "opel-corsa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/corsa-neuve-maroc-03.jpg",
+          "alt": "Opel corsa photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -7976,6 +17408,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1569,
+          "model_id": "opel-frontera",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/frontera-neuve-maroc.jpg",
+          "alt": "Opel frontera",
+          "is_primary": 1
+        },
+        {
+          "id": 1570,
+          "model_id": "opel-frontera",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/frontera-neuve-maroc-01.jpg",
+          "alt": "Opel frontera photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1571,
+          "model_id": "opel-frontera",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/frontera-neuve-maroc-02.jpg",
+          "alt": "Opel frontera photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1572,
+          "model_id": "opel-frontera",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/frontera-neuve-maroc-03.jpg",
+          "alt": "Opel frontera photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8001,6 +17464,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1573,
+          "model_id": "opel-frontera-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/frontera-ev-neuve-maroc.jpg",
+          "alt": "Opel frontera ev",
+          "is_primary": 1
+        },
+        {
+          "id": 1574,
+          "model_id": "opel-frontera-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/frontera-ev-neuve-maroc-01.jpg",
+          "alt": "Opel frontera ev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1575,
+          "model_id": "opel-frontera-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/frontera-ev-neuve-maroc-02.jpg",
+          "alt": "Opel frontera ev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1576,
+          "model_id": "opel-frontera-ev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/frontera-ev-neuve-maroc-03.jpg",
+          "alt": "Opel frontera ev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8028,6 +17522,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 113,
+        "model_id": "opel-grandland",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Grandland 1,5 130 BVM, à bannir  \n          Issam ",
+        "vitesse_max": "",
+        "acceleration": "Grandland 1,5 130 BVM, à bannir  \n          Issam ",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1577,
+          "model_id": "opel-grandland",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/grandland-neuve-maroc.jpg",
+          "alt": "Opel grandland",
+          "is_primary": 1
+        },
+        {
+          "id": 1578,
+          "model_id": "opel-grandland",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/grandland-neuve-maroc-01.jpg",
+          "alt": "Opel grandland photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1579,
+          "model_id": "opel-grandland",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/grandland-neuve-maroc-02.jpg",
+          "alt": "Opel grandland photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1580,
+          "model_id": "opel-grandland",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/grandland-neuve-maroc-03.jpg",
+          "alt": "Opel grandland photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8054,6 +17601,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1565,
+          "model_id": "opel-mokka",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/mokka-neuve-maroc.jpg",
+          "alt": "Opel mokka",
+          "is_primary": 1
+        },
+        {
+          "id": 1566,
+          "model_id": "opel-mokka",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/mokka-neuve-maroc-01.jpg",
+          "alt": "Opel mokka photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1567,
+          "model_id": "opel-mokka",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/mokka-neuve-maroc-02.jpg",
+          "alt": "Opel mokka photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1568,
+          "model_id": "opel-mokka",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/mokka-neuve-maroc-03.jpg",
+          "alt": "Opel mokka photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8079,6 +17657,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1553,
+          "model_id": "opel-rocks-e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/rocks-e-neuve-maroc.jpg",
+          "alt": "Opel rocks e",
+          "is_primary": 1
+        },
+        {
+          "id": 1554,
+          "model_id": "opel-rocks-e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/rocks-e-neuve-maroc-01.jpg",
+          "alt": "Opel rocks e photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1555,
+          "model_id": "opel-rocks-e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/rocks-e-neuve-maroc-02.jpg",
+          "alt": "Opel rocks e photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1556,
+          "model_id": "opel-rocks-e",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/opel/rocks-e-neuve-maroc-03.jpg",
+          "alt": "Opel rocks e photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8123,6 +17732,38 @@ const STATIC_DATA = {
           "puissance": "136 ch",
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 204,
+        "model_id": "peugeot-2008",
+        "motorisation_id": null,
+        "longueur": "4300 mm",
+        "largeur": "1770 mm",
+        "hauteur": "1550 mm",
+        "empattement": "2610 mm",
+        "poids": "1229 kg",
+        "coffre": "434 L",
+        "cylindree": "1199 cc",
+        "cylindres": "3",
+        "turbo": "Oui",
+        "vitesse_max": "192 km/h",
+        "acceleration": "9.7 s",
+        "conso_urbaine": "6.8 L/100km",
+        "conso_extra": "5.0 L/100km",
+        "conso_mixte": "5.7 L/100km",
+        "emission_co2": "130 g/km",
+        "reservoir": "47 L",
+        "roues": "17 pouces",
+        "pneus": "215/55 R17"
+      },
+      "images": [
+        {
+          "id": 2312,
+          "model_id": "peugeot-2008",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-2008-2024-Neuve-Maroc-01.jpg",
+          "alt": "2008 vue de face",
+          "is_primary": 1
         }
       ]
     },
@@ -8177,6 +17818,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 203,
+        "model_id": "peugeot-208",
+        "motorisation_id": null,
+        "longueur": "4055 mm",
+        "largeur": "1745 mm",
+        "hauteur": "1444 mm",
+        "empattement": "2538 mm",
+        "poids": "1049 kg",
+        "coffre": "311 L",
+        "cylindree": "1199 cc",
+        "cylindres": "3",
+        "turbo": "Oui (PureTech)",
+        "vitesse_max": "194 km/h",
+        "acceleration": "9.9 s",
+        "conso_urbaine": "6.0 L/100km",
+        "conso_extra": "4.5 L/100km",
+        "conso_mixte": "5.1 L/100km",
+        "emission_co2": "116 g/km",
+        "reservoir": "44 L",
+        "roues": "16 pouces",
+        "pneus": "205/45 R16"
+      },
+      "images": [
+        {
+          "id": 2311,
+          "model_id": "peugeot-208",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-208-2024-Neuve-Maroc-01.jpg",
+          "alt": "208 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -8212,6 +17885,38 @@ const STATIC_DATA = {
           "transmission": "EAT8",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 205,
+        "model_id": "peugeot-3008",
+        "motorisation_id": null,
+        "longueur": "4447 mm",
+        "largeur": "1841 mm",
+        "hauteur": "1624 mm",
+        "empattement": "2675 mm",
+        "poids": "1421 kg",
+        "coffre": "520 L",
+        "cylindree": "1199 cc",
+        "cylindres": "3",
+        "turbo": "Oui",
+        "vitesse_max": "210 km/h",
+        "acceleration": "8.5 s",
+        "conso_urbaine": "7.3 L/100km",
+        "conso_extra": "5.6 L/100km",
+        "conso_mixte": "6.3 L/100km",
+        "emission_co2": "142 g/km",
+        "reservoir": "55 L",
+        "roues": "19 pouces",
+        "pneus": "235/50 R19"
+      },
+      "images": [
+        {
+          "id": 2313,
+          "model_id": "peugeot-3008",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-3008-2024-Neuve-Maroc-01.jpg",
+          "alt": "3008 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -8238,6 +17943,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1029,
+          "model_id": "peugeot-308",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/308-neuve-maroc.jpg",
+          "alt": "Peugeot 308",
+          "is_primary": 1
+        },
+        {
+          "id": 1030,
+          "model_id": "peugeot-308",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/308-neuve-maroc-01.jpg",
+          "alt": "Peugeot 308 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1031,
+          "model_id": "peugeot-308",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/308-neuve-maroc-02.jpg",
+          "alt": "Peugeot 308 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1032,
+          "model_id": "peugeot-308",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/308-neuve-maroc-03.jpg",
+          "alt": "Peugeot 308 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8263,6 +17999,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1033,
+          "model_id": "peugeot-408",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/408-neuve-maroc.jpg",
+          "alt": "Peugeot 408",
+          "is_primary": 1
+        },
+        {
+          "id": 1034,
+          "model_id": "peugeot-408",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/408-neuve-maroc-01.jpg",
+          "alt": "Peugeot 408 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1035,
+          "model_id": "peugeot-408",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/408-neuve-maroc-02.jpg",
+          "alt": "Peugeot 408 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1036,
+          "model_id": "peugeot-408",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/408-neuve-maroc-03.jpg",
+          "alt": "Peugeot 408 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8299,6 +18066,38 @@ const STATIC_DATA = {
           "transmission": "EAT8",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 206,
+        "model_id": "peugeot-5008",
+        "motorisation_id": null,
+        "longueur": "4641 mm",
+        "largeur": "1894 mm",
+        "hauteur": "1680 mm",
+        "empattement": "2840 mm",
+        "poids": "1630 kg",
+        "coffre": "702 L",
+        "cylindree": "1199 cc",
+        "cylindres": "3",
+        "turbo": "Oui",
+        "vitesse_max": "210 km/h",
+        "acceleration": "8.5 s",
+        "conso_urbaine": "7.5 L/100km",
+        "conso_extra": "5.8 L/100km",
+        "conso_mixte": "6.4 L/100km",
+        "emission_co2": "146 g/km",
+        "reservoir": "60 L",
+        "roues": "19 pouces",
+        "pneus": "235/50 R19"
+      },
+      "images": [
+        {
+          "id": 2314,
+          "model_id": "peugeot-5008",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-5008-2024-Neuve-Maroc-01.jpg",
+          "alt": "5008 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -8334,6 +18133,38 @@ const STATIC_DATA = {
           "transmission": "EAT8",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 207,
+        "model_id": "peugeot-508",
+        "motorisation_id": null,
+        "longueur": "4750 mm",
+        "largeur": "1859 mm",
+        "hauteur": "1403 mm",
+        "empattement": "2793 mm",
+        "poids": "1497 kg",
+        "coffre": "487 L",
+        "cylindree": "1598 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "250 km/h",
+        "acceleration": "7.1 s",
+        "conso_urbaine": "7.4 L/100km",
+        "conso_extra": "5.8 L/100km",
+        "conso_mixte": "6.4 L/100km",
+        "emission_co2": "145 g/km",
+        "reservoir": "62 L",
+        "roues": "18 pouces",
+        "pneus": "235/45 R18"
+      },
+      "images": [
+        {
+          "id": 2315,
+          "model_id": "peugeot-508",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-508-2024-Neuve-Maroc-01.jpg",
+          "alt": "508 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -8359,6 +18190,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1025,
+          "model_id": "peugeot-e-208",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/e-208-neuve-maroc.jpg",
+          "alt": "Peugeot e 208",
+          "is_primary": 1
+        },
+        {
+          "id": 1026,
+          "model_id": "peugeot-e-208",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/e-208-neuve-maroc-01.jpg",
+          "alt": "Peugeot e 208 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1027,
+          "model_id": "peugeot-e-208",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/e-208-neuve-maroc-02.jpg",
+          "alt": "Peugeot e 208 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1028,
+          "model_id": "peugeot-e-208",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/e-208-neuve-maroc-03.jpg",
+          "alt": "Peugeot e 208 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8386,6 +18248,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1057,
+          "model_id": "peugeot-partner",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/partner-neuve-maroc.jpg",
+          "alt": "Peugeot partner",
+          "is_primary": 1
+        },
+        {
+          "id": 1058,
+          "model_id": "peugeot-partner",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/partner-neuve-maroc-01.jpg",
+          "alt": "Peugeot partner photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1059,
+          "model_id": "peugeot-partner",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/partner-neuve-maroc-02.jpg",
+          "alt": "Peugeot partner photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1060,
+          "model_id": "peugeot-partner",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/partner-neuve-maroc-03.jpg",
+          "alt": "Peugeot partner photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8411,6 +18304,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1053,
+          "model_id": "peugeot-rifter",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/rifter-neuve-maroc.jpg",
+          "alt": "Peugeot rifter",
+          "is_primary": 1
+        },
+        {
+          "id": 1054,
+          "model_id": "peugeot-rifter",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/rifter-neuve-maroc-01.jpg",
+          "alt": "Peugeot rifter photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1055,
+          "model_id": "peugeot-rifter",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/rifter-neuve-maroc-02.jpg",
+          "alt": "Peugeot rifter photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1056,
+          "model_id": "peugeot-rifter",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/rifter-neuve-maroc-03.jpg",
+          "alt": "Peugeot rifter photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8438,6 +18362,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 115,
+        "model_id": "porsche-718-boxster",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1689,
+          "model_id": "porsche-718-boxster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/718-boxster-neuve-maroc.jpg",
+          "alt": "Porsche 718 boxster",
+          "is_primary": 1
+        },
+        {
+          "id": 1690,
+          "model_id": "porsche-718-boxster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/718-boxster-neuve-maroc-01.jpg",
+          "alt": "Porsche 718 boxster photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1691,
+          "model_id": "porsche-718-boxster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/718-boxster-neuve-maroc-02.jpg",
+          "alt": "Porsche 718 boxster photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1692,
+          "model_id": "porsche-718-boxster",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/718-boxster-neuve-maroc-03.jpg",
+          "alt": "Porsche 718 boxster photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8463,6 +18440,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 116,
+        "model_id": "porsche-718-cayman",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1685,
+          "model_id": "porsche-718-cayman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/718-cayman-neuve-maroc.jpg",
+          "alt": "Porsche 718 cayman",
+          "is_primary": 1
+        },
+        {
+          "id": 1686,
+          "model_id": "porsche-718-cayman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/718-cayman-neuve-maroc-01.jpg",
+          "alt": "Porsche 718 cayman photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1687,
+          "model_id": "porsche-718-cayman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/718-cayman-neuve-maroc-02.jpg",
+          "alt": "Porsche 718 cayman photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1688,
+          "model_id": "porsche-718-cayman",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/718-cayman-neuve-maroc-03.jpg",
+          "alt": "Porsche 718 cayman photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8490,6 +18520,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 117,
+        "model_id": "porsche-911",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1693,
+          "model_id": "porsche-911",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-neuve-maroc.jpg",
+          "alt": "Porsche 911",
+          "is_primary": 1
+        },
+        {
+          "id": 1694,
+          "model_id": "porsche-911",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-neuve-maroc-01.jpg",
+          "alt": "Porsche 911 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1695,
+          "model_id": "porsche-911",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-neuve-maroc-02.jpg",
+          "alt": "Porsche 911 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1696,
+          "model_id": "porsche-911",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-neuve-maroc-03.jpg",
+          "alt": "Porsche 911 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8515,6 +18598,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 118,
+        "model_id": "porsche-911-cabriolet",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1697,
+          "model_id": "porsche-911-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-cabriolet-neuve-maroc.jpg",
+          "alt": "Porsche 911 cabriolet",
+          "is_primary": 1
+        },
+        {
+          "id": 1698,
+          "model_id": "porsche-911-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-cabriolet-neuve-maroc-01.jpg",
+          "alt": "Porsche 911 cabriolet photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1699,
+          "model_id": "porsche-911-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-cabriolet-neuve-maroc-02.jpg",
+          "alt": "Porsche 911 cabriolet photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1700,
+          "model_id": "porsche-911-cabriolet",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-cabriolet-neuve-maroc-03.jpg",
+          "alt": "Porsche 911 cabriolet photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8542,6 +18678,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 119,
+        "model_id": "porsche-911-targa",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1701,
+          "model_id": "porsche-911-targa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-targa-neuve-maroc.jpg",
+          "alt": "Porsche 911 targa",
+          "is_primary": 1
+        },
+        {
+          "id": 1702,
+          "model_id": "porsche-911-targa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-targa-neuve-maroc-01.jpg",
+          "alt": "Porsche 911 targa photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1703,
+          "model_id": "porsche-911-targa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-targa-neuve-maroc-02.jpg",
+          "alt": "Porsche 911 targa photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1704,
+          "model_id": "porsche-911-targa",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/911-targa-neuve-maroc-03.jpg",
+          "alt": "Porsche 911 targa photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8567,6 +18756,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 120,
+        "model_id": "porsche-cayenne",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Turbo E-Hybrid \n                          \n       ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1721,
+          "model_id": "porsche-cayenne",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/cayenne-neuve-maroc.jpg",
+          "alt": "Porsche cayenne",
+          "is_primary": 1
+        },
+        {
+          "id": 1722,
+          "model_id": "porsche-cayenne",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/cayenne-neuve-maroc-01.jpg",
+          "alt": "Porsche cayenne photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1723,
+          "model_id": "porsche-cayenne",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/cayenne-neuve-maroc-02.jpg",
+          "alt": "Porsche cayenne photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1724,
+          "model_id": "porsche-cayenne",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/cayenne-neuve-maroc-03.jpg",
+          "alt": "Porsche cayenne photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8594,6 +18836,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 121,
+        "model_id": "porsche-cayenne-coupe",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Turbo E-Hybrid \n                          \n       ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1725,
+          "model_id": "porsche-cayenne-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/cayenne-coupe-neuve-maroc.jpg",
+          "alt": "Porsche cayenne coupe",
+          "is_primary": 1
+        },
+        {
+          "id": 1726,
+          "model_id": "porsche-cayenne-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/cayenne-coupe-neuve-maroc-01.jpg",
+          "alt": "Porsche cayenne coupe photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1727,
+          "model_id": "porsche-cayenne-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/cayenne-coupe-neuve-maroc-02.jpg",
+          "alt": "Porsche cayenne coupe photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1728,
+          "model_id": "porsche-cayenne-coupe",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/cayenne-coupe-neuve-maroc-03.jpg",
+          "alt": "Porsche cayenne coupe photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8619,6 +18914,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 122,
+        "model_id": "porsche-macan",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Turbo \n                          \n            \n   ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1717,
+          "model_id": "porsche-macan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/macan-neuve-maroc.jpg",
+          "alt": "Porsche macan",
+          "is_primary": 1
+        },
+        {
+          "id": 1718,
+          "model_id": "porsche-macan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/macan-neuve-maroc-01.jpg",
+          "alt": "Porsche macan photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1719,
+          "model_id": "porsche-macan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/macan-neuve-maroc-02.jpg",
+          "alt": "Porsche macan photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1720,
+          "model_id": "porsche-macan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/macan-neuve-maroc-03.jpg",
+          "alt": "Porsche macan photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8646,6 +18994,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 123,
+        "model_id": "porsche-panamera",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Turbo S E-Hybrid \n                          \n     ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1705,
+          "model_id": "porsche-panamera",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/panamera-neuve-maroc.jpg",
+          "alt": "Porsche panamera",
+          "is_primary": 1
+        },
+        {
+          "id": 1706,
+          "model_id": "porsche-panamera",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/panamera-neuve-maroc-01.jpg",
+          "alt": "Porsche panamera photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1707,
+          "model_id": "porsche-panamera",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/panamera-neuve-maroc-02.jpg",
+          "alt": "Porsche panamera photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1708,
+          "model_id": "porsche-panamera",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/panamera-neuve-maroc-03.jpg",
+          "alt": "Porsche panamera photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8671,6 +19072,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 124,
+        "model_id": "porsche-taycan",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Turbo S \n                          \n            \n ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1709,
+          "model_id": "porsche-taycan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/taycan-neuve-maroc.jpg",
+          "alt": "Porsche taycan",
+          "is_primary": 1
+        },
+        {
+          "id": 1710,
+          "model_id": "porsche-taycan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/taycan-neuve-maroc-01.jpg",
+          "alt": "Porsche taycan photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1711,
+          "model_id": "porsche-taycan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/taycan-neuve-maroc-02.jpg",
+          "alt": "Porsche taycan photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1712,
+          "model_id": "porsche-taycan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/taycan-neuve-maroc-03.jpg",
+          "alt": "Porsche taycan photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8698,6 +19152,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 125,
+        "model_id": "porsche-taycan-cross-turismo",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Turbo S \n                          \n            \n ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1713,
+          "model_id": "porsche-taycan-cross-turismo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/taycan-cross-turismo-neuve-maroc.jpg",
+          "alt": "Porsche taycan cross turismo",
+          "is_primary": 1
+        },
+        {
+          "id": 1714,
+          "model_id": "porsche-taycan-cross-turismo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/taycan-cross-turismo-neuve-maroc-01.jpg",
+          "alt": "Porsche taycan cross turismo photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1715,
+          "model_id": "porsche-taycan-cross-turismo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/taycan-cross-turismo-neuve-maroc-02.jpg",
+          "alt": "Porsche taycan cross turismo photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1716,
+          "model_id": "porsche-taycan-cross-turismo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/porsche/taycan-cross-turismo-neuve-maroc-03.jpg",
+          "alt": "Porsche taycan cross turismo photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8723,6 +19230,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 945,
+          "model_id": "renault-5-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/5-e-tech-neuve-maroc.jpg",
+          "alt": "Renault 5 e tech",
+          "is_primary": 1
+        },
+        {
+          "id": 946,
+          "model_id": "renault-5-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/5-e-tech-neuve-maroc-01.jpg",
+          "alt": "Renault 5 e tech photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 947,
+          "model_id": "renault-5-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/5-e-tech-neuve-maroc-02.jpg",
+          "alt": "Renault 5 e tech photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 948,
+          "model_id": "renault-5-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/5-e-tech-neuve-maroc-03.jpg",
+          "alt": "Renault 5 e tech photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8759,6 +19297,38 @@ const STATIC_DATA = {
           "transmission": "Automatique",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 197,
+        "model_id": "renault-arkana",
+        "motorisation_id": null,
+        "longueur": "4568 mm",
+        "largeur": "1820 mm",
+        "hauteur": "1576 mm",
+        "empattement": "2720 mm",
+        "poids": "1457 kg",
+        "coffre": "513 L",
+        "cylindree": "1598 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "180 km/h",
+        "acceleration": "9.3 s",
+        "conso_urbaine": "5.4 L/100km",
+        "conso_extra": "5.2 L/100km",
+        "conso_mixte": "5.3 L/100km",
+        "emission_co2": "120 g/km",
+        "reservoir": "50 L",
+        "roues": "18 pouces",
+        "pneus": "215/50 R18"
+      },
+      "images": [
+        {
+          "id": 2305,
+          "model_id": "renault-arkana",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Arkana-2024-Neuve-Maroc-01.jpg",
+          "alt": "Arkana vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -8784,6 +19354,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 969,
+          "model_id": "renault-austral",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/austral-neuve-maroc.jpg",
+          "alt": "Renault austral",
+          "is_primary": 1
+        },
+        {
+          "id": 970,
+          "model_id": "renault-austral",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/austral-neuve-maroc-01.jpg",
+          "alt": "Renault austral photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 971,
+          "model_id": "renault-austral",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/austral-neuve-maroc-02.jpg",
+          "alt": "Renault austral photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 972,
+          "model_id": "renault-austral",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/austral-neuve-maroc-03.jpg",
+          "alt": "Renault austral photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8829,6 +19430,38 @@ const STATIC_DATA = {
           "transmission": "Automatique",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 196,
+        "model_id": "renault-captur",
+        "motorisation_id": null,
+        "longueur": "4227 mm",
+        "largeur": "1797 mm",
+        "hauteur": "1576 mm",
+        "empattement": "2638 mm",
+        "poids": "1248 kg",
+        "coffre": "422 L",
+        "cylindree": "1333 cc",
+        "cylindres": "4",
+        "turbo": "Oui",
+        "vitesse_max": "194 km/h",
+        "acceleration": "9.8 s",
+        "conso_urbaine": "6.8 L/100km",
+        "conso_extra": "5.0 L/100km",
+        "conso_mixte": "5.7 L/100km",
+        "emission_co2": "129 g/km",
+        "reservoir": "48 L",
+        "roues": "17 pouces",
+        "pneus": "215/55 R17"
+      },
+      "images": [
+        {
+          "id": 2304,
+          "model_id": "renault-captur",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Captur-2024-Neuve-Maroc-01.jpg",
+          "alt": "Captur vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -8854,6 +19487,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 953,
+          "model_id": "renault-captur-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/captur-e-tech-neuve-maroc.jpg",
+          "alt": "Renault captur e tech",
+          "is_primary": 1
+        },
+        {
+          "id": 954,
+          "model_id": "renault-captur-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/captur-e-tech-neuve-maroc-01.jpg",
+          "alt": "Renault captur e tech photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 955,
+          "model_id": "renault-captur-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/captur-e-tech-neuve-maroc-02.jpg",
+          "alt": "Renault captur e tech photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 956,
+          "model_id": "renault-captur-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/captur-e-tech-neuve-maroc-03.jpg",
+          "alt": "Renault captur e tech photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8908,6 +19572,38 @@ const STATIC_DATA = {
           "transmission": "Automatique",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 194,
+        "model_id": "renault-clio",
+        "motorisation_id": null,
+        "longueur": "4050 mm",
+        "largeur": "1798 mm",
+        "hauteur": "1448 mm",
+        "empattement": "2583 mm",
+        "poids": "1040 kg",
+        "coffre": "391 L",
+        "cylindree": "999 cc",
+        "cylindres": "3",
+        "turbo": "Oui (TCe)",
+        "vitesse_max": "183 km/h",
+        "acceleration": "11.6 s",
+        "conso_urbaine": "6.2 L/100km",
+        "conso_extra": "4.4 L/100km",
+        "conso_mixte": "5.1 L/100km",
+        "emission_co2": "115 g/km",
+        "reservoir": "42 L",
+        "roues": "16 pouces",
+        "pneus": "205/45 R16"
+      },
+      "images": [
+        {
+          "id": 2302,
+          "model_id": "renault-clio",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Clio-5-2024-Neuve-Maroc-01.jpg",
+          "alt": "Clio vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -8933,6 +19629,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 941,
+          "model_id": "renault-clio-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/clio-e-tech-neuve-maroc.jpg",
+          "alt": "Renault clio e tech",
+          "is_primary": 1
+        },
+        {
+          "id": 942,
+          "model_id": "renault-clio-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/clio-e-tech-neuve-maroc-01.jpg",
+          "alt": "Renault clio e tech photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 943,
+          "model_id": "renault-clio-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/clio-e-tech-neuve-maroc-02.jpg",
+          "alt": "Renault clio e tech photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 944,
+          "model_id": "renault-clio-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/clio-e-tech-neuve-maroc-03.jpg",
+          "alt": "Renault clio e tech photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -8960,6 +19687,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 977,
+          "model_id": "renault-express",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/express-neuve-maroc.jpg",
+          "alt": "Renault express",
+          "is_primary": 1
+        },
+        {
+          "id": 978,
+          "model_id": "renault-express",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/express-neuve-maroc-01.jpg",
+          "alt": "Renault express photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 979,
+          "model_id": "renault-express",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/express-neuve-maroc-02.jpg",
+          "alt": "Renault express photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 980,
+          "model_id": "renault-express",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/express-neuve-maroc-03.jpg",
+          "alt": "Renault express photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -8985,6 +19743,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 973,
+          "model_id": "renault-express-van",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/express-van-neuve-maroc.jpg",
+          "alt": "Renault express van",
+          "is_primary": 1
+        },
+        {
+          "id": 974,
+          "model_id": "renault-express-van",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/express-van-neuve-maroc-01.jpg",
+          "alt": "Renault express van photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 975,
+          "model_id": "renault-express-van",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/express-van-neuve-maroc-02.jpg",
+          "alt": "Renault express van photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 976,
+          "model_id": "renault-express-van",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/express-van-neuve-maroc-03.jpg",
+          "alt": "Renault express van photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9012,6 +19801,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 981,
+          "model_id": "renault-kangoo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/kangoo-neuve-maroc.jpg",
+          "alt": "Renault kangoo",
+          "is_primary": 1
+        },
+        {
+          "id": 982,
+          "model_id": "renault-kangoo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/kangoo-neuve-maroc-01.jpg",
+          "alt": "Renault kangoo photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 983,
+          "model_id": "renault-kangoo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/kangoo-neuve-maroc-02.jpg",
+          "alt": "Renault kangoo photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 984,
+          "model_id": "renault-kangoo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/kangoo-neuve-maroc-03.jpg",
+          "alt": "Renault kangoo photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9037,6 +19857,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 126,
+        "model_id": "renault-kardian",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "Jumelle de stepway  \n          hey el arabia - le ",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "Jumelle de stepway  \n          hey el arabia - le "
+      },
+      "images": [
+        {
+          "id": 933,
+          "model_id": "renault-kardian",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/kardian-neuve-maroc.jpg",
+          "alt": "Renault kardian",
+          "is_primary": 1
+        },
+        {
+          "id": 934,
+          "model_id": "renault-kardian",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/kardian-neuve-maroc-01.jpg",
+          "alt": "Renault kardian photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 935,
+          "model_id": "renault-kardian",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/kardian-neuve-maroc-02.jpg",
+          "alt": "Renault kardian photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 936,
+          "model_id": "renault-kardian",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/kardian-neuve-maroc-03.jpg",
+          "alt": "Renault kardian photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9073,6 +19946,38 @@ const STATIC_DATA = {
           "transmission": "CVT",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 195,
+        "model_id": "renault-logan",
+        "motorisation_id": null,
+        "longueur": "4369 mm",
+        "largeur": "1784 mm",
+        "hauteur": "1498 mm",
+        "empattement": "2634 mm",
+        "poids": "1095 kg",
+        "coffre": "510 L",
+        "cylindree": "999 cc",
+        "cylindres": "3",
+        "turbo": "Oui (TCe)",
+        "vitesse_max": "168 km/h",
+        "acceleration": "13.2 s",
+        "conso_urbaine": "6.4 L/100km",
+        "conso_extra": "4.7 L/100km",
+        "conso_mixte": "5.3 L/100km",
+        "emission_co2": "121 g/km",
+        "reservoir": "50 L",
+        "roues": "15 pouces",
+        "pneus": "185/65 R15"
+      },
+      "images": [
+        {
+          "id": 2303,
+          "model_id": "renault-logan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Logan-2024-Neuve-Maroc-01.jpg",
+          "alt": "Logan vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -9108,6 +20013,38 @@ const STATIC_DATA = {
           "transmission": "Automatique 1 rapport",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": {
+        "id": 198,
+        "model_id": "renault-megane",
+        "motorisation_id": null,
+        "longueur": "4200 mm",
+        "largeur": "1768 mm",
+        "hauteur": "1505 mm",
+        "empattement": "2685 mm",
+        "poids": "1624 kg",
+        "coffre": "440 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "160 km/h",
+        "acceleration": "7.4 s",
+        "conso_urbaine": "14.8 kWh/100km",
+        "conso_extra": "12.0 kWh/100km",
+        "conso_mixte": "13.2 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "60 kWh",
+        "roues": "18 pouces",
+        "pneus": "215/50 R18"
+      },
+      "images": [
+        {
+          "id": 2306,
+          "model_id": "renault-megane",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Megane-E-Tech-2024-Neuve-Maroc-01.jpg",
+          "alt": "Mégane E-Tech vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -9133,6 +20070,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 127,
+        "model_id": "renault-megane-e-tech",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "Corps de berline compacte, style crossover, arrièr",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 961,
+          "model_id": "renault-megane-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/megane-e-tech-neuve-maroc.jpg",
+          "alt": "Renault megane e tech",
+          "is_primary": 1
+        },
+        {
+          "id": 962,
+          "model_id": "renault-megane-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/megane-e-tech-neuve-maroc-01.jpg",
+          "alt": "Renault megane e tech photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 963,
+          "model_id": "renault-megane-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/megane-e-tech-neuve-maroc-02.jpg",
+          "alt": "Renault megane e tech photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 964,
+          "model_id": "renault-megane-e-tech",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/megane-e-tech-neuve-maroc-03.jpg",
+          "alt": "Renault megane e tech photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9160,6 +20150,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 957,
+          "model_id": "renault-megane-sedan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/megane-sedan-neuve-maroc.jpg",
+          "alt": "Renault megane sedan",
+          "is_primary": 1
+        },
+        {
+          "id": 958,
+          "model_id": "renault-megane-sedan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/megane-sedan-neuve-maroc-01.jpg",
+          "alt": "Renault megane sedan photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 959,
+          "model_id": "renault-megane-sedan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/megane-sedan-neuve-maroc-02.jpg",
+          "alt": "Renault megane sedan photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 960,
+          "model_id": "renault-megane-sedan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/renault/megane-sedan-neuve-maroc-03.jpg",
+          "alt": "Renault megane sedan photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9185,6 +20206,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1585,
+          "model_id": "seat-arona",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/arona-neuve-maroc.jpg",
+          "alt": "Seat arona",
+          "is_primary": 1
+        },
+        {
+          "id": 1586,
+          "model_id": "seat-arona",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/arona-neuve-maroc-01.jpg",
+          "alt": "Seat arona photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1587,
+          "model_id": "seat-arona",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/arona-neuve-maroc-02.jpg",
+          "alt": "Seat arona photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1588,
+          "model_id": "seat-arona",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/arona-neuve-maroc-03.jpg",
+          "alt": "Seat arona photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9212,6 +20264,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1593,
+          "model_id": "seat-ateca",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/ateca-neuve-maroc.jpg",
+          "alt": "Seat ateca",
+          "is_primary": 1
+        },
+        {
+          "id": 1594,
+          "model_id": "seat-ateca",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/ateca-neuve-maroc-01.jpg",
+          "alt": "Seat ateca photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1595,
+          "model_id": "seat-ateca",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/ateca-neuve-maroc-02.jpg",
+          "alt": "Seat ateca photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1596,
+          "model_id": "seat-ateca",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/ateca-neuve-maroc-03.jpg",
+          "alt": "Seat ateca photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9237,6 +20320,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1581,
+          "model_id": "seat-ibiza",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/ibiza-neuve-maroc.jpg",
+          "alt": "Seat ibiza",
+          "is_primary": 1
+        },
+        {
+          "id": 1582,
+          "model_id": "seat-ibiza",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/ibiza-neuve-maroc-01.jpg",
+          "alt": "Seat ibiza photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1583,
+          "model_id": "seat-ibiza",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/ibiza-neuve-maroc-02.jpg",
+          "alt": "Seat ibiza photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1584,
+          "model_id": "seat-ibiza",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/ibiza-neuve-maroc-03.jpg",
+          "alt": "Seat ibiza photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9264,6 +20378,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1589,
+          "model_id": "seat-leon",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/leon-neuve-maroc.jpg",
+          "alt": "Seat leon",
+          "is_primary": 1
+        },
+        {
+          "id": 1590,
+          "model_id": "seat-leon",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/leon-neuve-maroc-01.jpg",
+          "alt": "Seat leon photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1591,
+          "model_id": "seat-leon",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/leon-neuve-maroc-02.jpg",
+          "alt": "Seat leon photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1592,
+          "model_id": "seat-leon",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/seat/leon-neuve-maroc-03.jpg",
+          "alt": "Seat leon photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9289,6 +20434,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1597,
+          "model_id": "skoda-fabia",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/fabia-neuve-maroc.jpg",
+          "alt": "Skoda fabia",
+          "is_primary": 1
+        },
+        {
+          "id": 1598,
+          "model_id": "skoda-fabia",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/fabia-neuve-maroc-01.jpg",
+          "alt": "Skoda fabia photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1599,
+          "model_id": "skoda-fabia",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/fabia-neuve-maroc-02.jpg",
+          "alt": "Skoda fabia photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1600,
+          "model_id": "skoda-fabia",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/fabia-neuve-maroc-03.jpg",
+          "alt": "Skoda fabia photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9316,6 +20492,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1613,
+          "model_id": "skoda-kamiq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/kamiq-neuve-maroc.jpg",
+          "alt": "Skoda kamiq",
+          "is_primary": 1
+        },
+        {
+          "id": 1614,
+          "model_id": "skoda-kamiq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/kamiq-neuve-maroc-01.jpg",
+          "alt": "Skoda kamiq photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1615,
+          "model_id": "skoda-kamiq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/kamiq-neuve-maroc-02.jpg",
+          "alt": "Skoda kamiq photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1616,
+          "model_id": "skoda-kamiq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/kamiq-neuve-maroc-03.jpg",
+          "alt": "Skoda kamiq photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9341,6 +20548,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1617,
+          "model_id": "skoda-karoq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/karoq-neuve-maroc.jpg",
+          "alt": "Skoda karoq",
+          "is_primary": 1
+        },
+        {
+          "id": 1618,
+          "model_id": "skoda-karoq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/karoq-neuve-maroc-01.jpg",
+          "alt": "Skoda karoq photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1619,
+          "model_id": "skoda-karoq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/karoq-neuve-maroc-02.jpg",
+          "alt": "Skoda karoq photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1620,
+          "model_id": "skoda-karoq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/karoq-neuve-maroc-03.jpg",
+          "alt": "Skoda karoq photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9368,6 +20606,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1621,
+          "model_id": "skoda-kodiaq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/kodiaq-neuve-maroc.jpg",
+          "alt": "Skoda kodiaq",
+          "is_primary": 1
+        },
+        {
+          "id": 1622,
+          "model_id": "skoda-kodiaq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/kodiaq-neuve-maroc-01.jpg",
+          "alt": "Skoda kodiaq photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1623,
+          "model_id": "skoda-kodiaq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/kodiaq-neuve-maroc-02.jpg",
+          "alt": "Skoda kodiaq photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1624,
+          "model_id": "skoda-kodiaq",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/kodiaq-neuve-maroc-03.jpg",
+          "alt": "Skoda kodiaq photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9393,6 +20662,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1605,
+          "model_id": "skoda-octavia",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/octavia-neuve-maroc.jpg",
+          "alt": "Skoda octavia",
+          "is_primary": 1
+        },
+        {
+          "id": 1606,
+          "model_id": "skoda-octavia",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/octavia-neuve-maroc-01.jpg",
+          "alt": "Skoda octavia photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1607,
+          "model_id": "skoda-octavia",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/octavia-neuve-maroc-02.jpg",
+          "alt": "Skoda octavia photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1608,
+          "model_id": "skoda-octavia",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/octavia-neuve-maroc-03.jpg",
+          "alt": "Skoda octavia photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9420,6 +20720,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1601,
+          "model_id": "skoda-scala",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/scala-neuve-maroc.jpg",
+          "alt": "Skoda scala",
+          "is_primary": 1
+        },
+        {
+          "id": 1602,
+          "model_id": "skoda-scala",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/scala-neuve-maroc-01.jpg",
+          "alt": "Skoda scala photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1603,
+          "model_id": "skoda-scala",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/scala-neuve-maroc-02.jpg",
+          "alt": "Skoda scala photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1604,
+          "model_id": "skoda-scala",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/scala-neuve-maroc-03.jpg",
+          "alt": "Skoda scala photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9445,6 +20776,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 128,
+        "model_id": "skoda-superb",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "Superb vs Fusion vs Passat \n          lilou - le 1",
+        "empattement": "",
+        "poids": "",
+        "coffre": "Coffre avec filet ? \n          Abdel - le 14 mars ",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1609,
+          "model_id": "skoda-superb",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/superb-neuve-maroc.jpg",
+          "alt": "Skoda superb",
+          "is_primary": 1
+        },
+        {
+          "id": 1610,
+          "model_id": "skoda-superb",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/superb-neuve-maroc-01.jpg",
+          "alt": "Skoda superb photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1611,
+          "model_id": "skoda-superb",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/superb-neuve-maroc-02.jpg",
+          "alt": "Skoda superb photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1612,
+          "model_id": "skoda-superb",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/skoda/superb-neuve-maroc-03.jpg",
+          "alt": "Skoda superb photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9472,6 +20856,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2189,
+          "model_id": "soueast-s05-ice",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s05-ice-neuve-maroc.jpg",
+          "alt": "Soueast s05 ice",
+          "is_primary": 1
+        },
+        {
+          "id": 2190,
+          "model_id": "soueast-s05-ice",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s05-ice-neuve-maroc-01.jpg",
+          "alt": "Soueast s05 ice photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2191,
+          "model_id": "soueast-s05-ice",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s05-ice-neuve-maroc-02.jpg",
+          "alt": "Soueast s05 ice photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2192,
+          "model_id": "soueast-s05-ice",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s05-ice-neuve-maroc-03.jpg",
+          "alt": "Soueast s05 ice photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9497,6 +20912,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2197,
+          "model_id": "soueast-s06-dm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s06-dm-neuve-maroc.jpg",
+          "alt": "Soueast s06 dm",
+          "is_primary": 1
+        },
+        {
+          "id": 2198,
+          "model_id": "soueast-s06-dm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s06-dm-neuve-maroc-01.jpg",
+          "alt": "Soueast s06 dm photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2199,
+          "model_id": "soueast-s06-dm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s06-dm-neuve-maroc-02.jpg",
+          "alt": "Soueast s06 dm photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2200,
+          "model_id": "soueast-s06-dm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s06-dm-neuve-maroc-03.jpg",
+          "alt": "Soueast s06 dm photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9524,6 +20970,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2193,
+          "model_id": "soueast-s06-ice",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s06-ice-neuve-maroc.jpg",
+          "alt": "Soueast s06 ice",
+          "is_primary": 1
+        },
+        {
+          "id": 2194,
+          "model_id": "soueast-s06-ice",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s06-ice-neuve-maroc-01.jpg",
+          "alt": "Soueast s06 ice photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2195,
+          "model_id": "soueast-s06-ice",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s06-ice-neuve-maroc-02.jpg",
+          "alt": "Soueast s06 ice photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2196,
+          "model_id": "soueast-s06-ice",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s06-ice-neuve-maroc-03.jpg",
+          "alt": "Soueast s06 ice photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9549,6 +21026,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2201,
+          "model_id": "soueast-s07",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s07-neuve-maroc.jpg",
+          "alt": "Soueast s07",
+          "is_primary": 1
+        },
+        {
+          "id": 2202,
+          "model_id": "soueast-s07",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s07-neuve-maroc-01.jpg",
+          "alt": "Soueast s07 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2203,
+          "model_id": "soueast-s07",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s07-neuve-maroc-02.jpg",
+          "alt": "Soueast s07 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2204,
+          "model_id": "soueast-s07",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s07-neuve-maroc-03.jpg",
+          "alt": "Soueast s07 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9576,6 +21084,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 129,
+        "model_id": "soueast-s08-dm",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "SOUEAST S08 DM est un SUV familial à 7 places doté",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "CHANGAN UNI-K\n      \n                2.0 Turbo 226",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 2205,
+          "model_id": "soueast-s08-dm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s08-dm-neuve-maroc.jpg",
+          "alt": "Soueast s08 dm",
+          "is_primary": 1
+        },
+        {
+          "id": 2206,
+          "model_id": "soueast-s08-dm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s08-dm-neuve-maroc-01.jpg",
+          "alt": "Soueast s08 dm photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2207,
+          "model_id": "soueast-s08-dm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s08-dm-neuve-maroc-02.jpg",
+          "alt": "Soueast s08 dm photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2208,
+          "model_id": "soueast-s08-dm",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s08-dm-neuve-maroc-03.jpg",
+          "alt": "Soueast s08 dm photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9601,6 +21162,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2209,
+          "model_id": "soueast-s09",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s09-neuve-maroc.jpg",
+          "alt": "Soueast s09",
+          "is_primary": 1
+        },
+        {
+          "id": 2210,
+          "model_id": "soueast-s09",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s09-neuve-maroc-01.jpg",
+          "alt": "Soueast s09 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2211,
+          "model_id": "soueast-s09",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s09-neuve-maroc-02.jpg",
+          "alt": "Soueast s09 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2212,
+          "model_id": "soueast-s09",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/soueast/s09-neuve-maroc-03.jpg",
+          "alt": "Soueast s09 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9628,6 +21220,59 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 130,
+        "model_id": "suzuki-jimny",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "le plaisir grandeur nature !",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1793,
+          "model_id": "suzuki-jimny",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/suzuki/jimny-neuve-maroc.jpg",
+          "alt": "Suzuki jimny",
+          "is_primary": 1
+        },
+        {
+          "id": 1794,
+          "model_id": "suzuki-jimny",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/suzuki/jimny-neuve-maroc-01.jpg",
+          "alt": "Suzuki jimny photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1795,
+          "model_id": "suzuki-jimny",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/suzuki/jimny-neuve-maroc-02.jpg",
+          "alt": "Suzuki jimny photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1796,
+          "model_id": "suzuki-jimny",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/suzuki/jimny-neuve-maroc-03.jpg",
+          "alt": "Suzuki jimny photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9653,6 +21298,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1789,
+          "model_id": "suzuki-swift",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/suzuki/swift-neuve-maroc.jpg",
+          "alt": "Suzuki swift",
+          "is_primary": 1
+        },
+        {
+          "id": 1790,
+          "model_id": "suzuki-swift",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/suzuki/swift-neuve-maroc-01.jpg",
+          "alt": "Suzuki swift photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1791,
+          "model_id": "suzuki-swift",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/suzuki/swift-neuve-maroc-02.jpg",
+          "alt": "Suzuki swift photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1792,
+          "model_id": "suzuki-swift",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/suzuki/swift-neuve-maroc-03.jpg",
+          "alt": "Suzuki swift photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9680,6 +21356,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1401,
+          "model_id": "toyota-bz4x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/bz4x-neuve-maroc.jpg",
+          "alt": "Toyota bz4x",
+          "is_primary": 1
+        },
+        {
+          "id": 1402,
+          "model_id": "toyota-bz4x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/bz4x-neuve-maroc-01.jpg",
+          "alt": "Toyota bz4x photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1403,
+          "model_id": "toyota-bz4x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/bz4x-neuve-maroc-02.jpg",
+          "alt": "Toyota bz4x photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1404,
+          "model_id": "toyota-bz4x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/bz4x-neuve-maroc-03.jpg",
+          "alt": "Toyota bz4x photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9705,6 +21412,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 131,
+        "model_id": "toyota-c-hr",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "C-HR dans les montées ? \n          Salah Eddine Bo",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1393,
+          "model_id": "toyota-c-hr",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/c-hr-neuve-maroc.jpg",
+          "alt": "Toyota c hr",
+          "is_primary": 1
+        },
+        {
+          "id": 1394,
+          "model_id": "toyota-c-hr",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/c-hr-neuve-maroc-01.jpg",
+          "alt": "Toyota c hr photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1395,
+          "model_id": "toyota-c-hr",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/c-hr-neuve-maroc-02.jpg",
+          "alt": "Toyota c hr photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1396,
+          "model_id": "toyota-c-hr",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/c-hr-neuve-maroc-03.jpg",
+          "alt": "Toyota c hr photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9741,6 +21501,38 @@ const STATIC_DATA = {
           "transmission": "Automatique CVT",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 230,
+        "model_id": "toyota-corolla",
+        "motorisation_id": null,
+        "longueur": "4620 mm",
+        "largeur": "1780 mm",
+        "hauteur": "1435 mm",
+        "empattement": "2700 mm",
+        "poids": "1325 kg",
+        "coffre": "361 L",
+        "cylindree": "1798 cc",
+        "cylindres": "4",
+        "turbo": "Non (Hybride)",
+        "vitesse_max": "180 km/h",
+        "acceleration": "10.9 s",
+        "conso_urbaine": "4.5 L/100km",
+        "conso_extra": "4.7 L/100km",
+        "conso_mixte": "4.6 L/100km",
+        "emission_co2": "104 g/km",
+        "reservoir": "43 L",
+        "roues": "17 pouces",
+        "pneus": "205/55 R17"
+      },
+      "images": [
+        {
+          "id": 2338,
+          "model_id": "toyota-corolla",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/Toyota-Corolla-2024-Neuve-Maroc-01.jpg",
+          "alt": "Corolla vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -9766,6 +21558,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1381,
+          "model_id": "toyota-corolla-prestige",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-prestige-neuve-maroc.jpg",
+          "alt": "Toyota corolla prestige",
+          "is_primary": 1
+        },
+        {
+          "id": 1382,
+          "model_id": "toyota-corolla-prestige",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-prestige-neuve-maroc-01.jpg",
+          "alt": "Toyota corolla prestige photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1383,
+          "model_id": "toyota-corolla-prestige",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-prestige-neuve-maroc-02.jpg",
+          "alt": "Toyota corolla prestige photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1384,
+          "model_id": "toyota-corolla-prestige",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-prestige-neuve-maroc-03.jpg",
+          "alt": "Toyota corolla prestige photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9793,6 +21616,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1385,
+          "model_id": "toyota-corolla-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-sport-neuve-maroc.jpg",
+          "alt": "Toyota corolla sport",
+          "is_primary": 1
+        },
+        {
+          "id": 1386,
+          "model_id": "toyota-corolla-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-sport-neuve-maroc-01.jpg",
+          "alt": "Toyota corolla sport photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1387,
+          "model_id": "toyota-corolla-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-sport-neuve-maroc-02.jpg",
+          "alt": "Toyota corolla sport photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1388,
+          "model_id": "toyota-corolla-sport",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-sport-neuve-maroc-03.jpg",
+          "alt": "Toyota corolla sport photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9819,6 +21673,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1397,
+          "model_id": "toyota-corolla-x-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-x-suv-neuve-maroc.jpg",
+          "alt": "Toyota corolla x suv",
+          "is_primary": 1
+        },
+        {
+          "id": 1398,
+          "model_id": "toyota-corolla-x-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-x-suv-neuve-maroc-01.jpg",
+          "alt": "Toyota corolla x suv photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1399,
+          "model_id": "toyota-corolla-x-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-x-suv-neuve-maroc-02.jpg",
+          "alt": "Toyota corolla x suv photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1400,
+          "model_id": "toyota-corolla-x-suv",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/corolla-x-suv-neuve-maroc-03.jpg",
+          "alt": "Toyota corolla x suv photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9844,6 +21729,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1413,
+          "model_id": "toyota-fortuner",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/fortuner-neuve-maroc.jpg",
+          "alt": "Toyota fortuner",
+          "is_primary": 1
+        },
+        {
+          "id": 1414,
+          "model_id": "toyota-fortuner",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/fortuner-neuve-maroc-01.jpg",
+          "alt": "Toyota fortuner photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1415,
+          "model_id": "toyota-fortuner",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/fortuner-neuve-maroc-02.jpg",
+          "alt": "Toyota fortuner photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1416,
+          "model_id": "toyota-fortuner",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/fortuner-neuve-maroc-03.jpg",
+          "alt": "Toyota fortuner photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -9880,6 +21796,38 @@ const STATIC_DATA = {
           "transmission": "6AT 4WD",
           "carburant": "Diesel"
         }
+      ],
+      "specifications": {
+        "id": 233,
+        "model_id": "toyota-hilux",
+        "motorisation_id": null,
+        "longueur": "5325 mm",
+        "largeur": "1855 mm",
+        "hauteur": "1815 mm",
+        "empattement": "3085 mm",
+        "poids": "1930 kg",
+        "coffre": "1270 L (benne)",
+        "cylindree": "2393 cc",
+        "cylindres": "4",
+        "turbo": "Oui (D-4D)",
+        "vitesse_max": "175 km/h",
+        "acceleration": "10.8 s",
+        "conso_urbaine": "8.5 L/100km",
+        "conso_extra": "7.5 L/100km",
+        "conso_mixte": "7.9 L/100km",
+        "emission_co2": "208 g/km",
+        "reservoir": "80 L",
+        "roues": "17 pouces",
+        "pneus": "265/65 R17"
+      },
+      "images": [
+        {
+          "id": 2341,
+          "model_id": "toyota-hilux",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/Toyota-Hilux-2024-Neuve-Maroc-01.jpg",
+          "alt": "Hilux vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -9915,6 +21863,38 @@ const STATIC_DATA = {
           "transmission": "10AT 4WD",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 232,
+        "model_id": "toyota-land-cruiser",
+        "motorisation_id": null,
+        "longueur": "4950 mm",
+        "largeur": "1980 mm",
+        "hauteur": "1885 mm",
+        "empattement": "2850 mm",
+        "poids": "2400 kg",
+        "coffre": "700 L",
+        "cylindree": "3445 cc",
+        "cylindres": "6",
+        "turbo": "Oui (Bi-Turbo)",
+        "vitesse_max": "210 km/h",
+        "acceleration": "6.7 s",
+        "conso_urbaine": "11.2 L/100km",
+        "conso_extra": "8.8 L/100km",
+        "conso_mixte": "9.8 L/100km",
+        "emission_co2": "221 g/km",
+        "reservoir": "110 L",
+        "roues": "21 pouces",
+        "pneus": "275/50 R21"
+      },
+      "images": [
+        {
+          "id": 2340,
+          "model_id": "toyota-land-cruiser",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/Toyota-Land-Cruiser-2024-Neuve-Maroc-01.jpg",
+          "alt": "Land Cruiser vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -9941,6 +21921,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1409,
+          "model_id": "toyota-land-cruiser-prado",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/land-cruiser-prado-neuve-maroc.jpg",
+          "alt": "Toyota land cruiser prado",
+          "is_primary": 1
+        },
+        {
+          "id": 1410,
+          "model_id": "toyota-land-cruiser-prado",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/land-cruiser-prado-neuve-maroc-01.jpg",
+          "alt": "Toyota land cruiser prado photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1411,
+          "model_id": "toyota-land-cruiser-prado",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/land-cruiser-prado-neuve-maroc-02.jpg",
+          "alt": "Toyota land cruiser prado photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1412,
+          "model_id": "toyota-land-cruiser-prado",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/land-cruiser-prado-neuve-maroc-03.jpg",
+          "alt": "Toyota land cruiser prado photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -9966,6 +21977,59 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": {
+        "id": 132,
+        "model_id": "toyota-rav-4",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "Le nouveau TOYOTA RAV 4 adopte un design plus expr",
+        "pneus": ""
+      },
+      "images": [
+        {
+          "id": 1405,
+          "model_id": "toyota-rav-4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/rav-4-neuve-maroc.jpg",
+          "alt": "Toyota rav 4",
+          "is_primary": 1
+        },
+        {
+          "id": 1406,
+          "model_id": "toyota-rav-4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/rav-4-neuve-maroc-01.jpg",
+          "alt": "Toyota rav 4 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1407,
+          "model_id": "toyota-rav-4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/rav-4-neuve-maroc-02.jpg",
+          "alt": "Toyota rav 4 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1408,
+          "model_id": "toyota-rav-4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/rav-4-neuve-maroc-03.jpg",
+          "alt": "Toyota rav 4 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -10002,6 +22066,38 @@ const STATIC_DATA = {
           "transmission": "Automatique E-CVT",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 231,
+        "model_id": "toyota-rav4",
+        "motorisation_id": null,
+        "longueur": "4600 mm",
+        "largeur": "1855 mm",
+        "hauteur": "1685 mm",
+        "empattement": "2690 mm",
+        "poids": "1845 kg",
+        "coffre": "580 L",
+        "cylindree": "2487 cc",
+        "cylindres": "4",
+        "turbo": "Non (Hybride)",
+        "vitesse_max": "180 km/h",
+        "acceleration": "7.9 s",
+        "conso_urbaine": "4.7 L/100km",
+        "conso_extra": "5.5 L/100km",
+        "conso_mixte": "5.1 L/100km",
+        "emission_co2": "115 g/km",
+        "reservoir": "55 L",
+        "roues": "18 pouces",
+        "pneus": "225/60 R18"
+      },
+      "images": [
+        {
+          "id": 2339,
+          "model_id": "toyota-rav4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/Toyota-RAV4-2024-Neuve-Maroc-01.jpg",
+          "alt": "RAV4 vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -10037,6 +22133,38 @@ const STATIC_DATA = {
           "transmission": "Automatique CVT",
           "carburant": "Hybride"
         }
+      ],
+      "specifications": {
+        "id": 229,
+        "model_id": "toyota-yaris",
+        "motorisation_id": null,
+        "longueur": "3940 mm",
+        "largeur": "1745 mm",
+        "hauteur": "1500 mm",
+        "empattement": "2560 mm",
+        "poids": "1035 kg",
+        "coffre": "286 L",
+        "cylindree": "1490 cc",
+        "cylindres": "4",
+        "turbo": "Non",
+        "vitesse_max": "180 km/h",
+        "acceleration": "10.6 s",
+        "conso_urbaine": "5.0 L/100km",
+        "conso_extra": "4.2 L/100km",
+        "conso_mixte": "4.5 L/100km",
+        "emission_co2": "103 g/km",
+        "reservoir": "42 L",
+        "roues": "16 pouces",
+        "pneus": "195/50 R16"
+      },
+      "images": [
+        {
+          "id": 2337,
+          "model_id": "toyota-yaris",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/Toyota-Yaris-2024-Neuve-Maroc-01.jpg",
+          "alt": "Yaris vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -10062,6 +22190,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1389,
+          "model_id": "toyota-yaris-cross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/yaris-cross-neuve-maroc.jpg",
+          "alt": "Toyota yaris cross",
+          "is_primary": 1
+        },
+        {
+          "id": 1390,
+          "model_id": "toyota-yaris-cross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/yaris-cross-neuve-maroc-01.jpg",
+          "alt": "Toyota yaris cross photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1391,
+          "model_id": "toyota-yaris-cross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/yaris-cross-neuve-maroc-02.jpg",
+          "alt": "Toyota yaris cross photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1392,
+          "model_id": "toyota-yaris-cross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/yaris-cross-neuve-maroc-03.jpg",
+          "alt": "Toyota yaris cross photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -10089,6 +22248,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1377,
+          "model_id": "toyota-yaris-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/yaris-hev-neuve-maroc.jpg",
+          "alt": "Toyota yaris hev",
+          "is_primary": 1
+        },
+        {
+          "id": 1378,
+          "model_id": "toyota-yaris-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/yaris-hev-neuve-maroc-01.jpg",
+          "alt": "Toyota yaris hev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1379,
+          "model_id": "toyota-yaris-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/yaris-hev-neuve-maroc-02.jpg",
+          "alt": "Toyota yaris hev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1380,
+          "model_id": "toyota-yaris-hev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/yaris-hev-neuve-maroc-03.jpg",
+          "alt": "Toyota yaris hev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -10114,6 +22304,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1113,
+          "model_id": "volkswagen-caddy",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/caddy-neuve-maroc.jpg",
+          "alt": "Volkswagen caddy",
+          "is_primary": 1
+        },
+        {
+          "id": 1114,
+          "model_id": "volkswagen-caddy",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/caddy-neuve-maroc-01.jpg",
+          "alt": "Volkswagen caddy photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1115,
+          "model_id": "volkswagen-caddy",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/caddy-neuve-maroc-02.jpg",
+          "alt": "Volkswagen caddy photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1116,
+          "model_id": "volkswagen-caddy",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/caddy-neuve-maroc-03.jpg",
+          "alt": "Volkswagen caddy photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -10141,6 +22362,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1089,
+          "model_id": "volkswagen-golf",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/golf-neuve-maroc.jpg",
+          "alt": "Volkswagen golf",
+          "is_primary": 1
+        },
+        {
+          "id": 1090,
+          "model_id": "volkswagen-golf",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/golf-neuve-maroc-01.jpg",
+          "alt": "Volkswagen golf photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1091,
+          "model_id": "volkswagen-golf",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/golf-neuve-maroc-02.jpg",
+          "alt": "Volkswagen golf photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1092,
+          "model_id": "volkswagen-golf",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/golf-neuve-maroc-03.jpg",
+          "alt": "Volkswagen golf photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -10166,6 +22418,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1093,
+          "model_id": "volkswagen-t-cross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/t-cross-neuve-maroc.jpg",
+          "alt": "Volkswagen t cross",
+          "is_primary": 1
+        },
+        {
+          "id": 1094,
+          "model_id": "volkswagen-t-cross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/t-cross-neuve-maroc-01.jpg",
+          "alt": "Volkswagen t cross photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1095,
+          "model_id": "volkswagen-t-cross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/t-cross-neuve-maroc-02.jpg",
+          "alt": "Volkswagen t cross photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1096,
+          "model_id": "volkswagen-t-cross",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/t-cross-neuve-maroc-03.jpg",
+          "alt": "Volkswagen t cross photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -10193,6 +22476,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1097,
+          "model_id": "volkswagen-t-roc",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/t-roc-neuve-maroc.jpg",
+          "alt": "Volkswagen t roc",
+          "is_primary": 1
+        },
+        {
+          "id": 1098,
+          "model_id": "volkswagen-t-roc",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/t-roc-neuve-maroc-01.jpg",
+          "alt": "Volkswagen t roc photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1099,
+          "model_id": "volkswagen-t-roc",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/t-roc-neuve-maroc-02.jpg",
+          "alt": "Volkswagen t roc photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1100,
+          "model_id": "volkswagen-t-roc",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/t-roc-neuve-maroc-03.jpg",
+          "alt": "Volkswagen t roc photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -10218,6 +22532,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1101,
+          "model_id": "volkswagen-taigo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/taigo-neuve-maroc.jpg",
+          "alt": "Volkswagen taigo",
+          "is_primary": 1
+        },
+        {
+          "id": 1102,
+          "model_id": "volkswagen-taigo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/taigo-neuve-maroc-01.jpg",
+          "alt": "Volkswagen taigo photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1103,
+          "model_id": "volkswagen-taigo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/taigo-neuve-maroc-02.jpg",
+          "alt": "Volkswagen taigo photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1104,
+          "model_id": "volkswagen-taigo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/taigo-neuve-maroc-03.jpg",
+          "alt": "Volkswagen taigo photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -10245,6 +22590,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1105,
+          "model_id": "volkswagen-tiguan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/tiguan-neuve-maroc.jpg",
+          "alt": "Volkswagen tiguan",
+          "is_primary": 1
+        },
+        {
+          "id": 1106,
+          "model_id": "volkswagen-tiguan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/tiguan-neuve-maroc-01.jpg",
+          "alt": "Volkswagen tiguan photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1107,
+          "model_id": "volkswagen-tiguan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/tiguan-neuve-maroc-02.jpg",
+          "alt": "Volkswagen tiguan photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1108,
+          "model_id": "volkswagen-tiguan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/tiguan-neuve-maroc-03.jpg",
+          "alt": "Volkswagen tiguan photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -10270,6 +22646,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 1109,
+          "model_id": "volkswagen-touareg",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/touareg-neuve-maroc.jpg",
+          "alt": "Volkswagen touareg",
+          "is_primary": 1
+        },
+        {
+          "id": 1110,
+          "model_id": "volkswagen-touareg",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/touareg-neuve-maroc-01.jpg",
+          "alt": "Volkswagen touareg photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 1111,
+          "model_id": "volkswagen-touareg",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/touareg-neuve-maroc-02.jpg",
+          "alt": "Volkswagen touareg photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 1112,
+          "model_id": "volkswagen-touareg",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/touareg-neuve-maroc-03.jpg",
+          "alt": "Volkswagen touareg photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -10297,6 +22704,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2077,
+          "model_id": "volvo-ex30",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/ex30-neuve-maroc.jpg",
+          "alt": "Volvo ex30",
+          "is_primary": 1
+        },
+        {
+          "id": 2078,
+          "model_id": "volvo-ex30",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/ex30-neuve-maroc-01.jpg",
+          "alt": "Volvo ex30 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2079,
+          "model_id": "volvo-ex30",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/ex30-neuve-maroc-02.jpg",
+          "alt": "Volvo ex30 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2080,
+          "model_id": "volvo-ex30",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/ex30-neuve-maroc-03.jpg",
+          "alt": "Volvo ex30 photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -10322,6 +22760,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2081,
+          "model_id": "volvo-xc40",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc40-neuve-maroc.jpg",
+          "alt": "Volvo xc40",
+          "is_primary": 1
+        },
+        {
+          "id": 2082,
+          "model_id": "volvo-xc40",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc40-neuve-maroc-01.jpg",
+          "alt": "Volvo xc40 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2083,
+          "model_id": "volvo-xc40",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc40-neuve-maroc-02.jpg",
+          "alt": "Volvo xc40 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2084,
+          "model_id": "volvo-xc40",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc40-neuve-maroc-03.jpg",
+          "alt": "Volvo xc40 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -10349,6 +22818,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Électrique"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2085,
+          "model_id": "volvo-xc60-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc60-phev-neuve-maroc.jpg",
+          "alt": "Volvo xc60 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 2086,
+          "model_id": "volvo-xc60-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc60-phev-neuve-maroc-01.jpg",
+          "alt": "Volvo xc60 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2087,
+          "model_id": "volvo-xc60-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc60-phev-neuve-maroc-02.jpg",
+          "alt": "Volvo xc60 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2088,
+          "model_id": "volvo-xc60-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc60-phev-neuve-maroc-03.jpg",
+          "alt": "Volvo xc60 phev photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -10374,6 +22874,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2089,
+          "model_id": "volvo-xc90-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc90-phev-neuve-maroc.jpg",
+          "alt": "Volvo xc90 phev",
+          "is_primary": 1
+        },
+        {
+          "id": 2090,
+          "model_id": "volvo-xc90-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc90-phev-neuve-maroc-01.jpg",
+          "alt": "Volvo xc90 phev photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2091,
+          "model_id": "volvo-xc90-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc90-phev-neuve-maroc-02.jpg",
+          "alt": "Volvo xc90 phev photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2092,
+          "model_id": "volvo-xc90-phev",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volvo/xc90-phev-neuve-maroc-03.jpg",
+          "alt": "Volvo xc90 phev photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -10419,6 +22950,38 @@ const STATIC_DATA = {
           "transmission": "DSG7",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 217,
+        "model_id": "vw-golf",
+        "motorisation_id": null,
+        "longueur": "4284 mm",
+        "largeur": "1789 mm",
+        "hauteur": "1491 mm",
+        "empattement": "2619 mm",
+        "poids": "1285 kg",
+        "coffre": "380 L",
+        "cylindree": "1498 cc",
+        "cylindres": "4",
+        "turbo": "Oui (TSI)",
+        "vitesse_max": "224 km/h",
+        "acceleration": "8.5 s",
+        "conso_urbaine": "6.5 L/100km",
+        "conso_extra": "4.8 L/100km",
+        "conso_mixte": "5.4 L/100km",
+        "emission_co2": "123 g/km",
+        "reservoir": "50 L",
+        "roues": "17 pouces",
+        "pneus": "215/55 R17"
+      },
+      "images": [
+        {
+          "id": 2325,
+          "model_id": "vw-golf",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/Volkswagen-Golf-2024-Neuve-Maroc-01.jpg",
+          "alt": "Golf vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -10453,6 +23016,38 @@ const STATIC_DATA = {
           "puissance": "299 ch",
           "transmission": "Automatique 4WD",
           "carburant": "Électrique"
+        }
+      ],
+      "specifications": {
+        "id": 219,
+        "model_id": "vw-id4",
+        "motorisation_id": null,
+        "longueur": "4584 mm",
+        "largeur": "1865 mm",
+        "hauteur": "1640 mm",
+        "empattement": "2766 mm",
+        "poids": "2124 kg",
+        "coffre": "543 L",
+        "cylindree": "N/A (Électrique)",
+        "cylindres": "N/A",
+        "turbo": "N/A",
+        "vitesse_max": "180 km/h",
+        "acceleration": "6.2 s",
+        "conso_urbaine": "19.0 kWh/100km",
+        "conso_extra": "15.5 kWh/100km",
+        "conso_mixte": "17.0 kWh/100km",
+        "emission_co2": "0 g/km",
+        "reservoir": "77 kWh",
+        "roues": "20 pouces",
+        "pneus": "235/50 R20"
+      },
+      "images": [
+        {
+          "id": 2327,
+          "model_id": "vw-id4",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/Volkswagen-ID4-2024-Neuve-Maroc-01.jpg",
+          "alt": "ID.4 vue de face",
+          "is_primary": 1
         }
       ]
     },
@@ -10489,6 +23084,38 @@ const STATIC_DATA = {
           "transmission": "DSG7",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 216,
+        "model_id": "vw-polo",
+        "motorisation_id": null,
+        "longueur": "4074 mm",
+        "largeur": "1751 mm",
+        "hauteur": "1461 mm",
+        "empattement": "2564 mm",
+        "poids": "1095 kg",
+        "coffre": "351 L",
+        "cylindree": "999 cc",
+        "cylindres": "3",
+        "turbo": "Oui (TSI)",
+        "vitesse_max": "194 km/h",
+        "acceleration": "10.8 s",
+        "conso_urbaine": "6.0 L/100km",
+        "conso_extra": "4.5 L/100km",
+        "conso_mixte": "5.1 L/100km",
+        "emission_co2": "116 g/km",
+        "reservoir": "40 L",
+        "roues": "15 pouces",
+        "pneus": "195/65 R15"
+      },
+      "images": [
+        {
+          "id": 2324,
+          "model_id": "vw-polo",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/Volkswagen-Polo-2024-Neuve-Maroc-01.jpg",
+          "alt": "Polo vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -10524,6 +23151,38 @@ const STATIC_DATA = {
           "transmission": "DSG7 4Motion",
           "carburant": "Essence"
         }
+      ],
+      "specifications": {
+        "id": 218,
+        "model_id": "vw-tiguan",
+        "motorisation_id": null,
+        "longueur": "4539 mm",
+        "largeur": "1839 mm",
+        "hauteur": "1664 mm",
+        "empattement": "2681 mm",
+        "poids": "1515 kg",
+        "coffre": "615 L",
+        "cylindree": "1498 cc",
+        "cylindres": "4",
+        "turbo": "Oui (TSI)",
+        "vitesse_max": "210 km/h",
+        "acceleration": "8.8 s",
+        "conso_urbaine": "7.4 L/100km",
+        "conso_extra": "5.5 L/100km",
+        "conso_mixte": "6.2 L/100km",
+        "emission_co2": "140 g/km",
+        "reservoir": "60 L",
+        "roues": "18 pouces",
+        "pneus": "235/50 R18"
+      },
+      "images": [
+        {
+          "id": 2326,
+          "model_id": "vw-tiguan",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/Volkswagen-Tiguan-2024-Neuve-Maroc-01.jpg",
+          "alt": "Tiguan vue de face",
+          "is_primary": 1
+        }
       ]
     },
     {
@@ -10549,6 +23208,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2169,
+          "model_id": "zeekr-001",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/001-neuve-maroc.jpg",
+          "alt": "Zeekr 001",
+          "is_primary": 1
+        },
+        {
+          "id": 2170,
+          "model_id": "zeekr-001",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/001-neuve-maroc-01.jpg",
+          "alt": "Zeekr 001 photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2171,
+          "model_id": "zeekr-001",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/001-neuve-maroc-02.jpg",
+          "alt": "Zeekr 001 photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2172,
+          "model_id": "zeekr-001",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/001-neuve-maroc-03.jpg",
+          "alt": "Zeekr 001 photo 4",
+          "is_primary": 0
         }
       ]
     },
@@ -10576,6 +23266,37 @@ const STATIC_DATA = {
           "transmission": "À préciser",
           "carburant": "Essence"
         }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2173,
+          "model_id": "zeekr-7x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/7x-neuve-maroc.jpg",
+          "alt": "Zeekr 7x",
+          "is_primary": 1
+        },
+        {
+          "id": 2174,
+          "model_id": "zeekr-7x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/7x-neuve-maroc-01.jpg",
+          "alt": "Zeekr 7x photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2175,
+          "model_id": "zeekr-7x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/7x-neuve-maroc-02.jpg",
+          "alt": "Zeekr 7x photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2176,
+          "model_id": "zeekr-7x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/7x-neuve-maroc-03.jpg",
+          "alt": "Zeekr 7x photo 4",
+          "is_primary": 0
+        }
       ]
     },
     {
@@ -10601,6 +23322,37 @@ const STATIC_DATA = {
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ],
+      "specifications": null,
+      "images": [
+        {
+          "id": 2165,
+          "model_id": "zeekr-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/x-neuve-maroc.jpg",
+          "alt": "Zeekr x",
+          "is_primary": 1
+        },
+        {
+          "id": 2166,
+          "model_id": "zeekr-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/x-neuve-maroc-01.jpg",
+          "alt": "Zeekr x photo 2",
+          "is_primary": 0
+        },
+        {
+          "id": 2167,
+          "model_id": "zeekr-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/x-neuve-maroc-02.jpg",
+          "alt": "Zeekr x photo 3",
+          "is_primary": 0
+        },
+        {
+          "id": 2168,
+          "model_id": "zeekr-x",
+          "url": "https://www.wandaloo.com/files/Voiture-Neuve/zeekr/x-neuve-maroc-03.jpg",
+          "alt": "Zeekr x photo 4",
+          "is_primary": 0
         }
       ]
     }
