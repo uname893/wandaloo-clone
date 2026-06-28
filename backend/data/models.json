@@ -1,0 +1,199 @@
+[
+  {
+    "id": "mg3",
+    "marque": "MG",
+    "nom": "MG3",
+    "annee": 2025,
+    "categorie": "Citadine",
+    "carrosserie": "Berline",
+    "prix_min": 169000,
+    "prix_max": 169000,
+    "motorisations": [
+      {
+        "version": "MG3 Standard",
+        "moteur": "1.5L",
+        "puissance": "106 ch",
+        "transmission": "Manuelle",
+        "carburant": "Essence"
+      }
+    ],
+    "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg/MG-3-HEV-2025-Neuve-Maroc-01.jpg",
+    "video": "https://www.wandaloo.com/video/mg/mg3--/nouvelle-mg3--hybrid--lancement-au-maroc/2507.html",
+    "fiche_url": "/neuf/mg/mg3/"
+  },
+  {
+    "id": "mg-5",
+    "marque": "MG",
+    "nom": "MG 5",
+    "annee": 2025,
+    "categorie": "Berline",
+    "carrosserie": "Break",
+    "prix_min": 195000,
+    "prix_max": 195000,
+    "motorisations": [
+      {
+        "version": "MG 5 Standard",
+        "moteur": "1.5L",
+        "puissance": "120 ch",
+        "transmission": "Automatique",
+        "carburant": "Essence"
+      }
+    ],
+    "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg/MG-5-2025-Neuve-Maroc-03.jpg",
+    "video": "https://www.wandaloo.com/video/mg/mg-5/mg-motors-mg-5-2023-maroc/2204.html",
+    "fiche_url": "/neuf/mg/mg-5/"
+  },
+  {
+    "id": "zs-ev",
+    "marque": "MG",
+    "nom": "ZS EV",
+    "annee": 2025,
+    "categorie": "SUV",
+    "carrosserie": "SUV",
+    "prix_min": 231750,
+    "prix_max": 263000,
+    "motorisations": [
+      {
+        "version": "ZS EV Standard",
+        "moteur": "Électrique",
+        "puissance": "177 ch",
+        "transmission": "Automatique",
+        "carburant": "Électrique"
+      },
+      {
+        "version": "ZS EV Long Range",
+        "moteur": "Électrique",
+        "puissance": "177 ch",
+        "transmission": "Automatique",
+        "carburant": "Électrique"
+      }
+    ],
+    "image": "https://www.wandaloo.com/files/2023/03/MG-Motors-MG-ZS-EV-2023-Neuve-Maroc-video.jpg",
+    "video": "https://www.wandaloo.com/video/mg/zs-ev/mg-motors-mg-zs-ev-2023-maroc/2208.html",
+    "fiche_url": "/neuf/mg/zs-ev/"
+  },
+  {
+    "id": "zs-hev",
+    "marque": "MG",
+    "nom": "ZS Hybrid+",
+    "annee": 2025,
+    "categorie": "SUV",
+    "carrosserie": "SUV",
+    "prix_min": 259000,
+    "prix_max": 279000,
+    "motorisations": [
+      {
+        "version": "ZS Hybrid+ Comfort",
+        "moteur": "1.5L Hybride",
+        "puissance": "192 ch",
+        "transmission": "Automatique",
+        "carburant": "Hybride"
+      },
+      {
+        "version": "ZS Hybrid+ Luxury",
+        "moteur": "1.5L Hybride",
+        "puissance": "192 ch",
+        "transmission": "Automatique",
+        "carburant": "Hybride"
+      }
+    ],
+    "image": "https://www.wandaloo.com/files/2025/07/MG-ZS-Hybrid--2025-Neuve-Maroc-video.jpg",
+    "video": "https://www.wandaloo.com/video/mg/zs-hev/mg-zs-hybrid--2025-debarque-au-maroc/2584.html",
+    "fiche_url": "/neuf/mg/zs-hev/"
+  },
+  {
+    "id": "hs",
+    "marque": "MG",
+    "nom": "HS",
+    "annee": 2025,
+    "categorie": "SUV",
+    "carrosserie": "SUV",
+    "prix_min": 270000,
+    "prix_max": 270000,
+    "motorisations": [
+      {
+        "version": "HS Standard",
+        "moteur": "1.5L Turbo",
+        "puissance": "162 ch",
+        "transmission": "Automatique",
+        "carburant": "Essence"
+      }
+    ],
+    "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg/MG-HS-2025-Neuve-Maroc-12.jpg",
+    "video": "https://www.wandaloo.com/video/mg/hs/nouveau-mg-hs-2025/2420.html",
+    "fiche_url": "/neuf/mg/hs/"
+  },
+  {
+    "id": "hs-hev",
+    "marque": "MG",
+    "nom": "HS Hybrid+",
+    "annee": 2025,
+    "categorie": "SUV",
+    "carrosserie": "SUV",
+    "prix_min": 278900,
+    "prix_max": 312900,
+    "motorisations": [
+      {
+        "version": "HS Hybrid+ Comfort",
+        "moteur": "1.5L Hybride",
+        "puissance": "215 ch",
+        "transmission": "Automatique",
+        "carburant": "Hybride"
+      },
+      {
+        "version": "HS Hybrid+ Luxury",
+        "moteur": "1.5L Hybride",
+        "puissance": "215 ch",
+        "transmission": "Automatique",
+        "carburant": "Hybride"
+      }
+    ],
+    "image": "https://www.wandaloo.com/files/2025/11/MG-HS-Hybrid-2025-Neuve-Maroc-05.jpg",
+    "video": "https://www.wandaloo.com/video/mg/hs-hev/nouveau-mg-hs-hybrid----le-clip-officiel/2629.html",
+    "fiche_url": "/neuf/mg/hs-hev/"
+  },
+  {
+    "id": "marvel-r",
+    "marque": "MG",
+    "nom": "Marvel-R",
+    "annee": 2024,
+    "categorie": "SUV Premium",
+    "carrosserie": "SUV",
+    "prix_min": 541500,
+    "prix_max": 541500,
+    "motorisations": [
+      {
+        "version": "Marvel-R Standard",
+        "moteur": "Électrique",
+        "puissance": "288 ch",
+        "transmission": "Automatique",
+        "carburant": "Électrique"
+      }
+    ],
+    "image": "https://www.wandaloo.com/files/2024/04/MG-Marvel-R-2024-Neuve-Maroc-video.jpg",
+    "video": "https://www.wandaloo.com/video/mg/marvel-r/mg-marvel-r---le-clip-officiel/2372.html",
+    "fiche_url": "/neuf/mg/marvel-r/"
+  },
+  {
+    "id": "cyberster",
+    "marque": "MG",
+    "nom": "Cyberster",
+    "annee": 2026,
+    "categorie": "Roadster",
+    "carrosserie": "Cabriolet",
+    "prix_min": 680000,
+    "prix_max": 680000,
+    "motorisations": [
+      {
+        "version": "Cyberster",
+        "moteur": "Électrique",
+        "puissance": "536 ch",
+        "transmission": "Automatique",
+        "carburant": "Électrique"
+      }
+    ],
+    "image": "https://www.wandaloo.com/files/2026/06/MG-Cyberster-2026-Neuve-Maroc-15.jpg",
+    "video": "https://www.wandaloo.com/video/mg/cyberster/mg-cyberster-lancement-au-maroc/2722.html",
+    "fiche_url": "/neuf/mg/cyberster/"
+  }
+]

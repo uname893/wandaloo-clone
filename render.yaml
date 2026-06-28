@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: autoguide-maroc
+    runtime: node
+    region: frankfurt
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+    autoDeploy: true
+    healthCheckPath: /api/health

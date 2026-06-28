@@ -1,0 +1,14 @@
+# Ignore node_modules for clean production builds
+node_modules/
+.env
+*.db-journal
+.system_generated/
+browser_recordings/
+html_artifacts/
+mcp/
+scratch/
+task.md
+walkthrough.md
+implementation_plan.md
+analyse_projet.md
+rapport_verification.md

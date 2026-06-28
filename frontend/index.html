@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoGuide Maroc — Prix et fiches techniques voitures neuves</title>
+  <meta name="description" content="Guide d'achat automobile au Maroc. Comparez les prix, fiches techniques et offres des constructeurs.">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body data-page="home">
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <a href="/" class="logo">
+          <div class="logo-icon">🚗</div>
+          <span class="logo-text">AutoGuide<span class="logo-accent">Maroc</span></span>
+        </a>
+        <nav class="nav-main">
+          <a href="/" class="nav-link active">Accueil</a>
+          <a href="pages/marques.html" class="nav-link">Marques</a>
+          <a href="pages/comparateur.html" class="nav-link">Comparateur</a>
+          <a href="pages/promos.html" class="nav-link">Promos</a>
+          <a href="pages/analyse.html" class="nav-link">Analyse</a>
+        </nav>
+        <a href="pages/comparateur.html" class="nav-cta">Comparer</a>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">🇲🇦 #1 Guide Auto au Maroc</div>
+      <h1>Trouvez votre voiture neuve<br>au meilleur prix</h1>
+      <p>Prix officiels, fiches techniques et comparateur de toutes les marques disponibles au Maroc</p>
+      
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Rechercher une marque, un modèle..." onkeyup="if(event.key==='Enter') search()">
+        <button onclick="search()">Rechercher</button>
+      </div>
+      
+      <div class="quick-filters">
+        <button onclick="filterByCategory('Citadine')" class="filter-chip">🚗 Citadines</button>
+        <button onclick="filterByCategory('SUV')" class="filter-chip">🚙 SUV</button>
+        <button onclick="filterByFuel('Électrique')" class="filter-chip">⚡ Électrique</button>
+        <button onclick="filterByFuel('Hybride')" class="filter-chip">🔋 Hybride</button>
+        <button onclick="filterByBudget(200000)" class="filter-chip">💰 - 200 000 DH</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-grid" id="statsGrid">
+        <div class="stat-item"><div class="skeleton" style="height:28px;width:60px;margin:0 auto;"></div><div class="skeleton" style="height:14px;width:80px;margin:8px auto 0;"></div></div>
+        <div class="stat-item"><div class="skeleton" style="height:28px;width:60px;margin:0 auto;"></div><div class="skeleton" style="height:14px;width:80px;margin:8px auto 0;"></div></div>
+        <div class="stat-item"><div class="skeleton" style="height:28px;width:80px;margin:0 auto;"></div><div class="skeleton" style="height:14px;width:80px;margin:8px auto 0;"></div></div>
+        <div class="stat-item"><div class="skeleton" style="height:28px;width:40px;margin:0 auto;"></div><div class="skeleton" style="height:14px;width:80px;margin:8px auto 0;"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brands Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Marques disponibles</h2>
+          <p>Toutes les marques automobiles neuves au Maroc</p>
+        </div>
+        <a href="pages/marques.html" class="see-all">Voir toutes →</a>
+      </div>
+      <div class="brands-grid" id="brandsGrid">
+        <!-- Loading skeletons -->
+        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
+        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
+        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
+        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
+        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
+        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Models Section -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Modèles populaires</h2>
+          <p>Découvrez les dernières nouveautés et meilleures ventes</p>
+        </div>
+      </div>
+      
+      <div class="filters-bar">
+        <select id="categoryFilter" onchange="applyFilters()">
+          <option value="">📂 Toutes catégories</option>
+        </select>
+        <select id="fuelFilter" onchange="applyFilters()">
+          <option value="">⛽ Tous carburants</option>
+        </select>
+        <select id="budgetFilter" onchange="applyFilters()">
+          <option value="">💰 Tous budgets</option>
+          <option value="200000">- 200 000 DH</option>
+          <option value="300000">- 300 000 DH</option>
+          <option value="500000">- 500 000 DH</option>
+          <option value="500000+">+ 500 000 DH</option>
+        </select>
+      </div>
+      
+      <div class="models-grid" id="modelsGrid">
+        <!-- Loading skeletons -->
+        <div class="model-card"><div class="skeleton" style="height:200px;"></div><div style="padding:24px;"><div class="skeleton" style="height:20px;width:40%;margin-bottom:8px;"></div><div class="skeleton" style="height:28px;width:70%;margin-bottom:12px;"></div><div class="skeleton" style="height:18px;width:50%;"></div></div></div>
+        <div class="model-card"><div class="skeleton" style="height:200px;"></div><div style="padding:24px;"><div class="skeleton" style="height:20px;width:40%;margin-bottom:8px;"></div><div class="skeleton" style="height:28px;width:70%;margin-bottom:12px;"></div><div class="skeleton" style="height:18px;width:50%;"></div></div></div>
+        <div class="model-card"><div class="skeleton" style="height:200px;"></div><div style="padding:24px;"><div class="skeleton" style="height:20px;width:40%;margin-bottom:8px;"></div><div class="skeleton" style="height:28px;width:70%;margin-bottom:12px;"></div><div class="skeleton" style="height:18px;width:50%;"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header" style="text-align:center;justify-content:center;flex-direction:column;">
+        <h2>Pourquoi choisir AutoGuide Maroc ?</h2>
+        <p>L'information automobile la plus complète du Maroc</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3>Prix officiels</h3>
+          <p>Tous les prix de vente public au Maroc, mis à jour régulièrement</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Comparateur</h3>
+          <p>Comparez côte à côte les fiches techniques et les prix</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Nouveautés</h3>
+          <p>Les derniers modèles et technologies disponibles au Maroc</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-text">
+          <h2>Comparez avant d'acheter</h2>
+          <p>Mettez les voitures côte à côte et trouvez celle qui correspond à votre budget.</p>
+        </div>
+        <a href="pages/comparateur.html" class="btn btn-primary">Lancer le comparateur →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+            <div style="width:40px;height:40px;background:linear-gradient(135deg,var(--primary),var(--primary-light));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;">🚗</div>
+            <span style="font-size:20px;font-weight:800;color:white;">AutoGuide<span style="color:var(--primary-light);">Maroc</span></span>
+          </div>
+          <p>Guide d'achat automobile au Maroc. Prix officiels, fiches techniques et comparateur des constructeurs.</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <a href="/">Accueil</a>
+          <a href="pages/marques.html">Marques</a>
+          <a href="pages/comparateur.html">Comparateur</a>
+          <a href="pages/promos.html">Promos</a>
+          <a href="pages/analyse.html">Analyse</a>
+        </div>
+        <div>
+          <h4>Top Marques</h4>
+          <a href="pages/marque.html?id=mg">MG</a>
+          <a href="pages/marque.html?id=renault">Renault</a>
+          <a href="pages/marque.html?id=dacia">Dacia</a>
+          <a href="pages/marque.html?id=peugeot">Peugeot</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="mailto:contact@autoguidemaroc.ma">contact@autoguidemaroc.ma</a>
+          <p style="color:rgba(255,255,255,0.4);font-size:13px;margin-top:8px;">© 2026 AutoGuide Maroc</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

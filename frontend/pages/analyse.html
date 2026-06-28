@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analyse & Examen du Marché — AutoGuide Maroc</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Chart.js CDN for beautiful interactive charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body data-page="analyse">
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <a href="/" class="logo">
+          <div class="logo-icon">🚗</div>
+          <span class="logo-text">AutoGuide<span class="logo-accent">Maroc</span></span>
+        </a>
+        <nav class="nav-main">
+          <a href="/" class="nav-link">Accueil</a>
+          <a href="marques.html" class="nav-link">Marques</a>
+          <a href="comparateur.html" class="nav-link">Comparateur</a>
+          <a href="promos.html" class="nav-link">Promos</a>
+          <a href="analyse.html" class="nav-link active">Analyse</a>
+        </nav>
+        <a href="comparateur.html" class="nav-cta">Comparer</a>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="marques-hero" style="background: linear-gradient(135deg, var(--bg-dark) 0%, #1e293b 100%);">
+    <div class="container">
+      <div class="hero-badge" style="background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.3); color: var(--accent);">📊 Tendances & Statistiques</div>
+      <h1>Analyse & Examen du Marché</h1>
+      <p>Explorez les tendances tarifaires, la répartition des motorisations et examinez en détail les statistiques par constructeur.</p>
+    </div>
+  </div>
+
+  <!-- Main Analysis Section -->
+  <section class="section section-alt">
+    <div class="container">
+      
+      <!-- KPIs Grid -->
+      <div class="stats-grid" id="analyseKpis" style="margin-bottom: 40px;">
+        <div class="stat-card">
+          <h4 id="kpiTotalModels">-</h4>
+          <p>Modèles référencés</p>
+        </div>
+        <div class="stat-card">
+          <h4 id="kpiTotalBrands">-</h4>
+          <p>Marques disponibles</p>
+        </div>
+        <div class="stat-card">
+          <h4 id="kpiAveragePrice">-</h4>
+          <p>Prix moyen national</p>
+        </div>
+        <div class="stat-card">
+          <h4 id="kpiGreenShare">-</h4>
+          <p>Part Éco (Hybride/Élec)</p>
+        </div>
+      </div>
+
+      <!-- Charts Row -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 32px; margin-bottom: 48px;">
+        <!-- Chart Fuel -->
+        <div class="analysis-card">
+          <h3>⚡ Répartition par type de motorisation</h3>
+          <p class="card-desc">Proportion des types de carburants disponibles sur l'ensemble du catalogue marocain.</p>
+          <div class="chart-container" style="position: relative; height: 320px; width: 100%; display: flex; justify-content: center; align-items: center;">
+            <canvas id="fuelChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Chart Categories -->
+        <div class="analysis-card">
+          <h3>📂 Répartition par catégorie de carrosserie</h3>
+          <p class="card-desc">Nombre de modèles disponibles triés par segment automobile.</p>
+          <div class="chart-container" style="position: relative; height: 320px; width: 100%; display: flex; justify-content: center; align-items: center;">
+            <canvas id="categoryChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Brand Inspector Section -->
+      <div class="analysis-card" style="margin-bottom: 48px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 24px;">
+          <div>
+            <h2 style="font-size: 24px; font-weight: 800;">🔎 Inspecteur de Constructeur</h2>
+            <p class="card-desc" style="margin-bottom: 0;">Sélectionnez une marque pour examiner ses statistiques et sa position sur le marché marocain.</p>
+          </div>
+          <div>
+            <select id="inspectBrandSelect" class="inspect-select" onchange="inspectBrand(this.value)">
+              <option value="">Sélectionnez une marque...</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="inspectorContent" class="inspector-placeholder">
+          <div class="empty-state">
+            <div class="icon">🔍</div>
+            <h3>Aucune marque sélectionnée</h3>
+            <p>Choisissez une marque dans la liste ci-dessus pour afficher ses analyses détaillées.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none;padding:0;">
+        <p>© 2026 AutoGuide Maroc — Tous droits réservés</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/config.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>

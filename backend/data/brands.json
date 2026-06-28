@@ -1,0 +1,12 @@
+[
+  {
+    "id": "mg",
+    "nom": "MG",
+    "pays": "Chine / Royaume-Uni",
+    "logo": "https://www.wandaloo.com/imgs/logo-MG-b.png",
+    "site_officiel": "https://www.mg-motor.com",
+    "nb_modeles": 8,
+    "prix_min": 169000,
+    "prix_max": 680000
+  }
+]

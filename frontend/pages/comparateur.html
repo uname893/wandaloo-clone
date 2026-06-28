@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparateur — AutoGuide Maroc</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body data-page="comparateur">
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <a href="/" class="logo">
+          <div class="logo-icon">🚗</div>
+          <span class="logo-text">AutoGuide<span class="logo-accent">Maroc</span></span>
+        </a>
+        <nav class="nav-main">
+          <a href="/" class="nav-link">Accueil</a>
+          <a href="marques.html" class="nav-link">Marques</a>
+          <a href="comparateur.html" class="nav-link active">Comparateur</a>
+          <a href="promos.html" class="nav-link">Promos</a>
+          <a href="analyse.html" class="nav-link">Analyse</a>
+        </nav>
+        <a href="comparateur.html" class="nav-cta">Comparer</a>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="marques-hero">
+    <div class="container">
+      <h1>Comparateur de voitures</h1>
+      <p>Sélectionnez les modèles à comparer côte à côte</p>
+    </div>
+  </div>
+
+  <section class="section section-alt">
+    <div class="container">
+      <p style="color:var(--text-light);margin-bottom:20px;">Cliquez sur les modèles pour les sélectionner (minimum 2) :</p>
+      <div class="compare-grid" id="selectGrid">
+        <div class="compare-card"><div class="skeleton" style="height:160px;border-radius:12px;margin-bottom:16px;"></div><div class="skeleton" style="height:20px;width:70%;"></div></div>
+        <div class="compare-card"><div class="skeleton" style="height:160px;border-radius:12px;margin-bottom:16px;"></div><div class="skeleton" style="height:20px;width:70%;"></div></div>
+        <div class="compare-card"><div class="skeleton" style="height:160px;border-radius:12px;margin-bottom:16px;"></div><div class="skeleton" style="height:20px;width:70%;"></div></div>
+      </div>
+      <div style="text-align:center;margin:32px 0;">
+        <button class="btn btn-primary" onclick="compareSelectedModels()" style="background:var(--primary);color:white;font-size:16px;padding:16px 40px;">
+          🔍 Comparer la sélection
+        </button>
+      </div>
+      <div id="compareResult"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none;padding:0;">
+        <p>© 2026 AutoGuide Maroc</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/config.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
