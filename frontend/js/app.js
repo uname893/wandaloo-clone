@@ -23,6 +23,16 @@ function getFuelBadgeClass(fuel) {
 
 // ========== API ==========
 async function fetchAPI(endpoint) {
+  // Gestion du cache navigateur (localStorage) - expire après 30 minutes
+  const CACHE_KEY = 'api_cache_' + endpoint;
+  const CACHE_TIME_KEY = CACHE_KEY + '_time';
+  const cachedData = localStorage.getItem(CACHE_KEY);
+  const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
+  
+  if (cachedData && cachedTime && (Date.now() - parseInt(cachedTime) < 30 * 60 * 1000)) {
+    return JSON.parse(cachedData);
+  }
+
   const controller = new AbortController();
   const id = setTimeout(() => controller.abort(), 1500); // Timeout de 1.5 seconde
 
@@ -30,7 +40,17 @@ async function fetchAPI(endpoint) {
     const res = await fetch(API_URL + endpoint, { signal: controller.signal });
     clearTimeout(id);
     if (!res.ok) throw new Error('HTTP ' + res.status);
-    return await res.json();
+    const data = await res.json();
+    
+    // Sauvegarder dans le cache local
+    try {
+      localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+      localStorage.setItem(CACHE_TIME_KEY, Date.now().toString());
+    } catch(err) {
+      console.warn('Storage limit reached, unable to write API cache');
+    }
+    
+    return data;
   } catch (e) {
     clearTimeout(id);
     console.warn('API Error or Timeout (falling back to static local data):', e);
