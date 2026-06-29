@@ -23,12 +23,17 @@ function getFuelBadgeClass(fuel) {
 
 // ========== API ==========
 async function fetchAPI(endpoint) {
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), 1500); // Timeout de 1.5 seconde
+
   try {
-    const res = await fetch(API_URL + endpoint);
+    const res = await fetch(API_URL + endpoint, { signal: controller.signal });
+    clearTimeout(id);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     return await res.json();
   } catch (e) {
-    console.warn('API Error (falling back to static local data):', e);
+    clearTimeout(id);
+    console.warn('API Error or Timeout (falling back to static local data):', e);
     // FALLBACK STATIQUE SI LE SERVEUR RENDER EST HORS-LIGNE
     if (typeof STATIC_DATA !== 'undefined') {
       if (endpoint === '/brands') return STATIC_DATA.brands;
