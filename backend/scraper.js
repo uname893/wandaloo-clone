@@ -303,4 +303,11 @@ async function scrapeAllBrands() {
   console.log(`\n✅ Terminé! ${allBrands.length} marques, ${allModels.length} modèles`);
 }
 
-scrapeAllBrands().catch(console.error);
+module.exports = {
+  scrapeAllBrands,
+  scrapeBrand
+};
+
+if (require.main === module) {
+  scrapeAllBrands().catch(console.error);
+}

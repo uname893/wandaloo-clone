@@ -8,6 +8,20 @@ const { initDB, getAllBrands, getBrandById, getAllModels, getModelById, getCateg
 // Init database
 initDB();
 
+// Automatic Scraper Scheduler (Runs every 6 days)
+const SIX_DAYS_MS = 6 * 24 * 60 * 60 * 1000;
+setInterval(() => {
+  console.log('⏰ Auto-Scheduler: Starting automatic 6-day database update/scraper...');
+  const { scrapeAllBrands } = require('./scraper');
+  scrapeAllBrands()
+    .then(() => {
+      console.log('⏰ Auto-Scheduler: 6-day update/scraper completed successfully.');
+    })
+    .catch(err => {
+      console.error('⏰ Auto-Scheduler: Error running automatic update:', err);
+    });
+}, SIX_DAYS_MS);
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
