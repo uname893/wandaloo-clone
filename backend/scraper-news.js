@@ -9,7 +9,7 @@ const axiosInstance = axios.create({
   }
 });
 
-// SOURCE 1 : Wandaloo Autonews
+// SOURCE 1 : Wandaloo Autonews (Maroc)
 async function scrapeSourceWandaloo(articles) {
   console.log('📰 SOURCE 1 : Scraping Wandaloo Autonews...');
   const BASE_URL = 'https://www.wandaloo.com';
@@ -49,7 +49,7 @@ async function scrapeSourceWandaloo(articles) {
       const resume = $post.find('.content').text().replace(/\s+/g, ' ').trim();
       const tag = $post.find('.tag').text().trim() || 'Actu';
 
-      // Parser la date dans le paragraphe .data
+      // Parser la date
       const dataText = $post.find('.data').text().trim();
       let date_publication = new Date().toLocaleDateString('fr-FR');
       const dateMatch = dataText.match(/\d+\s+[a-zéû]+\s+\d{4}/i);
@@ -74,7 +74,7 @@ async function scrapeSourceWandaloo(articles) {
   }
 }
 
-// SOURCE 2 : Autonews.ma
+// SOURCE 2 : Autonews.ma (Maroc)
 async function scrapeSourceAutonewsMa(articles) {
   console.log('📰 SOURCE 2 : Scraping Autonews.ma...');
   const BASE_URL = 'https://autonews.ma';
@@ -87,8 +87,6 @@ async function scrapeSourceAutonewsMa(articles) {
     const $ = cheerio.load(res.data);
     let count = 0;
 
-    // Sur Autonews.ma, la liste d'actus est souvent sous des structures d'articles ou des cards
-    // Inspectons les classes d'articles standard de WordPress (comme article, block-article, card-post, post-item)
     $('article, .item-article, .post-item, .post, .custom-card').each((_, el) => {
       const $el = $(el);
       
@@ -134,7 +132,6 @@ async function scrapeSourceAutonewsMa(articles) {
       }
     });
 
-    // Si le sélecteur d'articles WP a retourné peu de résultats, on essaie de cibler directement les liens d'articles autonews
     if (count === 0) {
       $('a[href*="/actualite-auto/"]').each((_, linkEl) => {
         const $link = $(linkEl);
@@ -165,15 +162,79 @@ async function scrapeSourceAutonewsMa(articles) {
   }
 }
 
+// SOURCE 3 : Le Blog Auto (France / International)
+async function scrapeSourceLeBlogAuto(articles) {
+  console.log('📰 SOURCE 3 : Scraping Le Blog Auto (France)...');
+  const BASE_URL = 'https://www.leblogauto.com';
+  
+  try {
+    const res = await axiosInstance.get(BASE_URL, {
+      headers: { 'Referer': 'https://www.leblogauto.com/' }
+    });
+    const $ = cheerio.load(res.data);
+    let count = 0;
+
+    $('article.l-post').each((_, el) => {
+      const $el = $(el);
+      
+      const $titleLink = $el.find('.post-title a').first();
+      if (!$titleLink.length) return;
+
+      const titre = $titleLink.text().trim();
+      let link = $titleLink.attr('href') || '';
+      if (!link) return;
+
+      if (!link.startsWith('http')) {
+        link = BASE_URL + (link.startsWith('/') ? '' : '/') + link;
+      }
+
+      // Extraire l'image (dans data-bgsrc ou srcset/src)
+      const $imgSpan = $el.find('.image-link span.img, img').first();
+      let image = $imgSpan.attr('data-bgsrc') || $imgSpan.attr('src') || '';
+      if (image && !image.startsWith('http')) {
+        image = BASE_URL + (image.startsWith('/') ? '' : '/') + image;
+      }
+
+      if (!image) {
+        image = 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=600&auto=format&fit=crop&q=60';
+      }
+
+      let resume = $el.find('.excerpt').text().replace(/\s+/g, ' ').trim();
+      if (!resume) {
+        resume = 'Toute l\'actualité de l\'automobile en France et à l\'international, nouveaux modèles, tests de conduite et insolite.';
+      }
+
+      const $date = $el.find('time.post-date').first();
+      const date_publication = $date.text().trim() || new Date().toLocaleDateString('fr-FR');
+
+      if (titre && link && !articles.some(a => a.lien_article === link)) {
+        articles.push({
+          titre: `[Actu Fr] ${titre}`,
+          resume: resume.slice(0, 220) + (resume.length > 220 ? '...' : ''),
+          image,
+          date_publication,
+          lien_article: link
+        });
+        count++;
+      }
+    });
+
+    console.log(`   ✅ Le Blog Auto : ${count} articles récupérés.`);
+  } catch (e) {
+    console.error('   ❌ Erreur Le Blog Auto news:', e.message);
+  }
+}
+
 async function scrapeNews() {
-  console.log('📰 Scraping des Actualités Auto Multi-Sources...\n');
+  console.log('📰 Scraping des Actualités Auto Multi-Sources (Maroc + France)...\n');
   initDB();
   
   const articles = [];
 
-  // Exécuter les 2 scrappers
+  // Exécuter les 3 scrappers
   await scrapeSourceWandaloo(articles);
   await scrapeSourceAutonewsMa(articles);
+  await scrapeSourceLeBlogAuto(articles);
 
   console.log(`\n📦 Total articles trouvés : ${articles.length}`);
 
@@ -187,7 +248,7 @@ async function scrapeNews() {
     });
   }
 
-  console.log('\n✅ Synchronisation des actualités terminée !');
+  console.log('\n✅ Synchronisation de l\'actualité internationale terminée !');
 }
 
 module.exports = { scrapeNews };

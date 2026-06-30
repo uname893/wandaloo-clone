@@ -902,6 +902,7 @@ async function loadNewsPage() {
       let tagClass = 'tag-default';
       const tagLower = tag.toLowerCase();
       if (tagLower.includes('essai')) tagClass = 'tag-essai';
+      else if (tagLower.includes('actu fr')) tagClass = 'tag-france';
       else if (tagLower.includes('nouveauté maroc') || tagLower.includes('maroc')) tagClass = 'tag-maroc';
       else if (tagLower.includes('nouveauté')) tagClass = 'tag-nouveaute';
       else if (tagLower.includes('marché')) tagClass = 'tag-marche';

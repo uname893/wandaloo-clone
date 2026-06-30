@@ -915,6 +915,9 @@ body {
 .tag-essai {
   background: linear-gradient(135deg, #FF3B30, #FF2D55);
 }
+.tag-france {
+  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+}
 .tag-maroc {
   background: linear-gradient(135deg, #10B981, #059669);
 }

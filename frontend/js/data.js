@@ -29996,346 +29996,697 @@ const STATIC_DATA = {
   ],
   "news": [
     {
-      "id": 50,
+      "id": 127,
+      "titre": "[Actu Fr] F1 2026 – GP Barcelone : Hamilton triomphe enfin en rouge !",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/lewis-hamilton-ferrari-6-300x200.webp",
+      "date_publication": "15 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/f1-2026-gp-barcelone-hamilton-triomphe-enfin-en-rouge/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 126,
+      "titre": "[Actu Fr] Formule E Sanya : Dennis, Drugovich et Andretti royaux en Chine",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/HLNyltoaUAAdRcB-300x198.jpg",
+      "date_publication": "20 juin 2026",
+      "lien_article": "https://www.leblogauto.com/sport-auto/competitions-auto/formule-e-sanya-dennis-drugovich-et-andretti-royaux-en-chine/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 125,
+      "titre": "[Actu Fr] WRC 2027 : un kit spécifique pour les Rally2, afin de grossir le plateau",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/images-10-300x200.jpg",
+      "date_publication": "24 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/wrc-2027-un-kit-specifique-pour-les-rally2-afin-de-grossir-le-plateau/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 124,
+      "titre": "[Actu Fr] Moteurs F1 : le thermique reprend l’ascendant dès 2027",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/ferrari-v6-300x200.webp",
+      "date_publication": "25 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/moteurs-f1-le-thermique-reprend-lascendant-des-2027/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 123,
+      "titre": "[Actu Fr] F1 Autriche 2026 : George Russell signe une pole remise en cause par Ferrari",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/HL05emRWYAAVcVp-300x200.jpg",
+      "date_publication": "27 juin 2026",
+      "lien_article": "https://www.leblogauto.com/sport-auto/formule-1/f1-autriche-2026-george-russell-signe-une-pole-remise-en-cause-par-ferrari/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 122,
+      "titre": "[Actu Fr] WRC Acropolis 2026 : Ogier se sort du piège d’un rallye cassant",
+      "resume": "Le rallye d’Acropolis en Grèce est connu pour être éprouvant pour les équipages et les machines. Et ce n’est pas Neuville qui va le contredire puisqu’alors qu’il se battait pour la victoire finale, une crevaison…",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/HL5IHbTXoAAtOD8-768x498.jpg",
+      "date_publication": "28 juin 2026",
+      "lien_article": "https://www.leblogauto.com/sport-auto/rallye/wrc-acropolis-2026-ogier-se-sort-du-piege-dun-rallye-cassant/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 121,
+      "titre": "[Actu Fr] La Lancia Ypsilon n’en finit pas de mourir",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2021/02/1200-L-la-lancia-ypsilon-n-en-finit-pas-de-mourir-1024x546.jpg",
+      "date_publication": "5 février 2021",
+      "lien_article": "https://www.leblogauto.com/actualites/actualite/insolite/la-lancia-ypsilon-nen-finit-pas-de-mourir/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 120,
+      "titre": "[Actu Fr] Castaner :  on s’est planté sur la comm de la politique écologique",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2018/12/1200-L-castaner-on-s-est-plant-sur-la-comm-de-la-politique-cologique-1024x546.jpg",
+      "date_publication": "2 décembre 2018",
+      "lien_article": "https://www.leblogauto.com/actualites/actualite/castaner-on-sest-plante-sur-la-comm-de-la-politique-ecologique/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 119,
+      "titre": "[Actu Fr] Essai Renault Mégane E-Tech EV60 220 ch [VIDÉO]",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2024/12/1200-L-essai-renault-mgane-e-tech-ev60-220-ch-vido-1024x546.jpg",
+      "date_publication": "18 avril 2022",
+      "lien_article": "https://www.leblogauto.com/actualites/actualite/essai-renault-megane-e-tech-ev60-220-ch-video/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 118,
+      "titre": "[Actu Fr] Essai Volvo XC40 Recharge T5",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2020/04/1200-L-essai-volvo-xc40-recharge-t5-1024x546.jpg",
+      "date_publication": "6 avril 2020",
+      "lien_article": "https://www.leblogauto.com/actualites/actualite/essai-volvo-xc40-recharge-t5/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 117,
+      "titre": "[Actu Fr] Stellantis : fermeture d’1 ligne de production de Melfi (ex-FCA) ?",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2021/03/1200-L-stellantis-fermeture-d1-ligne-de-production-de-melfi-ex-fca-1024x546.jpg",
+      "date_publication": "25 mars 2021",
+      "lien_article": "https://www.leblogauto.com/actualites/actualite/stellantis-fermeture-d1-ligne-de-production-de-melfi-ex-fca/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 116,
+      "titre": "[Actu Fr] Les 5 meilleurs nettoyeurs haute pression 2026",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/les-5-meilleurs-nettoyeurs-haute-pression-2026-1-300x214.webp",
+      "date_publication": "25 juin 2026",
+      "lien_article": "https://www.leblogauto.com/pratique/accessoires-auto/les-5-meilleurs-nettoyeurs-haute-pression-2026/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 115,
+      "titre": "[Actu Fr] Entretien automobile : comment prolonger la durée de vie de votre véhicule",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/entretien-automobile-comment-prolonger-la-duree-de-vie-de-votre-vehicule-1-300x168.webp",
+      "date_publication": "26 juin 2026",
+      "lien_article": "https://www.leblogauto.com/pratique/infos-pratiques/entretien-automobile-comment-prolonger-la-duree-de-vie-de-votre-vehicule/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 114,
+      "titre": "[Actu Fr] Préparer un road trip à moto : les équipements qui changent vraiment la donne",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/preparer-un-road-trip-a-moto-les-equipements-qui-changent-vraiment-la-donne-1-300x168.webp",
+      "date_publication": "26 juin 2026",
+      "lien_article": "https://www.leblogauto.com/pratique/accessoires-auto/preparer-un-road-trip-a-moto-les-equipements-qui-changent-vraiment-la-donne/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 113,
+      "titre": "[Actu Fr] Les 5 meilleurs éthylotests électroniques 2026",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/les-5-meilleurs-ethylotests-electroniques-2026-1-1-300x168.webp",
+      "date_publication": "26 juin 2026",
+      "lien_article": "https://www.leblogauto.com/pratique/accessoires-auto/les-5-meilleurs-ethylotests-electroniques-2026/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 112,
+      "titre": "[Actu Fr] LA SEMAINE AUTOMOBILE – Épisode 387 Semaine du 27 juin 2026",
+      "resume": "Bonjour à toutes et à tous, bienvenue dans La Semaine Automobile par LeBlogAuto.com. Comme chaque semaine, on fait le tour de l’actu qui compte…",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2024/12/1200-L-podcast-295-l-essentiel-de-la-semaine-automobile-1024x546.jpg",
+      "date_publication": "28 juin 2026",
+      "lien_article": "https://www.leblogauto.com/pratique/podcast/la-semaine-automobile-episode-387-semaine-du-27-juin-2026/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 111,
+      "titre": "[Actu Fr] La Ford GT de Jeremy Clarkson avec 45 000 km au compteur est à vendre",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/la-ford-gt-de-jeremy-clarkson-avec-45-000-km-au-compteur-est-a-vendre-1-300x169.webp",
+      "date_publication": "15 juin 2026",
+      "lien_article": "https://www.leblogauto.com/historique/vente-aux-encheres/la-ford-gt-de-jeremy-clarkson-en-vente-45-000-km-et-des-souvenirs-memorables-de-top-gear/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 110,
+      "titre": "[Actu Fr] La muscle car du batteur de Led Zeppelin, entièrement restaurée, est à vendre",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/la-muscle-car-du-batteur-de-led-zeppelin-entierement-restauree-est-a-vendre-1-300x169.webp",
+      "date_publication": "18 juin 2026",
+      "lien_article": "https://www.leblogauto.com/historique/collections/la-jensen-interceptor-de-john-bonham-part-aux-encheres-la-muscle-car-du-batteur-de-led-zeppelin-retrouve-sa-splendeur/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 109,
+      "titre": "[Actu Fr] Avec 1000 kms au compteur, la Honda S2000 la plus préservée au monde est à vendre",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/avec-1000-kms-au-compteur-la-honda-s2000-la-plus-preservee-au-monde-est-a-vendre-1-300x169.webp",
+      "date_publication": "21 juin 2026",
+      "lien_article": "https://www.leblogauto.com/historique/vente-aux-encheres/honda-s2000-a-679-miles-la-capsule-temporelle-a-9-000-trmin-partie-aux-encheres-a-tokyo/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 108,
+      "titre": "[Actu Fr] Cette Ferrari de 1966 d’Eric Clapton est à vendre pour près de 4 millions de dollars",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/cette-ferrari-de-1966-deric-clapton-est-a-vendre-pour-pres-de-4-millions-de-doll-1-300x169.webp",
+      "date_publication": "22 juin 2026",
+      "lien_article": "https://www.leblogauto.com/historique/vente-aux-encheres/cette-ferrari-1966-deric-clapton-est-a-vendre-pour-pres-de-4-millions-de-dollars/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 107,
+      "titre": "[Actu Fr] Une Ford Mustang 1966 transformée … en limousine de 6,5 mètres",
+      "resume": "Un constructeur passionné a allongé une Ford Mustang 1966 jusqu’à obtenir une limousine de plus de 6,5 mètres. L’engin est actuellement aux enchères sur Bring a Trailer.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/une-ford-mustang-1966-transformee-en-limousine-de-65-metres-1-450x253.webp",
+      "date_publication": "25 juin 2026",
+      "lien_article": "https://www.leblogauto.com/historique/collections/une-ford-mustang-1966-transformee-en-limousine-de-65-metres-le-projet-le-plus-fou-de-lannee/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 106,
+      "titre": "[Actu Fr] Le Škoda Peaq, 4,87 m de long, promet jusqu’à 640 km d’autonomie sur une charge",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/008_Skoda_Peaq_7da5e50a-1920x1920-1-300x300.jpg",
+      "date_publication": "24 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/actualite/le-skoda-peaq-487-m-de-long-promet-jusqua-640-km-dautonomie-sur-une-charge/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 105,
+      "titre": "[Actu Fr] Nissan Qashqai électrique annulé ? Pourquoi ce nouveau revirement chez Nissan ?",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Qashqai_2026-300x166.jpg",
+      "date_publication": "24 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/bilan-et-finances/nissan-qashqai-electrique-annule-pourquoi-ce-nouveau-revirement-chez-nissan/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 104,
+      "titre": "[Actu Fr] Nissan Patrol : fin du V8, place au V6 turbo",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-09.59.37-1-300x160.png",
+      "date_publication": "24 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/nissan-patrol-fin-du-v8-place-au-v6-turbo/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 103,
+      "titre": "[Actu Fr] Oups ! Le Dacia Spring est déjà visible sans camouflage ?",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/dacia-spring-1-1-300x203.jpg",
+      "date_publication": "24 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/actualite/oups-le-dacia-spring-est-deja-visible-sans-camouflage/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 102,
+      "titre": "[Actu Fr] Carburant cher : les ventes de VE décollent en Europe",
+      "resume": "La hausse des prix du carburant relance les ventes de véhicules électriques en Europe, mais les experts doutent d’une tendance durable. La hausse des…",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-16.53.54-450x185.png",
+      "date_publication": "25 juin 2026",
+      "lien_article": "https://www.leblogauto.com/ecologie/electrique/carburant-cher-les-ventes-de-ve-decollent-en-europe/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 101,
+      "titre": "[Actu Fr] Essai BYD Atto 2 DM-i de 212 ch",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Essai-BYD-Atto-2-DMi11-768x512.jpg",
+      "date_publication": "2 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/essai-byd-atto-2-dm-i-de-212-ch/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 100,
+      "titre": "[Actu Fr] Palmarès 2026 des eTrophées de l’AMAM",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/E12A3967-768x512.jpg",
+      "date_publication": "7 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/actualite/palmares-2026-des-etrophees-de-lamam/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 99,
+      "titre": "[Actu Fr] Essai MG4 Urban de 160 ch",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Essai-MG4-Urban-96-768x512.jpg",
+      "date_publication": "10 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/essai-mg4-urban-de-160-ch/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 98,
+      "titre": "[Actu Fr] Essai Mini Aceman John Cooper Works",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/IMG_3677-768x576.jpg",
+      "date_publication": "22 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/essai-mini-aceman-john-cooper-works/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 97,
+      "titre": "[Actu Fr] Essai Renault 4 E-Tech electric Plein Sud : le SUV électrique qui enlève le toit (et assume)",
+      "resume": "La 4L est de retour. Sous forme électrique, sous forme de SUV, et désormais sous forme découvrable. La Renault 4 E-Tech electric Plein Sud est une anomalie dans le paysage automobile actuel :…",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Renault-4-E-Tech-electric-Plein-Sud-Techno-Rouge-Carmin-5-1536x1024.jpg",
+      "date_publication": "23 juin 2026",
+      "lien_article": "https://www.leblogauto.com/essais/essai/essai-renault-4-e-tech-electric-plein-sud-le-suv-electrique-qui-enleve-le-toit-et-assume/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 96,
+      "titre": "[Actu Fr] F1 : Russell remporte le grand prix d’Autriche d’un souffle devant Verstappen et Antonelli",
+      "resume": "Tout le début de course a été incertain et aurait pu basculer d’un côté ou de l’autre. Au final, George Russell l’emporte pour un…",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/HL5-JWTXgAAuFsj-300x169.jpg",
+      "date_publication": "28 juin 2026",
+      "lien_article": "https://www.leblogauto.com/sport-auto/formule-1/f1-russell-remporte-le-grand-prix-dautriche-dun-souffle-devant-verstappen-et-antonelli/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 95,
+      "titre": "[Actu Fr] BYD défend son usine hongroise face à une enquête",
+      "resume": "BYD conteste des accusations environnementales en Hongrie tout en accélérant son développement industriel en Europe. Le constructeur automobile chinois BYD poursuit son expansion sur…",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-08.06.53-300x123.png",
+      "date_publication": "29 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/byd-defend-son-usine-hongroise-face-a-une-enquete/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 94,
+      "titre": "[Actu Fr] Batteries solides : CATL refroidit les ambitions du secteur",
+      "resume": "CATL estime que les batteries à état solide sont encore loin de la production de masse malgré leur potentiel pour les véhicules électriques. Longtemps…",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-08.11.28-1-300x149.png",
+      "date_publication": "29 juin 2026",
+      "lien_article": "https://www.leblogauto.com/ecologie/electrique/batteries-solides-catl-refroidit-les-ambitions-du-secteur/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 93,
+      "titre": "[Actu Fr] BMW X5 : la durabilité au cœur de sa conception",
+      "resume": "BMW réduit l’empreinte carbone du nouveau X5 grâce aux matériaux recyclés, aux énergies renouvelables et à une production optimisée. Le groupe BMW poursuit sa…",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-08.19.53-1-300x148.png",
+      "date_publication": "29 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/bmw-x5-la-durabilite-au-coeur-de-sa-conception/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 92,
+      "titre": "[Actu Fr] Ferrari remanie son marketing après la polémique Luce",
+      "resume": "Ferrari change de directeur marketing après les critiques visant la Luce, son premier véhicule électrique au design controversé. Euphémisme… Le lancement de la Ferrari…",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-08.28.35-1-300x139.png",
+      "date_publication": "29 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/ferrari-remanie-son-marketing-apres-la-polemique-luce/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 91,
+      "titre": "[Actu Fr] Polestar en France : le CEO Michael Lohscheller répond sans filtre- Interview exclusive",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Michael-Lohscheller-450x263.jpg",
+      "date_publication": "29 juin 2026",
+      "lien_article": "https://www.leblogauto.com/ecologie/electrique/polestar-en-france-le-ceo-michael-lohscheller-repond-sans-filtre-interview-exclusive/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 90,
+      "titre": "[Actu Fr] Volkswagen pourrait supprimer jusqu’à 100 000 emplois : un plan inédit évoqué en Allemagne",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/acfae2ddf4122dc9eabd79c4b4493114-450x239.webp",
+      "date_publication": "29 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/bilan-et-finances/volkswagen-pourrait-supprimer-jusqua-100-000-emplois-un-plan-inedit-evoque-en-allemagne/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 89,
+      "titre": "[Actu Fr] Alliance Renault-Nissan : Renault reprend la main et fait tomber un administrateur clé de Nissan",
+      "resume": "Toute l'actualité de l'automobile en France et à l'international, nouveaux modèles, tests de conduite et insolite.",
+      "image": "https://www.leblogauto.com/wp-content/uploads/2025/03/nissan-renault-logo-1024x546.jpg",
+      "date_publication": "29 juin 2026",
+      "lien_article": "https://www.leblogauto.com/actualites/bilan-et-finances/alliance-renault-nissan-renault-reprend-la-main-et-fait-tomber-un-administrateur-cle-de-nissan/",
+      "created_at": "2026-06-30 01:46:43"
+    },
+    {
+      "id": 88,
       "titre": "[Autonews] Actualité nationaleMINI : la mamie s’éclate au Nostalgia Lovers 2026\nEntre nostalgie, musique et lifestyle, MINI s'invite à Nostalgia Lovers 2026. La marque britannique sera le transporteur officiel de l'un des rendez-vous musicaux les plus attendus du Royaume.\n\n\n\nLes années 80, 90 et 2000 vont bientôt résonner à nouveau. Et cette année, MINI sera de la partie. Smeia, importateur exclusif de la marque britannique au Maroc, annonce en effet la participation de MINI en tant que Transporteur Officiel du Festival Nostalgia Lovers 2026, l'un des rendez-vous musicaux les plus attendus du Royaume.\n\n\n\nPour MINI, ce partenariat va bien au-delà d'une simple opération de mobilité. La marque cultive depuis toujours une proximité particulière avec les univers de la musique, du design et de la création. Un terrain d'expression qui correspond parfaitement à l'esprit du festival, devenu au fil des éditions un véritable phénomène culturel.\n\n\n\nQuand la musique rencontre le lifestyle\n\n\n\nChaque année, Nostalgia Lovers rassemble des milliers de spectateurs venus revivre les tubes qui ont marqué plusieurs générations. Entre souvenirs, émotions et ambiance festive, le rendez-vous s'est imposé comme l'un des événements musicaux les plus populaires du pays.\n\n\n\nLire aussi : Opel fait vibrer Casablanca au rythme de RUN & BEAT\n\n\n\nUn univers dans lequel MINI se retrouve naturellement. Depuis son lancement en 1959, la petite britannique a construit une identité qui dépasse largement le cadre automobile. Présente dans les mondes de la musique, de la mode ou encore du design, la marque a toujours cultivé un esprit décalé, créatif et anticonformiste.\n\n\n\nUne flotte dédiée aux artistes et invités\n\n\n\nÀ l'occasion du festival, MINI mettra à disposition une flotte spécialement dédiée au transport des artistes, invités et équipes organisatrices. Une mission logistique essentielle qui permettra à la marque d'accompagner l'événement au plus près de ses coulisses.\n\n\n\nLes festivaliers auront également l'opportunité de découvrir les derniers modèles de la gamme MINI. Une manière pour la marque de présenter sa nouvelle génération de véhicules dans un environnement fidèle à son ADN.\n\n\n\nUne gamme tournée vers l'avenir\n\n\n\nDe la MINI Cooper, héritière directe du modèle originel, au MINI Aceman 100 % électrique, en passant par le MINI Countryman, le plus spacieux de la famille, la gamme actuelle illustre l'évolution de la marque sans renoncer à son identité.\n\n\n\n→ Retrouvez les prix et versions de la gamme Mini au Maroc\n\n\n\nÀ travers ce partenariat avec Nostalgia Lovers 2026, Smeia confirme sa volonté de rapprocher MINI de ses communautés et de soutenir les grands rendez-vous culturels du Royaume. Une présence qui promet d'ajouter une touche britannique à un week-end placé sous le signe de la musique, des souvenirs et de la bonne humeur.\n\n\n\nHicham Atabi",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/actualites/24725-mini-la-mamie-seclate-au-nostalgia-lovers-2026",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 49,
+      "id": 87,
       "titre": "[Autonews] NouveautésDacia Jogger 2026 : nouveaux prix et moteur hybrid 155 ch\nAvec sa nouvelle motorisation Hybrid, la Dacia Jogger gagne en puissance et en efficience tout en préservant sa vocation de familiale à sept places.\n\n\n\nDacia Maroc diversifie sa gamme avec l'arrivée de la nouvelle Dacia Jogger Hybrid. Plus puissante, plus efficiente et toujours disponible en configuration 7 places, ce modèle reçoit une nouvelle motorisation Hybride de 155 ch, qui remplace l'ancienne version de 140 ch. Une évolution qui lui permet de gagner en agrément sans renier les fondamentaux qui ont fait son succès.\n\n\n\nPlus de puissance, plus d'agrément\n\n\n\nL'intégration de la technologie hybride préserve l'habitabilité et la modularité du Jogger.\n\n\n\nSous le capot, Dacia Jogger 2026 adopte une nouvelle motorisation Hybrid développant 155 ch. Le système associe un moteur essence quatre cylindres 1.8 litre de 109 ch à deux moteurs électriques. Il s’agit d’un moteur principal de 50 ch et d’un démarreur-générateur haute tension. L'ensemble est associé à une boîte automatique électrifiée spécifique et alimenté par une batterie de 1,4 kWh.\n\n\n\nLa transmission de Jogger dispose de quatre rapports dédiés au moteur thermique et de deux rapports réservés à la propulsion électrique. Dépourvue d'embrayage, elle privilégie la fluidité des passages de rapports tout en optimisant le rendement énergétique.\n\n\n\nPar rapport à l'ancien Jogger Hybrid 140, les accélérations gagnent en vigueur tandis que les reprises se montrent plus franches. Une évolution qui profite aussi bien aux trajets urbains qu'aux déplacements familiaux sur longue distance.\n\n\n\nUne consommation mixte de 4,0 L/100 km\n\n\n\nLe Jogger demeure l'un des rares modèles du marché à proposer jusqu'à sept vraies places.\n\n\n\nAu-delà des performances, le nouveau système hybride améliore également la sobriété énergétique. Le Jogger Hybrid affiche une consommation mixte de 4,0 L/100 km. En circulation urbaine, jusqu'à 80 % du temps de roulage peut être réalisé en mode électrique, tandis que chaque démarrage s'effectue automatiquement sans solliciter le moteur thermique.\n\n\n\nComme sur les autres modèles hybrides de la marque Dacia, la batterie se recharge lors des phases de freinage et de décélération, sans nécessiter de branchement externe. Une technologie qui permet de réduire la consommation au quotidien tout en conservant une grande simplicité d'utilisation.\n\n\n\nJogger 7 places destiné aux familles nombreuses\n\n\n\n\n\n\n\nAu-delà de sa nouvelle mécanique, la Dacia Jogger Maroc conserve ce qui la distingue sur le marché national. Autrement dit, Jogger 2026 reste l'un des rares véhicules de son segment à proposer jusqu'à sept vraies places tout en offrant une modularité particulièrement généreuse.\n\n\n\n→ Les prix et versions sont disponible ici\n\n\n\nIl faut aussi souligner que l'intégration de la batterie hybride n'a imposé aucun compromis sur l'habitabilité ni sur le volume de chargement.\n\n\n\nCommercialisé au Maroc à partir de 260.900 DH en finition Extrême 7 places, la Dacia Jogger Hybrid consolide son positionnement de familiale accessible. Une formule qui associe désormais davantage de performances, une consommation réduite et toujours l'un des meilleurs rapports prix/prestations du marché.\n\n\n\nHicham Atabi",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/nouveautes/24733-dacia-jogger-2026-nouveaux-prix-et-moteur-hybrid-155-ch",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 48,
+      "id": 86,
       "titre": "[Autonews] Auto-MotoEXEED RX 2026 | Qualité et prestations haut de gamme\nEXEED RX est un SUV hybride rechargeable qui affiche des performances et des prestations premium.\n\n\n\nAvec sa silhouette de SUV coupé, son habitacle particulièrement soigné et sa dotation technologique complète, l'EXEED RX mise sur une approche différente du segment. Double écran de 12,3 pouces, affichage tête haute, sièges chauffants, ventilés et massants, climatisation tri-zone ou encore caméra 540° : l'équipement se veut digne de catégories supérieures.\n\n\n\n— Prix, versions et fiche technique disponibles ici\n\n\n\nLa planche de bord de l'EXEED RX mise sur une double interface numérique de 12,3 pouces.\n\n\n\nSous le capot, l'EXEED RX 2026 se distingue par son moteur hybride rechargeable de 367 ch, associé à une boîte automatique et une transmission à 4 roues motrices. Sa batterie de 19,43 kWh lui permet d’assurer une autonomie de 169 km en électrique, tandis que son rayon d’action total (électrique + thermique) dépasse les 1.000 km.\n\n\n\nSur la route, le EXEED RX Maroc surprend par son équilibre entre confort et dynamisme. De quoi séduire les acheteurs marocains en quête d’un SUV premium performant et doté de technologie et d'équipements haut de gamme.\n\n\n\nLes sièges avant de l'EXEED RX proposent les fonctions chauffage, ventilation et massage.\n\n\n\nHicham Atabi",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/auto-moto/24742-exeed-rx-2026-qualite-et-prestations-haut-de-gamme",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 47,
+      "id": 85,
       "titre": "[Autonews] Auto-MotoBYD ATTO 3 EVO et SEALION 5 | Lancement official au Maroc\nBYD poursuit son offensive sur le marché marocain des véhicules électrifiés avec le lancement simultané des ATTO 3 EVO et SEALION 5. Présentés lors d'un événement organisé à Casablanca, ces deux SUV incarnent les deux approches technologiques de la marque : le 100 % électrique d'un côté et l'hybride rechargeable de l'autre.\n\n\n\nÀ cette occasion, Sanae Zagouri, Directrice Générale de BYD Maroc, a souligné l'ambition de la marque d'accélérer la transition vers une mobilité plus durable au Maroc.\n\n\n\nL'ATTO 3 EVO fait évoluer le SUV électrique compact de BYD.\n\n\n\nL'ATTO 3 EVO bénéficie d'un restylage qui apporte des lignes modernisées, un habitacle repensé et des technologies de connectivité enrichies, notamment un écran central rotatif, Apple CarPlay, Android Auto et la commande vocale « Hi BYD ». Son autonomie urbaine WLTP peut atteindre 710 km.\n\n\n\nDe son côté, le SEALION 5 mise sur la technologie hybride rechargeable DM-i développée par BYD. Le SUV revendique jusqu'à 120 km d'autonomie électrique urbaine WLTP et une autonomie totale mixte de 1.016 km, avec une consommation annoncée de 5,5 L/100 km.\n\n\n\n→ Retrouvez tous les prix et versions des modèles BYD\n\n\n\nAu Maroc, le BYD ATTO 3 EVO est proposé à partir de 355.900 DH, tandis que le BYD SEALION 5 Super Hybride démarre à 299.900 DH.\n\n\n\nHicham Atabi",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/auto-moto/24756-byd-atto-3-evo-et-sealion-5-lancement-official-au-maroc",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 46,
+      "id": 84,
       "titre": "[Autonews] NouveautésBYD ATTO 3 EVO : prix, autonomie et prestations\nDéjà bien installé dans la gamme BYD, l'ATTO 3 évolue sans renier ses fondamentaux. Cette version EVO mise sur un design modernisé, un environnement numérique plus abouti et une autonomie généreuse pour rester dans la course.\n\n\n\nSur le marché des véhicules électriques, rester immobile revient souvent à reculer. Face à une concurrence de plus en plus dense et à des automobilistes devenus plus exigeants, BYD fait évoluer l'un de ses modèles les plus importants. Déjà bien installé dans la gamme du constructeur chinois, l'ATTO 3 revient aujourd'hui dans une version EVO qui ne bouleverse pas sa philosophie, mais cherche à renforcer ses principaux arguments : le style, la technologie embarquée et l'usage au quotidien.\n\n\n\nUne silhouette qui gagne en caractère\n\n\n\nLe profil conserve les proportions du modèle tout en recevant plusieurs évolutions esthétiques.\n\n\n\nL'ATTO 3 EVO 2026 n'entend pas révolutionner la recette, mais plutôt l'affiner. Cette évolution de mi-carrière s'accompagne d'un bouclier avant redessiné, de nouvelles prises d'air et d'un traitement plus dynamique des lignes de carrosserie. Le SUV adopte également de nouvelles jantes de 18 pouces ainsi qu'un becquet de toit plus imposant qui renforce sa présence visuelle.\n\n\n\nCes retouches restent mesurées, mais elles permettent à l'ATTO 3 Maroc de conserver un aspect contemporain sur un segment où les nouveautés se multiplient. Plus affirmé sans tomber dans l'exubérance, le SUV électrique de BYD cherche avant tout à préserver son attractivité face à une concurrence devenue beaucoup plus dense qu'à son lancement.\n\n\n\nUn environnement numérique plus abouti\n\n\n\nL'ATTO 3 EVO conserve son écran rotatif et enrichit sa connectivité.\n\n\n\nL’intérieur de l'ATTO 3 EVO conserve l'une de ses signatures technologiques : un écran tactile rotatif de 15,6 pouces associé à une instrumentation numérique de 5 pouces. L'ensemble bénéficie désormais d'une connectivité enrichie grâce à l'intégration d'Apple CarPlay et d'Android Auto, tandis que la commande vocale « Hi BYD » permet de piloter plusieurs fonctions du véhicule sans quitter la route des yeux.\n\n\n\nBYD mise également sur la praticité au quotidien. L'habitacle demeure spacieux pour un SUV compact et conserve une présentation originale qui le distingue de nombreuses productions concurrentes. L'objectif est clair : proposer un environnement capable de séduire aussi bien les familles que les automobilistes attirés par les nouvelles technologies.\n\n\n\nL'autonomie comme principal argument\n\n\n\nLe nouveau becquet de toit contribue à moderniser la silhouette du SUV électrique.\n\n\n\nSi le style et la connectivité évoluent, l'autonomie demeure l'un des principaux arguments de l'ATTO 3 EVO. BYD Maroc annonce jusqu'à 710 kilomètres d'autonomie urbaine WLTP. Un chiffre qui vise clairement à répondre à l'une des préoccupations récurrentes des automobilistes intéressés par le passage au véhicule électrique : la peur de manquer d'autonomie.\n\n\n\nDans la pratique, cet argument dépasse le simple cadre des trajets en ville, et démontre qu'un SUV 100 % électrique peut étendre son rayon d’action aux zones interurbains. Pour ce faire, l'ATTO 3 EVO 2026 bénéficie de la technologie Blade Battery. Il s’agit d’une batterie lithium-fer-phosphate (LFP) conçue en interne par le constructeur.\n\n\n\nAu-delà du produit lui-même, BYD Maroc cherche également à rassurer les acheteurs en proposant une garantie véhicule de 6 ans ou 150.000 km ainsi que d'une garantie batterie de 8 ans ou 200.000 km.\n\n\n\nBYD ATTO 3 prix Maroc\n\n\n\nAu final, le BYD ATTO 3 EVO est proposé au Maroc à partir de 355.900 DH. Avec cette évolution, ce modèle ne cherche pas à révolutionner sa recette, mais modernise son style, enrichi son environnement technologique, tout en faisant de l'autonomie l'un de ses principaux arguments.\n\n\n\n→ Les prix et versions sont disponible ici\n\n\n\nHicham Atabi \n\n\n\nGalerie\n\n\n\n\nLe BYD ATTO 3 EVO adopte un style modernisé afin de renforcer son attractivité sur le segment des SUV électriques compacts.\n\n\n\nLe profil conserve les proportions du modèle tout en recevant plusieurs évolutions esthétiques.\n\n\n\nLe nouveau becquet de toit contribue à moderniser la silhouette du SUV électrique.\n\n\n\nL'ATTO 3 EVO conserve son écran rotatif et enrichit sa connectivité.\n\n\n\nLe SUV électrique mise sur le confort pour séduire les familles.\n\n\n\nL'habitabilité constitue l'un des arguments du SUV électrique de BYD.",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/nouveautes/24749-byd-atto-3-evo-prix-autonomie-et-prestations",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 45,
+      "id": 83,
       "titre": "[Autonews] Auto-MotoBYD SEALION 5 : tarifs compétitifs et autonomie de 120 km\nLe nouveau BYD SEALION 5 mise sur la technologie hybride rechargeable pour répondre aux attentes des automobilistes qui ne sont pas encore prêts à passer au 100 % électrique.\n\n\n\nEntre les automobilistes séduits par les avantages du véhicule électrique et ceux qui restent attachés à la liberté offerte par un moteur thermique, le marché se trouve aujourd'hui à un moment charnière. Avec le nouveau SEALION 5, BYD propose une réponse pragmatique à cette réalité. Ce SUV hybride rechargeable a été conçu pour permettre de rouler la majorité du temps en mode électrique tout en conservant la possibilité d'entreprendre de longs trajets sans dépendre du réseau de recharge.\n\n\n\nSealion 5 pensé pour les familles\n\n\n\nLe SEALION 5 mise sur une présentation technologique orientée vers le confort d'utilisation.\n\n\n\nLe SEALION 5 s'adresse clairement aux familles. Avec 4,74 mètres de long, un empattement de 2,71 mètres et un coffre de 463 litres pouvant atteindre 1.410 litres une fois la banquette rabattue, il mise sur l'espace et la polyvalence. Son positionnement est également renforcé par une présentation soignée inspirée du langage stylistique « Ocean Face X », déjà utilisé sur les modèles les plus récents de la marque.\n\n\n\nÀ bord, BYD met l'accent sur les technologies qui simplifient réellement le quotidien. L'écran tactile rotatif de 12,8 pouces constitue l'élément central de l'habitacle, tandis que la compatibilité Apple CarPlay et Android Auto, la connectivité 4G embarquée, la commande vocale « Hi BYD » et les services BYD Cloud répondent aux attentes actuelles des utilisateurs. Selon les versions, le SUV reçoit également des sièges à réglage électrique, un siège conducteur chauffant ainsi qu'un chargeur à induction.\n\n\n\nLa liberté des longs trajets\n\n\n\nLe SEALION 5 adopte une identité visuelle moderne caractérisée par sa signature lumineuse LED.\n\n\n\nMais le principal argument du SEALION 5 se trouve sous le capot. La technologie Super Hybride DM-i privilégie autant que possible la propulsion électrique afin de réduire la consommation de carburant lors des trajets quotidiens. Grâce à sa batterie Blade Battery LFP de 18,3 kWh, le SUV peut parcourir jusqu'à 120 km en mode électrique urbain WLTP. Une valeur qui permet à de nombreux conducteurs d'effectuer leurs déplacements quotidiens sans utiliser une goutte d'essence.\n\n\n\nPour les voyages et les longs trajets, le moteur thermique prend le relais afin d'éliminer toute contrainte liée à la recharge. Résultat : une autonomie totale annoncée à 1.016 km WLTP et une consommation moyenne de seulement 5,5 L/100 km. Une double personnalité qui constitue aujourd'hui l'un des principaux atouts du modèle.\n\n\n\n→Retrouvez les prix et versions de BYD Sealion 5\n\n\n\nCommercialisé au Maroc à partir de 299.900 DH, le BYD SEALION 5 se présente comme une alternative crédible pour les automobilistes qui souhaitent électrifier leur usage sans bouleverser leurs habitudes.\n\n\n\nHicham Atabi",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/auto-moto/24769-byd-sealion-5-tarifs-competitifs-et-autonomie-de-120-km",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 44,
+      "id": 82,
       "titre": "[Autonews] Actualité nationaleDacia Bigster prix Maroc : tarifs revus à la baisse dès 245.000 DH\nAvec une gamme restructurée, des équipements supplémentaires et surtout des prix revus à la baisse, le Dacia Bigster corrige le tir pour consolider sa position sur le segment des SUV compacts.\n\n\n\nLorsque Dacia Maroc a lancé le Bigster en 2025, l'ambition était de proposer un véhicule spacieux, offrant des prestations et une polyvalence indéniable pour séduire les acheteurs de SUV compacts à vocation familiale. Mais depuis, le paysage automobile a changé et de nouveaux concurrents, notamment chinois, sont arrivés avec une offre très compétitive.\n\n\n\nLa réplique du Dacia Bigster Maroc ne s’est pas faite attendre, et consiste en une réorganisation de la gamme, qui s'articule désormais autour de trois finitions (Essential, Expression et Journey), au lieu de quatre auparavant.\n\n\n\nDacia Bigster 2026 monte d'un cran\n\n\n\nDacia concentre l'essentiel de ses efforts sur la finition Journey, appelée à jouer le rôle de vitrine technologique. Positionnée au sommet de la gamme, Dacia Bigster Journey reçoit de série le toit ouvrant panoramique, la peinture bi-ton ainsi qu'un pack parking intégrant caméra Multiview, capteurs avant et latéraux et surveillance des angles morts.\n\n\n\nL'équipement multimédia et de confort progresse également avec le système Media Display à écran tactile compatible avec la réplication smartphone, le système audio Arkamys 3D, la recharge par induction, le hayon motorisé ou encore la carte mains-libres.\n\n\n\nIl va sans dire que cette évolution renforce le pouvoir de séduction du Bigster Dacia face à des rivaux qui multiplient les équipements technologiques.\n\n\n\nLire aussi : BYD Sealion 5 arrive au Maroc\n\n\n\nSous le capot, le Bigster conserve ses deux propositions mécaniques. D'un côté, le 1.5 Blue dCi de 115 ch s'adresse aux gros rouleurs à la recherche d'une autonomie élevée et de coûts d'usage réduits. De l'autre, on trouve le Dacia Bigster Hybrid développant 155 ch, qui mise davantage sur la polyvalence et l'efficience pour assurer les déplacements dans les zones urbaines et périurbaines.\n\n\n\nPrix Dacia Bigster Maroc\n\n\n\nLa véritable nouveauté se situe toutefois du côté des tarifs. Dacia Maroc a revu les tarifs de l'ensemble de la gamme, un signal qui n’est pas anodin pour un modèle aussi récent.\n\n\n\nLe Bigster dans sa version Diesel démarre désormais à 254.500 DH en finition Essential, contre 265.500 DH pour l'Expression et 292.500 DH pour la Journey. Les versions Hybrid 155 sont proposées à partir de 283.000 DH pour l'Expression et 310.000 DH pour la Journey.\n\n\n\nÀ cette révision tarifaire s'ajoute une offre promotionnelle permettant actuellement d'accéder au Bigster Essential Diesel à partir de 245.000 DH, soit près de 10.000 DH de moins que son nouveau tarif catalogue.\n\n\n\n→ Retrouvez prix et fiche technique de Dacia Bigster Diesel\n\n\n\n→ Retrouvez prix et fiche technique de Dacia Bigster Hybrid\n\n\n\nVoilà comment le Dacia Bigster s’engage dans une nouvelle phase de sa carrière et renforce sa compétitivité sur le marché national.\n\n\n\nHicham Atabi",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/actualites/24776-dacia-bigster-prix-maroc-tarifs-revus-a-la-baisse-des-245000-dh",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 43,
+      "id": 81,
       "titre": "[Autonews] Auto-MotoVidéo - BYD ATTO 3 EVO | Autonomie jusqu’à 710 km\nDéjà bien installé dans la gamme, BYD ATTO 3 évolue avec une version EVO qui modernise son style, enrichit son environnement technologique et met l'accent sur l'autonomie. Découvrez notre vidéo.\n\n\n\nFace à une concurrence de plus en plus agressive sur le marché des SUV électriques, BYD ATTO 3 EVO a fait l’objet d’une mise à jour profonde. Sans remettre en cause les fondamentaux de l'ATTO 3, cette version EVO apporte plusieurs améliorations ciblées.\n\n\n\nÀ l'extérieur, BYD ATTO 3 adopte un bouclier avant redessiné, de nouvelles prises d'air, des jantes inédites de 18 pouces ainsi qu'un becquet de toit plus imposant. Des retouches qui lui permettent de conserver une allure actuelle sur un segment où les nouveautés se multiplient.\n\n\n\nL'habitacle de ATTO 3 EVO conserve son écran tactile rotatif de 15,6 pouces associé à une instrumentation numérique de 5 pouces. Cette évolution introduit également Apple CarPlay, Android Auto ainsi que la commande vocale « Hi BYD », destinée à simplifier l'utilisation de plusieurs fonctions du véhicule.\n\n\n\nMais l'argument principal reste l'autonomie. ATTO 3 BYD revendique jusqu'à 710 km d'autonomie urbaine WLTP grâce à sa technologie Blade Battery. Une valeur qui vise à répondre directement à l'une des principales interrogations des automobilistes marocains envisageant le passage à l'électrique.\n\n\n\n→ Retrouvez les prix et versions de BYD ATTO 3 EVO\n\n\n\nPrix BYD ATT0 3 Maroc débute à 355.900 DH. ATTO 3 EVO cherche ainsi à renforcer son attractivité en misant sur trois piliers : autonomie, technologie et usage quotidien.\n\n\n\nHicham Atabi",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/auto-moto/24784-video-byd-atto-3-evo-autonomie-jusqua-710-km",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 42,
+      "id": 80,
       "titre": "[Autonews] AssurancesAssurance – Vacances :  Il faut relire son contrat d'assurance\nÀ l'approche des vacances d'été, des milliers d'automobilistes marocains s'apprêtent à parcourir de longues distances. Pourtant, beaucoup ignorent encore la différence entre assurance et assistance. Une confusion qui peut coûter cher !\n\n\n\nLes vacances d'été approchent et, avec elles, les grands départs vers des destinations lointaines. Pour de nombreux automobilistes marocains, ces quelques semaines concentrent les trajets les plus longs de l'année. Pneus, freins, climatisation ou niveaux de liquides font généralement l'objet d'une vérification minutieuse avant le départ. Pourtant, un autre élément essentiel est souvent négligé : le contrat d'assurance.\n\n\n\nCette omission peut avoir des conséquences bien réelles, car contrairement à une idée largement répandue, être assuré ne signifie pas automatiquement être pris en charge dans toutes les situations. Une panne mécanique, une immobilisation prolongée ou un besoin de remorquage relèvent souvent de l'assistance et non de l'assurance automobile elle-même.\n\n\n\nCe que dit réellement la loi\n\n\n\nAu Maroc, tout véhicule circulant sur la voie publique doit être couvert par une assurance Responsabilité Civile. Cette garantie obligatoire constitue le socle de l'assurance automobile. Son rôle est clair : indemniser les dommages matériels et corporels causés aux tiers lors d'un accident.\n\n\n\nEn revanche, la loi n'impose pas la couverture des dommages subis par le véhicule assuré lui-même, ni ceux du conducteur responsable. Ces protections dépendent des garanties complémentaires souscrites par l'assuré. Cette distinction est fondamentale !\n\n\n\nBeaucoup d'automobilistes découvrent après un sinistre que leur contrat couvre parfaitement les dommages causés à autrui, mais ne prévoit pas nécessairement certaines prestations qu'ils considéraient comme acquises.\n\n\n\nAssurance vs assistance\n\n\n\n\n\n\n\nL'Autorité de Contrôle des Assurances et de la Prévoyance Sociale (ACAPS) distingue clairement les prestations d'assistance des garanties d'assurance.\n\n\n\nL'assurance intervient principalement pour indemniser les conséquences financières d'un accident ou d'un sinistre. L'assistance a quant à elle vocation à apporter une aide immédiate lorsque le véhicule ne peut plus poursuivre sa route.\n\n\n\nConcrètement, une assistance peut inclure le dépannage sur place, le remorquage, l'orientation vers un réparateur, l'acheminement de pièces détachées ou encore, selon les contrats, la mise à disposition d'un véhicule de remplacement. Une nuance qui prend tout son sens lorsqu'une panne survient à plusieurs centaines de kilomètres du domicile.\n\n\n\nUne panne n'a pas les mêmes conséquences\n\n\n\nLe développement du réseau autoroutier marocain a considérablement facilité les déplacements longue distance. Dans ces conditions, une panne mécanique n'a rien d'anodin. Lorsqu'un véhicule s'immobilise à proximité du domicile, les solutions sont généralement simples à mettre en œuvre. La situation devient beaucoup plus complexe lorsqu'une famille se retrouve bloquée en pleine période estivale sur un axe très fréquenté ou loin d'un centre urbain. C'est précisément dans ce type de situation que les garanties d'assistance révèlent leur véritable utilité.\n\n\n\nLe véhicule de remplacement peut sauver les vacances\n\n\n\nParmi les garanties les plus souvent sous-estimées figure la mise à disposition d'un véhicule de remplacement.\n\n\n\nPourtant, lorsqu'un véhicule doit rester plusieurs jours en atelier alors que les réservations d'hôtel sont déjà effectuées et que les déplacements sur le lieu de vacances sont prévus, l'absence de solution de mobilité peut rapidement devenir problématique.\n\n\n\nTous les contrats ne prévoient pas cette prestation. Lorsqu'elle existe, elle est généralement soumise à des conditions précises concernant la durée d'immobilisation ou la nature du sinistre. Avant les grands départs, il est donc utile de vérifier les modalités exactes prévues par son contrat.\n\n\n\nLa protection du conducteur reste essentielle\n\n\n\nIl faut aussi souligner que la garantie Responsabilité Civile protège les victimes d'un accident, mais ne couvre pas automatiquement le conducteur responsable pour ses propres dommages corporels.\n\n\n\nOr l'été correspond également à une période où le trafic routier augmente fortement. Fatigue liée aux longs trajets, circulation dense à proximité des stations balnéaires ou départs aux heures les plus fraîches de la journée constituent autant de facteurs susceptibles d'accroître le risque d'accident. La garantie du conducteur figure ainsi parmi les protections les plus importantes à vérifier avant de prendre la route.\n\n\n\nLe bris de glace est plus fréquent qu'il n'y paraît\n\n\n\nLes trajets estivaux exposent davantage les véhicules aux projections de gravillons, notamment sur les axes à fort trafic ou à proximité des zones de travaux.\n\n\n\nUn simple impact sur un pare-brise peut sembler sans gravité. Pourtant, les fortes chaleurs estivales et les écarts de température provoqués par la climatisation favorisent souvent l'apparition de fissures plus importantes. Avec la généralisation des capteurs et caméras intégrés derrière le pare-brise sur les véhicules récents, le coût d'un remplacement peut rapidement atteindre des montants significatifs.\n\n\n\nQuelques minutes peuvent éviter des désagréments\n\n\n\nSelon l'ACAPS, les assurés ont tout intérêt à prendre connaissance des garanties, des exclusions et des plafonds prévus par leurs contrats avant qu'un incident ne survienne. Un conseil qui prend une dimension particulière à l'approche des vacances d'été.\n\n\n\nVérifier l'état mécanique du véhicule reste indispensable, mais consacrer quelques minutes à relire son contrat d'assurance et d'assistance peut s'avérer tout aussi utile. Cette précaution simple permet d'aborder les grands départs avec davantage de sérénité et d'éviter les mauvaises surprises lorsque le voyage ne se déroule pas exactement comme prévu.\n\n\n\nHicham Atabi",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/assurances/24796-assurance-vacances-il-faut-relire-son-contrat-dassurance",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 41,
+      "id": 79,
       "titre": "[Autonews] RétroviseursRenault Clio : Une grande petite voiture\nEn automobile, les modes passent, les technologies évoluent et les références d’hier finissent souvent par céder leur place à de nouveaux modèles. La Renault Clio fait figure d’exception. Lancée en 1990 pour succéder à la mythique Renault 5, elle est devenue au fil des décennies la voiture française la plus vendue de l’histoire avec près de 17 millions d’exemplaires écoulés dans plus de 120 pays.\n\n\n\nAu Maroc, où près de 145.000 unités ont trouvé preneur, elle s’est imposée comme l’un des modèles les plus familiers du paysage automobile. Une longévité qui s’explique par la fidélité des clients, et une capacité remarquable à évoluer avec son époque.\n\n\n\nLorsque Renault dévoile la Clio en 1990, le constructeur français a voulu redéfinir les standards de la catégorie. La marque présente alors sa nouvelle venue comme une «grande petite voiture», capable d’offrir davantage de confort, de qualité perçue et d’équipements que les citadines traditionnelles.\n\n\n\nLe pari est gagnant, puisque dès 1991 la Clio décroche le titre de Voiture européenne de l’année. Huit ans plus tard, la Clio II poursuit cette montée en puissance. Plus habitable, plus sûre et plus polyvalente, elle accompagne l’évolution des attentes des automobilistes à une époque où la sécurité devient un critère d’achat majeur.\n\n\n\nL’art de se réinventer\n\n\n\n\n\n\n\nAvec la Clio III, lancée en 2005, Renault change de dimension. Plus grande, mieux équipée et plus ambitieuse, elle brouille les frontières entre citadine et compacte. Cette évolution lui vaut un second titre de Voiture européenne de l’année en 2006, une distinction particulièrement rare.\n\n\n\nQuelques années plus tard, la Clio IV\n\n\n\nopère un virage différent. Sous l’impulsion du designer Laurens van den Acker, elle adopte un style beaucoup plus expressif. Cette génération marque également l’arrivée de nouvelles technologies de connectivité qui répondent aux attentes d’une clientèle de plus en plus connectée.\n\n\n\nLa cinquième génération, lancée en 2019, illustre parfaitement la recette qui a permis à la Clio de traverser les décennies : nouvelle plateforme, qualité perçue en hausse, instrumentation numérique, aides à la conduite avancées et motorisation hybride E-Tech.\n\n\n\nLa Renault Clio entre aujourd’hui dans une nouvelle phase de son histoire. Face à l’essor des SUV, à l’électrification et à l’arrivée de nouveaux constructeurs, la Clio 6 (page 20) doit une nouvelle fois se réinventer sans perdre son identité.\n\n\n\nC’est précisément ce qu’elle fait depuis trente-cinq ans. Car le secret de sa longévité n’a jamais été de rester la même. Il a toujours consisté à évoluer juste assez pour demeurer pertinente.\n\n\n\nHicham Atabi",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/evenements/24800-renault-clio-une-grande-petite-voiture",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 40,
+      "id": 78,
       "titre": "[Autonews] Sport autoToutes les Compétitions Automobiles",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/67-sport-auto",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 39,
+      "id": 77,
       "titre": "[Autonews] RétroviseursLes évènements Auto au Maroc et l'international",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/261-evenements",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 38,
+      "id": 76,
       "titre": "[Autonews] Industrie automobile au Maroc",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/2393-industrie-automobile-au-maroc",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 37,
+      "id": 75,
       "titre": "[Autonews] Dossier spécialDossiers Thématiques Secteur Automobile",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/88-dossier-special",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 36,
+      "id": 74,
       "titre": "[Autonews] Auto-MotoEmission 2M Auto-Moto",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/260-auto-moto",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 35,
+      "id": 73,
       "titre": "[Autonews] Life-styleMontres – Smartphones - Accessoires High Tech",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/87-life-style",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 34,
+      "id": 72,
       "titre": "[Autonews] MotoDécouvrez Moto Neuve Maroc",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/78-moto",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 33,
+      "id": 71,
       "titre": "[Autonews] FinancementOffre Financement Voiture Neuve ou Occasion",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/74-financement",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 32,
+      "id": 70,
       "titre": "[Autonews] EntretiensRencontre avec Acteurs Secteur Automobile",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/83-entretiens",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 31,
+      "id": 69,
       "titre": "[Autonews] AssurancesContrat Assurance Voiture Neuve ou Occasion",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/75-assurances",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 30,
+      "id": 68,
       "titre": "[Autonews] Conseils pratiquesComment prendre soin de sa Voiture",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/79-conseils-pratiques",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 29,
+      "id": 67,
       "titre": "[Autonews] MarchéFluctuations Marché Automobile Maroc",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/86-marche",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 28,
+      "id": 66,
       "titre": "[Autonews] Matchs | ComparatifsTous les Duels entre Voitures Neuves",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/68-duels-entre-modeles",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 27,
+      "id": 65,
       "titre": "[Autonews] Promo du momentVoitures en promotion au Maroc",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/89-promo-du-moment",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 26,
+      "id": 64,
       "titre": "[Autonews] EssaisTous les Essais Automobiles",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/84-essais",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 25,
+      "id": 63,
       "titre": "[Autonews] NouveautésToutes les nouveautés Automobiles",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/66-nouveautes",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 24,
+      "id": 62,
       "titre": "[Autonews] Actualité internationaleToute Actualité Automobile Internationale",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/85-actualites-internationale",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 23,
+      "id": 61,
       "titre": "[Autonews] Actualité nationaleActualité Automobile Maroc",
       "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/82-actualites",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 22,
+      "id": 60,
       "titre": "[Essai] VW T-ROC 2026 : plus grand, plus malin, toujours leader ?",
       "resume": "Le VW T-Roc, SUV urbain le plus vendu au Maroc depuis 2021, débarque dans une seconde génération entièrement repensée. Lors dans cet essai, on verra ensemble si cette mouture modernisée saura maintenir sa couronne et pro...",
       "image": "https://www.wandaloo.com/files/2026/06/Essai-VW-T-ROC-2026-Neuve-Maroc-Avant.webp",
       "date_publication": "20 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/volkswagen/t-roc/vw-t-roc-2026-plus-grand-plus-malin-toujours-leader/4886.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 21,
+      "id": 59,
       "titre": "[Nouveauté Maroc] DACIA Bigster 2026 : animation de gamme, l'hybride en renfort et des prix en baisse !",
       "resume": "Un an après son lancement, DACIA Maroc procède à une vaste animation de gamme sur le Bigster. Le grand SUV passe à trois finitions, accueille pour la première fois la motorisation Hybrid 155 ch et voit ses tarifs revus à...",
       "image": "https://www.wandaloo.com/files/2026/06/DACIA-Bigster-2026-Neuve-Maroc-Hybrid-155.webp",
       "date_publication": "20 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/dacia/bigster-hev/dacia-bigster-2026-animation-de-gamme-l-hybride-en-renfort-et-des-prix-en-baisse/4884.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 20,
+      "id": 58,
       "titre": "[Marché] JETOUR et XPENG en mode « séduction » avec ARVAL Maroc",
       "resume": "SMEIA a réuni clients et partenaires d'ARVAL Maroc autour de la mobilité d'entreprise. JETOUR et XPENG ont profité de l'occasion pour dévoiler leurs modèles phares, dont la P7+ en première marocaine.",
       "image": "https://www.wandaloo.com/files/2026/06/JETOUR-XPENG-Partenaire-ARVAL-Maroc-2026.webp",
       "date_publication": "22 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/jetour/t2-phev/jetour-et-xpeng-en-mode-seduction-avec-arval-maroc/4891.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 19,
+      "id": 57,
       "titre": "[Essai] JAGUAR F-Pace 90th Anniversary : le luxe anglais en série limitée !",
       "resume": "Pour célébrer ses 90 ans, JAGUAR sort le grand jeu ! La marque britannique premium dévoile une édition limitée baptisée « 90th Anniversary Edition », déclinée sur le facelift de la première génération de son SUV familial...",
       "image": "https://www.wandaloo.com/files/2026/06/JAGUAR-F-PACE-90th-Anniversary-Edition-2026-Neuve-Maroc-Essai.webp",
       "date_publication": "22 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/jaguar/f-pace/jaguar-f-pace-90th-anniversary-le-luxe-anglais-en-serie-limitee/4889.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 18,
+      "id": 56,
       "titre": "[Nouveauté Maroc] Nouvelle Clio 6 : l'icône de RENAULT débarque au Maroc",
       "resume": "La star des citadines polyvalentes entame sa carrière marocaine. La 6ème génération de la RENAULT Clio est désormais disponible dans tout le réseau RENAULT Maroc. Au menu : un design plus statutaire, une motorisation Ful...",
       "image": "https://www.wandaloo.com/files/2026/06/Nouvelle-RENAULT-Clio-6-lancement-Maroc-2026.webp",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/renault/clio/nouvelle-clio-6-l-icone-de-renault-debarque-au-maroc/4874.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 17,
+      "id": 55,
       "titre": "[Actu. internationale] LEAPMOTOR franchit le cap des 1,5 million de véhicules livrés",
       "resume": "La marque chinoise du giron STELLANTIS accélère. LEAPMOTOR vient de dépasser les 1,5 million de véhicules livrés dans le monde. Un palier atteint seulement huit mois après le million d'unités. La cadence confirme l'appét...",
       "image": "https://www.wandaloo.com/files/2026/06/LEAPMOTOR-Maroc-Gamme-Vehicule-2026-STELLANTIS.webp",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/leapmotor/c10-reev/leapmotor-franchit-le-cap-des-1-5-million-de-vehicules-livres/4892.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 16,
+      "id": 54,
       "titre": "[Nouveauté Maroc] Nouveaux ATTO 3 EVO et SEALION 5 DM-i : le duo qui renforce la gamme BYD au Maroc",
       "resume": "Numéro 1 des véhicules électrifiés au Maroc en 2025, BYD ne lève pas le pied. Via son importateur AUTO NEJMA, la marque chinoise a introduit deux nouveautés sur notre marché : l'ATTO 3 EVO 100% électrique, restylé et net...",
       "image": "https://www.wandaloo.com/files/2026/06/byd-atto-3-sealion-5-2026-lancement-maroc.webp",
       "date_publication": "25 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/byd/sealion-5-phev/nouveaux-atto-3-evo-et-sealion-5-dm-i-le-duo-qui-renforce-la-gamme-byd-au-maroc/4890.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 15,
+      "id": 53,
       "titre": "[Nouveauté] Nouvelle RENAULT Mégane E-Tech 2027 : sacré coup de jeune !",
       "resume": "Pionnière de la vague électrique RENAULT en 2022, la Mégane E-Tech s'offre une mise à jour de mi-carrière. Au menu : une face avant redessinée, une nouvelle batterie LFP plus endurante et une gamme resserrée autour de de...",
       "image": "https://www.wandaloo.com/files/2026/06/Nouvelle-RENAULT-Megane-E-Tech-2027-facelift-Maroc-Reveal.webp",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/renault/megane-e-tech/nouvelle-renault-megane-e-tech-2027-sacre-coup-de-jeune/4893.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 14,
+      "id": 52,
       "titre": "[Actu. internationale] MASERATI fête ses 100 ans par une gamme restylée !",
       "resume": "MASERATI souffle les cent bougies de son logo au Trident en restylant ses trois modèles cœur de gamme. Le Grecale, la GranTurismo et la GranCabrio évoluent ensemble. Présentés le 18 juin 2026 à Modène, ils arriveront en ...",
       "image": "https://www.wandaloo.com/files/2026/06/MASERATI-Anniversaire-100-ans-facelift-2026.webp",
       "date_publication": "29 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/maserati/grecale/maserati-fete-ses-100-ans-par-une-gamme-restylee/4895.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
-      "id": 13,
+      "id": 51,
       "titre": "[Nouveauté] ŠKODA Epiq 2027 : le SUV électrique d'entrée de gamme se dévoile",
       "resume": "SKODA lève le voile sur l'Epiq, son SUV urbain 100% électrique le plus abordable. Compact, il inaugure la plateforme MEB+ en traction avant et promet jusqu'à 440 km d'autonomie à un tarif aligné sur le Kamiq thermique. P...",
       "image": "https://www.wandaloo.com/files/2026/06/SKODA-Epiq-2027-Neuve-Maroc-Reveal.webp",
       "date_publication": "29 juin 2026",
       "lien_article": "https://www.wandaloo.com/autonews/skoda/modele/skoda-epiq-2027-le-suv-electrique-d-entree-de-gamme-se-devoile/4896.html",
-      "created_at": "2026-06-30 01:45:01"
+      "created_at": "2026-06-30 01:46:43"
     },
     {
       "id": 2,
