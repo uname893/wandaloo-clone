@@ -4841,22 +4841,7 @@ const STATIC_DATA = {
         "pneus": "",
         "options": "{\"Équipements\":[]}"
       },
-      "images": [
-        {
-          "id": 2363,
-          "model_id": "byd-dolphin",
-          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
-          "alt": "Test Image 1",
-          "is_primary": 1
-        },
-        {
-          "id": 2364,
-          "model_id": "byd-dolphin",
-          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
-          "alt": "Test Image 2",
-          "is_primary": 0
-        }
-      ]
+      "images": []
     },
     {
       "id": "byd-han",
