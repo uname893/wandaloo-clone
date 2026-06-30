@@ -38,6 +38,27 @@ app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 app.use(express.static(path.join(__dirname, '../frontend')));
 
+// ========== AUTO-PUBLISH DEBOUNCER ==========
+let publishTimeout = null;
+
+function triggerAutoPublish() {
+  if (publishTimeout) {
+    clearTimeout(publishTimeout);
+  }
+  
+  publishTimeout = setTimeout(() => {
+    const { exec } = require('child_process');
+    console.log('⚡ [Auto-Publish] Lancement de la publication Git + Firebase automatique...');
+    exec('git add . && git commit -m "Auto Update: Admin modifications" && git push origin main && firebase deploy --only hosting', (err, stdout, stderr) => {
+      if (err) {
+        console.error('❌ [Auto-Publish] Erreur lors de la publication automatique:', err.message);
+        return;
+      }
+      console.log('✅ [Auto-Publish] Publication et déploiement automatiques terminés avec succès !');
+    });
+  }, 5000); // 5 secondes de délai après la dernière modification
+}
+
 // ========== UTILS: REBUILD FRONTEND DATA.JS ==========
 function buildStaticData(callback) {
   getAllBrands((err, brands) => {
@@ -93,6 +114,7 @@ function buildStaticData(callback) {
                       fs.writeFileSync(targetPath, 'const STATIC_DATA = ' + JSON.stringify(data, null, 2) + ';');
                       console.log('⚡ [Build] data.js régénéré en direct et mis à jour instantanément.');
                       db.close();
+                      triggerAutoPublish(); // Déclenche la publication Git + Firebase automatique
                       if (callback) callback(null, data);
                     });
                   });
