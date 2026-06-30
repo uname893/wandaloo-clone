@@ -90,6 +90,8 @@ function initDB() {
       reservoir TEXT,
       roues TEXT,
       pneus TEXT,
+      -- Options et Équipements de confort/sécurité (Stocké sous forme de JSON stringifié)
+      options TEXT,
       FOREIGN KEY (model_id) REFERENCES models(id)
     )`);
 
@@ -235,14 +237,15 @@ function insertSpec(modelId, spec, callback) {
     const stmt = db.prepare(`INSERT INTO specifications 
       (model_id, longueur, largeur, hauteur, empattement, poids, coffre,
        cylindree, cylindres, turbo, vitesse_max, acceleration,
-       conso_urbaine, conso_extra, conso_mixte, emission_co2, reservoir, roues, pneus)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
+       conso_urbaine, conso_extra, conso_mixte, emission_co2, reservoir, roues, pneus, options)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
     stmt.run(modelId, 
       spec.longueur || '', spec.largeur || '', spec.hauteur || '', spec.empattement || '',
       spec.poids || '', spec.coffre || '', spec.cylindree || '', spec.cylindres || '',
       spec.turbo || '', spec.vitesse_max || '', spec.acceleration || '',
       spec.conso_urbaine || '', spec.conso_extra || '', spec.conso_mixte || '',
       spec.emission_co2 || '', spec.reservoir || '', spec.roues || '', spec.pneus || '',
+      spec.options ? JSON.stringify(spec.options) : '{}',
       (err) => { stmt.finalize(); db.close(); callback(err); }
     );
   });

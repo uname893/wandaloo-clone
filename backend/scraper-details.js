@@ -50,10 +50,9 @@ function extractImages($, modelId, brandId, slug) {
 }
 
 function extractSpecs($) {
-  const spec = {};
+  const spec = { options: {} };
   
-  // Look for technical specs table or sections
-  // Wandaloo uses various class names for specs
+  // 1. Extraction des spécifications techniques standard
   const specMap = {
     'longueur': 'longueur',
     'largeur': 'largeur', 
@@ -68,38 +67,115 @@ function extractSpecs($) {
     'accélération': 'acceleration',
     '0-100': 'acceleration',
     '0 à 100': 'acceleration',
-    'conso urbaine': 'conso_urbaine',
-    'conso extra': 'conso_extra',
+    'conso. mixte': 'conso_mixte',
     'conso mixte': 'conso_mixte',
+    'conso. urbaine': 'conso_urbaine',
+    'conso urbaine': 'conso_urbaine',
+    'conso. extra': 'conso_extra',
+    'conso extra': 'conso_extra',
     'co2': 'emission_co2',
     'co₂': 'emission_co2',
     'réservoir': 'reservoir',
     'roues': 'roues',
     'pneus': 'pneus',
   };
-  
-  // Try to find spec tables or lists
-  $('table, dl, ul, div').each((_, el) => {
-    const $el = $(el);
-    const text = $el.text().toLowerCase();
-    
+
+  // Parcourir toutes les lignes de tableau ou définitions
+  $('tr, li, .param, .spec-row').each((_, el) => {
+    const text = $(el).text().trim();
+    if (!text || !text.includes(':') && !text.includes('\t')) return;
+
+    // Séparateur clé-valeur
+    let parts = text.split(':');
+    if (parts.length < 2) {
+      parts = text.split('\t');
+    }
+    if (parts.length < 2) return;
+
+    const label = parts[0].trim().toLowerCase();
+    const value = parts.slice(1).join(':').trim();
+
     for (const [keyword, field] of Object.entries(specMap)) {
-      if (text.includes(keyword) && !spec[field]) {
-        // Try to find the value near the label
-        const $rows = $el.find('tr, dt, dd, li, div');
-        $rows.each((_, row) => {
-          const rowText = $(row).text().toLowerCase();
-          if (rowText.includes(keyword)) {
-            const value = $(row).text().replace(/.*?:\s*/, '').replace(keyword, '').trim().substring(0, 50);
-            if (value && value.length > 1 && value !== keyword) {
-              spec[field] = value;
-            }
-          }
-        });
+      if (label === keyword || label.includes(keyword)) {
+        if (!spec[field] && value && value.length > 0) {
+          spec[field] = value.replace(/\s+/g, ' ');
+        }
       }
     }
   });
+
+  // 2. Extraction des options (Sécurité, Confort, Esthétique, etc.)
+  // On cherche les listes à puces avec oui/non ou coches verts sur Wandaloo
+  let currentCategory = 'Général';
   
+  $('h2, h3, .title-info, .category-title, .options-group h4').each((_, titleEl) => {
+    const $title = $(titleEl);
+    const titleText = $title.text().trim();
+    
+    // Identifier les catégories d'options
+    if (/sécurité/i.test(titleText)) currentCategory = 'Sécurité';
+    else if (/confort/i.test(titleText)) currentCategory = 'Confort';
+    else if (/esthétique|design/i.test(titleText)) currentCategory = 'Esthétique';
+    else if (/moteur|technique/i.test(titleText)) currentCategory = 'Moteur & Infos techniques';
+    else return;
+
+    if (!spec.options[currentCategory]) {
+      spec.options[currentCategory] = [];
+    }
+
+    // Trouver le bloc de liste d'options qui suit immédiatement le titre
+    let $next = $title.next();
+    // Parcourir jusqu'au prochain titre de catégorie
+    while ($next.length && !$next.is('h2, h3, .title-info, .category-title')) {
+      // Si c'est une liste d'options
+      $next.find('li, .option-item, tr').each((_, optionEl) => {
+        const $opt = $(optionEl);
+        const optText = $opt.text().replace(/\s+/g, ' ').trim();
+        
+        if (optText && optText.length > 2) {
+          // Sur Wandaloo, les options ont parfois des indicateurs "Oui" (coche verte) ou "Non" (croix rouge)
+          // Si le texte contient un statut (ex: "Airbags : Oui" ou "Airbags (6)"), on l'extrait
+          const hasCheck = $opt.find('.checked, .oui, .yes, img[src*="check"], img[src*="oui"]').length > 0;
+          const hasCross = $opt.find('.unchecked, .non, .no, img[src*="cross"], img[src*="non"]').length > 0;
+          
+          let name = optText;
+          let status = 'Disponible';
+          
+          if (optText.includes(':')) {
+            const optParts = optText.split(':');
+            name = optParts[0].trim();
+            status = optParts[1].trim();
+          } else if (hasCheck) {
+            status = 'Oui';
+          } else if (hasCross) {
+            status = 'Non';
+          }
+
+          // Éviter les doublons
+          if (!spec.options[currentCategory].some(o => o.nom === name)) {
+            spec.options[currentCategory].push({ nom: name, valeur: status });
+          }
+        }
+      });
+      $next = $next.next();
+    }
+  });
+
+  // Nettoyage final : s'assurer qu'au moins la structure de base existe
+  if (Object.keys(spec.options).length === 0) {
+    // Si la structure HTML est différente (ex: liste d'options à plat), on extrait tous les éléments contenant une coche oui/non
+    spec.options = { 'Équipements': [] };
+    $('li').each((_, liEl) => {
+      const text = $(liEl).text().trim();
+      if (text && text.length > 3 && text.length < 100) {
+        const hasCheck = $(liEl).find('.checked, .oui, img[src*="check"], img[src*="oui"]').length > 0;
+        if (hasCheck || text.toLowerCase().includes('oui') || text.toLowerCase().includes('disponible')) {
+          spec.options['Équipements'].push({ nom: text.replace(/:.*/, '').trim(), valeur: 'Oui' });
+        }
+      }
+    });
+  }
+
   return spec;
 }
 

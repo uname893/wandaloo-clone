@@ -209,17 +209,17 @@ function extractModelsFromHTML(html, brandId, brandName) {
     else if (lowerName.includes('diesel') || lowerName.includes('dci') || lowerName.includes('tdi') || lowerName.includes('hdi') || lowerName.includes('cdi') || lowerName.includes('blue d')) carburant = 'Diesel';
     
     // Find image
-    const $li = $h3.closest('li');
-    const $img = $li.find('img').first();
+    const $li = $h3.closest('li, .modele-item, .car-item, .voiture-item');
+    const $img = $li.find('img, .pic img, .pics img').first();
     let image = '';
     if ($img.length) {
-      image = $img.attr('data-src') || $img.attr('src') || '';
+      image = $img.attr('data-src') || $img.attr('data-original') || $img.attr('src') || '';
       if (image && !image.startsWith('http')) {
         image = BASE_URL + (image.startsWith('/') ? '' : '/') + image;
       }
     }
-    if (!image) {
-      image = `${BASE_URL}/files/Voiture-Neuve/${brandId}/${slug}-neuve-maroc.jpg`;
+    if (!image || image.includes('lazy') || image.includes('loading') || image.includes('placeholder')) {
+      image = `${BASE_URL}/files/Voiture-Neuve/${brandId}/${slug}.jpg`;
     }
     
     models.push({
@@ -252,9 +252,36 @@ async function scrapeBrand(brand) {
   console.log(`🔍 ${brand.name}...`);
   try {
     const html = await fetchHTML(url);
+    const $ = cheerio.load(html);
+    
+    // Essayer de trouver le logo de la marque sur sa propre page
+    let logoUrl = '';
+    const $logoImg = $('.logo-constructeur img, .constructeur-info img, img[src*="/constructeur/logo/"], img[src*="/constructeurs/logo/"], img[src*="/logo-"], img[src*="/logo/"]').first();
+    if ($logoImg.length) {
+      logoUrl = $logoImg.attr('data-src') || $logoImg.attr('src') || '';
+      if (logoUrl && !logoUrl.startsWith('http')) {
+        logoUrl = BASE_URL + (logoUrl.startsWith('/') ? '' : '/') + logoUrl;
+      }
+    }
+    
+    // Essayer de trouver le pays d'origine
+    let pays = 'Non spécifié';
+    const infoText = $('.constructeur-info, .brand-desc, .desc').text() || '';
+    if (infoText) {
+      const paysMatch = infoText.match(/(Origine|Pays|Nationalité)\s*:\s*([^\n\.,]+)/i);
+      if (paysMatch) pays = paysMatch[2].trim();
+    }
+
     const models = extractModelsFromHTML(html, brand.id, brand.name);
     console.log(`  ✅ ${models.length} modèles`);
-    return { brand, models };
+    return { 
+      brand: { 
+        ...brand, 
+        logo: logoUrl || brand.logo, 
+        pays: pays 
+      }, 
+      models 
+    };
   } catch (e) {
     console.log(`  ❌ ${e.message}`);
     return { brand, models: [] };
@@ -276,8 +303,8 @@ async function scrapeAllBrands() {
       const brandData = {
         id: b.id,
         nom: b.name,
-        pays: 'Non spécifié',
-        logo: `${BASE_URL}/imgs/logo-${b.name.replace(/\s+/g, '-')}-b.png`,
+        pays: b.pays || 'Non spécifié',
+        logo: b.logo || `${BASE_URL}/imgs/logo-${b.name.replace(/\s+/g, '-')}-b.png`,
         nb_modeles: models.length,
         prix_min: Math.min(...prices),
         prix_max: Math.max(...models.map(m => m.prix_max)),

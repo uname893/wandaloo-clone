@@ -323,6 +323,41 @@ async function loadModelePage() {
     </div>
   ` : '';
   
+  // Options et Équipements détaillés
+  let optionsHtml = '';
+  if (techSpec && techSpec.options) {
+    try {
+      const parsedOptions = typeof techSpec.options === 'string' ? JSON.parse(techSpec.options) : techSpec.options;
+      if (Object.keys(parsedOptions).length > 0) {
+        optionsHtml = `
+          <div style="margin-top:40px;margin-bottom:40px;">
+            <h2 style="font-size:24px;font-weight:800;margin-bottom:16px;">🛡️ Équipements & Options</h2>
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;">
+              ${Object.entries(parsedOptions).map(([cat, list]) => `
+                <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:24px;">
+                  <h3 style="font-size:18px;font-weight:700;margin-bottom:16px;border-bottom:2px solid var(--primary);padding-bottom:8px;display:flex;justify-content:space-between;align-items:center;">
+                    <span>${cat}</span>
+                    <span style="font-size:12px;background:var(--bg);color:var(--text-light);padding:4px 8px;border-radius:20px;font-weight:500;">${list.length}</span>
+                  </h3>
+                  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+                    ${list.map(o => `
+                      <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px dashed var(--border);padding-bottom:6px;">
+                        <span style="color:var(--text-light);font-weight:500;">${o.nom}</span>
+                        <span style="font-weight:600;color:${o.valeur === 'Oui' || o.valeur === 'Disponible' ? 'var(--accent)' : o.valeur === 'Non' ? '#ef4444' : 'var(--text)'};">${o.valeur}</span>
+                      </li>
+                    `).join('')}
+                  </ul>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+    } catch(err) {
+      console.warn('Failed to parse options JSON:', err);
+    }
+  }
+
   detail.innerHTML = `
     <div class="model-detail">
       <div class="image-main">
@@ -343,6 +378,7 @@ async function loadModelePage() {
 
     ${albumHtml}
     ${specHtml}
+    ${optionsHtml}
 
     <h2 id="versions" style="margin-top:48px;margin-bottom:24px;font-size:28px;font-weight:800;">Versions et motorisations</h2>
     <table class="versions-table">
