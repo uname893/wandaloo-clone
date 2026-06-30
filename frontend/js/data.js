@@ -30002,7 +30002,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-10.15.55-300x127.png",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/volkswagen-sous-pression-blume-accelere-la-reforme/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 270,
@@ -30011,7 +30012,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Morgan_Midsummer_Coupe_22-300x169.jpeg",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/morgan-midsummer-coupe/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 269,
@@ -30020,7 +30022,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-10.22.21-1-300x142.png",
       "date_publication": "25 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/tesla-fsd-en-europe-la-suede-met-la-pression/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 268,
@@ -30029,7 +30032,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/05/5ccbff7870a4dfe7cbb7012a964b3050-2098x1606-1-300x224.jpg",
       "date_publication": "12 juin 2026",
       "lien_article": "https://www.leblogauto.com/historique/histoire/cars-story-26-la-volkswagen-golf-est-morte-vive-la-golf-ii/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 267,
@@ -30038,7 +30042,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-10.36.06-1-300x162.png",
       "date_publication": "25 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/waymo-rappelle-3-900-robotaxis-aux-etats-unis/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 266,
@@ -30047,7 +30052,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-10.42.31-1-300x142.png",
       "date_publication": "25 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/bmw-x5-fin-du-bouton-idrive-et-virage-digital/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 265,
@@ -30056,7 +30062,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/achat-dune-mercedes-benz-doccasion-premium-les-points-cles-a-verifier-avant-de-s-1-300x172.webp",
       "date_publication": "23 juin 2026",
       "lien_article": "https://www.leblogauto.com/pratique/infos-pratiques/achat-dune-mercedes-benz-doccasion-premium-les-points-cles-a-verifier-avant-de-signer/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 264,
@@ -30065,7 +30072,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-10.53.22-1-300x132.png",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/bosch-sanctionne-36-m-pour-des-exportations-huawei/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 263,
@@ -30074,7 +30082,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-11.02.16-1-300x148.png",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/jlr-mise-sur-les-etats-unis-pour-redresser-ses-marges/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 262,
@@ -30083,7 +30092,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/un-acheteur-mystere-commande-quatre-defender-v8-a-peinture-cameleon-pour-plus-du-1-300x169.webp",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/insolite/land-rover-classic-un-acheteur-mystere-commande-quatre-defender-v8-a-peinture-cameleon/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 261,
@@ -30092,7 +30102,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-11.11.49-300x121.png",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/hong-kong-les-marques-chinoises-a-lassaut-du-luxe-auto/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 260,
@@ -30101,7 +30112,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-11.23.16-1-300x165.png",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/voitures-connectees-les-constructeurs-sous-pression-us/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 259,
@@ -30110,7 +30122,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/neuf-clients-ont-suffi-a-faire-naitre-lune-des-voitures-les-plus-rares-au-monde-3-300x169.webp",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/insolite/morgan-midsummer-coupe-neuf-clients-ont-suffi-a-faire-naitre-lune-des-voitures-les-plus-rares-du-monde/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 258,
@@ -30119,7 +30132,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/JP-Diernaz-300x184.jpg",
       "date_publication": "15 juin 2026",
       "lien_article": "https://www.leblogauto.com/sport-auto/formule-1/cadillac-une-marque-en-pleine-offensive-route-piste-et-formule-1-linterview-de-jean-pierre-diernaz/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 257,
@@ -30128,7 +30142,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/climatisation-de-voiture-pourquoi-lentretien-est-indispensable-1-300x168.webp",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.leblogauto.com/pratique/infos-pratiques/climatisation-de-voiture-pourquoi-lentretien-est-indispensable/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 256,
@@ -30137,7 +30152,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/road-trip-a-letranger-votre-assurance-auto-vous-couvre-t-elle-vraiment-hors-de-f-1-300x168.webp",
       "date_publication": "25 juin 2026",
       "lien_article": "https://www.leblogauto.com/pratique/assurance/road-trip-a-letranger-votre-assurance-auto-vous-couvre-t-elle-vraiment-hors-de-france/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 255,
@@ -30146,7 +30162,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Callum-XJ220-300x199.jpg",
       "date_publication": "27 juin 2026",
       "lien_article": "https://www.leblogauto.com/non-classe/ian-callum-imagine-une-nouvelle-jaguar-xj220/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 254,
@@ -30155,7 +30172,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/lewis-hamilton-ferrari-6-300x200.webp",
       "date_publication": "15 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/f1-2026-gp-barcelone-hamilton-triomphe-enfin-en-rouge/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 253,
@@ -30164,7 +30182,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/HLNyltoaUAAdRcB-300x198.jpg",
       "date_publication": "20 juin 2026",
       "lien_article": "https://www.leblogauto.com/sport-auto/competitions-auto/formule-e-sanya-dennis-drugovich-et-andretti-royaux-en-chine/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 252,
@@ -30173,7 +30192,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/images-10-300x200.jpg",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/wrc-2027-un-kit-specifique-pour-les-rally2-afin-de-grossir-le-plateau/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 251,
@@ -30182,7 +30202,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/ferrari-v6-300x200.webp",
       "date_publication": "25 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/moteurs-f1-le-thermique-reprend-lascendant-des-2027/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 250,
@@ -30191,7 +30212,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/HL05emRWYAAVcVp-300x200.jpg",
       "date_publication": "27 juin 2026",
       "lien_article": "https://www.leblogauto.com/sport-auto/formule-1/f1-autriche-2026-george-russell-signe-une-pole-remise-en-cause-par-ferrari/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 249,
@@ -30200,7 +30222,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/HL5IHbTXoAAtOD8-768x498.jpg",
       "date_publication": "28 juin 2026",
       "lien_article": "https://www.leblogauto.com/sport-auto/rallye/wrc-acropolis-2026-ogier-se-sort-du-piege-dun-rallye-cassant/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 248,
@@ -30209,7 +30232,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2021/02/1200-L-la-lancia-ypsilon-n-en-finit-pas-de-mourir-1024x546.jpg",
       "date_publication": "5 février 2021",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/insolite/la-lancia-ypsilon-nen-finit-pas-de-mourir/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 247,
@@ -30218,7 +30242,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2018/12/1200-L-castaner-on-s-est-plant-sur-la-comm-de-la-politique-cologique-1024x546.jpg",
       "date_publication": "2 décembre 2018",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/castaner-on-sest-plante-sur-la-comm-de-la-politique-ecologique/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 246,
@@ -30227,7 +30252,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2024/12/1200-L-essai-renault-mgane-e-tech-ev60-220-ch-vido-1024x546.jpg",
       "date_publication": "18 avril 2022",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/essai-renault-megane-e-tech-ev60-220-ch-video/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 245,
@@ -30236,7 +30262,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2020/04/1200-L-essai-volvo-xc40-recharge-t5-1024x546.jpg",
       "date_publication": "6 avril 2020",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/essai-volvo-xc40-recharge-t5/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 244,
@@ -30245,7 +30272,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2021/03/1200-L-stellantis-fermeture-d1-ligne-de-production-de-melfi-ex-fca-1024x546.jpg",
       "date_publication": "25 mars 2021",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/stellantis-fermeture-d1-ligne-de-production-de-melfi-ex-fca/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 243,
@@ -30254,7 +30282,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/les-5-meilleurs-nettoyeurs-haute-pression-2026-1-300x214.webp",
       "date_publication": "25 juin 2026",
       "lien_article": "https://www.leblogauto.com/pratique/accessoires-auto/les-5-meilleurs-nettoyeurs-haute-pression-2026/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 242,
@@ -30263,7 +30292,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/entretien-automobile-comment-prolonger-la-duree-de-vie-de-votre-vehicule-1-300x168.webp",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.leblogauto.com/pratique/infos-pratiques/entretien-automobile-comment-prolonger-la-duree-de-vie-de-votre-vehicule/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 241,
@@ -30272,7 +30302,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/preparer-un-road-trip-a-moto-les-equipements-qui-changent-vraiment-la-donne-1-300x168.webp",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.leblogauto.com/pratique/accessoires-auto/preparer-un-road-trip-a-moto-les-equipements-qui-changent-vraiment-la-donne/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 240,
@@ -30281,7 +30312,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/les-5-meilleurs-ethylotests-electroniques-2026-1-1-300x168.webp",
       "date_publication": "26 juin 2026",
       "lien_article": "https://www.leblogauto.com/pratique/accessoires-auto/les-5-meilleurs-ethylotests-electroniques-2026/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 239,
@@ -30290,7 +30322,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2024/12/1200-L-podcast-295-l-essentiel-de-la-semaine-automobile-1024x546.jpg",
       "date_publication": "28 juin 2026",
       "lien_article": "https://www.leblogauto.com/pratique/podcast/la-semaine-automobile-episode-387-semaine-du-27-juin-2026/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 238,
@@ -30299,7 +30332,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/la-ford-gt-de-jeremy-clarkson-avec-45-000-km-au-compteur-est-a-vendre-1-300x169.webp",
       "date_publication": "15 juin 2026",
       "lien_article": "https://www.leblogauto.com/historique/vente-aux-encheres/la-ford-gt-de-jeremy-clarkson-en-vente-45-000-km-et-des-souvenirs-memorables-de-top-gear/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 237,
@@ -30308,7 +30342,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/la-muscle-car-du-batteur-de-led-zeppelin-entierement-restauree-est-a-vendre-1-300x169.webp",
       "date_publication": "18 juin 2026",
       "lien_article": "https://www.leblogauto.com/historique/collections/la-jensen-interceptor-de-john-bonham-part-aux-encheres-la-muscle-car-du-batteur-de-led-zeppelin-retrouve-sa-splendeur/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 236,
@@ -30317,7 +30352,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/avec-1000-kms-au-compteur-la-honda-s2000-la-plus-preservee-au-monde-est-a-vendre-1-300x169.webp",
       "date_publication": "21 juin 2026",
       "lien_article": "https://www.leblogauto.com/historique/vente-aux-encheres/honda-s2000-a-679-miles-la-capsule-temporelle-a-9-000-trmin-partie-aux-encheres-a-tokyo/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 235,
@@ -30326,7 +30362,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/cette-ferrari-de-1966-deric-clapton-est-a-vendre-pour-pres-de-4-millions-de-doll-1-300x169.webp",
       "date_publication": "22 juin 2026",
       "lien_article": "https://www.leblogauto.com/historique/vente-aux-encheres/cette-ferrari-1966-deric-clapton-est-a-vendre-pour-pres-de-4-millions-de-dollars/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 234,
@@ -30335,7 +30372,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/une-ford-mustang-1966-transformee-en-limousine-de-65-metres-1-450x253.webp",
       "date_publication": "25 juin 2026",
       "lien_article": "https://www.leblogauto.com/historique/collections/une-ford-mustang-1966-transformee-en-limousine-de-65-metres-le-projet-le-plus-fou-de-lannee/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 233,
@@ -30344,7 +30382,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/008_Skoda_Peaq_7da5e50a-1920x1920-1-300x300.jpg",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/le-skoda-peaq-487-m-de-long-promet-jusqua-640-km-dautonomie-sur-une-charge/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 232,
@@ -30353,7 +30392,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Qashqai_2026-300x166.jpg",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/bilan-et-finances/nissan-qashqai-electrique-annule-pourquoi-ce-nouveau-revirement-chez-nissan/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 231,
@@ -30362,7 +30402,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-09.59.37-1-300x160.png",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/nissan-patrol-fin-du-v8-place-au-v6-turbo/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 230,
@@ -30371,7 +30412,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/dacia-spring-1-1-300x203.jpg",
       "date_publication": "24 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/oups-le-dacia-spring-est-deja-visible-sans-camouflage/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 229,
@@ -30380,7 +30422,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-16.53.54-450x185.png",
       "date_publication": "25 juin 2026",
       "lien_article": "https://www.leblogauto.com/ecologie/electrique/carburant-cher-les-ventes-de-ve-decollent-en-europe/",
-      "created_at": "2026-06-30 01:50:59"
+      "created_at": "2026-06-30 01:50:59",
+      "contenu_complet": null
     },
     {
       "id": 228,
@@ -30389,7 +30432,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Essai-BYD-Atto-2-DMi11-768x512.jpg",
       "date_publication": "2 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/essai-byd-atto-2-dm-i-de-212-ch/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 227,
@@ -30398,7 +30442,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/E12A3967-768x512.jpg",
       "date_publication": "7 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/actualite/palmares-2026-des-etrophees-de-lamam/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 226,
@@ -30407,7 +30452,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Essai-MG4-Urban-96-768x512.jpg",
       "date_publication": "10 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/essai-mg4-urban-de-160-ch/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 225,
@@ -30416,7 +30462,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/IMG_3677-768x576.jpg",
       "date_publication": "22 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/essai-mini-aceman-john-cooper-works/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 224,
@@ -30425,7 +30472,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Renault-4-E-Tech-electric-Plein-Sud-Techno-Rouge-Carmin-5-1536x1024.jpg",
       "date_publication": "23 juin 2026",
       "lien_article": "https://www.leblogauto.com/essais/essai/essai-renault-4-e-tech-electric-plein-sud-le-suv-electrique-qui-enleve-le-toit-et-assume/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 223,
@@ -30434,7 +30482,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/HL5-JWTXgAAuFsj-300x169.jpg",
       "date_publication": "28 juin 2026",
       "lien_article": "https://www.leblogauto.com/sport-auto/formule-1/f1-russell-remporte-le-grand-prix-dautriche-dun-souffle-devant-verstappen-et-antonelli/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 222,
@@ -30443,7 +30492,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-08.06.53-300x123.png",
       "date_publication": "29 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/byd-defend-son-usine-hongroise-face-a-une-enquete/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 221,
@@ -30452,7 +30502,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-08.11.28-1-300x149.png",
       "date_publication": "29 juin 2026",
       "lien_article": "https://www.leblogauto.com/ecologie/electrique/batteries-solides-catl-refroidit-les-ambitions-du-secteur/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 220,
@@ -30461,7 +30512,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-08.19.53-1-300x148.png",
       "date_publication": "29 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/bmw-x5-la-durabilite-au-coeur-de-sa-conception/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 219,
@@ -30470,7 +30522,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Screenshot-2026-06-25-08.28.35-1-300x139.png",
       "date_publication": "29 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/ferrari-remanie-son-marketing-apres-la-polemique-luce/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 218,
@@ -30479,7 +30532,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/Michael-Lohscheller-450x263.jpg",
       "date_publication": "29 juin 2026",
       "lien_article": "https://www.leblogauto.com/ecologie/electrique/polestar-en-france-le-ceo-michael-lohscheller-repond-sans-filtre-interview-exclusive/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 217,
@@ -30488,7 +30542,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2026/06/acfae2ddf4122dc9eabd79c4b4493114-450x239.webp",
       "date_publication": "29 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/bilan-et-finances/volkswagen-pourrait-supprimer-jusqua-100-000-emplois-un-plan-inedit-evoque-en-allemagne/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 216,
@@ -30497,7 +30552,8 @@ const STATIC_DATA = {
       "image": "https://www.leblogauto.com/wp-content/uploads/2025/03/nissan-renault-logo-1024x546.jpg",
       "date_publication": "29 juin 2026",
       "lien_article": "https://www.leblogauto.com/actualites/bilan-et-finances/alliance-renault-nissan-renault-reprend-la-main-et-fait-tomber-un-administrateur-cle-de-nissan/",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 215,
@@ -30506,7 +30562,8 @@ const STATIC_DATA = {
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/actualites/24725-mini-la-mamie-seclate-au-nostalgia-lovers-2026",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 214,
@@ -30515,7 +30572,8 @@ const STATIC_DATA = {
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/nouveautes/24733-dacia-jogger-2026-nouveaux-prix-et-moteur-hybrid-155-ch",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 213,
@@ -30524,7 +30582,8 @@ const STATIC_DATA = {
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/auto-moto/24742-exeed-rx-2026-qualite-et-prestations-haut-de-gamme",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     },
     {
       "id": 212,
@@ -30533,7 +30592,8 @@ const STATIC_DATA = {
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/auto-moto/24756-byd-atto-3-evo-et-sealion-5-lancement-official-au-maroc",
-      "created_at": "2026-06-30 01:50:58"
+      "created_at": "2026-06-30 01:50:58",
+      "contenu_complet": null
     }
   ]
 };
