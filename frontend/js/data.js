@@ -31003,6 +31003,11 @@ const STATIC_DATA = {
   },
   "auditReports": [
     {
+      "id": 2,
+      "anomalies_json": "[]",
+      "created_at": "2026-06-30 21:34:56"
+    },
+    {
       "id": 1,
       "anomalies_json": "[]",
       "created_at": "2026-06-30 02:02:43"
