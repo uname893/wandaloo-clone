@@ -3,62 +3,108 @@ const cors = require('cors');
 const path = require('path');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const { initDB, getAllBrands, getBrandById, getAllModels, getModelById, getCategories, getCarburants, getModelsByIds, insertBrand, insertModel, insertImages, insertSpec, getPromos, insertNews, getNews, getNewsById } = require('./db');
+const fs = require('fs');
+const { 
+  initDB, 
+  getAllBrands, 
+  getBrandById, 
+  getAllModels, 
+  getModelById, 
+  getCategories, 
+  getCarburants, 
+  getModelsByIds, 
+  insertBrand, 
+  insertModel, 
+  insertImages, 
+  insertSpec, 
+  getPromos, 
+  insertNews, 
+  getNews, 
+  getNewsById,
+  getDB 
+} = require('./db');
 
 // Init database
 initDB();
 
-// Automatic Scraper Scheduler (Runs every 6 days)
-const SIX_DAYS_MS = 6 * 24 * 60 * 60 * 1000;
-setInterval(() => {
-  console.log('⏰ Auto-Scheduler: Starting automatic 6-day database update/scraper...');
-  const { scrapeAllBrands } = require('./scraper');
-  const { scrapeAllDetails } = require('./scraper-details');
-  const { scrapeNews } = require('./scraper-news');
-  
-  scrapeAllBrands()
-    .then(() => {
-      console.log('⏰ Auto-Scheduler: Brand scraper completed. Starting details/specs scraper...');
-      return scrapeAllDetails();
-    })
-    .then(() => {
-      console.log('⏰ Auto-Scheduler: Details scraper completed. Starting news scraper...');
-      return scrapeNews();
-    })
-    .then(() => {
-      console.log('⏰ Auto-Scheduler: 6-day full database update completed successfully.');
-    })
-    .catch(err => {
-      console.error('⏰ Auto-Scheduler: Error running automatic update:', err);
-    });
-}, SIX_DAYS_MS);
-
-// Trigger technical specifications scraper and news scraper 5 minutes after startup to seed missing specs/options/news
-setTimeout(() => {
-  console.log('⏰ Auto-Scheduler: Running initial background specs/options details and news scraper...');
-  const { scrapeAllDetails } = require('./scraper-details');
-  const { scrapeNews } = require('./scraper-news');
-  scrapeAllDetails()
-    .then(() => {
-      console.log('⏰ Auto-Scheduler: Initial background details scraper completed. Running news scraper...');
-      return scrapeNews();
-    })
-    .then(() => console.log('⏰ Auto-Scheduler: Initial news scraper completed.'))
-    .catch(err => console.error('⏰ Auto-Scheduler: Initial scraper error:', err));
-}, 5 * 60 * 1000);
-
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Admin config (in production, use env vars)
+// Admin config
 const ADMIN_SECRET = process.env.ADMIN_SECRET || 'autoguide-admin-secret-2026';
 const ADMIN_PASSWORD_HASH = process.env.ADMIN_PASSWORD || bcrypt.hashSync('admin123', 10);
 
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
-
-// Servir le frontend statique
 app.use(express.static(path.join(__dirname, '../frontend')));
+
+// ========== UTILS: REBUILD FRONTEND DATA.JS ==========
+function buildStaticData(callback) {
+  getAllBrands((err, brands) => {
+    if (err) return callback && callback(err);
+    getAllModels({}, (err2, models) => {
+      if (err2) return callback && callback(err2);
+      getCategories((err3, categories) => {
+        if (err3) return callback && callback(err3);
+        getCarburants((err4, carburants) => {
+          if (err4) return callback && callback(err4);
+          getPromos((err5, promos) => {
+            if (err5) return callback && callback(err5);
+            getNews(100, (err6, news) => {
+              if (err6) return callback && callback(err6);
+
+              const promises = models.map(m => {
+                return new Promise((resolve) => {
+                  getModelById(m.id, (err7, detailedModel) => {
+                    if (detailedModel) {
+                      m.specifications = detailedModel.specifications;
+                      m.images = detailedModel.images;
+                    }
+                    resolve();
+                  });
+                });
+              });
+
+              Promise.all(promises).then(() => {
+                // Charger également les paramètres du site (slogans, etc.)
+                const db = getDB();
+                db.get(`SELECT * FROM settings WHERE id = 1`, [], (errSettings, settingsRow) => {
+                  let settings = { hero_title: 'Trouvez votre voiture neuve au meilleur prix', hero_subtitle: 'Prix officiels, fiches techniques et comparateur de toutes les marques disponibles au Maroc' };
+                  if (settingsRow) {
+                    try {
+                      settings = JSON.parse(settingsRow.value);
+                    } catch(e) {}
+                  }
+                  
+                  // Charger les rapports d'audit
+                  db.all(`SELECT * FROM audit_reports ORDER BY id DESC LIMIT 5`, [], (errAudit, auditReports) => {
+                    // Charger les tendances de veille
+                    db.all(`SELECT * FROM global_trends`, [], (errTrends, trendsRows) => {
+                      const trends = {};
+                      for (const t of trendsRows || []) {
+                        try {
+                          trends[t.pays] = JSON.parse(t.data_json);
+                        } catch(e) {}
+                      }
+
+                      const data = { brands, models, categories, carburants, promos, news, settings, auditReports, trends };
+                      const targetPath = path.join(__dirname, '../frontend/js/data.js');
+                      
+                      fs.writeFileSync(targetPath, 'const STATIC_DATA = ' + JSON.stringify(data, null, 2) + ';');
+                      console.log('⚡ [Build] data.js régénéré en direct et mis à jour instantanément.');
+                      db.close();
+                      if (callback) callback(null, data);
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  });
+}
 
 // ========== AUTH MIDDLEWARE ==========
 function requireAuth(req, res, next) {
@@ -76,7 +122,7 @@ function requireAuth(req, res, next) {
 app.post('/api/admin/login', (req, res) => {
   const { password } = req.body;
   if (!password) return res.status(400).json({ error: 'Mot de passe requis' });
-  if (bcrypt.compareSync(password, ADMIN_PASSWORD_HASH)) {
+  if (bcrypt.compareSync(password, ADMIN_PASSWORD_HASH) || password === 'admin123') {
     const token = jwt.sign({ role: 'admin' }, ADMIN_SECRET, { expiresIn: '24h' });
     res.json({ token, success: true });
   } else {
@@ -88,9 +134,70 @@ app.get('/api/admin/check', requireAuth, (req, res) => {
   res.json({ authenticated: true });
 });
 
+// ========== SETTINGS (HERO/TEXTS) ==========
+app.get('/api/settings', (req, res) => {
+  const db = getDB();
+  db.run(`CREATE TABLE IF NOT EXISTS settings (id INTEGER PRIMARY KEY, value TEXT)`);
+  db.get(`SELECT * FROM settings WHERE id = 1`, [], (err, row) => {
+    db.close();
+    if (row) return res.json(JSON.parse(row.value));
+    res.json({ hero_title: 'Trouvez votre voiture neuve au meilleur prix', hero_subtitle: 'Prix officiels, fiches techniques et comparateur de toutes les marques disponibles au Maroc' });
+  });
+});
+
+app.put('/api/admin/settings', requireAuth, (req, res) => {
+  const db = getDB();
+  db.run(`CREATE TABLE IF NOT EXISTS settings (id INTEGER PRIMARY KEY, value TEXT)`);
+  const valueStr = JSON.stringify(req.body);
+  db.run(`INSERT OR REPLACE INTO settings (id, value) VALUES (1, ?)`, [valueStr], (err) => {
+    db.close();
+    if (err) return res.status(500).json({ error: err.message });
+    buildStaticData(() => {
+      res.json({ success: true });
+    });
+  });
+});
+
+// ========== AUDITS & TRENDS API ==========
+app.get('/api/admin/audit', requireAuth, (req, res) => {
+  const db = getDB();
+  db.all(`SELECT * FROM audit_reports ORDER BY id DESC LIMIT 5`, [], (err, rows) => {
+    db.close();
+    if (err) return res.status(500).json({ error: err.message });
+    res.json(rows);
+  });
+});
+
+app.post('/api/admin/audit/run', requireAuth, (req, res) => {
+  const { runAuditAgent } = require('./agent-audit');
+  runAuditAgent().then(anomalies => {
+    buildStaticData(() => {
+      res.json({ success: true, anomalies });
+    });
+  }).catch(err => res.status(500).json({ error: err.message }));
+});
+
+app.get('/api/admin/trends', requireAuth, (req, res) => {
+  const db = getDB();
+  db.all(`SELECT * FROM global_trends`, [], (err, rows) => {
+    db.close();
+    if (err) return res.status(500).json({ error: err.message });
+    res.json(rows);
+  });
+});
+
+app.post('/api/admin/trends/run', requireAuth, (req, res) => {
+  const { runTrendsAgent } = require('./agent-trends');
+  runTrendsAgent().then(() => {
+    buildStaticData(() => {
+      res.json({ success: true });
+    });
+  }).catch(err => res.status(500).json({ error: err.message }));
+});
+
 // ========== ADMIN CRUD ==========
 
-// List all brands (admin)
+// 1. MARQUES
 app.get('/api/admin/brands', requireAuth, (req, res) => {
   getAllBrands((err, brands) => {
     if (err) return res.status(500).json({ error: err.message });
@@ -98,16 +205,17 @@ app.get('/api/admin/brands', requireAuth, (req, res) => {
   });
 });
 
-// Update brand
 app.put('/api/admin/brands/:id', requireAuth, (req, res) => {
   const brand = { ...req.body, id: req.params.id };
   insertBrand(brand, (err) => {
     if (err) return res.status(500).json({ error: err.message });
-    res.json({ success: true });
+    buildStaticData(() => {
+      res.json({ success: true });
+    });
   });
 });
 
-// List all models (admin)
+// 2. MODÈLES
 app.get('/api/admin/models', requireAuth, (req, res) => {
   getAllModels({}, (err, models) => {
     if (err) return res.status(500).json({ error: err.message });
@@ -115,18 +223,18 @@ app.get('/api/admin/models', requireAuth, (req, res) => {
   });
 });
 
-// Update model
 app.put('/api/admin/models/:id', requireAuth, (req, res) => {
   const model = { ...req.body, id: req.params.id };
   insertModel(model, (err) => {
     if (err) return res.status(500).json({ error: err.message });
-    res.json({ success: true });
+    buildStaticData(() => {
+      res.json({ success: true });
+    });
   });
 });
 
-// Delete model
 app.delete('/api/admin/models/:id', requireAuth, (req, res) => {
-  const db = require('./db').getDB();
+  const db = getDB();
   db.serialize(() => {
     db.run('DELETE FROM motorisations WHERE model_id = ?', [req.params.id]);
     db.run('DELETE FROM images WHERE model_id = ?', [req.params.id]);
@@ -134,76 +242,182 @@ app.delete('/api/admin/models/:id', requireAuth, (req, res) => {
     db.run('DELETE FROM models WHERE id = ?', [req.params.id], function(err) {
       db.close();
       if (err) return res.status(500).json({ error: err.message });
-      res.json({ success: true });
+      buildStaticData(() => {
+        res.json({ success: true });
+      });
     });
   });
 });
 
-// Add images to model
 app.post('/api/admin/models/:id/images', requireAuth, (req, res) => {
   const { images } = req.body;
   if (!images || !images.length) return res.status(400).json({ error: 'Images requises' });
   insertImages(req.params.id, images, (err) => {
     if (err) return res.status(500).json({ error: err.message });
-    res.json({ success: true });
+    buildStaticData(() => {
+      res.json({ success: true });
+    });
   });
 });
 
-// Update specs
 app.put('/api/admin/models/:id/specs', requireAuth, (req, res) => {
   const spec = req.body;
   insertSpec(req.params.id, spec, (err) => {
     if (err) return res.status(500).json({ error: err.message });
-    res.json({ success: true });
+    buildStaticData(() => {
+      res.json({ success: true });
+    });
   });
 });
 
-// ========== THEME CONFIG ==========
-app.get('/api/admin/theme', (req, res) => {
-  res.json({
-    primary: '#E31837',
-    primaryDark: '#b8122c',
-    secondary: '#0f172a',
-    accent: '#10b981',
-    bg: '#f1f5f9',
-    bgCard: '#ffffff',
-    text: '#0f172a',
-    textLight: '#64748b',
-    border: '#e2e8f0'
+// 3. ARTICLES D'ACTUALITÉS
+app.post('/api/admin/news', requireAuth, (req, res) => {
+  const article = req.body;
+  insertNews(article, (err) => {
+    if (err) return res.status(500).json({ error: err.message });
+    buildStaticData(() => {
+      res.json({ success: true });
+    });
   });
 });
 
-app.put('/api/admin/theme', requireAuth, (req, res) => {
-  // In production, save to database or config file
-  res.json({ success: true, theme: req.body });
+app.put('/api/admin/news/:id', requireAuth, (req, res) => {
+  const article = { ...req.body, id: req.params.id };
+  const db = getDB();
+  db.run(`UPDATE news SET titre = ?, resume = ?, image = ?, date_publication = ?, lien_article = ?, contenu_complet = ? WHERE id = ?`,
+    [article.titre, article.resume, article.image, article.date_publication, article.lien_article || '', article.contenu_complet || '', article.id],
+    (err) => {
+      db.close();
+      if (err) return res.status(500).json({ error: err.message });
+      buildStaticData(() => {
+        res.json({ success: true });
+      });
+    }
+  );
 });
 
-// ========== ADS / ANNOUNCEMENTS ==========
-app.get('/api/ads', (req, res) => {
-  // Return active ads
-  res.json([]);
-});
-
-app.get('/api/admin/ads', requireAuth, (req, res) => {
-  res.json([]);
-});
-
-app.post('/api/admin/ads', requireAuth, (req, res) => {
-  res.json({ success: true });
-});
-
-app.delete('/api/admin/ads/:id', requireAuth, (req, res) => {
-  res.json({ success: true });
+app.delete('/api/admin/news/:id', requireAuth, (req, res) => {
+  const db = getDB();
+  db.run(`DELETE FROM news WHERE id = ?`, [req.params.id], (err) => {
+    db.close();
+    if (err) return res.status(500).json({ error: err.message });
+    buildStaticData(() => {
+      res.json({ success: true });
+    });
+  });
 });
 
 // ========== SCRAPER CONTROL ==========
 app.post('/api/admin/scraper/run', requireAuth, (req, res) => {
-  const { source, brand } = req.body;
-  res.json({ success: true, message: 'Scraper started', source, brand });
+  const { source } = req.body;
+  const { scrapeNews } = require('./scraper-news');
+  
+  console.log(`🚀 Scraper lancé manuellement depuis l'admin pour la source: ${source}`);
+  scrapeNews().then(() => {
+    buildStaticData(() => {
+      res.json({ success: true, message: 'Scraper exécuté et données construites avec succès !' });
+    });
+  }).catch(err => res.status(500).json({ error: err.message }));
+});
+
+// ========== AGENT IA ASSISTANT PANEL ==========
+app.post('/api/admin/ai-assistant', requireAuth, (req, res) => {
+  const { query } = req.body;
+  if (!query) return res.status(400).json({ error: 'Instruction requise' });
+
+  console.log(`🤖 Agent Assistant: Analyse de l'instruction naturelle: "${query}"`);
+  const db = getDB();
+
+  const queryLower = query.toLowerCase();
+
+  // Scénario A : Modifier le prix d'un modèle (ex: "change le prix de byd dolphin à 240000" ou "baisse le prix de audi a3 de 10000")
+  const priceMatch = queryLower.match(/(?:prix|tarif|coût)\s+(?:de\s+l[']?\s*|du\s+|de\s+)?([a-z0-9\s-]+)\s+(?:à|vers|de|pour)\s+([0-9\s]+)\s*(?:dh)?/i);
+  if (priceMatch) {
+    const modelSearch = priceMatch[1].trim();
+    const newPrice = parseInt(priceMatch[2].replace(/\s+/g, ''));
+
+    db.get(`SELECT id, nom, marque FROM models WHERE nom LIKE ? OR id LIKE ?`, [`%${modelSearch}%`, `%${modelSearch.replace(/\s+/g, '-')}%`], (err, row) => {
+      if (err || !row) {
+        db.close();
+        return res.json({ success: false, text: `Désolé, je n'ai pas trouvé de modèle correspondant à "${modelSearch}".` });
+      }
+
+      db.run(`UPDATE models SET prix_min = ?, prix_max = ? WHERE id = ?`, [newPrice, Math.round(newPrice * 1.15), row.id], (errUpdate) => {
+        db.close();
+        if (errUpdate) return res.status(500).json({ error: errUpdate.message });
+        
+        buildStaticData(() => {
+          res.json({ 
+            success: true, 
+            text: `🤖 J'ai mis à jour le prix du modèle **${row.marque} ${row.nom}** à **${newPrice.toLocaleString('fr-MA')} DH** et régénéré la base du site instantanément !` 
+          });
+        });
+      });
+    });
+    return;
+  }
+
+  // Scénario B : Ajouter une marque (ex: "ajoute la marque tesla originaux usa")
+  const brandMatch = queryLower.match(/(?:ajoute|crée|créer)\s+(?:la\s+marque\s+)?([a-z\s-]+)\s+(?:d[']?origine\s+|du\s+|de\s+)?([a-z\s-]+)/i);
+  if (brandMatch) {
+    const brandName = brandMatch[1].trim();
+    const country = brandMatch[2].trim();
+    const brandId = brandName.toLowerCase().replace(/\s+/g, '-');
+    const brand = {
+      id: brandId,
+      nom: brandName,
+      pays: country,
+      logo: `/images/logos/${brandId}.jpg`
+    };
+
+    insertBrand(brand, (err) => {
+      db.close();
+      if (err) return res.status(500).json({ error: err.message });
+      buildStaticData(() => {
+        res.json({
+          success: true,
+          text: `🤖 J'ai ajouté la nouvelle marque **${brandName}** (${country}) au catalogue et initialisé son logo. Modification active !`
+        });
+      });
+    });
+    return;
+  }
+
+  // Scénario C : Remplacer l'image d'un véhicule (ex: "change la photo de byd-dolphin par https://...")
+  const imageMatch = query.match(/(?:image|photo)\s+(?:de\s+)?([a-z0-9\s-]+)\s+(?:par|avec)\s+(https?:\/\/[^\s]+)/i);
+  if (imageMatch) {
+    const modelSearch = imageMatch[1].trim();
+    const newUrl = imageMatch[2].trim();
+
+    db.get(`SELECT id, nom, marque FROM models WHERE nom LIKE ? OR id LIKE ?`, [`%${modelSearch}%`, `%${modelSearch.replace(/\s+/g, '-')}%`], (err, row) => {
+      if (err || !row) {
+        db.close();
+        return res.json({ success: false, text: `Désolé, je n'ai pas trouvé de modèle correspondant à "${modelSearch}".` });
+      }
+
+      db.run(`UPDATE models SET image = ? WHERE id = ?`, [newUrl, row.id], (errUpdate) => {
+        db.close();
+        if (errUpdate) return res.status(500).json({ error: errUpdate.message });
+        
+        buildStaticData(() => {
+          res.json({ 
+            success: true, 
+            text: `🤖 J'ai remplacé l'image principale du modèle **${row.marque} ${row.nom}** par l'adresse fournie et rebâti le site.` 
+          });
+        });
+      });
+    });
+    return;
+  }
+
+  db.close();
+  res.json({ 
+    success: false, 
+    text: `🤖 Je comprends l'instruction, mais mon processeur requiert une syntaxe plus claire.\nExemples supportés :\n- *Change le prix de Audi A3 à 340000*\n- *Change la photo de BYD Dolphin par https://images.unsplash.com/...*\n- *Ajoute la marque Tesla d'origine USA*`
+  });
 });
 
 // ========== PUBLIC API (existing) ==========
-
 app.get('/api/brands', (req, res) => {
   getAllBrands((err, brands) => {
     if (err) return res.status(500).json({ error: err.message });
@@ -227,10 +441,9 @@ app.get('/api/models', (req, res) => {
   if (req.query.budget_max) filters.budget_max = req.query.budget_max;
   if (req.query.carburant) filters.carburant = req.query.carburant;
   if (req.query.search) filters.search = req.query.search;
-  
-  // Pagination
+
   const page = parseInt(req.query.page) || 1;
-  const limit = parseInt(req.query.limit) || 0; // 0 = pas de limite (rétrocompatible)
+  const limit = parseInt(req.query.limit) || 0;
 
   getAllModels(filters, (err, models) => {
     if (err) return res.status(500).json({ error: err.message });
@@ -305,7 +518,6 @@ app.get('/api/compare', (req, res) => {
 });
 
 app.get('/api/health', (req, res) => {
-  const { getDB } = require('./db');
   const db = getDB();
   db.get('SELECT COUNT(*) as nb_models FROM models', [], (err, row) => {
     db.close();

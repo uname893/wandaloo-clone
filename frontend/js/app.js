@@ -203,6 +203,24 @@ async function loadHomeData() {
   ]);
   globalBrands = brands;
   globalModels = models;
+
+  // Appliquer le Hero Title et Subtitle dynamique
+  let settings = { hero_title: 'Trouvez votre voiture neuve au meilleur prix', hero_subtitle: 'Prix officiels, fiches techniques et comparateur de toutes les marques disponibles au Maroc' };
+  if (typeof STATIC_DATA !== 'undefined' && STATIC_DATA.settings) {
+    settings = STATIC_DATA.settings;
+  }
+  try {
+    const responseSettings = await fetch(API_URL + '/settings').then(r => r.json());
+    if (responseSettings && responseSettings.hero_title) {
+      settings = responseSettings;
+    }
+  } catch(e) {}
+
+  const heroTitle = document.getElementById('heroTitle');
+  const heroSubtitle = document.getElementById('heroSubtitle');
+  if (heroTitle) heroTitle.innerHTML = settings.hero_title.replace(/\n/g, '<br>');
+  if (heroSubtitle) heroSubtitle.textContent = settings.hero_subtitle;
+
   renderBrands(brands);
   renderModels(models);
   renderStats(models, brands);
