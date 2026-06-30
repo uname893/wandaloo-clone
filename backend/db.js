@@ -403,16 +403,28 @@ function getModelsByIds(ids, callback) {
     if (modelIds.length === 0) { db.close(); callback(null, rows); return; }
     const motPlaceholders = modelIds.map(() => '?').join(',');
     db.all(`SELECT * FROM motorisations WHERE model_id IN (${motPlaceholders})`, modelIds, (err2, motors) => {
+      if (err2) { db.close(); callback(err2, []); return; }
+      
       const motorMap = {};
       for (const m of motors || []) {
         if (!motorMap[m.model_id]) motorMap[m.model_id] = [];
         motorMap[m.model_id].push(m);
       }
-      for (const row of rows) {
-        row.motorisations = motorMap[row.id] || [];
-      }
-      db.close();
-      callback(null, rows);
+      
+      const specPlaceholders = modelIds.map(() => '?').join(',');
+      db.all(`SELECT * FROM specifications WHERE model_id IN (${specPlaceholders})`, modelIds, (err3, specs) => {
+        const specMap = {};
+        for (const s of specs || []) {
+          specMap[s.model_id] = s;
+        }
+        
+        for (const row of rows) {
+          row.motorisations = motorMap[row.id] || [];
+          row.specifications = specMap[row.id] || null;
+        }
+        db.close();
+        callback(null, rows);
+      });
     });
   });
 }

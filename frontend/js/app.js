@@ -568,35 +568,213 @@ function renderComparisonResult(models) {
   const result = document.getElementById('compareResult');
   if (!result || !models.length) return;
 
-  const rows = [
-    ['Prix minimum', 'prix_min', true],
-    ['Prix maximum', 'prix_max', true],
-    ['Catégorie', 'categorie'],
-    ['Carrosserie', 'carrosserie'],
-    ['Année', 'annee'],
+  let html = `
+    <div class="compare-table-wrap">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
+        <h2 style="font-size:24px;font-weight:800;color:var(--text);">Résultat de la comparaison (${models.length} modèles)</h2>
+        <button class="btn btn-secondary" onclick="compareSelected.clear(); renderCompareGrid(); document.getElementById('compareResult').innerHTML='';" style="font-size:13px;padding:8px 16px;">Tout effacer</button>
+      </div>
+      <table class="compare-table">
+        <thead>
+          <tr class="header-row">
+            <th>Caractéristique</th>
+            ${models.map(m => {
+              const brandId = m.marque.toLowerCase().replace(/\s+/g, '-');
+              const logoUrl = `/images/logos/${brandId}.jpg`;
+              return `
+                <th style="min-width:240px;text-align:center;position:relative;">
+                  <button onclick="toggleCompareSelect('${m.id}'); compareSelectedModels();" style="position:absolute;top:10px;right:10px;background:rgba(227,24,55,0.1);color:var(--primary);border:none;border-radius:50%;width:30px;height:30px;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all 0.2s;" title="Retirer de la comparaison">✕</button>
+                  <img src="${m.image}" alt="${m.nom}" style="width:100%;height:130px;object-fit:cover;border-radius:8px;margin-bottom:12px;box-shadow:var(--shadow-sm);" onerror="this.src='https://via.placeholder.com/200x120?text=Auto'">
+                  <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:8px;">
+                    <img src="${logoUrl}" alt="${m.marque}" style="height:24px;width:auto;object-fit:contain;border-radius:4px;" onerror="this.style.display='none'">
+                    <span style="font-size:12px;font-weight:700;color:var(--text-light);text-transform:uppercase;">${m.marque}</span>
+                  </div>
+                  <h3 style="font-size:16px;font-weight:800;color:var(--text);margin-bottom:6px;line-height:1.2;">${m.nom}</h3>
+                  <div style="color:var(--primary);font-weight:800;font-size:16px;">${formatPriceRange(m.prix_min, m.prix_max)}</div>
+                </th>
+              `;
+            }).join('')}
+          </tr>
+        </thead>
+        <tbody>
+          <!-- SECTION 1: BUDGET ET INFOS GÉNÉRALES -->
+          <tr class="section-divider"><td colspan="${models.length + 1}">Général & Tarifs</td></tr>
+          <tr>
+            <td><strong>Année du modèle</strong></td>
+            ${models.map(m => `<td>${m.annee || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Catégorie</strong></td>
+            ${models.map(m => `<td><span class="badge" style="background:var(--bg);color:var(--text);border:1px solid var(--border);">${m.categorie || '–'}</span></td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Carrosserie</strong></td>
+            ${models.map(m => `<td>${m.carrosserie || '–'}</td>`).join('')}
+          </tr>
+
+          <!-- SECTION 2: DIMENSIONS -->
+          <tr class="section-divider"><td colspan="${models.length + 1}">Dimensions & Volumes</td></tr>
+          <tr>
+            <td><strong>Longueur (cm)</strong></td>
+            ${models.map(m => `<td>${m.specifications?.longueur || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Largeur (cm)</strong></td>
+            ${models.map(m => `<td>${m.specifications?.largeur || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Hauteur (cm)</strong></td>
+            ${models.map(m => `<td>${m.specifications?.hauteur || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Empattement (cm)</strong></td>
+            ${models.map(m => `<td>${m.specifications?.empattement || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Poids à vide (kg)</strong></td>
+            ${models.map(m => `<td>${m.specifications?.poids || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Volume de coffre (L)</strong></td>
+            ${models.map(m => `<td>${m.specifications?.coffre || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Volume du réservoir (L)</strong></td>
+            ${models.map(m => `<td>${m.specifications?.reservoir || '–'}</td>`).join('')}
+          </tr>
+
+          <!-- SECTION 3: MOTORISATION -->
+          <tr class="section-divider"><td colspan="${models.length + 1}">Moteur & Transmission</td></tr>
+          <tr>
+            <td><strong>Cylindrée</strong></td>
+            ${models.map(m => `<td>${m.specifications?.cylindree || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Architecture cylindres</strong></td>
+            ${models.map(m => `<td>${m.specifications?.cylindres || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Suralimentation (Turbo)</strong></td>
+            ${models.map(m => `<td>${m.specifications?.turbo || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Carburants disponibles</strong></td>
+            ${models.map(m => {
+              const fuels = [...new Set((m.motorisations || []).map(mo => mo.carburant).filter(Boolean))];
+              return `<td>${fuels.length > 0 ? fuels.join(' / ') : '–'}</td>`;
+            }).join('')}
+          </tr>
+          <tr>
+            <td><strong>Type de boîte de vitesses</strong></td>
+            ${models.map(m => {
+              const boxes = [...new Set((m.motorisations || []).map(mo => mo.transmission).filter(Boolean))];
+              return `<td>${boxes.length > 0 ? boxes.join(' / ') : '–'}</td>`;
+            }).join('')}
+          </tr>
+
+          <!-- SECTION 4: PERFORMANCES & CONSO -->
+          <tr class="section-divider"><td colspan="${models.length + 1}">Performances & Consommation</td></tr>
+          <tr>
+            <td><strong>Vitesse maximale</strong></td>
+            ${models.map(m => `<td>${m.specifications?.vitesse_max || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Accélération (0-100 km/h)</strong></td>
+            ${models.map(m => `<td>${m.specifications?.acceleration || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Consommation mixte</strong></td>
+            ${models.map(m => `<td>${m.specifications?.conso_mixte || '–'}</td>`).join('')}
+          </tr>
+          <tr>
+            <td><strong>Émissions de CO2</strong></td>
+            ${models.map(m => `<td>${m.specifications?.emission_co2 || '–'}</td>`).join('')}
+          </tr>
+
+          <!-- SECTION 5: ÉQUIPEMENTS & OPTIONS -->
+          <tr class="section-divider"><td colspan="${models.length + 1}">Équipements & Options Clés</td></tr>
+          ${getOptionRows(models)}
+          
+          <!-- SECTION 6: FINITIONS ET MOTORISATIONS DÉTAILLÉES -->
+          <tr class="section-divider"><td colspan="${models.length + 1}">Finitions et Motorisations</td></tr>
+          <tr>
+            <td><strong>Versions de la gamme</strong></td>
+            ${models.map(m => `
+              <td style="font-size:12px;line-height:1.4;">
+                <div style="display:flex;flex-direction:column;gap:12px;">
+                  ${(m.motorisations || []).map(mo => `
+                    <div style="background:var(--bg);padding:8px 10px;border-radius:6px;border:1px solid var(--border);">
+                      <div style="font-weight:700;color:var(--text);">${mo.version}</div>
+                      <div style="color:var(--text-light);font-size:11px;margin-top:2px;">
+                        ${mo.moteur} · ${mo.puissance} · ${mo.carburant} · ${mo.transmission}
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              </td>
+            `).join('')}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  `;
+  result.innerHTML = html;
+  result.scrollIntoView({ behavior: 'smooth' });
+}
+
+// Fonction utilitaire pour extraire et formater l'état des options pour chaque véhicule
+function getOptionRows(models) {
+  const commonOptions = [
+    { label: 'Airbags', key: 'Airbags' },
+    { label: 'Climatisation', key: 'Climatisation' },
+    { label: 'Système audio / Écran', key: 'Système audio' },
+    { label: 'Régulateur de vitesse', key: 'Régulateur de vitesse' },
+    { label: 'Caméra de recul', key: 'Caméra de recul' },
+    { label: 'Aide au stationnement', key: 'Aide au stationnement' },
+    { label: 'Volant réglable', key: 'Volant réglable' },
+    { label: 'Compatibilité Smartphone', key: 'Compatibilité smartphone' },
+    { label: 'Feux de jour LED', key: 'Feux de jour' },
+    { label: 'ABS', key: 'ABS' },
+    { label: 'ESP', key: 'ESP' }
   ];
 
-  let html = '<div class="compare-table-wrap"><h2 style="margin-bottom:20px;font-size:24px;font-weight:800;">Résultat de la comparaison</h2><table class="compare-table">';
-  html += '<tr><th>Caractéristique</th>' + models.map(m => `<th>${m.nom}</th>`).join('') + '</tr>';
-  
-  rows.forEach(([label, key, isPrice]) => {
-    html += `<tr><td><strong>${label}</strong></td>`;
-    models.forEach(m => {
-      let val = m[key];
-      if (isPrice) val = val.toLocaleString('fr-MA') + ' DH';
-      html += `<td>${val}</td>`;
-    });
-    html += '</tr>';
-  });
+  return commonOptions.map(opt => {
+    return `
+      <tr>
+        <td><strong>${opt.label}</strong></td>
+        ${models.map(m => {
+          let opts = {};
+          if (m.specifications && m.specifications.options) {
+            try {
+              opts = typeof m.specifications.options === 'string'
+                ? JSON.parse(m.specifications.options)
+                : m.specifications.options;
+            } catch(e) {
+              opts = {};
+            }
+          }
+          
+          // Rechercher l'option dans le dictionnaire en ignorant la casse
+          const optKey = Object.keys(opts).find(k => k.toLowerCase().includes(opt.key.toLowerCase()));
+          const val = optKey ? opts[optKey] : null;
 
-  html += '<tr><td><strong>Motorisations</strong></td>';
-  models.forEach(m => {
-    html += '<td>' + (m.motorisations || []).map(mo => 
-      `<strong>${mo.version}</strong><br><span style="color:var(--text-light);font-size:13px;">${mo.moteur} · ${mo.puissance} · ${mo.carburant}</span>`
-    ).join('<br><br>') + '</td>';
-  });
-  html += '</tr></table></div>';
-  result.innerHTML = html;
+          if (!val) {
+            return `<td style="color:var(--text-muted);">✗ Non spécifié</td>`;
+          }
+
+          const lowerVal = val.toString().toLowerCase();
+          const hasIt = !lowerVal.includes('non') && !lowerVal.includes('sans') && lowerVal !== '0';
+          
+          if (hasIt) {
+            const displayVal = val === 'Oui' || val === 'Disponible' || val === 'yes' ? '✓ Oui' : `✓ ${val}`;
+            return `<td style="color:var(--success);font-weight:600;">${displayVal}</td>`;
+          } else {
+            return `<td style="color:var(--primary);opacity:0.8;">✗ Non</td>`;
+          }
+        }).join('')}
+      </tr>
+    `;
+  }).join('');
 }
 
 // ========== PROMOS PAGE ==========
