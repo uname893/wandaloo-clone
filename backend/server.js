@@ -274,7 +274,7 @@ app.delete('/api/admin/models/:id', requireAuth, (req, res) => {
 
 app.post('/api/admin/models/:id/images', requireAuth, (req, res) => {
   const { images } = req.body;
-  if (!images || !images.length) return res.status(400).json({ error: 'Images requises' });
+  if (!Array.isArray(images)) return res.status(400).json({ error: 'Format invalide, tableau requis' });
   insertImages(req.params.id, images, (err) => {
     if (err) return res.status(500).json({ error: err.message });
     buildStaticData(() => {

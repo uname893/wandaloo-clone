@@ -4843,11 +4843,18 @@ const STATIC_DATA = {
       },
       "images": [
         {
-          "id": 2359,
+          "id": 2363,
           "model_id": "byd-dolphin",
-          "url": "https://www.wandaloo.com/files/Voiture-Neuve/byd/BYD-Dolphin-2024-Neuve-Maroc-01.jpg",
-          "alt": "Dolphin vue de face",
+          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "alt": "Test Image 1",
           "is_primary": 1
+        },
+        {
+          "id": 2364,
+          "model_id": "byd-dolphin",
+          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "alt": "Test Image 2",
+          "is_primary": 0
         }
       ]
     },
