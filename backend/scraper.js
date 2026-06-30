@@ -258,9 +258,12 @@ async function scrapeBrand(brand) {
     let logoUrl = '';
     const $logoImg = $('.logo-constructeur img, .constructeur-info img, img[src*="/constructeur/logo/"], img[src*="/constructeurs/logo/"], img[src*="/logo-"], img[src*="/logo/"]').first();
     if ($logoImg.length) {
-      logoUrl = $logoImg.attr('data-src') || $logoImg.attr('src') || '';
-      if (logoUrl && !logoUrl.startsWith('http')) {
-        logoUrl = BASE_URL + (logoUrl.startsWith('/') ? '' : '/') + logoUrl;
+      const parsedUrl = $logoImg.attr('data-src') || $logoImg.attr('src') || '';
+      if (parsedUrl && !parsedUrl.includes('wandaloo.com-blanc.png')) {
+        logoUrl = parsedUrl;
+        if (!logoUrl.startsWith('http')) {
+          logoUrl = BASE_URL + (logoUrl.startsWith('/') ? '' : '/') + logoUrl;
+        }
       }
     }
     
