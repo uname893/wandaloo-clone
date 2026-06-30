@@ -3,7 +3,7 @@ const cors = require('cors');
 const path = require('path');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const { initDB, getAllBrands, getBrandById, getAllModels, getModelById, getCategories, getCarburants, getModelsByIds, insertBrand, insertModel, insertImages, insertSpec, getPromos, insertNews, getNews } = require('./db');
+const { initDB, getAllBrands, getBrandById, getAllModels, getModelById, getCategories, getCarburants, getModelsByIds, insertBrand, insertModel, insertImages, insertSpec, getPromos, insertNews, getNews, getNewsById } = require('./db');
 
 // Init database
 initDB();
@@ -284,6 +284,14 @@ app.get('/api/news', (req, res) => {
   getNews(limit, (err, newsItems) => {
     if (err) return res.status(500).json({ error: err.message });
     res.json(newsItems);
+  });
+});
+
+app.get('/api/news/:id', (req, res) => {
+  getNewsById(req.params.id, (err, article) => {
+    if (err) return res.status(500).json({ error: err.message });
+    if (!article) return res.status(404).json({ error: 'Article non trouvé' });
+    res.json(article);
   });
 });
 

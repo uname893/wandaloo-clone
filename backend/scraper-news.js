@@ -9,12 +9,90 @@ const axiosInstance = axios.create({
   }
 });
 
+// Extraire le contenu complet textuel propre de l'article
+async function fetchArticleContent(url, source) {
+  try {
+    const res = await axiosInstance.get(url);
+    const $ = cheerio.load(res.data);
+    let contentHtml = '';
+
+    if (source === 'wandaloo') {
+      // Wandaloo : cible généralement .content-news, #news-details, ou le div avec le texte principal
+      const $main = $('.content-news, #news-txt, .texte, .desc-news').first();
+      if ($main.length) {
+        // Nettoyage des éléments superflus
+        $main.find('script, style, iframe, .share, .partage, .fb-like, form, button').remove();
+        contentHtml = $main.html().trim();
+      } else {
+        // Fallback sur les paragraphes
+        const paragraphs = [];
+        $('p').each((_, p) => {
+          const txt = $(p).text().trim();
+          if (txt.length > 50 && !txt.includes('Wandaloo') && !txt.includes('Droits réservés')) {
+            paragraphs.push(`<p>${txt}</p>`);
+          }
+        });
+        contentHtml = paragraphs.join('');
+      }
+    } else if (source === 'autonews.ma') {
+      // Autonews.ma : cible généralement .entry-content, .post-content, .content-article
+      const $main = $('.entry-content, .post-content, .content-article').first();
+      if ($main.length) {
+        $main.find('script, style, iframe, .ads, .advertisement, .social-sharing, .comments, form').remove();
+        contentHtml = $main.html().trim();
+      } else {
+        const paragraphs = [];
+        $('article p, .entry-content p').each((_, p) => {
+          const txt = $(p).text().trim();
+          if (txt.length > 50) paragraphs.push(`<p>${txt}</p>`);
+        });
+        contentHtml = paragraphs.join('');
+      }
+    } else if (source === 'leblogauto') {
+      // Le Blog Auto : cible .post-content, .entry-content
+      const $main = $('.post-content, .entry-content, .post-entry').first();
+      if ($main.length) {
+        $main.find('script, style, iframe, .ads, .ad-box, .social-share, .tag-links, .wp-block-buttons').remove();
+        contentHtml = $main.html().trim();
+      } else {
+        const paragraphs = [];
+        $('.post-content p, article p').each((_, p) => {
+          const txt = $(p).text().trim();
+          if (txt.length > 40 && !txt.includes('Abonnez-vous')) paragraphs.push(`<p>${txt}</p>`);
+        });
+        contentHtml = paragraphs.join('');
+      }
+    }
+
+    // Nettoyer les balises de liens qui pourraient indiquer la provenance ou des pubs
+    if (contentHtml) {
+      const $clean = cheerio.load(contentHtml);
+      // Supprimer les mentions explicites de liens externes Wandaloo / Autonews
+      $clean('a').each((_, a) => {
+        const $a = $clean(a);
+        const linkTxt = $a.text().toLowerCase();
+        if (linkTxt.includes('lire aussi') || linkTxt.includes('fiche technique') || linkTxt.includes('wandaloo') || linkTxt.includes('autonews')) {
+          $a.remove();
+        } else {
+          // Transformer le lien en texte pour ne pas sortir du site
+          $a.replaceWith($a.text());
+        }
+      });
+      return $clean.html().trim();
+    }
+    return '';
+  } catch (e) {
+    console.warn(`⚠️ Impossible d'extraire le contenu complet pour ${url}:`, e.message);
+    return '';
+  }
+}
+
 // SOURCE 1 : Wandaloo Autonews (Maroc) - Pages 1 à 6
 async function scrapeSourceWandaloo(articles) {
   console.log('📰 SOURCE 1 : Scraping Wandaloo Autonews (Pages 1 à 6)...');
   const BASE_URL = 'https://www.wandaloo.com';
   
-  for (let page = 1; page <= 6; page++) {
+  for (let page = 1; page <= 2; page++) {
     const ACTU_URL = page === 1 
       ? 'https://www.wandaloo.com/autonews/' 
       : `https://www.wandaloo.com/autonews/${page}.html`;
@@ -27,6 +105,7 @@ async function scrapeSourceWandaloo(articles) {
       const $ = cheerio.load(res.data);
       let count = 0;
 
+      const tempArticles = [];
       $('#news li, .list-actu li').each((_, el) => {
         const $el = $(el);
         const $photo = $el.find('.photo');
@@ -62,19 +141,26 @@ async function scrapeSourceWandaloo(articles) {
         }
 
         if (titre && link && !articles.some(a => a.lien_article === link)) {
-          articles.push({
+          tempArticles.push({
             titre: `[${tag}] ${titre}`,
             resume: resume.slice(0, 220) + (resume.length > 220 ? '...' : ''),
             image,
             date_publication,
             lien_article: link
           });
-          count++;
         }
       });
+
+      // Charger le contenu complet pour les nouveaux articles de cette page
+      for (const art of tempArticles) {
+        console.log(`      📄 Chargement de l'article complet: ${art.titre}...`);
+        art.contenu_complet = await fetchArticleContent(art.lien_article, 'wandaloo');
+        articles.push(art);
+        count++;
+        await new Promise(r => setTimeout(r, 600)); // Sleep pour éviter d'être bloqué
+      }
+
       console.log(`      ✅ Page ${page} terminée : ${count} articles récupérés.`);
-      // Attente entre les pages
-      await new Promise(r => setTimeout(r, 600));
     } catch (e) {
       console.error(`      ❌ Erreur Page ${page} Wandaloo:`, e.message);
     }
@@ -86,7 +172,7 @@ async function scrapeSourceAutonewsMa(articles) {
   console.log('📰 SOURCE 2 : Scraping Autonews.ma (Pages 1 à 6)...');
   const BASE_URL = 'https://autonews.ma';
   
-  for (let page = 1; page <= 6; page++) {
+  for (let page = 1; page <= 2; page++) {
     const ACTU_URL = page === 1 
       ? 'https://autonews.ma/actualite-auto/toute-l-actualite' 
       : `https://autonews.ma/actualite-auto/toute-l-actualite/page/${page}`;
@@ -98,6 +184,7 @@ async function scrapeSourceAutonewsMa(articles) {
       });
       const $ = cheerio.load(res.data);
       let count = 0;
+      const tempArticles = [];
 
       $('article, .item-article, .post-item, .post, .custom-card').each((_, el) => {
         const $el = $(el);
@@ -132,42 +219,26 @@ async function scrapeSourceAutonewsMa(articles) {
         const date_publication = $date.text().trim() || new Date().toLocaleDateString('fr-FR');
 
         if (titre && link && titre.length > 5 && !articles.some(a => a.lien_article === link)) {
-          articles.push({
+          tempArticles.push({
             titre: `[Autonews] ${titre}`,
             resume: resume.slice(0, 220) + (resume.length > 220 ? '...' : ''),
             image,
             date_publication,
             lien_article: link
           });
-          count++;
         }
       });
 
-      // Sélecteur secondaire
-      $('a[href*="/actualite-auto/"]').each((_, linkEl) => {
-        const $link = $(linkEl);
-        const titre = $link.text().trim();
-        let link = $link.attr('href') || '';
-        if (!titre || titre.length < 25 || link.includes('toute-l-actualite')) return;
-
-        if (!link.startsWith('http')) {
-          link = BASE_URL + (link.startsWith('/') ? '' : '/') + link;
-        }
-
-        if (titre && link && !articles.some(a => a.lien_article === link)) {
-          articles.push({
-            titre: `[Autonews] ${titre}`,
-            resume: 'Retrouvez tous les détails de cet article d\'actualité auto directement sur Autonews.ma.',
-            image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60',
-            date_publication: new Date().toLocaleDateString('fr-FR'),
-            lien_article: link
-          });
-          count++;
-        }
-      });
+      // Charger le contenu complet
+      for (const art of tempArticles) {
+        console.log(`      📄 Chargement de l'article complet: ${art.titre}...`);
+        art.contenu_complet = await fetchArticleContent(art.lien_article, 'autonews.ma');
+        articles.push(art);
+        count++;
+        await new Promise(r => setTimeout(r, 600));
+      }
 
       console.log(`      ✅ Page ${page} terminée : ${count} articles récupérés.`);
-      await new Promise(r => setTimeout(r, 600));
     } catch (e) {
       console.error(`      ❌ Erreur Page ${page} Autonews.ma:`, e.message);
     }
@@ -179,7 +250,7 @@ async function scrapeSourceLeBlogAuto(articles) {
   console.log('📰 SOURCE 3 : Scraping Le Blog Auto (France - Pages 1 à 6)...');
   const BASE_URL = 'https://www.leblogauto.com';
   
-  for (let page = 1; page <= 6; page++) {
+  for (let page = 1; page <= 2; page++) {
     const ACTU_URL = page === 1 
       ? 'https://www.leblogauto.com' 
       : `https://www.leblogauto.com/page/${page}/`;
@@ -191,6 +262,7 @@ async function scrapeSourceLeBlogAuto(articles) {
       });
       const $ = cheerio.load(res.data);
       let count = 0;
+      const tempArticles = [];
 
       $('article.l-post').each((_, el) => {
         const $el = $(el);
@@ -225,19 +297,26 @@ async function scrapeSourceLeBlogAuto(articles) {
         const date_publication = $date.text().trim() || new Date().toLocaleDateString('fr-FR');
 
         if (titre && link && !articles.some(a => a.lien_article === link)) {
-          articles.push({
+          tempArticles.push({
             titre: `[Actu Fr] ${titre}`,
             resume: resume.slice(0, 220) + (resume.length > 220 ? '...' : ''),
             image,
             date_publication,
             lien_article: link
           });
-          count++;
         }
       });
 
+      // Charger le contenu complet
+      for (const art of tempArticles) {
+        console.log(`      📄 Chargement de l'article complet: ${art.titre}...`);
+        art.contenu_complet = await fetchArticleContent(art.lien_article, 'leblogauto');
+        articles.push(art);
+        count++;
+        await new Promise(r => setTimeout(r, 600));
+      }
+
       console.log(`      ✅ Page ${page} terminée : ${count} articles récupérés.`);
-      await new Promise(r => setTimeout(r, 600));
     } catch (e) {
       console.error(`      ❌ Erreur Page ${page} Le Blog Auto:`, e.message);
     }
@@ -245,12 +324,13 @@ async function scrapeSourceLeBlogAuto(articles) {
 }
 
 async function scrapeNews() {
-  console.log('📰 Scraping Complet des Archives d\'Actualités (Maroc + France)...\n');
+  console.log('📰 Scraping Complet des Archives et Articles Intégraux (Maroc + France)...\n');
   initDB();
   
   const articles = [];
 
-  // Exécuter les 3 scrappers
+  // Exécuter les 3 scrappers (limité aux premières pages pour éviter les timeouts lors du crawl des détails de l'article)
+  // On va réduire à 2 pages d'historique pour aller vite et ne pas surcharger les requêtes tout en ayant un historique complet
   await scrapeSourceWandaloo(articles);
   await scrapeSourceAutonewsMa(articles);
   await scrapeSourceLeBlogAuto(articles);

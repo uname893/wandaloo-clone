@@ -103,6 +103,7 @@ function initDB() {
       image TEXT,
       date_publication TEXT,
       lien_article TEXT UNIQUE,
+      contenu_complet TEXT,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )`);
 
@@ -115,10 +116,16 @@ function initDB() {
     db.run(`CREATE INDEX IF NOT EXISTS idx_images_model ON images(model_id)`);
     db.run(`CREATE INDEX IF NOT EXISTS idx_specifications_model ON specifications(model_id)`);
     db.run(`CREATE INDEX IF NOT EXISTS idx_news_date ON news(date_publication)`);
+
+    // Corriger les images cassées connues par de superbes illustrations HD
+    db.run(`UPDATE models SET image = 'https://images.unsplash.com/photo-1709491740751-bb3864fe786d?w=800&auto=format&fit=crop&q=80' WHERE id = 'byd-dolphin'`);
+    db.run(`UPDATE models SET image = 'https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&auto=format&fit=crop&q=80' WHERE id LIKE '%audi-a3%'`);
+    db.run(`UPDATE models SET image = 'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&auto=format&fit=crop&q=80' WHERE id LIKE '%audi-a4%'`);
+    db.run(`UPDATE models SET image = 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&auto=format&fit=crop&q=80' WHERE id LIKE '%omoda-5%'`);
   });
 
   db.close();
-  console.log('✅ Database initialized with images + specs + news tables');
+  console.log('✅ Database initialized with images + specs + news tables (and image fixes applied)');
 }
 
 // CRUD helpers
@@ -456,9 +463,9 @@ function getPromos(callback) {
 function insertNews(item, callback) {
   const db = getDB();
   const stmt = db.prepare(`INSERT OR REPLACE INTO news 
-    (titre, resume, image, date_publication, lien_article)
-    VALUES (?, ?, ?, ?, ?)`);
-  stmt.run(item.titre, item.resume || '', item.image || '', item.date_publication || '', item.lien_article, (err) => {
+    (titre, resume, image, date_publication, lien_article, contenu_complet)
+    VALUES (?, ?, ?, ?, ?, ?)`);
+  stmt.run(item.titre, item.resume || '', item.image || '', item.date_publication || '', item.lien_article, item.contenu_complet || '', (err) => {
     if (callback) callback(err);
   });
   stmt.finalize();
@@ -471,6 +478,14 @@ function getNews(limit, callback) {
   db.all(sql, [limit || 20], (err, rows) => {
     db.close();
     callback(err, rows || []);
+  });
+}
+
+function getNewsById(id, callback) {
+  const db = getDB();
+  db.get(`SELECT * FROM news WHERE id = ?`, [id], (err, row) => {
+    db.close();
+    callback(err, row);
   });
 }
 
@@ -490,5 +505,6 @@ module.exports = {
   getPromos,
   insertNews,
   getNews,
+  getNewsById,
   getDB,
 };

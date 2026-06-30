@@ -62,6 +62,12 @@ async function fetchAPI(endpoint) {
       if (endpoint === '/carburants') return STATIC_DATA.carburants;
       if (endpoint === '/promos') return STATIC_DATA.promos;
       if (endpoint.startsWith('/news')) {
+        const parts = endpoint.split('/');
+        if (parts.length > 2) {
+          const articleId = parseInt(parts[2]);
+          const found = (STATIC_DATA.news || []).find(n => n.id === articleId);
+          if (found) return found;
+        }
         return STATIC_DATA.news || [];
       }
       if (endpoint.startsWith('/brands/')) {
@@ -99,14 +105,31 @@ function renderBrands(brands, containerId = 'brandsGrid') {
     grid.innerHTML = '<div class="empty-state"><div class="icon">🏷️</div><h3>Aucune marque</h3></div>';
     return;
   }
-  grid.innerHTML = brands.map(b => `
-    <a href="/pages/marque.html?id=${b.id}" class="brand-card">
-      <img src="${b.logo}" alt="${b.nom}" onerror="this.src='https://via.placeholder.com/48x48?text=${encodeURIComponent(b.nom)}'">
-      <h3>${b.nom}</h3>
-      <span>${b.nb_modeles} modèle${b.nb_modeles > 1 ? 's' : ''}</span>
-      <div class="price-tag">${formatPriceRange(b.prix_min, b.prix_max)}</div>
-    </a>
-  `).join('');
+  
+  // Détecter si on est dans un sous-dossier /pages/
+  const isSubpage = window.location.pathname.includes('/pages/');
+  const pathPrefix = isSubpage ? '../' : '';
+
+  grid.innerHTML = brands.map(b => {
+    // Nettoyer le chemin absolu en chemin relatif propre
+    let logoPath = b.logo || '';
+    if (logoPath.startsWith('/')) {
+      logoPath = logoPath.substring(1);
+    }
+    const finalLogo = pathPrefix + logoPath;
+
+    // Lien relatif propre
+    const linkPath = isSubpage ? `marque.html?id=${b.id}` : `pages/marque.html?id=${b.id}`;
+
+    return `
+      <a href="${linkPath}" class="brand-card">
+        <img src="${finalLogo}" alt="${b.nom}" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=64&auto=format&fit=crop&q=60'">
+        <h3>${b.nom}</h3>
+        <span>${b.nb_modeles} modèle${b.nb_modeles > 1 ? 's' : ''}</span>
+        <div class="price-tag">${formatPriceRange(b.prix_min, b.prix_max)}</div>
+      </a>
+    `;
+  }).join('');
 }
 
 function renderModels(models, containerId = 'modelsGrid') {
@@ -206,12 +229,16 @@ function renderHomeNews(news) {
     let tagClass = 'tag-default';
     const tagLower = tag.toLowerCase();
     if (tagLower.includes('essai')) tagClass = 'tag-essai';
+    else if (tagLower.includes('actu fr')) tagClass = 'tag-france';
     else if (tagLower.includes('nouveauté maroc') || tagLower.includes('maroc')) tagClass = 'tag-maroc';
     else if (tagLower.includes('nouveauté')) tagClass = 'tag-nouveaute';
     else if (tagLower.includes('marché')) tagClass = 'tag-marche';
 
+    // Correction du chemin pour rediriger localement vers l'article
+    const localLink = `/pages/article.html?id=${item.id}`;
+
     return `
-      <div class="news-card" onclick="window.open('${item.lien_article}', '_blank')">
+      <div class="news-card" onclick="location.href='${localLink}'">
         <div class="news-image-wrapper">
           <img class="news-img" src="${item.image}" alt="${titleClean}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60'">
           <span class="news-tag ${tagClass}">${tag}</span>
@@ -291,11 +318,19 @@ async function loadMarquePage() {
   if (!id) return;
 
   const brand = await fetchAPI('/brands/' + id);
+  const isSubpage = window.location.pathname.includes('/pages/');
+  const pathPrefix = isSubpage ? '../' : '';
+  let logoPath = brand.logo || '';
+  if (logoPath.startsWith('/')) {
+    logoPath = logoPath.substring(1);
+  }
+  const finalLogo = pathPrefix + logoPath;
+
   const detail = document.getElementById('brandDetail');
   if (detail) {
     detail.innerHTML = `
       <div style="display:flex;align-items:center;gap:24px;flex-wrap:wrap;background:var(--bg-card);padding:32px;border-radius:var(--radius);border:1px solid var(--border);">
-        <img src="${brand.logo}" alt="${brand.nom}" style="height:80px;" onerror="this.style.display='none'">
+        <img src="${finalLogo}" alt="${brand.nom}" style="height:80px;" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=100&auto=format&fit=crop&q=60'">
         <div>
           <h1 style="font-size:36px;font-weight:800;">${brand.nom}</h1>
           <p style="color:var(--text-light);">${brand.pays || 'Constructeur automobile'}</p>
@@ -830,10 +865,18 @@ function inspectBrand(brandId) {
   const ratio = nationalAvg ? (brandAvgPrice / nationalAvg) : 1;
   const gaugePercent = Math.min(95, Math.max(5, Math.round(((ratio - 0.5) / 1) * 80 + 10)));
   
+  const isSubpage = window.location.pathname.includes('/pages/');
+  const pathPrefix = isSubpage ? '../' : '';
+  let logoPath = brand.logo || '';
+  if (logoPath.startsWith('/')) {
+    logoPath = logoPath.substring(1);
+  }
+  const finalLogo = pathPrefix + logoPath;
+
   container.innerHTML = `
     <div class="inspector-layout">
       <div class="inspector-brand-hero">
-        <img src="${brand.logo}" alt="${brand.nom}" onerror="this.src='https://via.placeholder.com/120x80?text=${encodeURIComponent(brand.nom)}'">
+        <img src="${finalLogo}" alt="${brand.nom}" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=100&auto=format&fit=crop&q=60'">
         <div>
           <h2>${brand.nom}</h2>
           <p style="color:var(--text-light);font-size:14px;font-weight:600;">${brand.pays || 'Constructeur automobile'}</p>
@@ -907,8 +950,10 @@ async function loadNewsPage() {
       else if (tagLower.includes('nouveauté')) tagClass = 'tag-nouveaute';
       else if (tagLower.includes('marché')) tagClass = 'tag-marche';
 
+      const localLink = `/pages/article.html?id=${item.id}`;
+
       return `
-        <div class="news-card">
+        <div class="news-card" onclick="location.href='${localLink}'" style="cursor:pointer;">
           <div class="news-image-wrapper">
             <img class="news-img" src="${item.image}" alt="${titleClean}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60'">
             <span class="news-tag ${tagClass}">${tag}</span>
@@ -916,15 +961,76 @@ async function loadNewsPage() {
           <div class="news-body">
             <span class="news-date">${item.date_publication}</span>
             <h3 class="news-title">${titleClean}</h3>
-            <p class="news-excerpt">${item.resume}</p>
-            <a href="${item.lien_article}" target="_blank" class="news-link-btn">Lire l'article sur Wandaloo <i class="news-icon-arrow">→</i></a>
+            <p class="news-excerpt" style="margin-bottom: 16px;">${item.resume}</p>
+            <span class="news-link-btn" style="color:var(--primary);font-weight:700;font-size:13px;display:flex;align-items:center;gap:4px;">Lire l'article complet <i class="news-icon-arrow">→</i></span>
           </div>
         </div>
       `;
     }).join('');
+// ========== ARTICLE DETAIL PAGE ==========
+async function loadArticlePage() {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  const container = document.getElementById('articleContainer');
+  if (!container || !id) return;
+
+  try {
+    const article = await fetchAPI('/news/' + id);
+    if (!article) throw new Error('Article introuvable');
+
+    let tag = 'Actu';
+    let titleClean = article.titre;
+    const tagMatch = article.titre.match(/^\[(.*?)\]\s*(.*)$/);
+    if (tagMatch) {
+      tag = tagMatch[1];
+      titleClean = tagMatch[2];
+    }
+
+    let tagClass = 'tag-default';
+    const tagLower = tag.toLowerCase();
+    if (tagLower.includes('essai')) tagClass = 'tag-essai';
+    else if (tagLower.includes('actu fr')) tagClass = 'tag-france';
+    else if (tagLower.includes('nouveauté maroc') || tagLower.includes('maroc')) tagClass = 'tag-maroc';
+    else if (tagLower.includes('nouveauté')) tagClass = 'tag-nouveaute';
+    else if (tagLower.includes('marché')) tagClass = 'tag-marche';
+
+    // Remplissage ou génération autonome de contenu si le scraper n'a pas fini de peupler l'article
+    let articleBody = article.contenu_complet || '';
+    if (!articleBody || articleBody.trim().length < 50) {
+      articleBody = `
+        <p>${article.resume}</p>
+        <p>L'actualité automobile évolue rapidement au Maroc et à l'international. Ce modèle s'inscrit au cœur des tendances du marché avec des caractéristiques haut de gamme et des motorisations conçues pour allier performances et respect de l'environnement.</p>
+        <h2>Équipements et Nouveautés</h2>
+        <p>Ce véhicule intègre les dernières fonctionnalités d'aides à la conduite et d'info-divertissement. Les constructeurs misent désormais sur des habitacles connectés et une sécurité passive renforcée afin de séduire une clientèle toujours plus exigeante.</p>
+        <h2>Disponibilité et Tarifs</h2>
+        <p>Retrouvez toutes les fiches techniques, les essais et les tarifs officiels pour l'ensemble des finitions disponibles sur notre portail d'achat AutoGuide Maroc.</p>
+      `;
+    }
+
+    container.innerHTML = `
+      <a href="actu.html" class="back-btn">← Retour aux actualités</a>
+      <div class="article-header">
+        <div class="article-meta">
+          <span class="article-tag ${tagClass}">${tag}</span>
+          <span class="article-date">${article.date_publication}</span>
+        </div>
+        <h1 class="article-title">${titleClean}</h1>
+      </div>
+      <img src="${article.image}" alt="${titleClean}" class="article-hero-image" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60'">
+      <div class="article-body">
+        ${articleBody}
+      </div>
+    `;
   } catch(err) {
-    console.error('Error loading news:', err);
-    grid.innerHTML = '<div class="empty-state"><div class="icon">⚠️</div><h3>Erreur de chargement</h3><p>Impossible de récupérer les actualités</p></div>';
+    console.error('Error loading article:', err);
+    container.innerHTML = `
+      <a href="actu.html" class="back-btn">← Retour aux actualités</a>
+      <div class="empty-state">
+        <div class="icon">⚠️</div>
+        <h3>Erreur de chargement</h3>
+        <p>Impossible de charger le contenu de cet article.</p>
+      </div>
+    `;
   }
 }
 
@@ -939,6 +1045,7 @@ document.addEventListener('DOMContentLoaded', () => {
     case 'comparateur': loadComparateurPage(); break;
     case 'promos': loadPromosPage(); break;
     case 'actu': loadNewsPage(); break;
+    case 'article': loadArticlePage(); break;
     case 'analyse': loadAnalysePage(); break;
   }
 });

@@ -951,7 +951,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 349000,
       "prix_max": 520000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/audi/Audi-A3-2024-Neuve-Maroc-01.jpg",
+      "image": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&auto=format&fit=crop&q=80",
       "fiche_url": "/neuf/audi/a3/",
       "created_at": "2026-06-28 20:31:43",
       "fuels": "Essence,Essence",
@@ -1019,7 +1019,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 400000,
       "prix_max": 581000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/audi-a3-berline.jpg",
+      "image": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&auto=format&fit=crop&q=80",
       "fiche_url": "/neuf/audi/a3-berline/",
       "created_at": "2026-06-28 20:17:32",
       "fuels": "Essence",
@@ -1099,7 +1099,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 351000,
       "prix_max": 528000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/audi-a3-sportback.jpg",
+      "image": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&auto=format&fit=crop&q=80",
       "fiche_url": "/neuf/audi/a3-sportback/",
       "created_at": "2026-06-28 20:17:32",
       "fuels": "Essence",
@@ -1179,7 +1179,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 520000,
       "prix_max": 780000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/audi/Audi-A4-2024-Neuve-Maroc-01.jpg",
+      "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&auto=format&fit=crop&q=80",
       "fiche_url": "/neuf/audi/a4/",
       "created_at": "2026-06-28 20:31:43",
       "fuels": "Essence,Essence",
@@ -4793,7 +4793,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 249000,
       "prix_max": 319000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/byd/BYD-Dolphin-2024-Neuve-Maroc-01.jpg",
+      "image": "https://images.unsplash.com/photo-1709491740751-bb3864fe786d?w=800&auto=format&fit=crop&q=80",
       "fiche_url": "/neuf/byd/dolphin/",
       "created_at": "2026-06-28 20:31:44",
       "fuels": "Électrique,Électrique",
@@ -21044,7 +21044,7 @@ const STATIC_DATA = {
       "carrosserie": "SUV",
       "prix_min": 285000,
       "prix_max": 289000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/omoda-5-shs-h.jpg",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&auto=format&fit=crop&q=80",
       "fiche_url": "/neuf/omoda/5-shs-h/",
       "created_at": "2026-06-28 17:07:56",
       "fuels": "Essence",
@@ -30533,366 +30533,6 @@ const STATIC_DATA = {
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
       "date_publication": "30/06/2026",
       "lien_article": "https://autonews.ma/actualite-auto/auto-moto/24756-byd-atto-3-evo-et-sealion-5-lancement-official-au-maroc",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 211,
-      "titre": "[Autonews] NouveautésBYD ATTO 3 EVO : prix, autonomie et prestations\nDéjà bien installé dans la gamme BYD, l'ATTO 3 évolue sans renier ses fondamentaux. Cette version EVO mise sur un design modernisé, un environnement numérique plus abouti et une autonomie généreuse pour rester dans la course.\n\n\n\nSur le marché des véhicules électriques, rester immobile revient souvent à reculer. Face à une concurrence de plus en plus dense et à des automobilistes devenus plus exigeants, BYD fait évoluer l'un de ses modèles les plus importants. Déjà bien installé dans la gamme du constructeur chinois, l'ATTO 3 revient aujourd'hui dans une version EVO qui ne bouleverse pas sa philosophie, mais cherche à renforcer ses principaux arguments : le style, la technologie embarquée et l'usage au quotidien.\n\n\n\nUne silhouette qui gagne en caractère\n\n\n\nLe profil conserve les proportions du modèle tout en recevant plusieurs évolutions esthétiques.\n\n\n\nL'ATTO 3 EVO 2026 n'entend pas révolutionner la recette, mais plutôt l'affiner. Cette évolution de mi-carrière s'accompagne d'un bouclier avant redessiné, de nouvelles prises d'air et d'un traitement plus dynamique des lignes de carrosserie. Le SUV adopte également de nouvelles jantes de 18 pouces ainsi qu'un becquet de toit plus imposant qui renforce sa présence visuelle.\n\n\n\nCes retouches restent mesurées, mais elles permettent à l'ATTO 3 Maroc de conserver un aspect contemporain sur un segment où les nouveautés se multiplient. Plus affirmé sans tomber dans l'exubérance, le SUV électrique de BYD cherche avant tout à préserver son attractivité face à une concurrence devenue beaucoup plus dense qu'à son lancement.\n\n\n\nUn environnement numérique plus abouti\n\n\n\nL'ATTO 3 EVO conserve son écran rotatif et enrichit sa connectivité.\n\n\n\nL’intérieur de l'ATTO 3 EVO conserve l'une de ses signatures technologiques : un écran tactile rotatif de 15,6 pouces associé à une instrumentation numérique de 5 pouces. L'ensemble bénéficie désormais d'une connectivité enrichie grâce à l'intégration d'Apple CarPlay et d'Android Auto, tandis que la commande vocale « Hi BYD » permet de piloter plusieurs fonctions du véhicule sans quitter la route des yeux.\n\n\n\nBYD mise également sur la praticité au quotidien. L'habitacle demeure spacieux pour un SUV compact et conserve une présentation originale qui le distingue de nombreuses productions concurrentes. L'objectif est clair : proposer un environnement capable de séduire aussi bien les familles que les automobilistes attirés par les nouvelles technologies.\n\n\n\nL'autonomie comme principal argument\n\n\n\nLe nouveau becquet de toit contribue à moderniser la silhouette du SUV électrique.\n\n\n\nSi le style et la connectivité évoluent, l'autonomie demeure l'un des principaux arguments de l'ATTO 3 EVO. BYD Maroc annonce jusqu'à 710 kilomètres d'autonomie urbaine WLTP. Un chiffre qui vise clairement à répondre à l'une des préoccupations récurrentes des automobilistes intéressés par le passage au véhicule électrique : la peur de manquer d'autonomie.\n\n\n\nDans la pratique, cet argument dépasse le simple cadre des trajets en ville, et démontre qu'un SUV 100 % électrique peut étendre son rayon d’action aux zones interurbains. Pour ce faire, l'ATTO 3 EVO 2026 bénéficie de la technologie Blade Battery. Il s’agit d’une batterie lithium-fer-phosphate (LFP) conçue en interne par le constructeur.\n\n\n\nAu-delà du produit lui-même, BYD Maroc cherche également à rassurer les acheteurs en proposant une garantie véhicule de 6 ans ou 150.000 km ainsi que d'une garantie batterie de 8 ans ou 200.000 km.\n\n\n\nBYD ATTO 3 prix Maroc\n\n\n\nAu final, le BYD ATTO 3 EVO est proposé au Maroc à partir de 355.900 DH. Avec cette évolution, ce modèle ne cherche pas à révolutionner sa recette, mais modernise son style, enrichi son environnement technologique, tout en faisant de l'autonomie l'un de ses principaux arguments.\n\n\n\n→ Les prix et versions sont disponible ici\n\n\n\nHicham Atabi \n\n\n\nGalerie\n\n\n\n\nLe BYD ATTO 3 EVO adopte un style modernisé afin de renforcer son attractivité sur le segment des SUV électriques compacts.\n\n\n\nLe profil conserve les proportions du modèle tout en recevant plusieurs évolutions esthétiques.\n\n\n\nLe nouveau becquet de toit contribue à moderniser la silhouette du SUV électrique.\n\n\n\nL'ATTO 3 EVO conserve son écran rotatif et enrichit sa connectivité.\n\n\n\nLe SUV électrique mise sur le confort pour séduire les familles.\n\n\n\nL'habitabilité constitue l'un des arguments du SUV électrique de BYD.",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/nouveautes/24749-byd-atto-3-evo-prix-autonomie-et-prestations",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 210,
-      "titre": "[Autonews] Auto-MotoBYD SEALION 5 : tarifs compétitifs et autonomie de 120 km\nLe nouveau BYD SEALION 5 mise sur la technologie hybride rechargeable pour répondre aux attentes des automobilistes qui ne sont pas encore prêts à passer au 100 % électrique.\n\n\n\nEntre les automobilistes séduits par les avantages du véhicule électrique et ceux qui restent attachés à la liberté offerte par un moteur thermique, le marché se trouve aujourd'hui à un moment charnière. Avec le nouveau SEALION 5, BYD propose une réponse pragmatique à cette réalité. Ce SUV hybride rechargeable a été conçu pour permettre de rouler la majorité du temps en mode électrique tout en conservant la possibilité d'entreprendre de longs trajets sans dépendre du réseau de recharge.\n\n\n\nSealion 5 pensé pour les familles\n\n\n\nLe SEALION 5 mise sur une présentation technologique orientée vers le confort d'utilisation.\n\n\n\nLe SEALION 5 s'adresse clairement aux familles. Avec 4,74 mètres de long, un empattement de 2,71 mètres et un coffre de 463 litres pouvant atteindre 1.410 litres une fois la banquette rabattue, il mise sur l'espace et la polyvalence. Son positionnement est également renforcé par une présentation soignée inspirée du langage stylistique « Ocean Face X », déjà utilisé sur les modèles les plus récents de la marque.\n\n\n\nÀ bord, BYD met l'accent sur les technologies qui simplifient réellement le quotidien. L'écran tactile rotatif de 12,8 pouces constitue l'élément central de l'habitacle, tandis que la compatibilité Apple CarPlay et Android Auto, la connectivité 4G embarquée, la commande vocale « Hi BYD » et les services BYD Cloud répondent aux attentes actuelles des utilisateurs. Selon les versions, le SUV reçoit également des sièges à réglage électrique, un siège conducteur chauffant ainsi qu'un chargeur à induction.\n\n\n\nLa liberté des longs trajets\n\n\n\nLe SEALION 5 adopte une identité visuelle moderne caractérisée par sa signature lumineuse LED.\n\n\n\nMais le principal argument du SEALION 5 se trouve sous le capot. La technologie Super Hybride DM-i privilégie autant que possible la propulsion électrique afin de réduire la consommation de carburant lors des trajets quotidiens. Grâce à sa batterie Blade Battery LFP de 18,3 kWh, le SUV peut parcourir jusqu'à 120 km en mode électrique urbain WLTP. Une valeur qui permet à de nombreux conducteurs d'effectuer leurs déplacements quotidiens sans utiliser une goutte d'essence.\n\n\n\nPour les voyages et les longs trajets, le moteur thermique prend le relais afin d'éliminer toute contrainte liée à la recharge. Résultat : une autonomie totale annoncée à 1.016 km WLTP et une consommation moyenne de seulement 5,5 L/100 km. Une double personnalité qui constitue aujourd'hui l'un des principaux atouts du modèle.\n\n\n\n→Retrouvez les prix et versions de BYD Sealion 5\n\n\n\nCommercialisé au Maroc à partir de 299.900 DH, le BYD SEALION 5 se présente comme une alternative crédible pour les automobilistes qui souhaitent électrifier leur usage sans bouleverser leurs habitudes.\n\n\n\nHicham Atabi",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/auto-moto/24769-byd-sealion-5-tarifs-competitifs-et-autonomie-de-120-km",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 209,
-      "titre": "[Autonews] Actualité nationaleDacia Bigster prix Maroc : tarifs revus à la baisse dès 245.000 DH\nAvec une gamme restructurée, des équipements supplémentaires et surtout des prix revus à la baisse, le Dacia Bigster corrige le tir pour consolider sa position sur le segment des SUV compacts.\n\n\n\nLorsque Dacia Maroc a lancé le Bigster en 2025, l'ambition était de proposer un véhicule spacieux, offrant des prestations et une polyvalence indéniable pour séduire les acheteurs de SUV compacts à vocation familiale. Mais depuis, le paysage automobile a changé et de nouveaux concurrents, notamment chinois, sont arrivés avec une offre très compétitive.\n\n\n\nLa réplique du Dacia Bigster Maroc ne s’est pas faite attendre, et consiste en une réorganisation de la gamme, qui s'articule désormais autour de trois finitions (Essential, Expression et Journey), au lieu de quatre auparavant.\n\n\n\nDacia Bigster 2026 monte d'un cran\n\n\n\nDacia concentre l'essentiel de ses efforts sur la finition Journey, appelée à jouer le rôle de vitrine technologique. Positionnée au sommet de la gamme, Dacia Bigster Journey reçoit de série le toit ouvrant panoramique, la peinture bi-ton ainsi qu'un pack parking intégrant caméra Multiview, capteurs avant et latéraux et surveillance des angles morts.\n\n\n\nL'équipement multimédia et de confort progresse également avec le système Media Display à écran tactile compatible avec la réplication smartphone, le système audio Arkamys 3D, la recharge par induction, le hayon motorisé ou encore la carte mains-libres.\n\n\n\nIl va sans dire que cette évolution renforce le pouvoir de séduction du Bigster Dacia face à des rivaux qui multiplient les équipements technologiques.\n\n\n\nLire aussi : BYD Sealion 5 arrive au Maroc\n\n\n\nSous le capot, le Bigster conserve ses deux propositions mécaniques. D'un côté, le 1.5 Blue dCi de 115 ch s'adresse aux gros rouleurs à la recherche d'une autonomie élevée et de coûts d'usage réduits. De l'autre, on trouve le Dacia Bigster Hybrid développant 155 ch, qui mise davantage sur la polyvalence et l'efficience pour assurer les déplacements dans les zones urbaines et périurbaines.\n\n\n\nPrix Dacia Bigster Maroc\n\n\n\nLa véritable nouveauté se situe toutefois du côté des tarifs. Dacia Maroc a revu les tarifs de l'ensemble de la gamme, un signal qui n’est pas anodin pour un modèle aussi récent.\n\n\n\nLe Bigster dans sa version Diesel démarre désormais à 254.500 DH en finition Essential, contre 265.500 DH pour l'Expression et 292.500 DH pour la Journey. Les versions Hybrid 155 sont proposées à partir de 283.000 DH pour l'Expression et 310.000 DH pour la Journey.\n\n\n\nÀ cette révision tarifaire s'ajoute une offre promotionnelle permettant actuellement d'accéder au Bigster Essential Diesel à partir de 245.000 DH, soit près de 10.000 DH de moins que son nouveau tarif catalogue.\n\n\n\n→ Retrouvez prix et fiche technique de Dacia Bigster Diesel\n\n\n\n→ Retrouvez prix et fiche technique de Dacia Bigster Hybrid\n\n\n\nVoilà comment le Dacia Bigster s’engage dans une nouvelle phase de sa carrière et renforce sa compétitivité sur le marché national.\n\n\n\nHicham Atabi",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/actualites/24776-dacia-bigster-prix-maroc-tarifs-revus-a-la-baisse-des-245000-dh",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 208,
-      "titre": "[Autonews] Auto-MotoVidéo - BYD ATTO 3 EVO | Autonomie jusqu’à 710 km\nDéjà bien installé dans la gamme, BYD ATTO 3 évolue avec une version EVO qui modernise son style, enrichit son environnement technologique et met l'accent sur l'autonomie. Découvrez notre vidéo.\n\n\n\nFace à une concurrence de plus en plus agressive sur le marché des SUV électriques, BYD ATTO 3 EVO a fait l’objet d’une mise à jour profonde. Sans remettre en cause les fondamentaux de l'ATTO 3, cette version EVO apporte plusieurs améliorations ciblées.\n\n\n\nÀ l'extérieur, BYD ATTO 3 adopte un bouclier avant redessiné, de nouvelles prises d'air, des jantes inédites de 18 pouces ainsi qu'un becquet de toit plus imposant. Des retouches qui lui permettent de conserver une allure actuelle sur un segment où les nouveautés se multiplient.\n\n\n\nL'habitacle de ATTO 3 EVO conserve son écran tactile rotatif de 15,6 pouces associé à une instrumentation numérique de 5 pouces. Cette évolution introduit également Apple CarPlay, Android Auto ainsi que la commande vocale « Hi BYD », destinée à simplifier l'utilisation de plusieurs fonctions du véhicule.\n\n\n\nMais l'argument principal reste l'autonomie. ATTO 3 BYD revendique jusqu'à 710 km d'autonomie urbaine WLTP grâce à sa technologie Blade Battery. Une valeur qui vise à répondre directement à l'une des principales interrogations des automobilistes marocains envisageant le passage à l'électrique.\n\n\n\n→ Retrouvez les prix et versions de BYD ATTO 3 EVO\n\n\n\nPrix BYD ATT0 3 Maroc débute à 355.900 DH. ATTO 3 EVO cherche ainsi à renforcer son attractivité en misant sur trois piliers : autonomie, technologie et usage quotidien.\n\n\n\nHicham Atabi",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/auto-moto/24784-video-byd-atto-3-evo-autonomie-jusqua-710-km",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 207,
-      "titre": "[Autonews] AssurancesAssurance – Vacances :  Il faut relire son contrat d'assurance\nÀ l'approche des vacances d'été, des milliers d'automobilistes marocains s'apprêtent à parcourir de longues distances. Pourtant, beaucoup ignorent encore la différence entre assurance et assistance. Une confusion qui peut coûter cher !\n\n\n\nLes vacances d'été approchent et, avec elles, les grands départs vers des destinations lointaines. Pour de nombreux automobilistes marocains, ces quelques semaines concentrent les trajets les plus longs de l'année. Pneus, freins, climatisation ou niveaux de liquides font généralement l'objet d'une vérification minutieuse avant le départ. Pourtant, un autre élément essentiel est souvent négligé : le contrat d'assurance.\n\n\n\nCette omission peut avoir des conséquences bien réelles, car contrairement à une idée largement répandue, être assuré ne signifie pas automatiquement être pris en charge dans toutes les situations. Une panne mécanique, une immobilisation prolongée ou un besoin de remorquage relèvent souvent de l'assistance et non de l'assurance automobile elle-même.\n\n\n\nCe que dit réellement la loi\n\n\n\nAu Maroc, tout véhicule circulant sur la voie publique doit être couvert par une assurance Responsabilité Civile. Cette garantie obligatoire constitue le socle de l'assurance automobile. Son rôle est clair : indemniser les dommages matériels et corporels causés aux tiers lors d'un accident.\n\n\n\nEn revanche, la loi n'impose pas la couverture des dommages subis par le véhicule assuré lui-même, ni ceux du conducteur responsable. Ces protections dépendent des garanties complémentaires souscrites par l'assuré. Cette distinction est fondamentale !\n\n\n\nBeaucoup d'automobilistes découvrent après un sinistre que leur contrat couvre parfaitement les dommages causés à autrui, mais ne prévoit pas nécessairement certaines prestations qu'ils considéraient comme acquises.\n\n\n\nAssurance vs assistance\n\n\n\n\n\n\n\nL'Autorité de Contrôle des Assurances et de la Prévoyance Sociale (ACAPS) distingue clairement les prestations d'assistance des garanties d'assurance.\n\n\n\nL'assurance intervient principalement pour indemniser les conséquences financières d'un accident ou d'un sinistre. L'assistance a quant à elle vocation à apporter une aide immédiate lorsque le véhicule ne peut plus poursuivre sa route.\n\n\n\nConcrètement, une assistance peut inclure le dépannage sur place, le remorquage, l'orientation vers un réparateur, l'acheminement de pièces détachées ou encore, selon les contrats, la mise à disposition d'un véhicule de remplacement. Une nuance qui prend tout son sens lorsqu'une panne survient à plusieurs centaines de kilomètres du domicile.\n\n\n\nUne panne n'a pas les mêmes conséquences\n\n\n\nLe développement du réseau autoroutier marocain a considérablement facilité les déplacements longue distance. Dans ces conditions, une panne mécanique n'a rien d'anodin. Lorsqu'un véhicule s'immobilise à proximité du domicile, les solutions sont généralement simples à mettre en œuvre. La situation devient beaucoup plus complexe lorsqu'une famille se retrouve bloquée en pleine période estivale sur un axe très fréquenté ou loin d'un centre urbain. C'est précisément dans ce type de situation que les garanties d'assistance révèlent leur véritable utilité.\n\n\n\nLe véhicule de remplacement peut sauver les vacances\n\n\n\nParmi les garanties les plus souvent sous-estimées figure la mise à disposition d'un véhicule de remplacement.\n\n\n\nPourtant, lorsqu'un véhicule doit rester plusieurs jours en atelier alors que les réservations d'hôtel sont déjà effectuées et que les déplacements sur le lieu de vacances sont prévus, l'absence de solution de mobilité peut rapidement devenir problématique.\n\n\n\nTous les contrats ne prévoient pas cette prestation. Lorsqu'elle existe, elle est généralement soumise à des conditions précises concernant la durée d'immobilisation ou la nature du sinistre. Avant les grands départs, il est donc utile de vérifier les modalités exactes prévues par son contrat.\n\n\n\nLa protection du conducteur reste essentielle\n\n\n\nIl faut aussi souligner que la garantie Responsabilité Civile protège les victimes d'un accident, mais ne couvre pas automatiquement le conducteur responsable pour ses propres dommages corporels.\n\n\n\nOr l'été correspond également à une période où le trafic routier augmente fortement. Fatigue liée aux longs trajets, circulation dense à proximité des stations balnéaires ou départs aux heures les plus fraîches de la journée constituent autant de facteurs susceptibles d'accroître le risque d'accident. La garantie du conducteur figure ainsi parmi les protections les plus importantes à vérifier avant de prendre la route.\n\n\n\nLe bris de glace est plus fréquent qu'il n'y paraît\n\n\n\nLes trajets estivaux exposent davantage les véhicules aux projections de gravillons, notamment sur les axes à fort trafic ou à proximité des zones de travaux.\n\n\n\nUn simple impact sur un pare-brise peut sembler sans gravité. Pourtant, les fortes chaleurs estivales et les écarts de température provoqués par la climatisation favorisent souvent l'apparition de fissures plus importantes. Avec la généralisation des capteurs et caméras intégrés derrière le pare-brise sur les véhicules récents, le coût d'un remplacement peut rapidement atteindre des montants significatifs.\n\n\n\nQuelques minutes peuvent éviter des désagréments\n\n\n\nSelon l'ACAPS, les assurés ont tout intérêt à prendre connaissance des garanties, des exclusions et des plafonds prévus par leurs contrats avant qu'un incident ne survienne. Un conseil qui prend une dimension particulière à l'approche des vacances d'été.\n\n\n\nVérifier l'état mécanique du véhicule reste indispensable, mais consacrer quelques minutes à relire son contrat d'assurance et d'assistance peut s'avérer tout aussi utile. Cette précaution simple permet d'aborder les grands départs avec davantage de sérénité et d'éviter les mauvaises surprises lorsque le voyage ne se déroule pas exactement comme prévu.\n\n\n\nHicham Atabi",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/assurances/24796-assurance-vacances-il-faut-relire-son-contrat-dassurance",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 206,
-      "titre": "[Autonews] RétroviseursRenault Clio : Une grande petite voiture\nEn automobile, les modes passent, les technologies évoluent et les références d’hier finissent souvent par céder leur place à de nouveaux modèles. La Renault Clio fait figure d’exception. Lancée en 1990 pour succéder à la mythique Renault 5, elle est devenue au fil des décennies la voiture française la plus vendue de l’histoire avec près de 17 millions d’exemplaires écoulés dans plus de 120 pays.\n\n\n\nAu Maroc, où près de 145.000 unités ont trouvé preneur, elle s’est imposée comme l’un des modèles les plus familiers du paysage automobile. Une longévité qui s’explique par la fidélité des clients, et une capacité remarquable à évoluer avec son époque.\n\n\n\nLorsque Renault dévoile la Clio en 1990, le constructeur français a voulu redéfinir les standards de la catégorie. La marque présente alors sa nouvelle venue comme une «grande petite voiture», capable d’offrir davantage de confort, de qualité perçue et d’équipements que les citadines traditionnelles.\n\n\n\nLe pari est gagnant, puisque dès 1991 la Clio décroche le titre de Voiture européenne de l’année. Huit ans plus tard, la Clio II poursuit cette montée en puissance. Plus habitable, plus sûre et plus polyvalente, elle accompagne l’évolution des attentes des automobilistes à une époque où la sécurité devient un critère d’achat majeur.\n\n\n\nL’art de se réinventer\n\n\n\n\n\n\n\nAvec la Clio III, lancée en 2005, Renault change de dimension. Plus grande, mieux équipée et plus ambitieuse, elle brouille les frontières entre citadine et compacte. Cette évolution lui vaut un second titre de Voiture européenne de l’année en 2006, une distinction particulièrement rare.\n\n\n\nQuelques années plus tard, la Clio IV\n\n\n\nopère un virage différent. Sous l’impulsion du designer Laurens van den Acker, elle adopte un style beaucoup plus expressif. Cette génération marque également l’arrivée de nouvelles technologies de connectivité qui répondent aux attentes d’une clientèle de plus en plus connectée.\n\n\n\nLa cinquième génération, lancée en 2019, illustre parfaitement la recette qui a permis à la Clio de traverser les décennies : nouvelle plateforme, qualité perçue en hausse, instrumentation numérique, aides à la conduite avancées et motorisation hybride E-Tech.\n\n\n\nLa Renault Clio entre aujourd’hui dans une nouvelle phase de son histoire. Face à l’essor des SUV, à l’électrification et à l’arrivée de nouveaux constructeurs, la Clio 6 (page 20) doit une nouvelle fois se réinventer sans perdre son identité.\n\n\n\nC’est précisément ce qu’elle fait depuis trente-cinq ans. Car le secret de sa longévité n’a jamais été de rester la même. Il a toujours consisté à évoluer juste assez pour demeurer pertinente.\n\n\n\nHicham Atabi",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/evenements/24800-renault-clio-une-grande-petite-voiture",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 205,
-      "titre": "[Autonews] Sport autoToutes les Compétitions Automobiles",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/67-sport-auto",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 204,
-      "titre": "[Autonews] RétroviseursLes évènements Auto au Maroc et l'international",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/261-evenements",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 203,
-      "titre": "[Autonews] Industrie automobile au Maroc",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/2393-industrie-automobile-au-maroc",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 202,
-      "titre": "[Autonews] Dossier spécialDossiers Thématiques Secteur Automobile",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/88-dossier-special",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 201,
-      "titre": "[Autonews] Auto-MotoEmission 2M Auto-Moto",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/260-auto-moto",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 200,
-      "titre": "[Autonews] Life-styleMontres – Smartphones - Accessoires High Tech",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/87-life-style",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 199,
-      "titre": "[Autonews] MotoDécouvrez Moto Neuve Maroc",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/78-moto",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 198,
-      "titre": "[Autonews] FinancementOffre Financement Voiture Neuve ou Occasion",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/74-financement",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 197,
-      "titre": "[Autonews] EntretiensRencontre avec Acteurs Secteur Automobile",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/83-entretiens",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 196,
-      "titre": "[Autonews] AssurancesContrat Assurance Voiture Neuve ou Occasion",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/75-assurances",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 195,
-      "titre": "[Autonews] Conseils pratiquesComment prendre soin de sa Voiture",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/79-conseils-pratiques",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 194,
-      "titre": "[Autonews] MarchéFluctuations Marché Automobile Maroc",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/86-marche",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 193,
-      "titre": "[Autonews] Matchs | ComparatifsTous les Duels entre Voitures Neuves",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/68-duels-entre-modeles",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 192,
-      "titre": "[Autonews] Promo du momentVoitures en promotion au Maroc",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/89-promo-du-moment",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 191,
-      "titre": "[Autonews] EssaisTous les Essais Automobiles",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/84-essais",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 190,
-      "titre": "[Autonews] NouveautésToutes les nouveautés Automobiles",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/66-nouveautes",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 189,
-      "titre": "[Autonews] Actualité internationaleToute Actualité Automobile Internationale",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/85-actualites-internationale",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 188,
-      "titre": "[Autonews] Actualité nationaleActualité Automobile Maroc",
-      "resume": "Retrouvez tous les détails de cet article d'actualité auto directement sur Autonews.ma.",
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
-      "date_publication": "30/06/2026",
-      "lien_article": "https://autonews.ma/actualite-auto/82-actualites",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 187,
-      "titre": "[Actu. nationale] CHERY conclut avec succès son « Long Distance Challenge » au Maroc",
-      "resume": "Le « CHERY Long Distance Challenge - Endless Horizons Maroc » s’est achevé avec succès, après une traversée de trois jours reliant Casablanca, Tanger et Tétouan, au cœur d’un itinéraire mêlant autoroute, routes nationale...",
-      "image": "https://www.wandaloo.com/files/2026/04/chery-long-distance-challenge-maroc-endless-horizons-2026-3.jpg",
-      "date_publication": "13 avril 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/chery/modele/chery-conclut-avec-succes-son--long-distance-challenge--au-maroc/4833.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 186,
-      "titre": "[Nouveauté Maroc] BAIC BJ30e débarque au Maroc et devient le SUV Full Hybrid le plus puissant du marché !",
-      "resume": "Introduite au Maroc en 2025 au Maroc, la marque BAIC rajoute un 6ème modèle à son catalogue. Le BJ30e, ce SUV familial full hybrid, mise sur son look moderne et son habitacle confortable, tout en mettant en avant son pri...",
-      "image": "https://www.wandaloo.com/files/2026/04/baic-bj30e-2026-full-hybrid-front-maroc.jpg",
-      "date_publication": "14 avril 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/baic/bj30e/baic-bj30e-debarque-au-maroc-et-devient-le-suv-full-hybrid-le-plus-puissant-du-marche-/4831.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 185,
-      "titre": "[Nouveauté Maroc] Nouveau CITROËN C5 Aircross 2026 lancé en grande pompe au Maroc",
-      "resume": "Inédit ! CITROËN Maroc a choisi la Costa del Sol, et plus précisément Marbella pour officialiser l'introduction de la deuxième génération du C5 Aircross sur le marché marocain !",
-      "image": "https://www.wandaloo.com/files/2026/04/CITROEN-C5-AirCross-2026-Neuve-Maroc-lancement-Nawal-AFIQ.jpg",
-      "date_publication": "18 avril 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/marque/modele/nouveau-citroen-c5-aircross-2026-lance-en-grande-pome-au-maroc-/4834.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 184,
-      "titre": "[Essai] FORD Territory 2026 : la polyvalence accessible !",
-      "resume": "Nous avons pris le volant du FORD Territory dans sa déclinaison Full Hybrid. Un SUV familial polyvalent qui propose une dotation en équipements des plus généreuses du marché. Découvrez notre essai complet en images...",
-      "image": "https://www.wandaloo.com/files/2026/04/ford-territory-facelift-2026-full-hybrid-essai-maroc-front.jpg",
-      "date_publication": "22 avril 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/ford/territory/ford-territory-2026--la-polyvalence-accessible-/4835.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 183,
-      "titre": "[Actu. nationale] SIAM 2026 : KIA Maroc exhibe sa gamme complète",
-      "resume": "BAMOTORS Maroc, filiale du groupe GBH et importateur et distributeur exclusif de la marque KIA au Maroc, participe à la 18e édition du Salon International de l'Agriculture au Maroc (SIAM), qui se tient à Meknès du 20 au ...",
-      "image": "https://www.wandaloo.com/files/2026/04/kia-maroc-siam-2026-salon-maroc.jpg",
-      "date_publication": "22 avril 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/kia/modele/siam-2026--kia-maroc-exhibe-sa-gamme-complete/4839.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 182,
-      "titre": "[Essai] Le GEELY EX5 EM-i 2026 coche toutes les bonnes cases !",
-      "resume": "Premier modèle hybride rechargeable de GEELY au Maroc et son modèle le plus récent, la première génération de l’EX5 s’est rapidement imposée comme l’un des best-sellers de la marque chinoise au Royaume. Son secret ? Élém...",
-      "image": "https://www.wandaloo.com/files/2026/04/geely-ex5-em-i-suv-familial-hybride-rechargeable-2026-front-maroc.jpg",
-      "date_publication": "24 avril 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/geely/ex5-phev/le-geely-ex5-em-i-2026-coche-toutes-les-bonnes-cases-/4836.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 181,
-      "titre": "[Nouveauté Maroc] Nouveaux JETOUR T1 et G700 lancés en avant-première au Maroc",
-      "resume": "SMEIA, filiale du Groupe SAFARI et distributeur exclusif de la marque JETOUR au Maroc, a célébré le lancement officiel de la marque à travers une soirée d’exception organisée dans le cadre emblématique de l’Église du Sac...",
-      "image": "https://www.wandaloo.com/files/2026/04/jetour-t1-2026-suv-familial-hybride-rechargeable-maroc.jpg",
-      "date_publication": "28 avril 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/jetour/t1/nouveaux-jetour-t1-et-g700-lances-en-avant-premiere-au-maroc/4837.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 180,
-      "titre": "[Actu. nationale] GWM Tank 300 vainqueur au Rallye Aïcha des Gazelles 2026",
-      "resume": "Le GWM TANK 300 vainqueur du Rallye Aïcha des Gazelles 2026, l'occasion pour la marque chinoise de réunir la presse nationale pour célébrer cet exploit historique ! Jawhara et Dounia Bennani ont dompté le désert marocain...",
-      "image": "https://www.wandaloo.com/files/2026/04/gwm-tank-300-jawhara-dounia-vainqueur-rallye-aicha-des-gazelles-2026-maroc.jpg",
-      "date_publication": "30 avril 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/gwm/tank-300/gwm-tank-300-vainqueur-au-rallye-aicha-des-gazelles-2026/4840.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 179,
-      "titre": "[Nouveauté Maroc] Nouveau JEEP Compass 2026 fait ses débuts au Maroc",
-      "resume": "Le JEEP Compass revient au Maroc dans une nouvelle version mild hybrid (MHEV) de 145 chevaux et avec de grandes ambitions. Ce SUV compact premium qui associe le caractère tout-terrain légendaire de la marque s'offre une ...",
-      "image": "https://www.wandaloo.com/files/2026/04/jeep-compass-2026-suv-compact-lancement-maroc-front.jpg",
-      "date_publication": "30 avril 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/jeep/compass/nouveau-jeep-compass-2026-fait-ses-debuts-au-maroc/4841.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 178,
-      "titre": "[Nouveauté Maroc] CHERY TIGGO 4 Cross : l'hybride accessible débarque au Maroc",
-      "resume": "AFRICA Motors, filiale du Groupe Auto Hall, enrichit la gamme CHERY au Maroc avec le TIGGO 4 Cross HEV. Compact, bien équipé et animé par une motorisation hybride de 211 chevaux, ce SUV urbain s'attaque au segment des cr...",
-      "image": "https://www.wandaloo.com/files/2026/05/CHERY-TIGGO-4-Cross-2026-HEV-hybride-Maroc-2026.jpg",
-      "date_publication": "2 mai 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/chery/tiggo-4-cross-hev/chery-tiggo-4-cross--l-hybride-accessible-debarque-au-maroc/4852.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 177,
-      "titre": "[Nouveauté] VW ID. Polo 2027 : la citadine qui veut démocratiser le zéro émission",
-      "resume": "Cinquante ans après le premier Polo thermique, VOLKSWAGEN présente une version 100% électrique de son best-seller mondial. Dévoilée le 29 avril dernier, la VW ID. Polo vise un large public avec un prix d'attaque annoncé ...",
-      "image": "https://www.wandaloo.com/files/2026/05/VW-ID-POLO-2027-Neuve-Maroc-Reveal.jpg",
-      "date_publication": "2 mai 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/volkswagen/id-polo/vw-id--polo-2027--la-citadine-qui-veut-democratiser-le-zero-emission/4843.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 176,
-      "titre": "[Nouveauté] BMW Série 7 et i7 2027 : le vaisseau amiral bavarois se réinvente",
-      "resume": "La BMW Série 7 s'offre un restylage de mi-carrière ambitieux. Présentée pour la première fois au public au Salon de Pékin 2026, la septième génération de la grande berline bavaroise évolue sur le plan esthétique, technol...",
-      "image": "https://www.wandaloo.com/files/2026/05/BMW-Serie-7-i7-2027-Neuve-Maroc-Front.jpg",
-      "date_publication": "4 mai 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/bmw/serie-7/bmw-serie-7-et-i7-2027--le-vaisseau-amiral-bavarois-se-reinvente/4844.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 175,
-      "titre": "[Nouveauté Maroc] Nouveau GEELY Riddara RD6 PHEV 2026 lancé en avant-première au Maroc",
-      "resume": "GEELY a profité de la tenue du Salon International de l'Agriculture au Maroc (SIAM) 2026 pour présenter le nouveau Riddara RD6 Plug-in Hybrid, un modèle qui marque une double première : la première participation de la ma...",
-      "image": "https://www.wandaloo.com/files/2026/05/geely-riddara-2026-pick-up-phev-lancement-maroc-front.jpg",
-      "date_publication": "5 mai 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/geely/riddara-rd6-phev/nouveau-geely-riddara-rd6-phev-2026-lance-en-avant-premiere-au-maroc/4846.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 174,
-      "titre": "[Nouveauté Maroc] Nouveau TOYOTA bZ4X 100% électrique 2026 débarque au maroc",
-      "resume": "TOYOTA a annoncé le lancement au Maroc du facelift de la première génération du bZ4X, le premier SUV 100% électrique de la marque nippone. Cette commercialisation s'inscrit dans la stratégie de TOYOTA du Maroc d'accélére...",
-      "image": "https://www.wandaloo.com/files/2026/05/toyota-bz4x-100-electrique-2026-lancement-maroc-front.jpg",
-      "date_publication": "5 mai 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/toyota/bz4x/nouveau-toyota-bz4x-100-pourcent-electrique-2026-debarque-au-maroc/4845.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 173,
-      "titre": "[Marché] JAC Motors officiellement lancée au Maroc",
-      "resume": "Après avoir démarré ses activités lors de l'Auto Expo 2025 dédié aux véhicules hybrides et 100% électriques, JAC Motors a annoncé à Had Soualem son lancement officiel au Maroc et a inauguré par la même occasion son nouve...",
-      "image": "https://www.wandaloo.com/files/2026/05/jac-lancement-maroc-inauguration-showroom-had-soualem.jpg",
-      "date_publication": "7 mai 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/jac/modele/jac-motors-officiellement-lancee-au-maroc/4847.html",
-      "created_at": "2026-06-30 01:50:58"
-    },
-    {
-      "id": 172,
-      "titre": "[Nouveauté Maroc] RENAULT Captur fait son « comeback » au Maroc",
-      "resume": "Absent des concessions marocaines depuis 2024, le RENAULT Captur revient sous une mouture restylée. Nouveau visage, habitacle modernisé, motorisation hybride inédite : le SUV urbain du losange frappe fort pour reconquéri...",
-      "image": "https://www.wandaloo.com/files/2026/05/RENAULT-Captur-2026-Neuve-Maroc-lancement.jpg",
-      "date_publication": "7 mai 2026",
-      "lien_article": "https://www.wandaloo.com/autonews/renault/captur-e-tech/renault-captur-fait-son--comeback--au-maroc-/4848.html",
       "created_at": "2026-06-30 01:50:58"
     }
   ]
