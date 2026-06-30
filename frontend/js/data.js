@@ -4,7 +4,7 @@ const STATIC_DATA = {
       "id": "alfa-romeo",
       "nom": "Alfa Romeo",
       "pays": "Non spécifié",
-      "logo": "../images/logos/alfa-romeo.jpg",
+      "logo": "/images/logos/alfa-romeo.jpg",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 299000,
@@ -15,7 +15,7 @@ const STATIC_DATA = {
       "id": "audi",
       "nom": "Audi",
       "pays": "Non spécifié",
-      "logo": "../images/logos/audi.jpg",
+      "logo": "/images/logos/audi.jpg",
       "site_officiel": "",
       "nb_modeles": 17,
       "prix_min": 299900,
@@ -26,7 +26,7 @@ const STATIC_DATA = {
       "id": "baic",
       "nom": "BAIC",
       "pays": "Non spécifié",
-      "logo": "../images/logos/baic.jpg",
+      "logo": "/images/logos/baic.jpg",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 165000,
@@ -37,7 +37,7 @@ const STATIC_DATA = {
       "id": "bmw",
       "nom": "BMW",
       "pays": "Non spécifié",
-      "logo": "../images/logos/bmw.jpg",
+      "logo": "/images/logos/bmw.jpg",
       "site_officiel": "",
       "nb_modeles": 22,
       "prix_min": 334000,
@@ -48,7 +48,7 @@ const STATIC_DATA = {
       "id": "byd",
       "nom": "BYD",
       "pays": "Non spécifié",
-      "logo": "../images/logos/byd.jpg",
+      "logo": "/images/logos/byd.jpg",
       "site_officiel": "",
       "nb_modeles": 11,
       "prix_min": 199900,
@@ -59,7 +59,7 @@ const STATIC_DATA = {
       "id": "changan",
       "nom": "Changan",
       "pays": "Non spécifié",
-      "logo": "../images/logos/changan.jpg",
+      "logo": "/images/logos/changan.jpg",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 139900,
@@ -70,7 +70,7 @@ const STATIC_DATA = {
       "id": "chery",
       "nom": "Chery",
       "pays": "Non spécifié",
-      "logo": "../images/logos/chery.jpg",
+      "logo": "/images/logos/chery.jpg",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 145000,
@@ -81,7 +81,7 @@ const STATIC_DATA = {
       "id": "citroen",
       "nom": "Citroën",
       "pays": "Non spécifié",
-      "logo": "../images/logos/citroen.jpg",
+      "logo": "/images/logos/citroen.jpg",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 90900,
@@ -92,7 +92,7 @@ const STATIC_DATA = {
       "id": "cupra",
       "nom": "Cupra",
       "pays": "Non spécifié",
-      "logo": "../images/logos/cupra.jpg",
+      "logo": "/images/logos/cupra.jpg",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 349900,
@@ -103,7 +103,7 @@ const STATIC_DATA = {
       "id": "dfsk",
       "nom": "DFSK",
       "pays": "Non spécifié",
-      "logo": "../images/logos/dfsk.jpg",
+      "logo": "/images/logos/dfsk.jpg",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 195000,
@@ -114,7 +114,7 @@ const STATIC_DATA = {
       "id": "ds",
       "nom": "DS",
       "pays": "Non spécifié",
-      "logo": "../images/logos/ds.jpg",
+      "logo": "/images/logos/ds.jpg",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 329900,
@@ -125,7 +125,7 @@ const STATIC_DATA = {
       "id": "dacia",
       "nom": "Dacia",
       "pays": "Non spécifié",
-      "logo": "../images/logos/dacia.jpg",
+      "logo": "/images/logos/dacia.jpg",
       "site_officiel": "",
       "nb_modeles": 9,
       "prix_min": 132000,
@@ -136,7 +136,7 @@ const STATIC_DATA = {
       "id": "deepal",
       "nom": "Deepal",
       "pays": "Non spécifié",
-      "logo": "../images/logos/deepal.jpg",
+      "logo": "/images/logos/deepal.jpg",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 329900,
@@ -147,7 +147,7 @@ const STATIC_DATA = {
       "id": "dongfeng",
       "nom": "Dongfeng",
       "pays": "Non spécifié",
-      "logo": "../images/logos/dongfeng.jpg",
+      "logo": "/images/logos/dongfeng.jpg",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 179000,
@@ -158,7 +158,7 @@ const STATIC_DATA = {
       "id": "fiat",
       "nom": "Fiat",
       "pays": "Non spécifié",
-      "logo": "../images/logos/fiat.jpg",
+      "logo": "/images/logos/fiat.jpg",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 230000,
@@ -169,7 +169,7 @@ const STATIC_DATA = {
       "id": "ford",
       "nom": "Ford",
       "pays": "Non spécifié",
-      "logo": "../images/logos/ford.jpg",
+      "logo": "/images/logos/ford.jpg",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 315000,
@@ -180,7 +180,7 @@ const STATIC_DATA = {
       "id": "gwm",
       "nom": "GWM",
       "pays": "Non spécifié",
-      "logo": "../images/logos/gwm.jpg",
+      "logo": "/images/logos/gwm.jpg",
       "site_officiel": "",
       "nb_modeles": 10,
       "prix_min": 199900,
@@ -191,7 +191,7 @@ const STATIC_DATA = {
       "id": "geely",
       "nom": "Geely",
       "pays": "Non spécifié",
-      "logo": "../images/logos/geely.jpg",
+      "logo": "/images/logos/geely.jpg",
       "site_officiel": "",
       "nb_modeles": 8,
       "prix_min": 129900,
@@ -202,7 +202,7 @@ const STATIC_DATA = {
       "id": "honda",
       "nom": "Honda",
       "pays": "Non spécifié",
-      "logo": "../images/logos/honda.jpg",
+      "logo": "/images/logos/honda.jpg",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 215000,
@@ -213,7 +213,7 @@ const STATIC_DATA = {
       "id": "hyundai",
       "nom": "Hyundai",
       "pays": "Non spécifié",
-      "logo": "../images/logos/hyundai.jpg",
+      "logo": "/images/logos/hyundai.jpg",
       "site_officiel": "",
       "nb_modeles": 14,
       "prix_min": 162900,
@@ -224,7 +224,7 @@ const STATIC_DATA = {
       "id": "jac",
       "nom": "JAC",
       "pays": "Non spécifié",
-      "logo": "../images/logos/jac.jpg",
+      "logo": "/images/logos/jac.jpg",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 198000,
@@ -235,7 +235,7 @@ const STATIC_DATA = {
       "id": "jaecoo",
       "nom": "Jaecoo",
       "pays": "Non spécifié",
-      "logo": "../images/logos/jaecoo.jpg",
+      "logo": "/images/logos/jaecoo.jpg",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 369000,
@@ -246,7 +246,7 @@ const STATIC_DATA = {
       "id": "jaguar",
       "nom": "Jaguar",
       "pays": "Non spécifié",
-      "logo": "../images/logos/jaguar.jpg",
+      "logo": "/images/logos/jaguar.jpg",
       "site_officiel": "",
       "nb_modeles": 1,
       "prix_min": 786360,
@@ -257,7 +257,7 @@ const STATIC_DATA = {
       "id": "jeep",
       "nom": "Jeep",
       "pays": "Non spécifié",
-      "logo": "../images/logos/jeep.jpg",
+      "logo": "/images/logos/jeep.jpg",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 262400,
@@ -268,7 +268,7 @@ const STATIC_DATA = {
       "id": "kia",
       "nom": "Kia",
       "pays": "Non spécifié",
-      "logo": "../images/logos/kia.jpg",
+      "logo": "/images/logos/kia.jpg",
       "site_officiel": "",
       "nb_modeles": 13,
       "prix_min": 142900,
@@ -279,7 +279,7 @@ const STATIC_DATA = {
       "id": "land-rover",
       "nom": "Land Rover",
       "pays": "Non spécifié",
-      "logo": "../images/logos/land-rover.jpg",
+      "logo": "/images/logos/land-rover.jpg",
       "site_officiel": "",
       "nb_modeles": 8,
       "prix_min": 559000,
@@ -290,7 +290,7 @@ const STATIC_DATA = {
       "id": "lexus",
       "nom": "Lexus",
       "pays": "Non spécifié",
-      "logo": "../images/logos/lexus.jpg",
+      "logo": "/images/logos/lexus.jpg",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 409900,
@@ -301,7 +301,7 @@ const STATIC_DATA = {
       "id": "lynk-et-co",
       "nom": "Lynk & Co",
       "pays": "Non spécifié",
-      "logo": "../images/logos/lynk-et-co.jpg",
+      "logo": "/images/logos/lynk-et-co.jpg",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 259000,
@@ -312,7 +312,7 @@ const STATIC_DATA = {
       "id": "mg",
       "nom": "MG",
       "pays": "Non spécifié",
-      "logo": "../images/logos/mg.jpg",
+      "logo": "/images/logos/mg.jpg",
       "site_officiel": "",
       "nb_modeles": 8,
       "prix_min": 169000,
@@ -323,7 +323,7 @@ const STATIC_DATA = {
       "id": "mahindra",
       "nom": "Mahindra",
       "pays": "Non spécifié",
-      "logo": "../images/logos/mahindra.jpg",
+      "logo": "/images/logos/mahindra.jpg",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 116900,
@@ -334,7 +334,7 @@ const STATIC_DATA = {
       "id": "maserati",
       "nom": "Maserati",
       "pays": "Non spécifié",
-      "logo": "../images/logos/maserati.jpg",
+      "logo": "/images/logos/maserati.jpg",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 769000,
@@ -345,7 +345,7 @@ const STATIC_DATA = {
       "id": "mazda",
       "nom": "Mazda",
       "pays": "Non spécifié",
-      "logo": "../images/logos/mazda.jpg",
+      "logo": "/images/logos/mazda.jpg",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 295000,
@@ -356,7 +356,7 @@ const STATIC_DATA = {
       "id": "mercedes",
       "nom": "Mercedes-Benz",
       "pays": "Non spécifié",
-      "logo": "../images/logos/mercedes.jpg",
+      "logo": "/images/logos/mercedes.jpg",
       "site_officiel": "",
       "nb_modeles": 26,
       "prix_min": 399000,
@@ -367,7 +367,7 @@ const STATIC_DATA = {
       "id": "mini",
       "nom": "Mini",
       "pays": "Non spécifié",
-      "logo": "../images/logos/mini.jpg",
+      "logo": "/images/logos/mini.jpg",
       "site_officiel": "",
       "nb_modeles": 6,
       "prix_min": 325000,
@@ -378,7 +378,7 @@ const STATIC_DATA = {
       "id": "mitsubishi",
       "nom": "Mitsubishi",
       "pays": "Non spécifié",
-      "logo": "../images/logos/mitsubishi.jpg",
+      "logo": "/images/logos/mitsubishi.jpg",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 289900,
@@ -389,7 +389,7 @@ const STATIC_DATA = {
       "id": "nissan",
       "nom": "Nissan",
       "pays": "Non spécifié",
-      "logo": "../images/logos/nissan.jpg",
+      "logo": "/images/logos/nissan.jpg",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 149900,
@@ -400,7 +400,7 @@ const STATIC_DATA = {
       "id": "omoda",
       "nom": "Omoda",
       "pays": "Non spécifié",
-      "logo": "../images/logos/omoda.jpg",
+      "logo": "/images/logos/omoda.jpg",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 209000,
@@ -411,7 +411,7 @@ const STATIC_DATA = {
       "id": "opel",
       "nom": "Opel",
       "pays": "Non spécifié",
-      "logo": "../images/logos/opel.jpg",
+      "logo": "/images/logos/opel.jpg",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 99000,
@@ -422,7 +422,7 @@ const STATIC_DATA = {
       "id": "peugeot",
       "nom": "Peugeot",
       "pays": "Non spécifié",
-      "logo": "../images/logos/peugeot.jpg",
+      "logo": "/images/logos/peugeot.jpg",
       "site_officiel": "",
       "nb_modeles": 10,
       "prix_min": 214100,
@@ -433,7 +433,7 @@ const STATIC_DATA = {
       "id": "porsche",
       "nom": "Porsche",
       "pays": "Non spécifié",
-      "logo": "../images/logos/porsche.jpg",
+      "logo": "/images/logos/porsche.jpg",
       "site_officiel": "",
       "nb_modeles": 11,
       "prix_min": 940000,
@@ -444,7 +444,7 @@ const STATIC_DATA = {
       "id": "renault",
       "nom": "Renault",
       "pays": "Non spécifié",
-      "logo": "../images/logos/renault.jpg",
+      "logo": "/images/logos/renault.jpg",
       "site_officiel": "",
       "nb_modeles": 13,
       "prix_min": 155000,
@@ -455,7 +455,7 @@ const STATIC_DATA = {
       "id": "seat",
       "nom": "Seat",
       "pays": "Non spécifié",
-      "logo": "../images/logos/seat.jpg",
+      "logo": "/images/logos/seat.jpg",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 169000,
@@ -466,7 +466,7 @@ const STATIC_DATA = {
       "id": "skoda",
       "nom": "Skoda",
       "pays": "Non spécifié",
-      "logo": "../images/logos/skoda.jpg",
+      "logo": "/images/logos/skoda.jpg",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 171900,
@@ -477,7 +477,7 @@ const STATIC_DATA = {
       "id": "soueast",
       "nom": "Soueast",
       "pays": "Non spécifié",
-      "logo": "../images/logos/soueast.jpg",
+      "logo": "/images/logos/soueast.jpg",
       "site_officiel": "",
       "nb_modeles": 6,
       "prix_min": 193900,
@@ -488,7 +488,7 @@ const STATIC_DATA = {
       "id": "suzuki",
       "nom": "Suzuki",
       "pays": "Non spécifié",
-      "logo": "../images/logos/suzuki.jpg",
+      "logo": "/images/logos/suzuki.jpg",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 189000,
@@ -499,7 +499,7 @@ const STATIC_DATA = {
       "id": "toyota",
       "nom": "Toyota",
       "pays": "Non spécifié",
-      "logo": "../images/logos/toyota.jpg",
+      "logo": "/images/logos/toyota.jpg",
       "site_officiel": "",
       "nb_modeles": 10,
       "prix_min": 220200,
@@ -510,7 +510,7 @@ const STATIC_DATA = {
       "id": "volkswagen",
       "nom": "Volkswagen",
       "pays": "Non spécifié",
-      "logo": "../images/logos/volkswagen.jpg",
+      "logo": "/images/logos/volkswagen.jpg",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 253000,
@@ -521,7 +521,7 @@ const STATIC_DATA = {
       "id": "volvo",
       "nom": "Volvo",
       "pays": "Non spécifié",
-      "logo": "../images/logos/volvo.jpg",
+      "logo": "/images/logos/volvo.jpg",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 380000,
@@ -532,7 +532,7 @@ const STATIC_DATA = {
       "id": "zeekr",
       "nom": "Zeekr",
       "pays": "Non spécifié",
-      "logo": "../images/logos/zeekr.jpg",
+      "logo": "/images/logos/zeekr.jpg",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 359000,
@@ -567,7 +567,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 255,
+        "id": 295,
         "model_id": "alfa-romeo-junior",
         "motorisation_id": null,
         "longueur": "",
@@ -647,7 +647,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 256,
+        "id": 296,
         "model_id": "alfa-romeo-junior-ev",
         "motorisation_id": null,
         "longueur": "",
@@ -727,7 +727,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 257,
+        "id": 297,
         "model_id": "alfa-romeo-stelvio",
         "motorisation_id": null,
         "longueur": "",
@@ -807,7 +807,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 258,
+        "id": 298,
         "model_id": "alfa-romeo-tonale",
         "motorisation_id": null,
         "longueur": "",
@@ -887,7 +887,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 259,
+        "id": 299,
         "model_id": "audi-a1-sportback",
         "motorisation_id": null,
         "longueur": "",
@@ -976,7 +976,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 260,
+        "id": 300,
         "model_id": "audi-a3",
         "motorisation_id": null,
         "longueur": "",
@@ -1035,7 +1035,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 261,
+        "id": 301,
         "model_id": "audi-a3-berline",
         "motorisation_id": null,
         "longueur": "",
@@ -1115,7 +1115,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 262,
+        "id": 302,
         "model_id": "audi-a3-sportback",
         "motorisation_id": null,
         "longueur": "",
@@ -1204,7 +1204,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 263,
+        "id": 303,
         "model_id": "audi-a4",
         "motorisation_id": null,
         "longueur": "",
@@ -1263,7 +1263,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 264,
+        "id": 304,
         "model_id": "audi-a5",
         "motorisation_id": null,
         "longueur": "",
@@ -1343,7 +1343,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 265,
+        "id": 305,
         "model_id": "audi-a6",
         "motorisation_id": null,
         "longueur": "",
@@ -1423,7 +1423,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 266,
+        "id": 306,
         "model_id": "audi-a6-e-tron",
         "motorisation_id": null,
         "longueur": "",
@@ -1503,7 +1503,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 267,
+        "id": 307,
         "model_id": "audi-a6-phev",
         "motorisation_id": null,
         "longueur": "",
@@ -1583,7 +1583,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 268,
+        "id": 308,
         "model_id": "audi-a8",
         "motorisation_id": null,
         "longueur": "",
@@ -1663,7 +1663,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 269,
+        "id": 309,
         "model_id": "audi-q2",
         "motorisation_id": null,
         "longueur": "",
@@ -1743,7 +1743,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 270,
+        "id": 310,
         "model_id": "audi-q3",
         "motorisation_id": null,
         "longueur": ": 1 réponse(s)",
@@ -1823,7 +1823,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 271,
+        "id": 311,
         "model_id": "audi-q3-sportback",
         "motorisation_id": null,
         "longueur": "",
@@ -1912,7 +1912,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 272,
+        "id": 312,
         "model_id": "audi-q5",
         "motorisation_id": null,
         "longueur": "",
@@ -1971,7 +1971,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 273,
+        "id": 313,
         "model_id": "audi-q5-sportback",
         "motorisation_id": null,
         "longueur": "",
@@ -2051,7 +2051,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 274,
+        "id": 314,
         "model_id": "audi-q6-e-tron",
         "motorisation_id": null,
         "longueur": "",
@@ -2131,7 +2131,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 275,
+        "id": 315,
         "model_id": "audi-q7",
         "motorisation_id": null,
         "longueur": "",
@@ -2211,7 +2211,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 276,
+        "id": 316,
         "model_id": "audi-q7-phev",
         "motorisation_id": null,
         "longueur": "",
@@ -2291,7 +2291,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 277,
+        "id": 317,
         "model_id": "audi-q8",
         "motorisation_id": null,
         "longueur": "",
@@ -2371,7 +2371,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 278,
+        "id": 318,
         "model_id": "baic-bj30e",
         "motorisation_id": null,
         "longueur": "",
@@ -2451,7 +2451,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 279,
+        "id": 319,
         "model_id": "baic-u5-plus",
         "motorisation_id": null,
         "longueur": "",
@@ -2531,7 +2531,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 280,
+        "id": 320,
         "model_id": "baic-x35",
         "motorisation_id": null,
         "longueur": "",
@@ -2611,7 +2611,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 281,
+        "id": 321,
         "model_id": "baic-x55",
         "motorisation_id": null,
         "longueur": "",
@@ -2691,7 +2691,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 282,
+        "id": 322,
         "model_id": "baic-x7",
         "motorisation_id": null,
         "longueur": "",
@@ -2771,7 +2771,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 283,
+        "id": 323,
         "model_id": "bmw-i5",
         "motorisation_id": null,
         "longueur": "",
@@ -2851,7 +2851,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 284,
+        "id": 324,
         "model_id": "bmw-ix",
         "motorisation_id": null,
         "longueur": "",
@@ -2940,7 +2940,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 285,
+        "id": 325,
         "model_id": "bmw-serie-1",
         "motorisation_id": null,
         "longueur": "",
@@ -2999,7 +2999,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 286,
+        "id": 326,
         "model_id": "bmw-serie-2-gran-coupe",
         "motorisation_id": null,
         "longueur": "",
@@ -3097,7 +3097,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 287,
+        "id": 327,
         "model_id": "bmw-serie-3",
         "motorisation_id": null,
         "longueur": "",
@@ -3156,7 +3156,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 288,
+        "id": 328,
         "model_id": "bmw-serie-4-cabriolet",
         "motorisation_id": null,
         "longueur": "",
@@ -3236,7 +3236,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 289,
+        "id": 329,
         "model_id": "bmw-serie-4-coupe",
         "motorisation_id": null,
         "longueur": "",
@@ -3316,7 +3316,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 290,
+        "id": 330,
         "model_id": "bmw-serie-4-gran-coupe",
         "motorisation_id": null,
         "longueur": "",
@@ -3414,7 +3414,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 291,
+        "id": 331,
         "model_id": "bmw-serie-5",
         "motorisation_id": null,
         "longueur": "",
@@ -3473,7 +3473,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 292,
+        "id": 332,
         "model_id": "bmw-serie-5-phev",
         "motorisation_id": null,
         "longueur": "",
@@ -3553,7 +3553,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 293,
+        "id": 333,
         "model_id": "bmw-serie-7",
         "motorisation_id": null,
         "longueur": "",
@@ -3633,7 +3633,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 294,
+        "id": 334,
         "model_id": "bmw-serie-7-phev",
         "motorisation_id": null,
         "longueur": "",
@@ -3713,13 +3713,13 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 62,
+        "id": 335,
         "model_id": "bmw-x1",
         "motorisation_id": null,
         "longueur": "",
         "largeur": "",
         "hauteur": "",
-        "empattement": "son extérieur est marqué par des porte-à-faux cour",
+        "empattement": "",
         "poids": "",
         "coffre": "",
         "cylindree": "",
@@ -3734,7 +3734,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -3792,7 +3792,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 336,
+        "model_id": "bmw-x2",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1233,
@@ -3859,28 +3882,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 239,
+        "id": 337,
         "model_id": "bmw-x3",
         "motorisation_id": null,
-        "longueur": "4708 mm",
-        "largeur": "1897 mm",
-        "hauteur": "1676 mm",
-        "empattement": "2864 mm",
-        "poids": "1745 kg",
-        "coffre": "570 L",
-        "cylindree": "1998 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "235 km/h",
-        "acceleration": "6.4 s",
-        "conso_urbaine": "8.0 L/100km",
-        "conso_extra": "6.2 L/100km",
-        "conso_mixte": "6.9 L/100km",
-        "emission_co2": "157 g/km",
-        "reservoir": "65 L",
-        "roues": "18 pouces",
-        "pneus": "225/60 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -3917,7 +3940,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 338,
+        "model_id": "bmw-x4",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1241,
@@ -3974,7 +4020,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 339,
+        "model_id": "bmw-x5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1245,
@@ -4031,7 +4100,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 340,
+        "model_id": "bmw-x5-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1249,
@@ -4089,7 +4181,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 64,
+        "id": 341,
         "model_id": "bmw-x6",
         "motorisation_id": null,
         "longueur": "",
@@ -4099,8 +4191,8 @@ const STATIC_DATA = {
         "poids": "",
         "coffre": "",
         "cylindree": "",
-        "cylindres": "Dans la Nouvelle BMW X6, la dynamique sportive max",
-        "turbo": "Dans la Nouvelle BMW X6, la dynamique sportive max",
+        "cylindres": "",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -4110,7 +4202,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -4168,7 +4260,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 342,
+        "model_id": "bmw-x7",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1257,
@@ -4225,7 +4340,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 343,
+        "model_id": "bmw-xm",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1265,
@@ -4282,7 +4420,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 344,
+        "model_id": "bmw-z4",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1269,
@@ -4339,7 +4500,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 345,
+        "model_id": "byd-atto-2-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1841,
@@ -4396,7 +4580,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 346,
+        "model_id": "byd-atto-3",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1845,
@@ -4454,7 +4661,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 65,
+        "id": 347,
         "model_id": "byd-atto-3-evo",
         "motorisation_id": null,
         "longueur": "",
@@ -4473,9 +4680,9 @@ const STATIC_DATA = {
         "conso_mixte": "",
         "emission_co2": "",
         "reservoir": "",
-        "roues": "313 et 449 ch avec transmission 2 et 4  motrices.",
+        "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -4543,28 +4750,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 248,
+        "id": 348,
         "model_id": "byd-atto3",
         "motorisation_id": null,
-        "longueur": "4455 mm",
-        "largeur": "1875 mm",
-        "hauteur": "1615 mm",
-        "empattement": "2720 mm",
-        "poids": "1750 kg",
-        "coffre": "440 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "160 km/h",
-        "acceleration": "7.3 s",
-        "conso_urbaine": "18.5 kWh/100km",
-        "conso_extra": "14.5 kWh/100km",
-        "conso_mixte": "16.2 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "60.5 kWh",
-        "roues": "18 pouces",
-        "pneus": "235/50 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -4611,28 +4818,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 251,
+        "id": 349,
         "model_id": "byd-dolphin",
         "motorisation_id": null,
-        "longueur": "4290 mm",
-        "largeur": "1770 mm",
-        "hauteur": "1570 mm",
-        "empattement": "2700 mm",
-        "poids": "1490 kg",
-        "coffre": "345 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "160 km/h",
-        "acceleration": "7.0 s",
-        "conso_urbaine": "15.0 kWh/100km",
-        "conso_extra": "12.5 kWh/100km",
-        "conso_mixte": "13.5 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "60.4 kWh",
-        "roues": "17 pouces",
-        "pneus": "205/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -4670,7 +4877,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 66,
+        "id": 350,
         "model_id": "byd-han",
         "motorisation_id": null,
         "longueur": "",
@@ -4683,7 +4890,7 @@ const STATIC_DATA = {
         "cylindres": "",
         "turbo": "",
         "vitesse_max": "",
-        "acceleration": "La berline BYD Han au profil de coupé se veut très",
+        "acceleration": "",
         "conso_urbaine": "",
         "conso_extra": "",
         "conso_mixte": "",
@@ -4691,7 +4898,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -4749,7 +4956,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 351,
+        "model_id": "byd-seagull",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1825,
@@ -4816,28 +5046,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 249,
+        "id": 352,
         "model_id": "byd-seal",
         "motorisation_id": null,
-        "longueur": "4800 mm",
-        "largeur": "1875 mm",
-        "hauteur": "1460 mm",
-        "empattement": "2920 mm",
-        "poids": "2150 kg",
-        "coffre": "400 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "180 km/h",
-        "acceleration": "3.8 s",
-        "conso_urbaine": "19.0 kWh/100km",
-        "conso_extra": "15.5 kWh/100km",
-        "conso_mixte": "17.0 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "82.5 kWh",
-        "roues": "19 pouces",
-        "pneus": "235/45 R19",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -4874,7 +5104,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 353,
+        "model_id": "byd-seal-5-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1829,
@@ -4932,14 +5185,14 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 67,
+        "id": 354,
         "model_id": "byd-seal-u-phev",
         "motorisation_id": null,
         "longueur": "",
         "largeur": "",
         "hauteur": "",
         "empattement": "",
-        "poids": "Voiture chinoise \n          Said oubejja  - le 20 ",
+        "poids": "",
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
@@ -4953,7 +5206,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5011,7 +5264,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 355,
+        "model_id": "byd-sealion-5-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1853,
@@ -5069,13 +5345,13 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 68,
+        "id": 356,
         "model_id": "byd-sealion-7",
         "motorisation_id": null,
         "longueur": "",
         "largeur": "",
         "hauteur": "",
-        "empattement": "Le BYD, SEALION 7 transcende la définition traditi",
+        "empattement": "",
         "poids": "",
         "coffre": "",
         "cylindree": "",
@@ -5090,7 +5366,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5149,28 +5425,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 250,
+        "id": 357,
         "model_id": "byd-tang",
         "motorisation_id": null,
-        "longueur": "4870 mm",
-        "largeur": "1955 mm",
-        "hauteur": "1725 mm",
-        "empattement": "2820 mm",
-        "poids": "2618 kg",
-        "coffre": "235 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "190 km/h",
-        "acceleration": "4.6 s",
-        "conso_urbaine": "26.5 kWh/100km",
-        "conso_extra": "21.5 kWh/100km",
-        "conso_mixte": "23.6 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "108.8 kWh",
-        "roues": "22 pouces",
-        "pneus": "265/45 R22",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5207,7 +5483,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 358,
+        "model_id": "changan-alsvin",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1929,
@@ -5264,7 +5563,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 359,
+        "model_id": "changan-cs15",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1933,
@@ -5322,7 +5644,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 69,
+        "id": 360,
         "model_id": "changan-cs35",
         "motorisation_id": null,
         "longueur": "",
@@ -5333,7 +5655,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "1.4 Turbo 158 AT Exclusive\n                       ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -5343,7 +5665,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5402,7 +5724,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 70,
+        "id": 361,
         "model_id": "changan-cs55",
         "motorisation_id": null,
         "longueur": "",
@@ -5413,7 +5735,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "1.5 Turbo 181 AT Exclusive\n                       ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -5423,7 +5745,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5482,7 +5804,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 71,
+        "id": 362,
         "model_id": "changan-uni-k",
         "motorisation_id": null,
         "longueur": "",
@@ -5493,7 +5815,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "2.0 Turbo 226 AT Exclusive\n                       ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -5503,7 +5825,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5562,7 +5884,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 72,
+        "id": 363,
         "model_id": "chery-arrizo-6",
         "motorisation_id": null,
         "longueur": "",
@@ -5573,7 +5895,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "La CHERY Arrizo 6 est une berline statutaire qui s",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -5583,7 +5905,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5651,28 +5973,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 254,
+        "id": 364,
         "model_id": "chery-omoda5",
         "motorisation_id": null,
-        "longueur": "4400 mm",
-        "largeur": "1833 mm",
-        "hauteur": "1588 mm",
-        "empattement": "2630 mm",
-        "poids": "1520 kg",
-        "coffre": "390 L",
-        "cylindree": "1597 cc",
-        "cylindres": "4",
-        "turbo": "Oui (TGDI)",
-        "vitesse_max": "185 km/h",
-        "acceleration": "9.0 s",
-        "conso_urbaine": "8.0 L/100km",
-        "conso_extra": "6.0 L/100km",
-        "conso_mixte": "6.8 L/100km",
-        "emission_co2": "154 g/km",
-        "reservoir": "50 L",
-        "roues": "18 pouces",
-        "pneus": "235/50 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5709,7 +6031,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 365,
+        "model_id": "chery-tiggo-2-pro",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1873,
@@ -5767,7 +6112,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 73,
+        "id": 366,
         "model_id": "chery-tiggo-3-x",
         "motorisation_id": null,
         "longueur": "",
@@ -5778,7 +6123,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Le CHERY Tiggo 3X est un crossover urbain ultra-co",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -5788,7 +6133,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5856,28 +6201,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 252,
+        "id": 367,
         "model_id": "chery-tiggo-4",
         "motorisation_id": null,
-        "longueur": "4318 mm",
-        "largeur": "1818 mm",
-        "hauteur": "1669 mm",
-        "empattement": "2630 mm",
-        "poids": "1371 kg",
-        "coffre": "385 L",
-        "cylindree": "1497 cc",
-        "cylindres": "4",
-        "turbo": "Oui (TGDI)",
-        "vitesse_max": "178 km/h",
-        "acceleration": "9.8 s",
-        "conso_urbaine": "7.8 L/100km",
-        "conso_extra": "5.9 L/100km",
-        "conso_mixte": "6.6 L/100km",
-        "emission_co2": "149 g/km",
-        "reservoir": "50 L",
-        "roues": "17 pouces",
-        "pneus": "215/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -5914,7 +6259,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 368,
+        "model_id": "chery-tiggo-4-cross-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1885,
@@ -5971,7 +6339,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 369,
+        "model_id": "chery-tiggo-4-pro",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1881,
@@ -6029,28 +6420,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 253,
+        "id": 370,
         "model_id": "chery-tiggo-7",
         "motorisation_id": null,
-        "longueur": "4547 mm",
-        "largeur": "1862 mm",
-        "hauteur": "1694 mm",
-        "empattement": "2672 mm",
-        "poids": "1600 kg",
-        "coffre": "507 L",
-        "cylindree": "1597 cc",
-        "cylindres": "4",
-        "turbo": "Oui (TGDI)",
-        "vitesse_max": "195 km/h",
-        "acceleration": "7.9 s",
-        "conso_urbaine": "8.3 L/100km",
-        "conso_extra": "6.5 L/100km",
-        "conso_mixte": "7.2 L/100km",
-        "emission_co2": "163 g/km",
-        "reservoir": "60 L",
-        "roues": "18 pouces",
-        "pneus": "235/55 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -6087,7 +6478,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 371,
+        "model_id": "chery-tiggo-7-pro-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1889,
@@ -6144,7 +6558,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 372,
+        "model_id": "chery-tiggo-8-pro-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1893,
@@ -6201,7 +6638,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 373,
+        "model_id": "citroen-ami",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1061,
@@ -6268,28 +6728,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 210,
+        "id": 374,
         "model_id": "citroen-berlingo",
         "motorisation_id": null,
-        "longueur": "4403 mm",
-        "largeur": "1848 mm",
-        "hauteur": "1843 mm",
-        "empattement": "2785 mm",
-        "poids": "1405 kg",
-        "coffre": "775 L",
-        "cylindree": "1199 cc",
-        "cylindres": "3",
-        "turbo": "Oui",
-        "vitesse_max": "182 km/h",
-        "acceleration": "10.3 s",
-        "conso_urbaine": "7.1 L/100km",
-        "conso_extra": "5.4 L/100km",
-        "conso_mixte": "6.0 L/100km",
-        "emission_co2": "138 g/km",
-        "reservoir": "50 L",
-        "roues": "16 pouces",
-        "pneus": "195/65 R16",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -6336,28 +6796,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 208,
+        "id": 375,
         "model_id": "citroen-c3",
         "motorisation_id": null,
-        "longueur": "4015 mm",
-        "largeur": "1755 mm",
-        "hauteur": "1577 mm",
-        "empattement": "2540 mm",
-        "poids": "1046 kg",
-        "coffre": "316 L",
-        "cylindree": "1199 cc",
-        "cylindres": "3",
-        "turbo": "Oui (PureTech)",
-        "vitesse_max": "178 km/h",
-        "acceleration": "11.3 s",
-        "conso_urbaine": "5.9 L/100km",
-        "conso_extra": "4.4 L/100km",
-        "conso_mixte": "5.0 L/100km",
-        "emission_co2": "114 g/km",
-        "reservoir": "44 L",
-        "roues": "16 pouces",
-        "pneus": "195/55 R16",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -6394,7 +6854,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 376,
+        "model_id": "citroen-c3-aircross",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1077,
@@ -6470,28 +6953,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 211,
+        "id": 377,
         "model_id": "citroen-c4",
         "motorisation_id": null,
-        "longueur": "4360 mm",
-        "largeur": "1800 mm",
-        "hauteur": "1525 mm",
-        "empattement": "2670 mm",
-        "poids": "1232 kg",
-        "coffre": "380 L",
-        "cylindree": "1199 cc",
-        "cylindres": "3",
-        "turbo": "Oui",
-        "vitesse_max": "193 km/h",
-        "acceleration": "9.6 s",
-        "conso_urbaine": "6.5 L/100km",
-        "conso_extra": "5.0 L/100km",
-        "conso_mixte": "5.5 L/100km",
-        "emission_co2": "126 g/km",
-        "reservoir": "50 L",
-        "roues": "17 pouces",
-        "pneus": "215/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -6528,7 +7011,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 378,
+        "model_id": "citroen-c4-x",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1073,
@@ -6604,28 +7110,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 209,
+        "id": 379,
         "model_id": "citroen-c5-aircross",
         "motorisation_id": null,
-        "longueur": "4500 mm",
-        "largeur": "1844 mm",
-        "hauteur": "1670 mm",
-        "empattement": "2730 mm",
-        "poids": "1447 kg",
-        "coffre": "580 L",
-        "cylindree": "1199 cc",
-        "cylindres": "3",
-        "turbo": "Oui",
-        "vitesse_max": "210 km/h",
-        "acceleration": "8.9 s",
-        "conso_urbaine": "7.0 L/100km",
-        "conso_extra": "5.4 L/100km",
-        "conso_mixte": "6.0 L/100km",
-        "emission_co2": "137 g/km",
-        "reservoir": "53 L",
-        "roues": "18 pouces",
-        "pneus": "225/50 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -6662,7 +7168,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 380,
+        "model_id": "cupra-formentor",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2025,
@@ -6719,7 +7248,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 381,
+        "model_id": "cupra-formentor-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2029,
@@ -6776,7 +7328,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 382,
+        "model_id": "cupra-leon",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2021,
@@ -6833,7 +7408,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 383,
+        "model_id": "cupra-terramar",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2033,
@@ -6890,7 +7488,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 384,
+        "model_id": "cupra-terramar-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2037,
@@ -6948,7 +7569,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 74,
+        "id": 385,
         "model_id": "dacia-bigster",
         "motorisation_id": null,
         "longueur": "",
@@ -6956,7 +7577,7 @@ const STATIC_DATA = {
         "hauteur": "",
         "empattement": "",
         "poids": "",
-        "coffre": "DACIA Bigster est arrivé au Maroc. D'un point vue ",
+        "coffre": "",
         "cylindree": "",
         "cylindres": "",
         "turbo": "",
@@ -6968,8 +7589,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": "J’ai un bigster expression  \n          Mounir - le",
-        "options": null
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -7027,7 +7648,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 386,
+        "model_id": "dacia-bigster-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1017,
@@ -7103,28 +7747,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 200,
+        "id": 387,
         "model_id": "dacia-duster",
         "motorisation_id": null,
-        "longueur": "4341 mm",
-        "largeur": "1804 mm",
-        "hauteur": "1694 mm",
-        "empattement": "2656 mm",
-        "poids": "1275 kg",
-        "coffre": "472 L",
-        "cylindree": "1333 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "184 km/h",
-        "acceleration": "10.7 s",
-        "conso_urbaine": "7.5 L/100km",
-        "conso_extra": "5.7 L/100km",
-        "conso_mixte": "6.4 L/100km",
-        "emission_co2": "145 g/km",
-        "reservoir": "50 L",
-        "roues": "17 pouces",
-        "pneus": "215/60 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -7171,28 +7815,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 201,
+        "id": 388,
         "model_id": "dacia-jogger",
         "motorisation_id": null,
-        "longueur": "4547 mm",
-        "largeur": "1777 mm",
-        "hauteur": "1632 mm",
-        "empattement": "2898 mm",
-        "poids": "1257 kg",
-        "coffre": "708 L",
-        "cylindree": "999 cc",
-        "cylindres": "3",
-        "turbo": "Oui",
-        "vitesse_max": "176 km/h",
-        "acceleration": "11.5 s",
-        "conso_urbaine": "7.2 L/100km",
-        "conso_extra": "5.5 L/100km",
-        "conso_mixte": "6.1 L/100km",
-        "emission_co2": "140 g/km",
-        "reservoir": "50 L",
-        "roues": "16 pouces",
-        "pneus": "205/60 R16",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -7230,7 +7874,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 76,
+        "id": 389,
         "model_id": "dacia-jogger-hev",
         "motorisation_id": null,
         "longueur": "",
@@ -7238,7 +7882,7 @@ const STATIC_DATA = {
         "hauteur": "",
         "empattement": "",
         "poids": "",
-        "coffre": "le nouveau Jogger est l'allié de tous vos trajets ",
+        "coffre": "",
         "cylindree": "",
         "cylindres": "",
         "turbo": "",
@@ -7251,7 +7895,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -7309,7 +7953,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 390,
+        "model_id": "dacia-logan",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 997,
@@ -7385,28 +8052,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 199,
+        "id": 391,
         "model_id": "dacia-sandero",
         "motorisation_id": null,
-        "longueur": "4088 mm",
-        "largeur": "1769 mm",
-        "hauteur": "1497 mm",
-        "empattement": "2588 mm",
-        "poids": "993 kg",
-        "coffre": "328 L",
-        "cylindree": "999 cc",
-        "cylindres": "3",
-        "turbo": "Oui (TCe)",
-        "vitesse_max": "164 km/h",
-        "acceleration": "13.5 s",
-        "conso_urbaine": "6.4 L/100km",
-        "conso_extra": "4.7 L/100km",
-        "conso_mixte": "5.3 L/100km",
-        "emission_co2": "120 g/km",
-        "reservoir": "50 L",
-        "roues": "15 pouces",
-        "pneus": "185/65 R15",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -7443,7 +8110,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 392,
+        "model_id": "dacia-sandero-stepway",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 993,
@@ -7500,7 +8190,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 393,
+        "model_id": "dacia-sandero-streetway",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 989,
@@ -7567,28 +8280,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 202,
+        "id": 394,
         "model_id": "dacia-spring",
         "motorisation_id": null,
-        "longueur": "3701 mm",
-        "largeur": "1622 mm",
-        "hauteur": "1519 mm",
-        "empattement": "2423 mm",
-        "poids": "984 kg",
-        "coffre": "308 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "125 km/h",
-        "acceleration": "13.7 s",
-        "conso_urbaine": "14.5 kWh/100km",
-        "conso_extra": "11.5 kWh/100km",
-        "conso_mixte": "13.0 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "26.8 kWh",
-        "roues": "15 pouces",
-        "pneus": "165/70 R15",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -7626,7 +8339,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 77,
+        "id": 395,
         "model_id": "deepal-g318",
         "motorisation_id": null,
         "longueur": "",
@@ -7637,7 +8350,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Imposant et résolument baroudeur, le DEEPAL G318 a",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -7647,7 +8360,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -7705,7 +8418,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 396,
+        "model_id": "deepal-s05-reev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2177,
@@ -7762,7 +8498,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 397,
+        "model_id": "deepal-s07-reev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2181,
@@ -7819,7 +8578,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 398,
+        "model_id": "dfsk-e5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2017,
@@ -7876,7 +8658,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 399,
+        "model_id": "dfsk-glory-500",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2013,
@@ -7933,7 +8738,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 400,
+        "model_id": "dongfeng-box",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2125,
@@ -7990,7 +8818,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 401,
+        "model_id": "dongfeng-huge",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2141,
@@ -8047,7 +8898,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 402,
+        "model_id": "dongfeng-mage",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2137,
@@ -8104,7 +8978,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 403,
+        "model_id": "dongfeng-shine",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2129,
@@ -8161,7 +9058,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 404,
+        "model_id": "dongfeng-shine-max",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2133,
@@ -8218,7 +9138,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 405,
+        "model_id": "ds-ds-4",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2041,
@@ -8275,7 +9218,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 406,
+        "model_id": "ds-ds-7",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2049,
@@ -8332,7 +9298,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 407,
+        "model_id": "ds-ds-7-e-tense",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2053,
@@ -8389,7 +9378,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 408,
+        "model_id": "ds-n4",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2045,
@@ -8446,7 +9458,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 409,
+        "model_id": "fiat-500x",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1625,
@@ -8503,7 +9538,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 410,
+        "model_id": "fiat-600",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1629,
@@ -8560,7 +9618,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 411,
+        "model_id": "fiat-600e",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1633,
@@ -8617,7 +9698,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 412,
+        "model_id": "fiat-doblo",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1637,
@@ -8693,28 +9797,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 235,
+        "id": 413,
         "model_id": "ford-kuga",
         "motorisation_id": null,
-        "longueur": "4629 mm",
-        "largeur": "1882 mm",
-        "hauteur": "1679 mm",
-        "empattement": "2710 mm",
-        "poids": "1638 kg",
-        "coffre": "645 L",
-        "cylindree": "1497 cc",
-        "cylindres": "3",
-        "turbo": "Oui (EcoBoost)",
-        "vitesse_max": "198 km/h",
-        "acceleration": "8.8 s",
-        "conso_urbaine": "7.0 L/100km",
-        "conso_extra": "5.5 L/100km",
-        "conso_mixte": "6.1 L/100km",
-        "emission_co2": "139 g/km",
-        "reservoir": "52 L",
-        "roues": "18 pouces",
-        "pneus": "235/50 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -8761,28 +9865,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 236,
+        "id": 414,
         "model_id": "ford-mustang",
         "motorisation_id": null,
-        "longueur": "4785 mm",
-        "largeur": "1916 mm",
-        "hauteur": "1381 mm",
-        "empattement": "2720 mm",
-        "poids": "1680 kg",
-        "coffre": "408 L",
-        "cylindree": "4951 cc",
-        "cylindres": "8",
-        "turbo": "Non (V8 atmosphérique)",
-        "vitesse_max": "250 km/h",
-        "acceleration": "4.6 s",
-        "conso_urbaine": "15.8 L/100km",
-        "conso_extra": "9.4 L/100km",
-        "conso_mixte": "11.9 L/100km",
-        "emission_co2": "270 g/km",
-        "reservoir": "61 L",
-        "roues": "19 pouces",
-        "pneus": "255/40 R19",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -8829,28 +9933,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 234,
+        "id": 415,
         "model_id": "ford-puma",
         "motorisation_id": null,
-        "longueur": "4208 mm",
-        "largeur": "1805 mm",
-        "hauteur": "1537 mm",
-        "empattement": "2588 mm",
-        "poids": "1278 kg",
-        "coffre": "456 L",
-        "cylindree": "999 cc",
-        "cylindres": "3",
-        "turbo": "Oui (EcoBoost)",
-        "vitesse_max": "200 km/h",
-        "acceleration": "9.0 s",
-        "conso_urbaine": "6.3 L/100km",
-        "conso_extra": "4.7 L/100km",
-        "conso_mixte": "5.3 L/100km",
-        "emission_co2": "120 g/km",
-        "reservoir": "42 L",
-        "roues": "17 pouces",
-        "pneus": "215/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -8888,7 +9992,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 78,
+        "id": 416,
         "model_id": "ford-ranger",
         "motorisation_id": null,
         "longueur": "",
@@ -8907,9 +10011,9 @@ const STATIC_DATA = {
         "conso_mixte": "",
         "emission_co2": "",
         "reservoir": "",
-        "roues": "En 2020, Le FORD Ranger a été épaulé par une versi",
+        "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -8967,7 +10071,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 417,
+        "model_id": "ford-territory",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1529,
@@ -9024,7 +10151,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 418,
+        "model_id": "geely-cityray",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1917,
@@ -9082,7 +10232,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 79,
+        "id": 419,
         "model_id": "geely-coolray",
         "motorisation_id": null,
         "longueur": "",
@@ -9090,10 +10240,10 @@ const STATIC_DATA = {
         "hauteur": "",
         "empattement": "",
         "poids": "",
-        "coffre": "Très Satisfait  \n          Driss - le 9 janvier 20",
+        "coffre": "",
         "cylindree": "",
-        "cylindres": "Le nouveau GEELY Coolray facelift 2026 se métamorp",
-        "turbo": "Le nouveau GEELY Coolray facelift 2026 se métamorp",
+        "cylindres": "",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -9103,7 +10253,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -9161,7 +10311,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 420,
+        "model_id": "geely-emgrand",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1905,
@@ -9218,7 +10391,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 421,
+        "model_id": "geely-ex2",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1901,
@@ -9275,7 +10471,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 422,
+        "model_id": "geely-ex5-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1921,
@@ -9332,7 +10551,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 423,
+        "model_id": "geely-geometry-c",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1913,
@@ -9389,7 +10631,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 424,
+        "model_id": "geely-gx3-pro",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1897,
@@ -9446,7 +10711,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 425,
+        "model_id": "geely-riddara-rd6-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1925,
@@ -9503,7 +10791,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 426,
+        "model_id": "gwm-haval-h6",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1961,
@@ -9560,7 +10871,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 427,
+        "model_id": "gwm-haval-h6-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1965,
@@ -9617,7 +10951,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 428,
+        "model_id": "gwm-haval-h7",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1969,
@@ -9674,7 +11031,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 429,
+        "model_id": "gwm-haval-jolion",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1957,
@@ -9731,7 +11111,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 430,
+        "model_id": "gwm-haval-jolion-pro",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1953,
@@ -9788,7 +11191,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 431,
+        "model_id": "gwm-ora-03",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1949,
@@ -9845,7 +11271,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 432,
+        "model_id": "gwm-poer-dc",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1985,
@@ -9902,7 +11351,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 433,
+        "model_id": "gwm-tank-300",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1977,
@@ -9960,7 +11432,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 80,
+        "id": 434,
         "model_id": "gwm-tank-500",
         "motorisation_id": null,
         "longueur": "",
@@ -9971,7 +11443,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Grandiose, ce SUV 7 places est aussi majestueux en",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -9981,7 +11453,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -10039,7 +11511,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 435,
+        "model_id": "gwm-wey-05",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1973,
@@ -10096,7 +11591,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 436,
+        "model_id": "honda-accord",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1785,
@@ -10153,7 +11671,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 437,
+        "model_id": "honda-cr-v",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1781,
@@ -10210,7 +11751,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 438,
+        "model_id": "honda-hr-v",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1777,
@@ -10267,7 +11831,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 439,
+        "model_id": "honda-jazz",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1773,
@@ -10325,7 +11912,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 81,
+        "id": 440,
         "model_id": "hyundai-accent",
         "motorisation_id": null,
         "longueur": "",
@@ -10336,7 +11923,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -10346,7 +11933,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -10405,7 +11992,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 82,
+        "id": 441,
         "model_id": "hyundai-creta",
         "motorisation_id": null,
         "longueur": "",
@@ -10416,7 +12003,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -10425,8 +12012,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": "CRETA_USB_DEFFECTUEX_ Très déçu \n          Salam  ",
-        "options": null
+        "pneus": ": 2 réponse(s)",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -10485,7 +12072,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 83,
+        "id": 442,
         "model_id": "hyundai-elantra",
         "motorisation_id": null,
         "longueur": "",
@@ -10496,7 +12083,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -10506,7 +12093,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -10565,7 +12152,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 84,
+        "id": 443,
         "model_id": "hyundai-grand-i10-sedan",
         "motorisation_id": null,
         "longueur": "",
@@ -10576,7 +12163,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -10586,7 +12173,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -10645,7 +12232,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 85,
+        "id": 444,
         "model_id": "hyundai-i10",
         "motorisation_id": null,
         "longueur": "",
@@ -10653,10 +12240,10 @@ const STATIC_DATA = {
         "hauteur": "",
         "empattement": "",
         "poids": "",
-        "coffre": "Incroyablement sculpté du capot au  avec une calan",
+        "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -10666,7 +12253,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -10743,28 +12330,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 220,
+        "id": 445,
         "model_id": "hyundai-i20",
         "motorisation_id": null,
-        "longueur": "4040 mm",
-        "largeur": "1775 mm",
-        "hauteur": "1450 mm",
-        "empattement": "2580 mm",
-        "poids": "1080 kg",
-        "coffre": "352 L",
-        "cylindree": "998 cc",
-        "cylindres": "3",
-        "turbo": "Oui (T-GDi)",
-        "vitesse_max": "185 km/h",
-        "acceleration": "10.3 s",
-        "conso_urbaine": "5.6 L/100km",
-        "conso_extra": "4.3 L/100km",
-        "conso_mixte": "4.8 L/100km",
-        "emission_co2": "108 g/km",
-        "reservoir": "40 L",
-        "roues": "16 pouces",
-        "pneus": "195/55 R16",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -10802,7 +12389,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 87,
+        "id": 446,
         "model_id": "hyundai-ioniq-5",
         "motorisation_id": null,
         "longueur": "",
@@ -10813,7 +12400,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -10823,7 +12410,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -10882,7 +12469,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 88,
+        "id": 447,
         "model_id": "hyundai-ioniq-6",
         "motorisation_id": null,
         "longueur": "",
@@ -10893,7 +12480,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -10903,7 +12490,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -10980,28 +12567,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 222,
+        "id": 448,
         "model_id": "hyundai-ioniq5",
         "motorisation_id": null,
-        "longueur": "4635 mm",
-        "largeur": "1890 mm",
-        "hauteur": "1605 mm",
-        "empattement": "3000 mm",
-        "poids": "1985 kg",
-        "coffre": "527 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "185 km/h",
-        "acceleration": "5.1 s",
-        "conso_urbaine": "18.8 kWh/100km",
-        "conso_extra": "15.2 kWh/100km",
-        "conso_mixte": "16.7 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "77.4 kWh",
-        "roues": "20 pouces",
-        "pneus": "255/45 R20",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11048,28 +12635,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 224,
+        "id": 449,
         "model_id": "hyundai-kona",
         "motorisation_id": null,
-        "longueur": "4355 mm",
-        "largeur": "1825 mm",
-        "hauteur": "1575 mm",
-        "empattement": "2660 mm",
-        "poids": "1330 kg",
-        "coffre": "466 L",
-        "cylindree": "998 cc",
-        "cylindres": "3",
-        "turbo": "Oui (T-GDi)",
-        "vitesse_max": "185 km/h",
-        "acceleration": "10.7 s",
-        "conso_urbaine": "6.1 L/100km",
-        "conso_extra": "4.9 L/100km",
-        "conso_mixte": "5.3 L/100km",
-        "emission_co2": "121 g/km",
-        "reservoir": "50 L",
-        "roues": "17 pouces",
-        "pneus": "215/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11116,28 +12703,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 223,
+        "id": 450,
         "model_id": "hyundai-santa-fe",
         "motorisation_id": null,
-        "longueur": "4830 mm",
-        "largeur": "1900 mm",
-        "hauteur": "1700 mm",
-        "empattement": "2815 mm",
-        "poids": "1870 kg",
-        "coffre": "628 L",
-        "cylindree": "2497 cc",
-        "cylindres": "4",
-        "turbo": "Oui (T-GDi)",
-        "vitesse_max": "220 km/h",
-        "acceleration": "7.8 s",
-        "conso_urbaine": "8.9 L/100km",
-        "conso_extra": "6.9 L/100km",
-        "conso_mixte": "7.7 L/100km",
-        "emission_co2": "175 g/km",
-        "reservoir": "67 L",
-        "roues": "20 pouces",
-        "pneus": "255/45 R20",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11175,7 +12762,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 90,
+        "id": 451,
         "model_id": "hyundai-santa-fe-hev",
         "motorisation_id": null,
         "longueur": "",
@@ -11186,7 +12773,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -11196,7 +12783,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11255,7 +12842,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 91,
+        "id": 452,
         "model_id": "hyundai-sonata",
         "motorisation_id": null,
         "longueur": "",
@@ -11266,7 +12853,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -11276,7 +12863,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11353,28 +12940,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 221,
+        "id": 453,
         "model_id": "hyundai-tucson",
         "motorisation_id": null,
-        "longueur": "4500 mm",
-        "largeur": "1865 mm",
-        "hauteur": "1650 mm",
-        "empattement": "2680 mm",
-        "poids": "1559 kg",
-        "coffre": "620 L",
-        "cylindree": "1598 cc",
-        "cylindres": "4",
-        "turbo": "Oui (T-GDi)",
-        "vitesse_max": "205 km/h",
-        "acceleration": "8.5 s",
-        "conso_urbaine": "7.1 L/100km",
-        "conso_extra": "5.5 L/100km",
-        "conso_mixte": "6.1 L/100km",
-        "emission_co2": "138 g/km",
-        "reservoir": "54 L",
-        "roues": "18 pouces",
-        "pneus": "235/50 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11412,7 +12999,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 93,
+        "id": 454,
         "model_id": "hyundai-tucson-hev",
         "motorisation_id": null,
         "longueur": "",
@@ -11423,7 +13010,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -11433,7 +13020,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11492,7 +13079,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 94,
+        "id": 455,
         "model_id": "hyundai-tucson-phev",
         "motorisation_id": null,
         "longueur": "",
@@ -11503,7 +13090,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Nouveauté Maroc\n            Nouveau HYUNDAI Tucson",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -11513,7 +13100,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11571,7 +13158,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 456,
+        "model_id": "jac-e30x",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2213,
@@ -11629,7 +13239,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 95,
+        "id": 457,
         "model_id": "jac-t8",
         "motorisation_id": null,
         "longueur": "",
@@ -11640,7 +13250,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "JAC T8 est un pick-up double cabine robuste et mod",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -11650,7 +13260,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11709,7 +13319,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 96,
+        "id": 458,
         "model_id": "jac-t8-pro",
         "motorisation_id": null,
         "longueur": "",
@@ -11720,7 +13330,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Le JAC T8 Pro est un pick-up robuste au design aff",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -11730,7 +13340,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -11788,7 +13398,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 459,
+        "model_id": "jaecoo-j7",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1989,
@@ -11845,7 +13478,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 460,
+        "model_id": "jaecoo-j7-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1993,
@@ -11902,7 +13558,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 461,
+        "model_id": "jaguar-f-pace",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2057,
@@ -11959,7 +13638,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 462,
+        "model_id": "jeep-avenger",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1641,
@@ -12017,10 +13719,10 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 97,
+        "id": 463,
         "model_id": "jeep-compass",
         "motorisation_id": null,
-        "longueur": "La nouvelle génération du JEEP Compass gagne en st",
+        "longueur": "",
         "largeur": "",
         "hauteur": "",
         "empattement": "",
@@ -12038,7 +13740,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -12096,7 +13798,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 464,
+        "model_id": "jeep-wrangler",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1649,
@@ -12153,7 +13878,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 465,
+        "model_id": "kia-carnival",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1501,
@@ -12211,13 +13959,13 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 98,
+        "id": 466,
         "model_id": "kia-ev3",
         "motorisation_id": null,
         "longueur": "",
         "largeur": "",
         "hauteur": "",
-        "empattement": "le KIA EV3 surprend par son habitabilité avec un  ",
+        "empattement": "",
         "poids": "",
         "coffre": "",
         "cylindree": "",
@@ -12232,7 +13980,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -12290,7 +14038,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 467,
+        "model_id": "kia-ev5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1509,
@@ -12357,28 +14128,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 227,
+        "id": 468,
         "model_id": "kia-ev6",
         "motorisation_id": null,
-        "longueur": "4695 mm",
-        "largeur": "1890 mm",
-        "hauteur": "1550 mm",
-        "empattement": "2900 mm",
-        "poids": "1960 kg",
-        "coffre": "490 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "185 km/h",
-        "acceleration": "5.2 s",
-        "conso_urbaine": "17.5 kWh/100km",
-        "conso_extra": "14.5 kWh/100km",
-        "conso_mixte": "15.7 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "77.4 kWh",
-        "roues": "20 pouces",
-        "pneus": "255/45 R20",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -12415,7 +14186,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 469,
+        "model_id": "kia-ev9",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1517,
@@ -12482,28 +14276,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 226,
+        "id": 470,
         "model_id": "kia-picanto",
         "motorisation_id": null,
-        "longueur": "3595 mm",
-        "largeur": "1595 mm",
-        "hauteur": "1485 mm",
-        "empattement": "2400 mm",
-        "poids": "890 kg",
-        "coffre": "255 L",
-        "cylindree": "998 cc",
-        "cylindres": "3",
-        "turbo": "Oui (T-GDi)",
-        "vitesse_max": "167 km/h",
-        "acceleration": "12.2 s",
-        "conso_urbaine": "5.4 L/100km",
-        "conso_extra": "4.0 L/100km",
-        "conso_mixte": "4.5 L/100km",
-        "emission_co2": "103 g/km",
-        "reservoir": "35 L",
-        "roues": "14 pouces",
-        "pneus": "165/65 R14",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -12540,7 +14334,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 471,
+        "model_id": "kia-seltos",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1481,
@@ -12597,7 +14414,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 472,
+        "model_id": "kia-sonet",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1477,
@@ -12664,28 +14504,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 228,
+        "id": 473,
         "model_id": "kia-sorento",
         "motorisation_id": null,
-        "longueur": "4810 mm",
-        "largeur": "1900 mm",
-        "hauteur": "1700 mm",
-        "empattement": "2815 mm",
-        "poids": "1815 kg",
-        "coffre": "813 L",
-        "cylindree": "2497 cc",
-        "cylindres": "4",
-        "turbo": "Non",
-        "vitesse_max": "220 km/h",
-        "acceleration": "8.6 s",
-        "conso_urbaine": "9.0 L/100km",
-        "conso_extra": "7.2 L/100km",
-        "conso_mixte": "7.9 L/100km",
-        "emission_co2": "179 g/km",
-        "reservoir": "67 L",
-        "roues": "20 pouces",
-        "pneus": "255/45 R20",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -12722,7 +14562,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 474,
+        "model_id": "kia-sorento-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1497,
@@ -12798,28 +14661,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 225,
+        "id": 475,
         "model_id": "kia-sportage",
         "motorisation_id": null,
-        "longueur": "4516 mm",
-        "largeur": "1865 mm",
-        "hauteur": "1676 mm",
-        "empattement": "2680 mm",
-        "poids": "1579 kg",
-        "coffre": "587 L",
-        "cylindree": "1598 cc",
-        "cylindres": "4",
-        "turbo": "Oui (T-GDi)",
-        "vitesse_max": "205 km/h",
-        "acceleration": "8.5 s",
-        "conso_urbaine": "7.2 L/100km",
-        "conso_extra": "5.7 L/100km",
-        "conso_mixte": "6.2 L/100km",
-        "emission_co2": "141 g/km",
-        "reservoir": "54 L",
-        "roues": "18 pouces",
-        "pneus": "235/55 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -12856,7 +14719,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 476,
+        "model_id": "kia-sportage-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1489,
@@ -12913,7 +14799,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 477,
+        "model_id": "kia-tasman",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1521,
@@ -12970,7 +14879,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 478,
+        "model_id": "land-rover-defender-110",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1661,
@@ -13027,7 +14959,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 479,
+        "model_id": "land-rover-defender-110-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1665,
@@ -13085,7 +15040,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 99,
+        "id": 480,
         "model_id": "land-rover-range-rover",
         "motorisation_id": null,
         "longueur": "",
@@ -13096,7 +15051,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "PORSCHE Cayenne\n      \n                E-Hybrid   ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -13106,7 +15061,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -13164,7 +15119,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 481,
+        "model_id": "land-rover-range-rover-evoque",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1653,
@@ -13221,7 +15199,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 482,
+        "model_id": "land-rover-range-rover-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1681,
@@ -13279,7 +15280,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 100,
+        "id": 483,
         "model_id": "land-rover-range-rover-sport",
         "motorisation_id": null,
         "longueur": "",
@@ -13290,7 +15291,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "PORSCHE Cayenne\n      \n                E-Hybrid   ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -13300,7 +15301,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -13358,7 +15359,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 484,
+        "model_id": "land-rover-range-rover-sport-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1673,
@@ -13415,7 +15439,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 485,
+        "model_id": "land-rover-range-rover-velar",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1657,
@@ -13472,7 +15519,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 486,
+        "model_id": "lexus-es",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1753,
@@ -13529,7 +15599,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 487,
+        "model_id": "lexus-nx",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1761,
@@ -13586,7 +15679,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 488,
+        "model_id": "lexus-rx",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1765,
@@ -13644,7 +15760,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 101,
+        "id": 489,
         "model_id": "lexus-rz",
         "motorisation_id": null,
         "longueur": "",
@@ -13655,9 +15771,9 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "PORSCHE Cayenne\n      \n                E-Hybrid   ",
+        "turbo": "",
         "vitesse_max": "",
-        "acceleration": "LEXUS RZ 500e est une variante du SUV 100% électri",
+        "acceleration": "",
         "conso_urbaine": "",
         "conso_extra": "",
         "conso_mixte": "",
@@ -13665,7 +15781,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -13723,7 +15839,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 490,
+        "model_id": "lexus-ux",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1757,
@@ -13780,7 +15919,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 491,
+        "model_id": "lynk-et-co-01",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2229,
@@ -13837,7 +15999,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 492,
+        "model_id": "lynk-et-co-02",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2233,
@@ -13894,7 +16079,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 493,
+        "model_id": "lynk-et-co-06",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2225,
@@ -13952,7 +16160,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 102,
+        "id": 494,
         "model_id": "lynk-et-co-08",
         "motorisation_id": null,
         "longueur": "",
@@ -13963,7 +16171,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Récemment sacré \"Voiture de l'Année 2026\" au Maroc",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -13973,7 +16181,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -14031,7 +16239,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 495,
+        "model_id": "mahindra-kuv-100",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2093,
@@ -14088,7 +16319,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 496,
+        "model_id": "mahindra-pik-up",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2101,
@@ -14146,7 +16400,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 103,
+        "id": 497,
         "model_id": "mahindra-xuv-3xo",
         "motorisation_id": null,
         "longueur": "",
@@ -14157,7 +16411,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "1.2 l Turbo 110 AT AX7L\n              promo       ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -14167,7 +16421,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -14225,7 +16479,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 498,
+        "model_id": "maserati-ghibli",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2113,
@@ -14282,7 +16559,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 499,
+        "model_id": "maserati-granturismo",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2105,
@@ -14339,7 +16639,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 500,
+        "model_id": "maserati-grecale",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2117,
@@ -14396,7 +16719,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 501,
+        "model_id": "maserati-levante",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2121,
@@ -14453,7 +16799,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 502,
+        "model_id": "maserati-mc20",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2109,
@@ -14510,7 +16879,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 503,
+        "model_id": "mazda-3",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1797,
@@ -14567,7 +16959,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 504,
+        "model_id": "mazda-3-berline",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1801,
@@ -14624,7 +17039,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 505,
+        "model_id": "mazda-6",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1805,
@@ -14681,7 +17119,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 506,
+        "model_id": "mazda-cx-3",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1809,
@@ -14738,7 +17199,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 507,
+        "model_id": "mazda-cx-5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1813,
@@ -14796,7 +17280,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 104,
+        "id": 508,
         "model_id": "mercedes-cla",
         "motorisation_id": null,
         "longueur": "",
@@ -14807,7 +17291,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Le nouveau MERCEDES-Benz CLA fait sa révolution en",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -14817,7 +17301,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -14875,7 +17359,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 509,
+        "model_id": "mercedes-cla-coupe",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1293,
@@ -14932,7 +17439,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 510,
+        "model_id": "mercedes-cla-ev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1289,
@@ -14999,28 +17529,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 241,
+        "id": 511,
         "model_id": "mercedes-classe-a",
         "motorisation_id": null,
-        "longueur": "4419 mm",
-        "largeur": "1796 mm",
-        "hauteur": "1433 mm",
-        "empattement": "2729 mm",
-        "poids": "1375 kg",
-        "coffre": "370 L",
-        "cylindree": "1332 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "232 km/h",
-        "acceleration": "7.1 s",
-        "conso_urbaine": "6.6 L/100km",
-        "conso_extra": "5.2 L/100km",
-        "conso_mixte": "5.7 L/100km",
-        "emission_co2": "130 g/km",
-        "reservoir": "43 L",
-        "roues": "17 pouces",
-        "pneus": "225/45 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -15057,7 +17587,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 512,
+        "model_id": "mercedes-classe-a-berline",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1277,
@@ -15133,28 +17686,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 242,
+        "id": 513,
         "model_id": "mercedes-classe-c",
         "motorisation_id": null,
-        "longueur": "4751 mm",
-        "largeur": "1820 mm",
-        "hauteur": "1438 mm",
-        "empattement": "2865 mm",
-        "poids": "1625 kg",
-        "coffre": "455 L",
-        "cylindree": "1497 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "250 km/h",
-        "acceleration": "7.3 s",
-        "conso_urbaine": "6.8 L/100km",
-        "conso_extra": "5.3 L/100km",
-        "conso_mixte": "5.9 L/100km",
-        "emission_co2": "134 g/km",
-        "reservoir": "66 L",
-        "roues": "18 pouces",
-        "pneus": "225/55 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -15201,28 +17754,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 244,
+        "id": 514,
         "model_id": "mercedes-classe-e",
         "motorisation_id": null,
-        "longueur": "4949 mm",
-        "largeur": "1880 mm",
-        "hauteur": "1468 mm",
-        "empattement": "2961 mm",
-        "poids": "1870 kg",
-        "coffre": "540 L",
-        "cylindree": "1497 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "250 km/h",
-        "acceleration": "7.4 s",
-        "conso_urbaine": "7.1 L/100km",
-        "conso_extra": "5.7 L/100km",
-        "conso_mixte": "6.2 L/100km",
-        "emission_co2": "141 g/km",
-        "reservoir": "66 L",
-        "roues": "19 pouces",
-        "pneus": "245/45 R19",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -15260,11 +17813,11 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 106,
+        "id": 515,
         "model_id": "mercedes-classe-e-phev",
         "motorisation_id": null,
         "longueur": "",
-        "largeur": "Le statut de la Classe E se lit sur son visage. Le",
+        "largeur": "",
         "hauteur": "",
         "empattement": "",
         "poids": "",
@@ -15281,7 +17834,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -15339,7 +17892,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 516,
+        "model_id": "mercedes-classe-g",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1349,
@@ -15396,7 +17972,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 517,
+        "model_id": "mercedes-classe-s",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1313,
@@ -15453,7 +18052,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 518,
+        "model_id": "mercedes-classe-s-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1317,
@@ -15510,7 +18132,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 519,
+        "model_id": "mercedes-cle-cabriolet",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1309,
@@ -15567,7 +18212,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 520,
+        "model_id": "mercedes-cle-coupe",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1305,
@@ -15624,7 +18292,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 521,
+        "model_id": "mercedes-eqa",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1353,
@@ -15681,7 +18372,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 522,
+        "model_id": "mercedes-eqb",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1357,
@@ -15738,7 +18452,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 523,
+        "model_id": "mercedes-eqe",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1361,
@@ -15795,7 +18532,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 524,
+        "model_id": "mercedes-eqe-suv",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1369,
@@ -15852,7 +18612,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 525,
+        "model_id": "mercedes-eqs",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1365,
@@ -15909,7 +18692,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 526,
+        "model_id": "mercedes-eqs-suv",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1373,
@@ -15966,7 +18772,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 527,
+        "model_id": "mercedes-gla",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1321,
@@ -16042,28 +18871,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 243,
+        "id": 528,
         "model_id": "mercedes-glc",
         "motorisation_id": null,
-        "longueur": "4716 mm",
-        "largeur": "1890 mm",
-        "hauteur": "1640 mm",
-        "empattement": "2888 mm",
-        "poids": "1945 kg",
-        "coffre": "620 L",
-        "cylindree": "1497 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "230 km/h",
-        "acceleration": "6.5 s",
-        "conso_urbaine": "7.4 L/100km",
-        "conso_extra": "6.1 L/100km",
-        "conso_mixte": "6.6 L/100km",
-        "emission_co2": "150 g/km",
-        "reservoir": "70 L",
-        "roues": "19 pouces",
-        "pneus": "235/55 R19",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -16100,7 +18929,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 529,
+        "model_id": "mercedes-glc-coupe",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1333,
@@ -16157,7 +19009,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 530,
+        "model_id": "mercedes-glc-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1329,
@@ -16215,7 +19090,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 107,
+        "id": 531,
         "model_id": "mercedes-gle",
         "motorisation_id": null,
         "longueur": "",
@@ -16226,7 +19101,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "PORSCHE Cayenne\n      \n                E-Hybrid   ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -16236,7 +19111,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -16294,7 +19169,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 532,
+        "model_id": "mercedes-gle-coupe",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1341,
@@ -16351,7 +19249,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 533,
+        "model_id": "mercedes-gls",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1345,
@@ -16409,7 +19330,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 108,
+        "id": 534,
         "model_id": "mg-cyberster",
         "motorisation_id": null,
         "longueur": "",
@@ -16422,7 +19343,7 @@ const STATIC_DATA = {
         "cylindres": "",
         "turbo": "",
         "vitesse_max": "",
-        "acceleration": "Le MG Cyberster réinvente brillamment l'héritage d",
+        "acceleration": "",
         "conso_urbaine": "",
         "conso_extra": "",
         "conso_mixte": "",
@@ -16430,7 +19351,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -16516,28 +19437,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 214,
+        "id": 535,
         "model_id": "mg-hs",
         "motorisation_id": null,
-        "longueur": "4571 mm",
-        "largeur": "1876 mm",
-        "hauteur": "1693 mm",
-        "empattement": "2765 mm",
-        "poids": "1590 kg",
-        "coffre": "504 L",
-        "cylindree": "1499 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "200 km/h",
-        "acceleration": "8.6 s",
-        "conso_urbaine": "7.9 L/100km",
-        "conso_extra": "6.1 L/100km",
-        "conso_mixte": "6.8 L/100km",
-        "emission_co2": "155 g/km",
-        "reservoir": "55 L",
-        "roues": "18 pouces",
-        "pneus": "235/50 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -16575,13 +19496,13 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 109,
+        "id": 536,
         "model_id": "mg-hs-hev",
         "motorisation_id": null,
         "longueur": "",
         "largeur": "",
         "hauteur": "",
-        "empattement": "Avec un design modernisé et une plateforme inédite",
+        "empattement": "",
         "poids": "",
         "coffre": "",
         "cylindree": "",
@@ -16596,7 +19517,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -16654,7 +19575,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 537,
+        "model_id": "mg-marvel-r",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 925,
@@ -16712,7 +19656,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 110,
+        "id": 538,
         "model_id": "mg-mg-5",
         "motorisation_id": null,
         "longueur": "",
@@ -16724,7 +19668,7 @@ const STATIC_DATA = {
         "cylindree": "",
         "cylindres": "",
         "turbo": "",
-        "vitesse_max": "Doté d’un design élégant et sportif, la MG5 vous p",
+        "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
         "conso_extra": "",
@@ -16733,7 +19677,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -16801,28 +19745,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 215,
+        "id": 539,
         "model_id": "mg-mg3",
         "motorisation_id": null,
-        "longueur": "4112 mm",
-        "largeur": "1760 mm",
-        "hauteur": "1502 mm",
-        "empattement": "2570 mm",
-        "poids": "1352 kg",
-        "coffre": "293 L",
-        "cylindree": "1499 cc",
-        "cylindres": "4",
-        "turbo": "Non (Hybride)",
-        "vitesse_max": "185 km/h",
-        "acceleration": "7.0 s",
-        "conso_urbaine": "5.0 L/100km",
-        "conso_extra": "5.2 L/100km",
-        "conso_mixte": "5.1 L/100km",
-        "emission_co2": "115 g/km",
-        "reservoir": "40 L",
-        "roues": "17 pouces",
-        "pneus": "205/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -16869,28 +19813,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 212,
+        "id": 540,
         "model_id": "mg-zs",
         "motorisation_id": null,
-        "longueur": "4323 mm",
-        "largeur": "1809 mm",
-        "hauteur": "1664 mm",
-        "empattement": "2585 mm",
-        "poids": "1339 kg",
-        "coffre": "448 L",
-        "cylindree": "1499 cc",
-        "cylindres": "4",
-        "turbo": "Non",
-        "vitesse_max": "175 km/h",
-        "acceleration": "11.8 s",
-        "conso_urbaine": "7.4 L/100km",
-        "conso_extra": "5.7 L/100km",
-        "conso_mixte": "6.3 L/100km",
-        "emission_co2": "144 g/km",
-        "reservoir": "50 L",
-        "roues": "17 pouces",
-        "pneus": "215/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -16937,28 +19881,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 213,
+        "id": 541,
         "model_id": "mg-zs-ev",
         "motorisation_id": null,
-        "longueur": "4323 mm",
-        "largeur": "1809 mm",
-        "hauteur": "1664 mm",
-        "empattement": "2585 mm",
-        "poids": "1620 kg",
-        "coffre": "448 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "175 km/h",
-        "acceleration": "8.2 s",
-        "conso_urbaine": "17.5 kWh/100km",
-        "conso_extra": "14.0 kWh/100km",
-        "conso_mixte": "15.5 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "72 kWh",
-        "roues": "17 pouces",
-        "pneus": "215/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -16996,7 +19940,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 111,
+        "id": 542,
         "model_id": "mg-zs-hev",
         "motorisation_id": null,
         "longueur": "",
@@ -17007,7 +19951,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "CHANGAN CS55+\n      \n                1.5 Turbo 181",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -17017,7 +19961,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -17075,7 +20019,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 543,
+        "model_id": "mini-aceman",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1741,
@@ -17132,7 +20099,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 544,
+        "model_id": "mini-cooper-3-portes",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1729,
@@ -17189,7 +20179,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 545,
+        "model_id": "mini-cooper-3-portes-electric",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1733,
@@ -17246,7 +20259,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 546,
+        "model_id": "mini-cooper-5-portes",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1737,
@@ -17303,7 +20339,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 547,
+        "model_id": "mini-countryman",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1745,
@@ -17360,7 +20419,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 548,
+        "model_id": "mini-countryman-electric",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1749,
@@ -17417,7 +20499,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 549,
+        "model_id": "mitsubishi-outlander",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1817,
@@ -17474,7 +20579,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 550,
+        "model_id": "mitsubishi-pajero-sport",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1821,
@@ -17531,7 +20659,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 551,
+        "model_id": "nissan-juke",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1541,
@@ -17588,7 +20739,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 552,
+        "model_id": "nissan-magnite",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1537,
@@ -17645,7 +20819,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 553,
+        "model_id": "nissan-qashqai-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1545,
@@ -17703,12 +20900,12 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 112,
+        "id": 554,
         "model_id": "nissan-x-trail",
         "motorisation_id": null,
         "longueur": "",
         "largeur": "",
-        "hauteur": "A propos du X-Trail \n          ABDELLAH TAOURATI -",
+        "hauteur": "pourquoi Nissan à fait X-Trail avec 6 cv fiscaux et in prix de plus de 440.000 DH?J'ai la comparaison et je vais visiter le stand xtrail du salon de voitures en avril 2018 et je vais voir la réponse des commerciaux de xtrail 6 9 répondre 1 réponse(s)",
         "empattement": "",
         "poids": "",
         "coffre": "",
@@ -17724,7 +20921,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -17782,7 +20979,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 555,
+        "model_id": "omoda-3",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1997,
@@ -17839,7 +21059,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 556,
+        "model_id": "omoda-5-shs-h",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2009,
@@ -17896,7 +21139,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 557,
+        "model_id": "omoda-c5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2001,
@@ -17953,7 +21219,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 558,
+        "model_id": "omoda-e5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2005,
@@ -18010,7 +21299,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 559,
+        "model_id": "opel-astra",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1561,
@@ -18067,7 +21379,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 560,
+        "model_id": "opel-corsa",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1557,
@@ -18124,7 +21459,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 561,
+        "model_id": "opel-frontera",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1569,
@@ -18181,7 +21539,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 562,
+        "model_id": "opel-frontera-ev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1573,
@@ -18239,7 +21620,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 113,
+        "id": 563,
         "model_id": "opel-grandland",
         "motorisation_id": null,
         "longueur": "",
@@ -18250,9 +21631,9 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Grandland 1,5 130 BVM, à bannir  \n          Issam ",
+        "turbo": ": 2 réponse(s)",
         "vitesse_max": "",
-        "acceleration": "Grandland 1,5 130 BVM, à bannir  \n          Issam ",
+        "acceleration": ": 2 réponse(s)",
         "conso_urbaine": "",
         "conso_extra": "",
         "conso_mixte": "",
@@ -18260,7 +21641,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -18318,7 +21699,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 564,
+        "model_id": "opel-mokka",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1565,
@@ -18375,7 +21779,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 565,
+        "model_id": "opel-rocks-e",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1553,
@@ -18451,28 +21878,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 204,
+        "id": 566,
         "model_id": "peugeot-2008",
         "motorisation_id": null,
-        "longueur": "4300 mm",
-        "largeur": "1770 mm",
-        "hauteur": "1550 mm",
-        "empattement": "2610 mm",
-        "poids": "1229 kg",
-        "coffre": "434 L",
-        "cylindree": "1199 cc",
-        "cylindres": "3",
-        "turbo": "Oui",
-        "vitesse_max": "192 km/h",
-        "acceleration": "9.7 s",
-        "conso_urbaine": "6.8 L/100km",
-        "conso_extra": "5.0 L/100km",
-        "conso_mixte": "5.7 L/100km",
-        "emission_co2": "130 g/km",
-        "reservoir": "47 L",
-        "roues": "17 pouces",
-        "pneus": "215/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -18537,28 +21964,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 203,
+        "id": 567,
         "model_id": "peugeot-208",
         "motorisation_id": null,
-        "longueur": "4055 mm",
-        "largeur": "1745 mm",
-        "hauteur": "1444 mm",
-        "empattement": "2538 mm",
-        "poids": "1049 kg",
-        "coffre": "311 L",
-        "cylindree": "1199 cc",
-        "cylindres": "3",
-        "turbo": "Oui (PureTech)",
-        "vitesse_max": "194 km/h",
-        "acceleration": "9.9 s",
-        "conso_urbaine": "6.0 L/100km",
-        "conso_extra": "4.5 L/100km",
-        "conso_mixte": "5.1 L/100km",
-        "emission_co2": "116 g/km",
-        "reservoir": "44 L",
-        "roues": "16 pouces",
-        "pneus": "205/45 R16",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -18605,28 +22032,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 205,
+        "id": 568,
         "model_id": "peugeot-3008",
         "motorisation_id": null,
-        "longueur": "4447 mm",
-        "largeur": "1841 mm",
-        "hauteur": "1624 mm",
-        "empattement": "2675 mm",
-        "poids": "1421 kg",
-        "coffre": "520 L",
-        "cylindree": "1199 cc",
-        "cylindres": "3",
-        "turbo": "Oui",
-        "vitesse_max": "210 km/h",
-        "acceleration": "8.5 s",
-        "conso_urbaine": "7.3 L/100km",
-        "conso_extra": "5.6 L/100km",
-        "conso_mixte": "6.3 L/100km",
-        "emission_co2": "142 g/km",
-        "reservoir": "55 L",
-        "roues": "19 pouces",
-        "pneus": "235/50 R19",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -18663,7 +22090,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 569,
+        "model_id": "peugeot-308",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1029,
@@ -18720,7 +22170,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 570,
+        "model_id": "peugeot-408",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1033,
@@ -18787,28 +22260,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 206,
+        "id": 571,
         "model_id": "peugeot-5008",
         "motorisation_id": null,
-        "longueur": "4641 mm",
-        "largeur": "1894 mm",
-        "hauteur": "1680 mm",
-        "empattement": "2840 mm",
-        "poids": "1630 kg",
-        "coffre": "702 L",
-        "cylindree": "1199 cc",
-        "cylindres": "3",
-        "turbo": "Oui",
-        "vitesse_max": "210 km/h",
-        "acceleration": "8.5 s",
-        "conso_urbaine": "7.5 L/100km",
-        "conso_extra": "5.8 L/100km",
-        "conso_mixte": "6.4 L/100km",
-        "emission_co2": "146 g/km",
-        "reservoir": "60 L",
-        "roues": "19 pouces",
-        "pneus": "235/50 R19",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -18855,28 +22328,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 207,
+        "id": 572,
         "model_id": "peugeot-508",
         "motorisation_id": null,
-        "longueur": "4750 mm",
-        "largeur": "1859 mm",
-        "hauteur": "1403 mm",
-        "empattement": "2793 mm",
-        "poids": "1497 kg",
-        "coffre": "487 L",
-        "cylindree": "1598 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "250 km/h",
-        "acceleration": "7.1 s",
-        "conso_urbaine": "7.4 L/100km",
-        "conso_extra": "5.8 L/100km",
-        "conso_mixte": "6.4 L/100km",
-        "emission_co2": "145 g/km",
-        "reservoir": "62 L",
-        "roues": "18 pouces",
-        "pneus": "235/45 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -18913,7 +22386,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 573,
+        "model_id": "peugeot-e-208",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1025,
@@ -18970,7 +22466,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 574,
+        "model_id": "peugeot-partner",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1057,
@@ -19027,7 +22546,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 575,
+        "model_id": "peugeot-rifter",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1053,
@@ -19085,7 +22627,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 115,
+        "id": 576,
         "model_id": "porsche-718-boxster",
         "motorisation_id": null,
         "longueur": "",
@@ -19096,7 +22638,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19106,7 +22648,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19165,7 +22707,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 116,
+        "id": 577,
         "model_id": "porsche-718-cayman",
         "motorisation_id": null,
         "longueur": "",
@@ -19176,7 +22718,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19186,7 +22728,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19245,7 +22787,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 117,
+        "id": 578,
         "model_id": "porsche-911",
         "motorisation_id": null,
         "longueur": "",
@@ -19256,7 +22798,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19266,7 +22808,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19325,7 +22867,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 118,
+        "id": 579,
         "model_id": "porsche-911-cabriolet",
         "motorisation_id": null,
         "longueur": "",
@@ -19336,7 +22878,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19346,7 +22888,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19405,7 +22947,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 119,
+        "id": 580,
         "model_id": "porsche-911-targa",
         "motorisation_id": null,
         "longueur": "",
@@ -19416,7 +22958,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Actu. internationale\n            Porsche 911 Turbo",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19426,7 +22968,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19485,7 +23027,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 120,
+        "id": 581,
         "model_id": "porsche-cayenne",
         "motorisation_id": null,
         "longueur": "",
@@ -19496,7 +23038,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Turbo E-Hybrid \n                          \n       ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19506,7 +23048,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19565,7 +23107,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 121,
+        "id": 582,
         "model_id": "porsche-cayenne-coupe",
         "motorisation_id": null,
         "longueur": "",
@@ -19576,7 +23118,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Turbo E-Hybrid \n                          \n       ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19586,7 +23128,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19645,7 +23187,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 122,
+        "id": 583,
         "model_id": "porsche-macan",
         "motorisation_id": null,
         "longueur": "",
@@ -19656,7 +23198,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Turbo \n                          \n            \n   ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19666,7 +23208,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19725,7 +23267,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 123,
+        "id": 584,
         "model_id": "porsche-panamera",
         "motorisation_id": null,
         "longueur": "",
@@ -19736,7 +23278,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Turbo S E-Hybrid \n                          \n     ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19746,7 +23288,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19805,7 +23347,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 124,
+        "id": 585,
         "model_id": "porsche-taycan",
         "motorisation_id": null,
         "longueur": "",
@@ -19816,7 +23358,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Turbo S \n                          \n            \n ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19826,7 +23368,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19885,7 +23427,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 125,
+        "id": 586,
         "model_id": "porsche-taycan-cross-turismo",
         "motorisation_id": null,
         "longueur": "",
@@ -19896,7 +23438,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Turbo S \n                          \n            \n ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -19906,7 +23448,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -19964,7 +23506,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 587,
+        "model_id": "renault-5-e-tech",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 945,
@@ -20031,28 +23596,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 197,
+        "id": 588,
         "model_id": "renault-arkana",
         "motorisation_id": null,
-        "longueur": "4568 mm",
-        "largeur": "1820 mm",
-        "hauteur": "1576 mm",
-        "empattement": "2720 mm",
-        "poids": "1457 kg",
-        "coffre": "513 L",
-        "cylindree": "1598 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "180 km/h",
-        "acceleration": "9.3 s",
-        "conso_urbaine": "5.4 L/100km",
-        "conso_extra": "5.2 L/100km",
-        "conso_mixte": "5.3 L/100km",
-        "emission_co2": "120 g/km",
-        "reservoir": "50 L",
-        "roues": "18 pouces",
-        "pneus": "215/50 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -20089,7 +23654,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 589,
+        "model_id": "renault-austral",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 969,
@@ -20165,28 +23753,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 196,
+        "id": 590,
         "model_id": "renault-captur",
         "motorisation_id": null,
-        "longueur": "4227 mm",
-        "largeur": "1797 mm",
-        "hauteur": "1576 mm",
-        "empattement": "2638 mm",
-        "poids": "1248 kg",
-        "coffre": "422 L",
-        "cylindree": "1333 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "194 km/h",
-        "acceleration": "9.8 s",
-        "conso_urbaine": "6.8 L/100km",
-        "conso_extra": "5.0 L/100km",
-        "conso_mixte": "5.7 L/100km",
-        "emission_co2": "129 g/km",
-        "reservoir": "48 L",
-        "roues": "17 pouces",
-        "pneus": "215/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -20223,7 +23811,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 591,
+        "model_id": "renault-captur-e-tech",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 953,
@@ -20308,28 +23919,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 194,
+        "id": 592,
         "model_id": "renault-clio",
         "motorisation_id": null,
-        "longueur": "4050 mm",
-        "largeur": "1798 mm",
-        "hauteur": "1448 mm",
-        "empattement": "2583 mm",
-        "poids": "1040 kg",
-        "coffre": "391 L",
-        "cylindree": "999 cc",
-        "cylindres": "3",
-        "turbo": "Oui (TCe)",
-        "vitesse_max": "183 km/h",
-        "acceleration": "11.6 s",
-        "conso_urbaine": "6.2 L/100km",
-        "conso_extra": "4.4 L/100km",
-        "conso_mixte": "5.1 L/100km",
-        "emission_co2": "115 g/km",
-        "reservoir": "42 L",
-        "roues": "16 pouces",
-        "pneus": "205/45 R16",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -20366,7 +23977,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 593,
+        "model_id": "renault-clio-e-tech",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 941,
@@ -20423,7 +24057,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 594,
+        "model_id": "renault-express",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 977,
@@ -20480,7 +24137,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 595,
+        "model_id": "renault-express-van",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 973,
@@ -20537,7 +24217,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 596,
+        "model_id": "renault-kangoo",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 981,
@@ -20595,7 +24298,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 126,
+        "id": 597,
         "model_id": "renault-kardian",
         "motorisation_id": null,
         "longueur": "",
@@ -20606,7 +24309,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Jumelle de stepway  \n          hey el arabia - le ",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -20615,8 +24318,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": "Jumelle de stepway  \n          hey el arabia - le ",
-        "options": null
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -20684,28 +24387,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 195,
+        "id": 598,
         "model_id": "renault-logan",
         "motorisation_id": null,
-        "longueur": "4369 mm",
-        "largeur": "1784 mm",
-        "hauteur": "1498 mm",
-        "empattement": "2634 mm",
-        "poids": "1095 kg",
-        "coffre": "510 L",
-        "cylindree": "999 cc",
-        "cylindres": "3",
-        "turbo": "Oui (TCe)",
-        "vitesse_max": "168 km/h",
-        "acceleration": "13.2 s",
-        "conso_urbaine": "6.4 L/100km",
-        "conso_extra": "4.7 L/100km",
-        "conso_mixte": "5.3 L/100km",
-        "emission_co2": "121 g/km",
-        "reservoir": "50 L",
-        "roues": "15 pouces",
-        "pneus": "185/65 R15",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -20752,28 +24455,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 198,
+        "id": 599,
         "model_id": "renault-megane",
         "motorisation_id": null,
-        "longueur": "4200 mm",
-        "largeur": "1768 mm",
-        "hauteur": "1505 mm",
-        "empattement": "2685 mm",
-        "poids": "1624 kg",
-        "coffre": "440 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "160 km/h",
-        "acceleration": "7.4 s",
-        "conso_urbaine": "14.8 kWh/100km",
-        "conso_extra": "12.0 kWh/100km",
-        "conso_mixte": "13.2 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "60 kWh",
-        "roues": "18 pouces",
-        "pneus": "215/50 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -20811,7 +24514,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 127,
+        "id": 600,
         "model_id": "renault-megane-e-tech",
         "motorisation_id": null,
         "longueur": "",
@@ -20830,9 +24533,9 @@ const STATIC_DATA = {
         "conso_mixte": "",
         "emission_co2": "",
         "reservoir": "",
-        "roues": "Corps de berline compacte, style crossover, arrièr",
+        "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -20890,7 +24593,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 601,
+        "model_id": "renault-megane-sedan",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 957,
@@ -20947,7 +24673,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 602,
+        "model_id": "seat-arona",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1585,
@@ -21004,7 +24753,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 603,
+        "model_id": "seat-ateca",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1593,
@@ -21061,7 +24833,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 604,
+        "model_id": "seat-ibiza",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1581,
@@ -21118,7 +24913,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 605,
+        "model_id": "seat-leon",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1589,
@@ -21175,7 +24993,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 606,
+        "model_id": "skoda-fabia",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1597,
@@ -21232,7 +25073,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 607,
+        "model_id": "skoda-kamiq",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1613,
@@ -21289,7 +25153,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 608,
+        "model_id": "skoda-karoq",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1617,
@@ -21346,7 +25233,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 609,
+        "model_id": "skoda-kodiaq",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1621,
@@ -21403,7 +25313,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 610,
+        "model_id": "skoda-octavia",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1605,
@@ -21460,7 +25393,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 611,
+        "model_id": "skoda-scala",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1601,
@@ -21518,15 +25474,15 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 128,
+        "id": 612,
         "model_id": "skoda-superb",
         "motorisation_id": null,
         "longueur": "",
         "largeur": "",
-        "hauteur": "Superb vs Fusion vs Passat \n          lilou - le 1",
+        "hauteur": "",
         "empattement": "",
         "poids": "",
-        "coffre": "Coffre avec filet ? \n          Abdel - le 14 mars ",
+        "coffre": ": 4 réponse(s)",
         "cylindree": "",
         "cylindres": "",
         "turbo": "",
@@ -21539,7 +25495,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -21597,7 +25553,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 613,
+        "model_id": "soueast-s05-ice",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2189,
@@ -21654,7 +25633,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 614,
+        "model_id": "soueast-s06-dm",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2197,
@@ -21711,7 +25713,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 615,
+        "model_id": "soueast-s06-ice",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2193,
@@ -21768,7 +25793,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 616,
+        "model_id": "soueast-s07",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2201,
@@ -21826,7 +25874,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 129,
+        "id": 617,
         "model_id": "soueast-s08-dm",
         "motorisation_id": null,
         "longueur": "",
@@ -21834,10 +25882,10 @@ const STATIC_DATA = {
         "hauteur": "",
         "empattement": "",
         "poids": "",
-        "coffre": "SOUEAST S08 DM est un SUV familial à 7 places doté",
+        "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "CHANGAN UNI-K\n      \n                2.0 Turbo 226",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -21847,7 +25895,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -21905,7 +25953,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 618,
+        "model_id": "soueast-s09",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2209,
@@ -21963,7 +26034,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 130,
+        "id": 619,
         "model_id": "suzuki-jimny",
         "motorisation_id": null,
         "longueur": "",
@@ -21982,9 +26053,9 @@ const STATIC_DATA = {
         "conso_mixte": "",
         "emission_co2": "",
         "reservoir": "",
-        "roues": "le plaisir grandeur nature !",
+        "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -22042,7 +26113,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 620,
+        "model_id": "suzuki-swift",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1789,
@@ -22099,7 +26193,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 621,
+        "model_id": "toyota-bz4x",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1401,
@@ -22157,7 +26274,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 131,
+        "id": 622,
         "model_id": "toyota-c-hr",
         "motorisation_id": null,
         "longueur": "",
@@ -22169,7 +26286,7 @@ const STATIC_DATA = {
         "cylindree": "",
         "cylindres": "",
         "turbo": "",
-        "vitesse_max": "C-HR dans les montées ? \n          Salah Eddine Bo",
+        "vitesse_max": ": 3 réponse(s)",
         "acceleration": "",
         "conso_urbaine": "",
         "conso_extra": "",
@@ -22178,7 +26295,7 @@ const STATIC_DATA = {
         "reservoir": "",
         "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -22246,28 +26363,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 230,
+        "id": 623,
         "model_id": "toyota-corolla",
         "motorisation_id": null,
-        "longueur": "4620 mm",
-        "largeur": "1780 mm",
-        "hauteur": "1435 mm",
-        "empattement": "2700 mm",
-        "poids": "1325 kg",
-        "coffre": "361 L",
-        "cylindree": "1798 cc",
-        "cylindres": "4",
-        "turbo": "Non (Hybride)",
-        "vitesse_max": "180 km/h",
-        "acceleration": "10.9 s",
-        "conso_urbaine": "4.5 L/100km",
-        "conso_extra": "4.7 L/100km",
-        "conso_mixte": "4.6 L/100km",
-        "emission_co2": "104 g/km",
-        "reservoir": "43 L",
-        "roues": "17 pouces",
-        "pneus": "205/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -22304,7 +26421,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 624,
+        "model_id": "toyota-corolla-prestige",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1381,
@@ -22361,7 +26501,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 625,
+        "model_id": "toyota-corolla-sport",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1385,
@@ -22418,7 +26581,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 626,
+        "model_id": "toyota-corolla-x-suv",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1397,
@@ -22475,7 +26661,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 627,
+        "model_id": "toyota-fortuner",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1413,
@@ -22542,28 +26751,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 233,
+        "id": 628,
         "model_id": "toyota-hilux",
         "motorisation_id": null,
-        "longueur": "5325 mm",
-        "largeur": "1855 mm",
-        "hauteur": "1815 mm",
-        "empattement": "3085 mm",
-        "poids": "1930 kg",
-        "coffre": "1270 L (benne)",
-        "cylindree": "2393 cc",
-        "cylindres": "4",
-        "turbo": "Oui (D-4D)",
-        "vitesse_max": "175 km/h",
-        "acceleration": "10.8 s",
-        "conso_urbaine": "8.5 L/100km",
-        "conso_extra": "7.5 L/100km",
-        "conso_mixte": "7.9 L/100km",
-        "emission_co2": "208 g/km",
-        "reservoir": "80 L",
-        "roues": "17 pouces",
-        "pneus": "265/65 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -22610,28 +26819,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 232,
+        "id": 629,
         "model_id": "toyota-land-cruiser",
         "motorisation_id": null,
-        "longueur": "4950 mm",
-        "largeur": "1980 mm",
-        "hauteur": "1885 mm",
-        "empattement": "2850 mm",
-        "poids": "2400 kg",
-        "coffre": "700 L",
-        "cylindree": "3445 cc",
-        "cylindres": "6",
-        "turbo": "Oui (Bi-Turbo)",
-        "vitesse_max": "210 km/h",
-        "acceleration": "6.7 s",
-        "conso_urbaine": "11.2 L/100km",
-        "conso_extra": "8.8 L/100km",
-        "conso_mixte": "9.8 L/100km",
-        "emission_co2": "221 g/km",
-        "reservoir": "110 L",
-        "roues": "21 pouces",
-        "pneus": "275/50 R21",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -22668,7 +26877,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 630,
+        "model_id": "toyota-land-cruiser-prado",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1409,
@@ -22726,7 +26958,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 132,
+        "id": 631,
         "model_id": "toyota-rav-4",
         "motorisation_id": null,
         "longueur": "",
@@ -22745,9 +26977,9 @@ const STATIC_DATA = {
         "conso_mixte": "",
         "emission_co2": "",
         "reservoir": "",
-        "roues": "Le nouveau TOYOTA RAV 4 adopte un design plus expr",
+        "roues": "",
         "pneus": "",
-        "options": null
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -22815,28 +27047,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 231,
+        "id": 632,
         "model_id": "toyota-rav4",
         "motorisation_id": null,
-        "longueur": "4600 mm",
-        "largeur": "1855 mm",
-        "hauteur": "1685 mm",
-        "empattement": "2690 mm",
-        "poids": "1845 kg",
-        "coffre": "580 L",
-        "cylindree": "2487 cc",
-        "cylindres": "4",
-        "turbo": "Non (Hybride)",
-        "vitesse_max": "180 km/h",
-        "acceleration": "7.9 s",
-        "conso_urbaine": "4.7 L/100km",
-        "conso_extra": "5.5 L/100km",
-        "conso_mixte": "5.1 L/100km",
-        "emission_co2": "115 g/km",
-        "reservoir": "55 L",
-        "roues": "18 pouces",
-        "pneus": "225/60 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -22883,28 +27115,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 229,
+        "id": 633,
         "model_id": "toyota-yaris",
         "motorisation_id": null,
-        "longueur": "3940 mm",
-        "largeur": "1745 mm",
-        "hauteur": "1500 mm",
-        "empattement": "2560 mm",
-        "poids": "1035 kg",
-        "coffre": "286 L",
-        "cylindree": "1490 cc",
-        "cylindres": "4",
-        "turbo": "Non",
-        "vitesse_max": "180 km/h",
-        "acceleration": "10.6 s",
-        "conso_urbaine": "5.0 L/100km",
-        "conso_extra": "4.2 L/100km",
-        "conso_mixte": "4.5 L/100km",
-        "emission_co2": "103 g/km",
-        "reservoir": "42 L",
-        "roues": "16 pouces",
-        "pneus": "195/50 R16",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -22941,7 +27173,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 634,
+        "model_id": "toyota-yaris-cross",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1389,
@@ -22998,7 +27253,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 635,
+        "model_id": "toyota-yaris-hev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1377,
@@ -23055,7 +27333,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 636,
+        "model_id": "volkswagen-caddy",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1113,
@@ -23112,7 +27413,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 637,
+        "model_id": "volkswagen-golf",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1089,
@@ -23169,7 +27493,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 638,
+        "model_id": "volkswagen-t-cross",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1093,
@@ -23226,7 +27573,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 639,
+        "model_id": "volkswagen-t-roc",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1097,
@@ -23283,7 +27653,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 640,
+        "model_id": "volkswagen-taigo",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1101,
@@ -23340,7 +27733,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 641,
+        "model_id": "volkswagen-tiguan",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1105,
@@ -23397,7 +27813,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 642,
+        "model_id": "volkswagen-touareg",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1109,
@@ -23454,7 +27893,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 643,
+        "model_id": "volvo-ex30",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2077,
@@ -23511,7 +27973,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 644,
+        "model_id": "volvo-xc40",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2081,
@@ -23568,7 +28053,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 645,
+        "model_id": "volvo-xc60-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2085,
@@ -23625,7 +28133,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 646,
+        "model_id": "volvo-xc90-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2089,
@@ -23701,28 +28232,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 217,
+        "id": 647,
         "model_id": "vw-golf",
         "motorisation_id": null,
-        "longueur": "4284 mm",
-        "largeur": "1789 mm",
-        "hauteur": "1491 mm",
-        "empattement": "2619 mm",
-        "poids": "1285 kg",
-        "coffre": "380 L",
-        "cylindree": "1498 cc",
-        "cylindres": "4",
-        "turbo": "Oui (TSI)",
-        "vitesse_max": "224 km/h",
-        "acceleration": "8.5 s",
-        "conso_urbaine": "6.5 L/100km",
-        "conso_extra": "4.8 L/100km",
-        "conso_mixte": "5.4 L/100km",
-        "emission_co2": "123 g/km",
-        "reservoir": "50 L",
-        "roues": "17 pouces",
-        "pneus": "215/55 R17",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -23769,28 +28300,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 219,
+        "id": 648,
         "model_id": "vw-id4",
         "motorisation_id": null,
-        "longueur": "4584 mm",
-        "largeur": "1865 mm",
-        "hauteur": "1640 mm",
-        "empattement": "2766 mm",
-        "poids": "2124 kg",
-        "coffre": "543 L",
-        "cylindree": "N/A (Électrique)",
-        "cylindres": "N/A",
-        "turbo": "N/A",
-        "vitesse_max": "180 km/h",
-        "acceleration": "6.2 s",
-        "conso_urbaine": "19.0 kWh/100km",
-        "conso_extra": "15.5 kWh/100km",
-        "conso_mixte": "17.0 kWh/100km",
-        "emission_co2": "0 g/km",
-        "reservoir": "77 kWh",
-        "roues": "20 pouces",
-        "pneus": "235/50 R20",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -23837,28 +28368,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 216,
+        "id": 649,
         "model_id": "vw-polo",
         "motorisation_id": null,
-        "longueur": "4074 mm",
-        "largeur": "1751 mm",
-        "hauteur": "1461 mm",
-        "empattement": "2564 mm",
-        "poids": "1095 kg",
-        "coffre": "351 L",
-        "cylindree": "999 cc",
-        "cylindres": "3",
-        "turbo": "Oui (TSI)",
-        "vitesse_max": "194 km/h",
-        "acceleration": "10.8 s",
-        "conso_urbaine": "6.0 L/100km",
-        "conso_extra": "4.5 L/100km",
-        "conso_mixte": "5.1 L/100km",
-        "emission_co2": "116 g/km",
-        "reservoir": "40 L",
-        "roues": "15 pouces",
-        "pneus": "195/65 R15",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -23905,28 +28436,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 218,
+        "id": 650,
         "model_id": "vw-tiguan",
         "motorisation_id": null,
-        "longueur": "4539 mm",
-        "largeur": "1839 mm",
-        "hauteur": "1664 mm",
-        "empattement": "2681 mm",
-        "poids": "1515 kg",
-        "coffre": "615 L",
-        "cylindree": "1498 cc",
-        "cylindres": "4",
-        "turbo": "Oui (TSI)",
-        "vitesse_max": "210 km/h",
-        "acceleration": "8.8 s",
-        "conso_urbaine": "7.4 L/100km",
-        "conso_extra": "5.5 L/100km",
-        "conso_mixte": "6.2 L/100km",
-        "emission_co2": "140 g/km",
-        "reservoir": "60 L",
-        "roues": "18 pouces",
-        "pneus": "235/50 R18",
-        "options": null
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -23963,7 +28494,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 651,
+        "model_id": "zeekr-001",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2169,
@@ -24020,7 +28574,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 652,
+        "model_id": "zeekr-7x",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2173,
@@ -24077,7 +28654,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 653,
+        "model_id": "zeekr-x",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2165,
