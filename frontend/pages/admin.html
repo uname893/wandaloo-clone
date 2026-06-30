@@ -328,8 +328,15 @@
               <input type="text" id="brandPays" placeholder="Ex: France, Allemagne, USA">
             </div>
             <div class="form-group">
-              <label>Logo de la marque (URL ou chemin local)</label>
-              <input type="text" id="brandLogo" placeholder="Ex: /images/logos/audi.jpg ou URL externe">
+              <label>Logo de la marque (URL ou importer)</label>
+              <div style="display:flex;gap:12px;align-items:center;">
+                <input type="text" id="brandLogo" placeholder="Ex: /images/logos/audi.jpg" style="flex:1;">
+                <input type="file" id="brandLogoFile" accept="image/*" style="display:none;" onchange="optimizeAndUpload(this, 'brandLogo', 'brandLogoPreview')">
+                <button class="admin-btn admin-btn-secondary" onclick="document.getElementById('brandLogoFile').click()" type="button">📁 Depuis mon PC</button>
+              </div>
+              <div style="margin-top:10px;">
+                <img id="brandLogoPreview" src="" style="max-height:60px;border-radius:4px;display:none;border:1px solid var(--border);">
+              </div>
             </div>
             <div class="form-group">
               <label>Site officiel (Optionnel)</label>
@@ -393,8 +400,15 @@
                 <input type="number" id="modelPrixMax" placeholder="Ex: 280000">
               </div>
               <div class="form-group" style="grid-column: span 2;">
-                <label>Image principale (URL)</label>
-                <input type="text" id="modelImage" placeholder="https://images.unsplash.com/... ou URL du véhicule">
+                <label>Image principale du véhicule (URL ou importer)</label>
+                <div style="display:flex;gap:12px;align-items:center;">
+                  <input type="text" id="modelImage" placeholder="https://images.unsplash.com/... ou URL du véhicule" style="flex:1;">
+                  <input type="file" id="modelImageFile" accept="image/*" style="display:none;" onchange="optimizeAndUpload(this, 'modelImage', 'modelPreview')">
+                  <button class="admin-btn admin-btn-secondary" onclick="document.getElementById('modelImageFile').click()" type="button">📁 Importer depuis mon PC</button>
+                </div>
+                <div style="margin-top:10px;">
+                  <img id="modelPreview" src="" style="max-height:100px;border-radius:8px;display:none;border:1px solid var(--border);">
+                </div>
               </div>
             </div>
 
@@ -459,8 +473,15 @@
               <input type="text" id="newsDate" placeholder="Ex: 30 Juin 2026">
             </div>
             <div class="form-group">
-              <label>Image d'illustration (URL)</label>
-              <input type="text" id="newsImage" placeholder="https://images.unsplash.com/...">
+              <label>Image d'illustration (URL ou importer)</label>
+              <div style="display:flex;gap:12px;align-items:center;">
+                <input type="text" id="newsImage" placeholder="https://images.unsplash.com/..." style="flex:1;">
+                <input type="file" id="newsImageFile" accept="image/*" style="display:none;" onchange="optimizeAndUpload(this, 'newsImage', 'newsImagePreview')">
+                <button class="admin-btn admin-btn-secondary" onclick="document.getElementById('newsImageFile').click()" type="button">📁 Depuis mon PC</button>
+              </div>
+              <div style="margin-top:10px;">
+                <img id="newsImagePreview" src="" style="max-height:80px;border-radius:4px;display:none;border:1px solid var(--border);">
+              </div>
             </div>
             <div class="form-group">
               <label>Résumé / Extrait court</label>
@@ -514,6 +535,54 @@
   <script>
     const ADMIN_API = API_URL.replace('/api', '/api/admin');
     let adminToken = localStorage.getItem('adminToken') || '';
+
+    // OPTIMISATION ET REDIMENSIONNEMENT D'IMAGE CÔTÉ CLIENT (WEB COMPRESSION)
+    function optimizeAndUpload(fileInput, targetInputId, previewImgId) {
+      const file = fileInput.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        const img = new Image();
+        img.onload = function() {
+          const canvas = document.createElement('canvas');
+          const max_width = 800; // Taille maximale idéale pour le web
+          let width = img.width;
+          let height = img.height;
+
+          // Conserver le ratio
+          if (width > max_width) {
+            height = Math.round((height * max_width) / width);
+            width = max_width;
+          }
+
+          canvas.width = width;
+          canvas.height = height;
+
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0, width, height);
+
+          // Compresser au format JPEG (qualité 70% pour un chargement instantané)
+          const base64Data = canvas.toDataURL('image/jpeg', 0.7);
+
+          // Mettre à jour l'input de destination et l'aperçu
+          document.getElementById(targetInputId).value = base64Data;
+          
+          const preview = document.getElementById(previewImgId);
+          if (preview) {
+            preview.src = base64Data;
+            preview.style.display = 'block';
+          }
+          
+          // Calcul de la taille optimisée
+          const sizeInBytes = Math.round((base64Data.length * 3) / 4);
+          const sizeInKb = (sizeInBytes / 1024).toFixed(1);
+          console.log(`⚡ Image optimisée avec succès ! Taille : ${sizeInKb} Ko`);
+        };
+        img.src = event.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
 
     // Check auth on load
     if (adminToken) {
@@ -700,6 +769,10 @@
       document.getElementById('brandPays').value = '';
       document.getElementById('brandLogo').value = '';
       document.getElementById('brandSite').value = '';
+      
+      const preview = document.getElementById('brandLogoPreview');
+      if (preview) { preview.src = ''; preview.style.display = 'none'; }
+      
       document.getElementById('brandFormTitle').textContent = "Ajouter une nouvelle marque";
     }
 
@@ -712,12 +785,23 @@
       document.getElementById('brandPays').value = brand.pays || '';
       document.getElementById('brandLogo').value = brand.logo || '';
       document.getElementById('brandSite').value = brand.site_officiel || '';
+      
+      const preview = document.getElementById('brandLogoPreview');
+      if (preview && brand.logo) {
+        preview.src = brand.logo;
+        preview.style.display = 'block';
+      } else if (preview) {
+        preview.style.display = 'none';
+      }
+
       document.getElementById('brandFormTitle').textContent = `Éditer la marque : ${brand.nom}`;
       document.getElementById('brandFormCard').scrollIntoView({ behavior: 'smooth' });
     }
 
     function closeBrandForm() {
       document.getElementById('brandFormCard').style.display = 'none';
+      const preview = document.getElementById('brandLogoPreview');
+      if (preview) { preview.style.display = 'none'; }
     }
 
     async function saveBrand() {
@@ -794,6 +878,9 @@
       document.getElementById('modelPrixMax').value = '';
       document.getElementById('modelImage').value = '';
       
+      const preview = document.getElementById('modelPreview');
+      if (preview) { preview.src = ''; preview.style.display = 'none'; }
+      
       // Vider specs
       document.getElementById('specLongueur').value = '';
       document.getElementById('specLargeur').value = '';
@@ -854,6 +941,14 @@
       document.getElementById('modelPrixMax').value = m.prix_max || '';
       document.getElementById('modelImage').value = m.image || '';
 
+      const preview = document.getElementById('modelPreview');
+      if (preview && m.image) {
+        preview.src = m.image;
+        preview.style.display = 'block';
+      } else if (preview) {
+        preview.style.display = 'none';
+      }
+
       // Charger specifications (fiche technique)
       const s = m.specifications || {};
       document.getElementById('specLongueur').value = s.longueur || '';
@@ -884,6 +979,8 @@
 
     function closeModelForm() {
       document.getElementById('modelFormCard').style.display = 'none';
+      const preview = document.getElementById('modelPreview');
+      if (preview) { preview.style.display = 'none'; }
     }
 
     async function saveModel() {
@@ -1015,6 +1112,9 @@
       document.getElementById('newsImage').value = '';
       document.getElementById('newsResume').value = '';
       document.getElementById('newsContent').value = '';
+      
+      const preview = document.getElementById('newsImagePreview');
+      if (preview) { preview.src = ''; preview.style.display = 'none'; }
     }
 
     function editNewsArticleOpen(id) {
@@ -1027,10 +1127,20 @@
       document.getElementById('newsImage').value = art.image;
       document.getElementById('newsResume').value = art.resume;
       document.getElementById('newsContent').value = art.contenu_complet || '';
+
+      const preview = document.getElementById('newsImagePreview');
+      if (preview && art.image) {
+        preview.src = art.image;
+        preview.style.display = 'block';
+      } else if (preview) {
+        preview.style.display = 'none';
+      }
     }
 
     function closeNewsForm() {
       document.getElementById('newsFormCard').style.display = 'none';
+      const preview = document.getElementById('newsImagePreview');
+      if (preview) { preview.style.display = 'none'; }
     }
 
     async function saveNewsArticle() {
