@@ -1235,6 +1235,96 @@ async function loadArticlePage() {
   }
 }
 
+// ========== WALLPAPERS PAGE ==========
+async function loadWallpapersPage() {
+  const grid = document.getElementById('wallpapersGrid');
+  if (!grid) return;
+  
+  // Load default wallpapers
+  fetchWallpapersFromWikimedia('supercar wallpaper');
+}
+
+async function searchWallpapers() {
+  const query = document.getElementById('wallSearchInput').value.trim();
+  if (!query) return;
+  fetchWallpapersFromWikimedia(query + ' car');
+}
+
+function filterWallpapers(query, btn) {
+  // Toggle active class on chips
+  document.querySelectorAll('.quick-chips .chip-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  
+  document.getElementById('wallSearchInput').value = '';
+  fetchWallpapersFromWikimedia(query);
+}
+
+async function fetchWallpapersFromWikimedia(query) {
+  const grid = document.getElementById('wallpapersGrid');
+  grid.innerHTML = `
+    <div class="wall-card"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:70%;margin-bottom:8px;"></div><div class="skeleton" style="height:12px;width:40%;margin-bottom:16px;"></div><div class="skeleton" style="height:36px;width:100%;"></div></div></div>
+    <div class="wall-card"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:70%;margin-bottom:8px;"></div><div class="skeleton" style="height:12px;width:40%;margin-bottom:16px;"></div><div class="skeleton" style="height:36px;width:100%;"></div></div></div>
+    <div class="wall-card"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:70%;margin-bottom:8px;"></div><div class="skeleton" style="height:12px;width:40%;margin-bottom:16px;"></div><div class="skeleton" style="height:36px;width:100%;"></div></div></div>
+  `;
+
+  try {
+    const url = `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&generator=search&gsrnamespace=6&gsrsearch=${encodeURIComponent(query)}&gsrlimit=24&iiprop=url|extmetadata&origin=*`;
+    const res = await fetch(url);
+    const data = await res.json();
+    
+    const pages = data.query ? Object.values(data.query.pages) : [];
+    const wallpapers = pages.map(p => {
+      const info = p.imageinfo ? p.imageinfo[0] : null;
+      if (!info) return null;
+      
+      const title = info.extmetadata.ObjectName ? info.extmetadata.ObjectName.value.replace(/<\/?[^>]+(>|$)/g, "") : p.title.replace('File:', '').replace(/\.[^/.]+$/, "");
+      const author = info.extmetadata.Artist ? info.extmetadata.Artist.value.replace(/<\/?[^>]+(>|$)/g, "") : 'Wikimedia Contributor';
+      const license = info.extmetadata.LicenseShortName ? info.extmetadata.LicenseShortName.value : 'CC BY-SA';
+      
+      return {
+        url: info.url,
+        title: title.length > 40 ? title.slice(0, 37) + '...' : title,
+        author: author.length > 25 ? author.slice(0, 22) + '...' : author,
+        license: license
+      };
+    }).filter(Boolean);
+
+    if (wallpapers.length === 0) {
+      grid.innerHTML = `
+        <div class="no-results">
+          <h3>Aucun fond d'écran trouvé</h3>
+          <p>Essayez avec d'autres mots-clés (ex: "Ferrari", "BMW M4", "Concept car").</p>
+        </div>
+      `;
+      return;
+    }
+
+    grid.innerHTML = wallpapers.map(w => `
+      <div class="wall-card">
+        <div class="wall-img-wrap">
+          <img src="${w.url}" alt="${w.title}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600'">
+          <span class="res-badge">HD Wallpaper</span>
+        </div>
+        <div class="wall-info">
+          <div>
+            <h3>${w.title}</h3>
+            <p class="wall-author">👤 ${w.author} (${w.license})</p>
+          </div>
+          <a href="${w.url}" target="_blank" class="btn-download" download>📥 Télécharger HD</a>
+        </div>
+      </div>
+    `).join('');
+
+  } catch(e) {
+    grid.innerHTML = `
+      <div class="no-results">
+        <h3>Erreur de chargement</h3>
+        <p>Impossible de se connecter à la banque d'images de Wikimedia.</p>
+      </div>
+    `;
+  }
+}
+
 // ========== INIT ==========
 document.addEventListener('DOMContentLoaded', () => {
   const page = document.body.dataset.page;
@@ -1248,5 +1338,6 @@ document.addEventListener('DOMContentLoaded', () => {
     case 'actu': loadNewsPage(); break;
     case 'article': loadArticlePage(); break;
     case 'analyse': loadAnalysePage(); break;
+    case 'wallpapers': loadWallpapersPage(); break;
   }
 });

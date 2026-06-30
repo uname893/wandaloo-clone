@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonds d'écran Automobiles HD & 4K — AutoGuide Maroc</title>
+  <meta name="description" content="Téléchargez gratuitement des fonds d'écran de voitures HD et 4K. Des images réelles de haute qualité issues du monde entier.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    /* Premium styling for wallpaper cards */
+    .wallpapers-container {
+      padding: 40px 0 80px;
+    }
+    .wall-search-box {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(226, 232, 240, 0.8);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin-bottom: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    }
+    .wall-search-box h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+    .wall-search-box p {
+      color: var(--text-light);
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+    .search-input-group {
+      display: flex;
+      max-width: 600px;
+      margin: 0 auto 16px;
+      gap: 10px;
+    }
+    .search-input-group input {
+      flex: 1;
+      padding: 14px 20px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      font-size: 15px;
+      outline: none;
+      transition: all 0.2s;
+    }
+    .search-input-group input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(177, 98, 134, 0.15);
+    }
+    .search-input-group button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+    .search-input-group button:hover {
+      opacity: 0.95;
+      transform: translateY(-1px);
+    }
+    .quick-chips {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .quick-chips button {
+      background: #f1f5f9;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .quick-chips button:hover, .quick-chips button.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .wall-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .wall-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+    }
+    .wall-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary);
+    }
+    .wall-img-wrap {
+      position: relative;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      background: #e2e8f0;
+      overflow: hidden;
+    }
+    .wall-img-wrap img {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .wall-card:hover .wall-img-wrap img {
+      transform: scale(1.04);
+    }
+    .res-badge {
+      position: absolute;
+      top: 12px; right: 12px;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(4px);
+      color: white;
+      font-size: 10px;
+      font-weight: 800;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .wall-info {
+      padding: 16px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .wall-info h3 {
+      font-size: 15px;
+      font-weight: 800;
+      margin: 0 0 6px;
+      color: var(--text);
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .wall-author {
+      font-size: 12px;
+      color: var(--text-light);
+      margin: 0 0 16px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .btn-download {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: var(--bg-alt);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 10px 0;
+      width: 100%;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-download:hover {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .no-results {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 0;
+    }
+    .no-results img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 16px;
+      opacity: 0.8;
+    }
+    .no-results h3 {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .no-results p {
+      color: var(--text-light);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body data-page="wallpapers">
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <a href="/" class="logo">
+          <img src="../images/logo.png" alt="AutoGuide Maroc Logo" class="logo-img">
+          <span class="logo-text">AutoGuide<span class="logo-accent">Maroc</span></span>
+        </a>
+        <nav class="nav-main">
+          <a href="/" class="nav-link">Accueil</a>
+          <a href="marques.html" class="nav-link">Marques</a>
+          <a href="comparateur.html" class="nav-link">Comparateur</a>
+          <a href="promos.html" class="nav-link">Promos</a>
+          <a href="actu.html" class="nav-link">Actu</a>
+          <a href="analyse.html" class="nav-link">Analyse</a>
+          <a href="wallpapers.html" class="nav-link active">Wallpapers</a>
+        </nav>
+        <a href="comparateur.html" class="nav-cta">Comparer</a>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="container wallpapers-container">
+    <!-- Search Banner -->
+    <div class="wall-search-box">
+      <h1>Fonds d'écran Automobiles 4K</h1>
+      <p>Trouvez et téléchargez des photos ultra haute qualité de vos marques et supercars préférées</p>
+      
+      <div class="search-input-group">
+        <input type="text" id="wallSearchInput" placeholder="Ex: Ferrari, Audi R8, Concept car..." onkeyup="if(event.key==='Enter') searchWallpapers()">
+        <button onclick="searchWallpapers()">Rechercher</button>
+      </div>
+
+      <div class="quick-chips">
+        <button class="chip-btn active" onclick="filterWallpapers('car wallpaper', this)">🌟 Populaires</button>
+        <button class="chip-btn" onclick="filterWallpapers('ferrari wallpaper', this)">🏎️ Ferrari</button>
+        <button class="chip-btn" onclick="filterWallpapers('porsche wallpaper', this)">⚡ Porsche</button>
+        <button class="chip-btn" onclick="filterWallpapers('audi wallpaper', this)">🏁 Audi</button>
+        <button class="chip-btn" onclick="filterWallpapers('tesla wallpaper', this)">🔋 Tesla</button>
+        <button class="chip-btn" onclick="filterWallpapers('suv offroad', this)">🌲 SUV & Offroad</button>
+        <button class="chip-btn" onclick="filterWallpapers('classic car', this)">⭐ Classiques</button>
+      </div>
+    </div>
+
+    <!-- Wallpapers Grid -->
+    <div class="wall-grid" id="wallpapersGrid">
+      <!-- Skeletons loaded dynamically -->
+      <div class="wall-card"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:70%;margin-bottom:8px;"></div><div class="skeleton" style="height:12px;width:40%;margin-bottom:16px;"></div><div class="skeleton" style="height:36px;width:100%;"></div></div></div>
+      <div class="wall-card"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:70%;margin-bottom:8px;"></div><div class="skeleton" style="height:12px;width:40%;margin-bottom:16px;"></div><div class="skeleton" style="height:36px;width:100%;"></div></div></div>
+      <div class="wall-card"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:70%;margin-bottom:8px;"></div><div class="skeleton" style="height:12px;width:40%;margin-bottom:16px;"></div><div class="skeleton" style="height:36px;width:100%;"></div></div></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 AutoGuide Maroc. Photos fournies par la communauté Creative Commons & Wikimedia.</p>
+    </div>
+  </footer>
+
+  <script src="../js/config.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
