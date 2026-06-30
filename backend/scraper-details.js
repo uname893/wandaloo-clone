@@ -226,13 +226,17 @@ async function scrapeAllDetails() {
     });
   });
   
-  console.log(`Found ${models.length} models to detail\n`);
+  // Limiter à 40 modèles en exécution rapide si l'argument --quick est passé
+  const isQuick = process.argv.includes('--quick');
+  const modelsToProcess = isQuick ? models.slice(0, 40) : models;
   
-  for (let i = 0; i < models.length; i++) {
-    const model = models[i];
-    console.log(`[${i + 1}/${models.length}] ${model.marque} ${model.nom}`);
+  console.log(`Found ${models.length} models to detail (Processing ${modelsToProcess.length})\n`);
+  
+  for (let i = 0; i < modelsToProcess.length; i++) {
+    const model = modelsToProcess[i];
+    console.log(`[${i + 1}/${modelsToProcess.length}] ${model.marque} ${model.nom}`);
     await scrapeModelDetails(model);
-    await new Promise(r => setTimeout(r, 1000));
+    await new Promise(r => setTimeout(r, 800)); // Petit délai de sécurité
   }
   
   console.log('\n✅ Détails scraping terminé!');

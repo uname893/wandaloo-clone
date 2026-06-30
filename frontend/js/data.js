@@ -4,540 +4,540 @@ const STATIC_DATA = {
       "id": "alfa-romeo",
       "nom": "Alfa Romeo",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Alfa-Romeo-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 299000,
       "prix_max": 485400,
-      "created_at": "2026-06-28 17:08:05"
+      "created_at": "2026-06-30 01:00:44"
     },
     {
       "id": "audi",
       "nom": "Audi",
-      "pays": "Allemagne (Groupe VW)",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-audi.png",
-      "site_officiel": "https://www.audi.ma",
-      "nb_modeles": 3,
-      "prix_min": 349000,
-      "prix_max": 950000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 17,
+      "prix_min": 299900,
+      "prix_max": 1459000,
+      "created_at": "2026-06-30 00:59:37"
     },
     {
       "id": "baic",
       "nom": "BAIC",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-BAIC-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 165000,
       "prix_max": 330000,
-      "created_at": "2026-06-28 17:08:15"
+      "created_at": "2026-06-30 01:00:54"
     },
     {
       "id": "bmw",
       "nom": "BMW",
-      "pays": "Allemagne",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-bmw.png",
-      "site_officiel": "https://www.bmw.ma",
-      "nb_modeles": 4,
-      "prix_min": 349000,
-      "prix_max": 1250000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 22,
+      "prix_min": 334000,
+      "prix_max": 2354000,
+      "created_at": "2026-06-30 00:59:39"
     },
     {
       "id": "byd",
       "nom": "BYD",
-      "pays": "Chine",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-byd.png",
-      "site_officiel": "https://www.byd.com/ma",
-      "nb_modeles": 4,
-      "prix_min": 319000,
-      "prix_max": 749000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 11,
+      "prix_min": 199900,
+      "prix_max": 709900,
+      "created_at": "2026-06-30 01:00:21"
     },
     {
       "id": "changan",
       "nom": "Changan",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Changan-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 139900,
       "prix_max": 459900,
-      "created_at": "2026-06-28 17:07:50"
+      "created_at": "2026-06-30 01:00:28"
     },
     {
       "id": "chery",
       "nom": "Chery",
-      "pays": "Chine",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-chery.png",
-      "site_officiel": "https://www.chery.ma",
-      "nb_modeles": 3,
-      "prix_min": 159900,
-      "prix_max": 320000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 7,
+      "prix_min": 145000,
+      "prix_max": 359000,
+      "created_at": "2026-06-30 01:00:24"
     },
     {
       "id": "citroen",
       "nom": "Citroën",
-      "pays": "France (Stellantis)",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-citroen.png",
-      "site_officiel": "https://www.citroen.ma",
-      "nb_modeles": 4,
-      "prix_min": 119900,
-      "prix_max": 340000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 7,
+      "prix_min": 90900,
+      "prix_max": 338400,
+      "created_at": "2026-06-30 00:59:33"
     },
     {
       "id": "cupra",
       "nom": "Cupra",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Cupra-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 349900,
       "prix_max": 507900,
-      "created_at": "2026-06-28 17:08:00"
+      "created_at": "2026-06-30 01:00:38"
     },
     {
       "id": "dfsk",
       "nom": "DFSK",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-DFSK-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 195000,
       "prix_max": 305000,
-      "created_at": "2026-06-28 17:07:58"
+      "created_at": "2026-06-30 01:00:36"
     },
     {
       "id": "ds",
       "nom": "DS",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-DS-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 329900,
       "prix_max": 519900,
-      "created_at": "2026-06-28 17:08:02"
+      "created_at": "2026-06-30 01:00:40"
     },
     {
       "id": "dacia",
       "nom": "Dacia",
-      "pays": "Roumanie (Groupe Renault)",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-dacia.png",
-      "site_officiel": "https://www.dacia.ma",
-      "nb_modeles": 4,
-      "prix_min": 89900,
-      "prix_max": 249900,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 9,
+      "prix_min": 132000,
+      "prix_max": 310000,
+      "created_at": "2026-06-30 00:59:28"
     },
     {
       "id": "deepal",
       "nom": "Deepal",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Deepal-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 329900,
       "prix_max": 449900,
-      "created_at": "2026-06-28 17:08:19"
+      "created_at": "2026-06-30 01:00:57"
     },
     {
       "id": "dongfeng",
       "nom": "Dongfeng",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Dongfeng-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 179000,
       "prix_max": 339000,
-      "created_at": "2026-06-28 17:08:13"
+      "created_at": "2026-06-30 01:00:52"
     },
     {
       "id": "fiat",
       "nom": "Fiat",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-fiat.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 230000,
       "prix_max": 482900,
-      "created_at": "2026-06-28 17:07:24"
+      "created_at": "2026-06-30 01:00:01"
     },
     {
       "id": "ford",
       "nom": "Ford",
-      "pays": "États-Unis",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-ford.png",
-      "site_officiel": "https://www.ford.ma",
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
       "nb_modeles": 3,
-      "prix_min": 199000,
-      "prix_max": 520000,
-      "created_at": "2026-06-28 20:31:38"
+      "prix_min": 315000,
+      "prix_max": 770000,
+      "created_at": "2026-06-30 00:59:51"
     },
     {
       "id": "gwm",
       "nom": "GWM",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-GWM-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 10,
       "prix_min": 199900,
       "prix_max": 679900,
-      "created_at": "2026-06-28 17:07:52"
+      "created_at": "2026-06-30 01:00:30"
     },
     {
       "id": "geely",
       "nom": "Geely",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Geely-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 8,
       "prix_min": 129900,
       "prix_max": 399900,
-      "created_at": "2026-06-28 17:07:48"
+      "created_at": "2026-06-30 01:00:26"
     },
     {
       "id": "honda",
       "nom": "Honda",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Honda-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 215000,
       "prix_max": 465000,
-      "created_at": "2026-06-28 17:07:36"
+      "created_at": "2026-06-30 01:00:14"
     },
     {
       "id": "hyundai",
       "nom": "Hyundai",
-      "pays": "Corée du Sud",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-hyundai.png",
-      "site_officiel": "https://www.hyundai.ma",
-      "nb_modeles": 5,
-      "prix_min": 149900,
-      "prix_max": 520000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 14,
+      "prix_min": 162900,
+      "prix_max": 695900,
+      "created_at": "2026-06-30 00:59:47"
     },
     {
       "id": "jac",
       "nom": "JAC",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-JAC-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 198000,
       "prix_max": 289000,
-      "created_at": "2026-06-28 17:08:23"
+      "created_at": "2026-06-30 01:01:01"
     },
     {
       "id": "jaecoo",
       "nom": "Jaecoo",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Jaecoo-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 369000,
       "prix_max": 389000,
-      "created_at": "2026-06-28 17:07:54"
+      "created_at": "2026-06-30 01:00:32"
     },
     {
       "id": "jaguar",
       "nom": "Jaguar",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Jaguar-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 1,
       "prix_min": 786360,
       "prix_max": 786360,
-      "created_at": "2026-06-28 17:08:03"
+      "created_at": "2026-06-30 01:00:42"
     },
     {
       "id": "jeep",
       "nom": "Jeep",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-jeep.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 262400,
       "prix_max": 884000,
-      "created_at": "2026-06-28 17:07:26"
+      "created_at": "2026-06-30 01:00:03"
     },
     {
       "id": "kia",
       "nom": "Kia",
-      "pays": "Corée du Sud",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-kia.png",
-      "site_officiel": "https://www.kia.ma",
-      "nb_modeles": 4,
-      "prix_min": 159900,
-      "prix_max": 480000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 13,
+      "prix_min": 142900,
+      "prix_max": 899000,
+      "created_at": "2026-06-30 00:59:49"
     },
     {
       "id": "land-rover",
       "nom": "Land Rover",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Land-Rover-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 8,
       "prix_min": 559000,
       "prix_max": 2059320,
-      "created_at": "2026-06-28 17:07:28"
+      "created_at": "2026-06-30 01:00:05"
     },
     {
       "id": "lexus",
       "nom": "Lexus",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Lexus-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 409900,
       "prix_max": 856000,
-      "created_at": "2026-06-28 17:07:34"
+      "created_at": "2026-06-30 01:00:12"
     },
     {
       "id": "lynk-et-co",
       "nom": "Lynk & Co",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Lynk---Co-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 259000,
       "prix_max": 429000,
-      "created_at": "2026-06-28 17:08:27"
+      "created_at": "2026-06-30 01:01:05"
     },
     {
       "id": "mg",
       "nom": "MG",
-      "pays": "Chine (SAIC)",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-mg.png",
-      "site_officiel": "https://www.mgmotor.ma",
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
       "nb_modeles": 8,
       "prix_min": 169000,
       "prix_max": 680000,
-      "created_at": "2026-06-28 20:31:38"
+      "created_at": "2026-06-30 00:59:24"
     },
     {
       "id": "mahindra",
       "nom": "Mahindra",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Mahindra-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 116900,
       "prix_max": 239000,
-      "created_at": "2026-06-28 17:08:09"
+      "created_at": "2026-06-30 01:00:48"
     },
     {
       "id": "maserati",
       "nom": "Maserati",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Maserati-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 769000,
       "prix_max": 3900000,
-      "created_at": "2026-06-28 17:08:11"
+      "created_at": "2026-06-30 01:00:50"
     },
     {
       "id": "mazda",
       "nom": "Mazda",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Mazda-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 295000,
       "prix_max": 453000,
-      "created_at": "2026-06-28 17:07:40"
+      "created_at": "2026-06-30 01:00:18"
     },
     {
       "id": "mercedes",
       "nom": "Mercedes-Benz",
-      "pays": "Allemagne",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-mercedes-benz.png",
-      "site_officiel": "https://www.mercedes-benz.ma",
-      "nb_modeles": 4,
-      "prix_min": 375000,
-      "prix_max": 1500000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 26,
+      "prix_min": 399000,
+      "prix_max": 2299000,
+      "created_at": "2026-06-30 00:59:42"
     },
     {
       "id": "mini",
       "nom": "Mini",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Mini-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 6,
       "prix_min": 325000,
       "prix_max": 628000,
-      "created_at": "2026-06-28 17:07:32"
+      "created_at": "2026-06-30 01:00:10"
     },
     {
       "id": "mitsubishi",
       "nom": "Mitsubishi",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Mitsubishi-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 289900,
       "prix_max": 474000,
-      "created_at": "2026-06-28 17:07:42"
+      "created_at": "2026-06-30 01:00:20"
     },
     {
       "id": "nissan",
       "nom": "Nissan",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Nissan-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 149900,
       "prix_max": 499900,
-      "created_at": "2026-06-28 17:07:16"
+      "created_at": "2026-06-30 00:59:53"
     },
     {
       "id": "omoda",
       "nom": "Omoda",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Omoda-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 209000,
       "prix_max": 420000,
-      "created_at": "2026-06-28 17:07:56"
+      "created_at": "2026-06-30 01:00:34"
     },
     {
       "id": "opel",
       "nom": "Opel",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Opel-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 99000,
       "prix_max": 355000,
-      "created_at": "2026-06-28 17:07:18"
+      "created_at": "2026-06-30 00:59:55"
     },
     {
       "id": "peugeot",
       "nom": "Peugeot",
-      "pays": "France (Stellantis)",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-peugeot.png",
-      "site_officiel": "https://www.peugeot.ma",
-      "nb_modeles": 5,
-      "prix_min": 139900,
-      "prix_max": 490000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 10,
+      "prix_min": 214100,
+      "prix_max": 495000,
+      "created_at": "2026-06-30 00:59:31"
     },
     {
       "id": "porsche",
       "nom": "Porsche",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Porsche-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 11,
       "prix_min": 940000,
       "prix_max": 2890000,
-      "created_at": "2026-06-28 17:07:30"
+      "created_at": "2026-06-30 01:00:07"
     },
     {
       "id": "renault",
       "nom": "Renault",
-      "pays": "France",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-renault.png",
-      "site_officiel": "https://www.renault.ma",
-      "nb_modeles": 5,
-      "prix_min": 89900,
-      "prix_max": 420000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 13,
+      "prix_min": 155000,
+      "prix_max": 422000,
+      "created_at": "2026-06-30 00:59:26"
     },
     {
       "id": "seat",
       "nom": "Seat",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-seat.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 169000,
       "prix_max": 387900,
-      "created_at": "2026-06-28 17:07:20"
+      "created_at": "2026-06-30 00:59:57"
     },
     {
       "id": "skoda",
       "nom": "Skoda",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-skoda.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 171900,
       "prix_max": 493000,
-      "created_at": "2026-06-28 17:07:22"
+      "created_at": "2026-06-30 00:59:59"
     },
     {
       "id": "soueast",
       "nom": "Soueast",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Soueast-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 6,
       "prix_min": 193900,
       "prix_max": 349900,
-      "created_at": "2026-06-28 17:08:21"
+      "created_at": "2026-06-30 01:00:59"
     },
     {
       "id": "suzuki",
       "nom": "Suzuki",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Suzuki-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 189000,
       "prix_max": 240000,
-      "created_at": "2026-06-28 17:07:38"
+      "created_at": "2026-06-30 01:00:16"
     },
     {
       "id": "toyota",
       "nom": "Toyota",
-      "pays": "Japon",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-toyota.png",
-      "site_officiel": "https://www.toyota.ma",
-      "nb_modeles": 5,
-      "prix_min": 169000,
-      "prix_max": 740000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 10,
+      "prix_min": 220200,
+      "prix_max": 813900,
+      "created_at": "2026-06-30 00:59:45"
     },
     {
       "id": "volkswagen",
       "nom": "Volkswagen",
-      "pays": "Allemagne",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-volkswagen.png",
-      "site_officiel": "https://www.volkswagen.ma",
-      "nb_modeles": 5,
-      "prix_min": 179900,
-      "prix_max": 620000,
-      "created_at": "2026-06-28 20:31:38"
+      "pays": "Non spécifié",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
+      "site_officiel": "",
+      "nb_modeles": 7,
+      "prix_min": 253000,
+      "prix_max": 879000,
+      "created_at": "2026-06-30 00:59:35"
     },
     {
       "id": "volvo",
       "nom": "Volvo",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/backoffice/uploads/constructeur/logo/logo-volvo.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 380000,
       "prix_max": 900000,
-      "created_at": "2026-06-28 17:08:07"
+      "created_at": "2026-06-30 01:00:46"
     },
     {
       "id": "zeekr",
       "nom": "Zeekr",
       "pays": "Non spécifié",
-      "logo": "https://www.wandaloo.com/imgs/logo-Zeekr-b.png",
+      "logo": "https://www.wandaloo.com/imgs/logo-wandaloo.com-blanc.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 359000,
       "prix_max": 755000,
-      "created_at": "2026-06-28 17:08:17"
+      "created_at": "2026-06-30 01:00:56"
     }
   ],
   "models": [
@@ -557,7 +557,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 634,
+          "id": 1375,
           "model_id": "alfa-romeo-junior",
           "version": "ALFA ROMEO Junior",
           "moteur": "À préciser",
@@ -566,7 +566,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 255,
+        "model_id": "alfa-romeo-junior",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2061,
@@ -614,7 +637,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 635,
+          "id": 1376,
           "model_id": "alfa-romeo-junior-ev",
           "version": "ALFA ROMEO Junior EV",
           "moteur": "À préciser",
@@ -623,7 +646,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 256,
+        "model_id": "alfa-romeo-junior-ev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2065,
@@ -671,7 +717,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 637,
+          "id": 1378,
           "model_id": "alfa-romeo-stelvio",
           "version": "ALFA ROMEO Stelvio",
           "moteur": "À préciser",
@@ -680,7 +726,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 257,
+        "model_id": "alfa-romeo-stelvio",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2073,
@@ -728,7 +797,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 636,
+          "id": 1377,
           "model_id": "alfa-romeo-tonale",
           "version": "ALFA ROMEO Tonale",
           "moteur": "À préciser",
@@ -737,7 +806,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 258,
+        "model_id": "alfa-romeo-tonale",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2069,
@@ -785,7 +877,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 733,
+          "id": 1158,
           "model_id": "audi-a1-sportback",
           "version": "AUDI A1 Sportback",
           "moteur": "À préciser",
@@ -794,7 +886,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 259,
+        "model_id": "audi-a1-sportback",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1117,
@@ -861,27 +976,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 245,
+        "id": 260,
         "model_id": "audi-a3",
         "motorisation_id": null,
-        "longueur": "4504 mm",
-        "largeur": "1816 mm",
-        "hauteur": "1432 mm",
-        "empattement": "2636 mm",
-        "poids": "1325 kg",
-        "coffre": "325 L",
-        "cylindree": "1498 cc",
-        "cylindres": "4",
-        "turbo": "Oui (TFSI)",
-        "vitesse_max": "225 km/h",
-        "acceleration": "8.2 s",
-        "conso_urbaine": "6.2 L/100km",
-        "conso_extra": "4.8 L/100km",
-        "conso_mixte": "5.3 L/100km",
-        "emission_co2": "120 g/km",
-        "reservoir": "50 L",
-        "roues": "17 pouces",
-        "pneus": "215/50 R17"
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -909,7 +1025,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 735,
+          "id": 1160,
           "model_id": "audi-a3-berline",
           "version": "AUDI A3 Berline",
           "moteur": "À préciser",
@@ -919,7 +1035,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 54,
+        "id": 261,
         "model_id": "audi-a3-berline",
         "motorisation_id": null,
         "longueur": "",
@@ -932,14 +1048,15 @@ const STATIC_DATA = {
         "cylindres": "",
         "turbo": "",
         "vitesse_max": "",
-        "acceleration": "A3 2.0 TDI 110 ch - Aucun regret ! \n          El_M",
+        "acceleration": ": 4 réponse(s)",
         "conso_urbaine": "",
         "conso_extra": "",
         "conso_mixte": "",
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -988,7 +1105,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 734,
+          "id": 1159,
           "model_id": "audi-a3-sportback",
           "version": "AUDI A3 Sportback",
           "moteur": "À préciser",
@@ -997,7 +1114,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 262,
+        "model_id": "audi-a3-sportback",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1121,
@@ -1064,27 +1204,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 246,
+        "id": 263,
         "model_id": "audi-a4",
         "motorisation_id": null,
-        "longueur": "4762 mm",
-        "largeur": "1847 mm",
-        "hauteur": "1410 mm",
-        "empattement": "2826 mm",
-        "poids": "1495 kg",
-        "coffre": "460 L",
-        "cylindree": "1984 cc",
-        "cylindres": "4",
-        "turbo": "Oui (TFSI)",
-        "vitesse_max": "240 km/h",
-        "acceleration": "7.9 s",
-        "conso_urbaine": "7.0 L/100km",
-        "conso_extra": "5.5 L/100km",
-        "conso_mixte": "6.0 L/100km",
-        "emission_co2": "138 g/km",
-        "reservoir": "58 L",
-        "roues": "17 pouces",
-        "pneus": "225/55 R17"
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -1112,7 +1253,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 736,
+          "id": 1161,
           "model_id": "audi-a5",
           "version": "AUDI A5",
           "moteur": "À préciser",
@@ -1121,7 +1262,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 264,
+        "model_id": "audi-a5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1129,
@@ -1169,7 +1333,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 737,
+          "id": 1162,
           "model_id": "audi-a6",
           "version": "AUDI A6",
           "moteur": "À préciser",
@@ -1178,7 +1342,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 265,
+        "model_id": "audi-a6",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1133,
@@ -1226,7 +1413,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 739,
+          "id": 1164,
           "model_id": "audi-a6-e-tron",
           "version": "AUDI A6 e-tron",
           "moteur": "À préciser",
@@ -1235,7 +1422,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 266,
+        "model_id": "audi-a6-e-tron",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1141,
@@ -1283,7 +1493,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 738,
+          "id": 1163,
           "model_id": "audi-a6-phev",
           "version": "AUDI A6 PHEV",
           "moteur": "À préciser",
@@ -1292,7 +1502,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 267,
+        "model_id": "audi-a6-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1137,
@@ -1340,7 +1573,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 740,
+          "id": 1165,
           "model_id": "audi-a8",
           "version": "AUDI A8",
           "moteur": "À préciser",
@@ -1349,7 +1582,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 268,
+        "model_id": "audi-a8",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1145,
@@ -1397,7 +1653,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 741,
+          "id": 1166,
           "model_id": "audi-q2",
           "version": "AUDI Q2",
           "moteur": "À préciser",
@@ -1407,7 +1663,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 55,
+        "id": 269,
         "model_id": "audi-q2",
         "motorisation_id": null,
         "longueur": "",
@@ -1419,15 +1675,16 @@ const STATIC_DATA = {
         "cylindree": "",
         "cylindres": "",
         "turbo": "",
-        "vitesse_max": "AUDI Q2 et Fiche technique erronée \n          Ferr",
-        "acceleration": "AUDI Q2 et Fiche technique erronée \n          Ferr",
+        "vitesse_max": "",
+        "acceleration": "",
         "conso_urbaine": "",
         "conso_extra": "",
         "conso_mixte": "",
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -1476,7 +1733,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 742,
+          "id": 1167,
           "model_id": "audi-q3",
           "version": "AUDI Q3",
           "moteur": "À préciser",
@@ -1485,7 +1742,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 270,
+        "model_id": "audi-q3",
+        "motorisation_id": null,
+        "longueur": ": 1 réponse(s)",
+        "largeur": ": 1 réponse(s)",
+        "hauteur": ": 1 réponse(s)",
+        "empattement": ": 1 réponse(s)",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1153,
@@ -1533,7 +1813,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 743,
+          "id": 1168,
           "model_id": "audi-q3-sportback",
           "version": "AUDI Q3 Sportback",
           "moteur": "À préciser",
@@ -1543,7 +1823,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 57,
+        "id": 271,
         "model_id": "audi-q3-sportback",
         "motorisation_id": null,
         "longueur": "",
@@ -1554,7 +1834,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "PORSCHE Macan\n      \n                4         sel",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -1563,7 +1843,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -1599,14 +1880,14 @@ const STATIC_DATA = {
     {
       "id": "audi-q5",
       "marque": "Audi",
-      "nom": "Q5",
+      "nom": "AUDI Q5",
       "slug": "q5",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 720000,
-      "prix_max": 950000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/audi/Audi-Q5-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 611000,
+      "prix_max": 842000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/audi-q5.jpg",
       "fiche_url": "/neuf/audi/q5/",
       "created_at": "2026-06-28 20:31:43",
       "fuels": "Diesel,Essence",
@@ -1631,27 +1912,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 247,
+        "id": 272,
         "model_id": "audi-q5",
         "motorisation_id": null,
-        "longueur": "4682 mm",
-        "largeur": "1893 mm",
-        "hauteur": "1659 mm",
-        "empattement": "2825 mm",
-        "poids": "1755 kg",
-        "coffre": "550 L",
-        "cylindree": "1984 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "235 km/h",
-        "acceleration": "7.4 s",
-        "conso_urbaine": "7.5 L/100km",
-        "conso_extra": "6.0 L/100km",
-        "conso_mixte": "6.5 L/100km",
-        "emission_co2": "148 g/km",
-        "reservoir": "75 L",
-        "roues": "18 pouces",
-        "pneus": "235/60 R18"
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -1679,7 +1961,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 745,
+          "id": 1169,
           "model_id": "audi-q5-sportback",
           "version": "AUDI Q5 Sportback",
           "moteur": "À préciser",
@@ -1689,7 +1971,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 58,
+        "id": 273,
         "model_id": "audi-q5-sportback",
         "motorisation_id": null,
         "longueur": "",
@@ -1700,7 +1982,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Fidèle aux attentes du SUV coupé haut de gamme, le",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -1709,7 +1991,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -1758,7 +2041,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 746,
+          "id": 1170,
           "model_id": "audi-q6-e-tron",
           "version": "AUDI Q6 e-tron",
           "moteur": "À préciser",
@@ -1768,7 +2051,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 59,
+        "id": 274,
         "model_id": "audi-q6-e-tron",
         "motorisation_id": null,
         "longueur": "",
@@ -1776,7 +2059,7 @@ const STATIC_DATA = {
         "hauteur": "",
         "empattement": "",
         "poids": "",
-        "coffre": "AUDI Q6 e-tron est un SUV familial 100% électrique",
+        "coffre": "",
         "cylindree": "",
         "cylindres": "",
         "turbo": "",
@@ -1788,7 +2071,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -1837,7 +2121,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 747,
+          "id": 1171,
           "model_id": "audi-q7",
           "version": "AUDI Q7",
           "moteur": "À préciser",
@@ -1846,7 +2130,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 275,
+        "model_id": "audi-q7",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1173,
@@ -1894,7 +2201,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 748,
+          "id": 1172,
           "model_id": "audi-q7-phev",
           "version": "AUDI Q7 PHEV",
           "moteur": "À préciser",
@@ -1903,7 +2210,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 276,
+        "model_id": "audi-q7-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1177,
@@ -1951,7 +2281,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 749,
+          "id": 1173,
           "model_id": "audi-q8",
           "version": "AUDI Q8",
           "moteur": "À préciser",
@@ -1960,7 +2290,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 277,
+        "model_id": "audi-q8",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1181,
@@ -2008,7 +2361,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 659,
+          "id": 1400,
           "model_id": "baic-bj30e",
           "version": "BAIC BJ30e",
           "moteur": "À préciser",
@@ -2017,7 +2370,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 278,
+        "model_id": "baic-bj30e",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2161,
@@ -2065,7 +2441,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 655,
+          "id": 1396,
           "model_id": "baic-u5-plus",
           "version": "BAIC U5 Plus",
           "moteur": "À préciser",
@@ -2074,7 +2450,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 279,
+        "model_id": "baic-u5-plus",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2145,
@@ -2122,7 +2521,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 656,
+          "id": 1397,
           "model_id": "baic-x35",
           "version": "BAIC X35",
           "moteur": "À préciser",
@@ -2131,7 +2530,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 280,
+        "model_id": "baic-x35",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2149,
@@ -2179,7 +2601,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 657,
+          "id": 1398,
           "model_id": "baic-x55",
           "version": "BAIC X55",
           "moteur": "À préciser",
@@ -2189,7 +2611,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 60,
+        "id": 281,
         "model_id": "baic-x55",
         "motorisation_id": null,
         "longueur": "",
@@ -2200,7 +2622,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "Le BAIC X55 s’adresse aux clients dynamiques qui c",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -2209,7 +2631,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -2258,7 +2681,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 658,
+          "id": 1399,
           "model_id": "baic-x7",
           "version": "BAIC X7",
           "moteur": "À préciser",
@@ -2267,7 +2690,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 282,
+        "model_id": "baic-x7",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 2157,
@@ -2315,7 +2761,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 758,
+          "id": 1179,
           "model_id": "bmw-i5",
           "version": "BMW i5",
           "moteur": "À préciser",
@@ -2324,7 +2770,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 283,
+        "model_id": "bmw-i5",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1217,
@@ -2372,7 +2841,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 769,
+          "id": 1189,
           "model_id": "bmw-ix",
           "version": "BMW iX",
           "moteur": "À préciser",
@@ -2381,7 +2850,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 284,
+        "model_id": "bmw-ix",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1261,
@@ -2416,14 +2908,14 @@ const STATIC_DATA = {
     {
       "id": "bmw-serie-1",
       "marque": "BMW",
-      "nom": "Série 1",
+      "nom": "BMW Série 1",
       "slug": "serie-1",
-      "annee": 2024,
-      "categorie": "Berline",
+      "annee": 2025,
+      "categorie": "Non spécifiée",
       "carrosserie": "Berline",
-      "prix_min": 349000,
-      "prix_max": 480000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/BMW-Serie-1-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 334000,
+      "prix_max": 466000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/bmw-serie-1.jpg",
       "fiche_url": "/neuf/bmw/serie-1/",
       "created_at": "2026-06-28 20:31:42",
       "fuels": "Essence,Essence",
@@ -2448,27 +2940,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 237,
+        "id": 285,
         "model_id": "bmw-serie-1",
         "motorisation_id": null,
-        "longueur": "4361 mm",
-        "largeur": "1800 mm",
-        "hauteur": "1452 mm",
-        "empattement": "2670 mm",
-        "poids": "1385 kg",
-        "coffre": "380 L",
-        "cylindree": "1499 cc",
-        "cylindres": "3",
-        "turbo": "Oui",
-        "vitesse_max": "240 km/h",
-        "acceleration": "6.1 s",
-        "conso_urbaine": "6.2 L/100km",
-        "conso_extra": "4.8 L/100km",
-        "conso_mixte": "5.3 L/100km",
-        "emission_co2": "120 g/km",
-        "reservoir": "47 L",
-        "roues": "17 pouces",
-        "pneus": "205/55 R17"
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -2496,7 +2989,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 751,
+          "id": 1174,
           "model_id": "bmw-serie-2-gran-coupe",
           "version": "BMW Série 2 Gran Coupé",
           "moteur": "À préciser",
@@ -2505,7 +2998,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 286,
+        "model_id": "bmw-serie-2-gran-coupe",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1189,
@@ -2540,14 +3056,14 @@ const STATIC_DATA = {
     {
       "id": "bmw-serie-3",
       "marque": "BMW",
-      "nom": "Série 3",
+      "nom": "BMW Série 3",
       "slug": "serie-3",
-      "annee": 2024,
-      "categorie": "Berline",
+      "annee": 2025,
+      "categorie": "Non spécifiée",
       "carrosserie": "Berline",
-      "prix_min": 490000,
-      "prix_max": 750000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/BMW-Serie-3-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 479900,
+      "prix_max": 852000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/bmw-serie-3.jpg",
       "fiche_url": "/neuf/bmw/serie-3/",
       "created_at": "2026-06-28 20:31:42",
       "fuels": "Essence,Essence,Essence",
@@ -2581,27 +3097,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 238,
+        "id": 287,
         "model_id": "bmw-serie-3",
         "motorisation_id": null,
-        "longueur": "4709 mm",
-        "largeur": "1827 mm",
-        "hauteur": "1435 mm",
-        "empattement": "2851 mm",
-        "poids": "1510 kg",
-        "coffre": "480 L",
-        "cylindree": "1998 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "250 km/h",
-        "acceleration": "5.8 s",
-        "conso_urbaine": "7.2 L/100km",
-        "conso_extra": "5.5 L/100km",
-        "conso_mixte": "6.1 L/100km",
-        "emission_co2": "139 g/km",
-        "reservoir": "59 L",
-        "roues": "18 pouces",
-        "pneus": "225/50 R18"
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -2629,7 +3146,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 753,
+          "id": 1175,
           "model_id": "bmw-serie-4-cabriolet",
           "version": "BMW Série 4 Cabriolet",
           "moteur": "À préciser",
@@ -2638,7 +3155,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 288,
+        "model_id": "bmw-serie-4-cabriolet",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1197,
@@ -2686,7 +3226,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 754,
+          "id": 1176,
           "model_id": "bmw-serie-4-coupe",
           "version": "BMW Série 4 Coupé",
           "moteur": "À préciser",
@@ -2695,7 +3235,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 289,
+        "model_id": "bmw-serie-4-coupe",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1201,
@@ -2743,7 +3306,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 755,
+          "id": 1177,
           "model_id": "bmw-serie-4-gran-coupe",
           "version": "BMW Série 4 Gran Coupé",
           "moteur": "À préciser",
@@ -2752,7 +3315,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 290,
+        "model_id": "bmw-serie-4-gran-coupe",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1205,
@@ -2787,14 +3373,14 @@ const STATIC_DATA = {
     {
       "id": "bmw-serie-5",
       "marque": "BMW",
-      "nom": "Série 5",
+      "nom": "BMW Série 5",
       "slug": "serie-5",
-      "annee": 2024,
-      "categorie": "Berline",
+      "annee": 2025,
+      "categorie": "Non spécifiée",
       "carrosserie": "Berline",
-      "prix_min": 720000,
-      "prix_max": 1250000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/BMW-Serie-5-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 576000,
+      "prix_max": 778000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/bmw-serie-5.jpg",
       "fiche_url": "/neuf/bmw/serie-5/",
       "created_at": "2026-06-28 20:31:42",
       "fuels": "Essence,Essence,Électrique",
@@ -2828,27 +3414,28 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 240,
+        "id": 291,
         "model_id": "bmw-serie-5",
         "motorisation_id": null,
-        "longueur": "5060 mm",
-        "largeur": "1900 mm",
-        "hauteur": "1515 mm",
-        "empattement": "2995 mm",
-        "poids": "1730 kg",
-        "coffre": "520 L",
-        "cylindree": "1998 cc",
-        "cylindres": "4",
-        "turbo": "Oui",
-        "vitesse_max": "250 km/h",
-        "acceleration": "6.2 s",
-        "conso_urbaine": "7.5 L/100km",
-        "conso_extra": "5.8 L/100km",
-        "conso_mixte": "6.4 L/100km",
-        "emission_co2": "146 g/km",
-        "reservoir": "69 L",
-        "roues": "19 pouces",
-        "pneus": "245/45 R19"
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -2876,7 +3463,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 757,
+          "id": 1178,
           "model_id": "bmw-serie-5-phev",
           "version": "BMW Série 5 PHEV",
           "moteur": "À préciser",
@@ -2885,7 +3472,30 @@ const STATIC_DATA = {
           "carburant": "Électrique"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 292,
+        "model_id": "bmw-serie-5-phev",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1213,
@@ -2933,7 +3543,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 759,
+          "id": 1180,
           "model_id": "bmw-serie-7",
           "version": "BMW Série 7",
           "moteur": "À préciser",
@@ -2942,7 +3552,30 @@ const STATIC_DATA = {
           "carburant": "Essence"
         }
       ],
-      "specifications": null,
+      "specifications": {
+        "id": 293,
+        "model_id": "bmw-serie-7",
+        "motorisation_id": null,
+        "longueur": "",
+        "largeur": "",
+        "hauteur": "",
+        "empattement": "",
+        "poids": "",
+        "coffre": "",
+        "cylindree": "",
+        "cylindres": "",
+        "turbo": "",
+        "vitesse_max": "",
+        "acceleration": "",
+        "conso_urbaine": "",
+        "conso_extra": "",
+        "conso_mixte": "",
+        "emission_co2": "",
+        "reservoir": "",
+        "roues": "",
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
+      },
       "images": [
         {
           "id": 1221,
@@ -2990,7 +3623,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 760,
+          "id": 1181,
           "model_id": "bmw-serie-7-phev",
           "version": "BMW Série 7 PHEV",
           "moteur": "À préciser",
@@ -3000,7 +3633,7 @@ const STATIC_DATA = {
         }
       ],
       "specifications": {
-        "id": 61,
+        "id": 294,
         "model_id": "bmw-serie-7-phev",
         "motorisation_id": null,
         "longueur": "",
@@ -3011,7 +3644,7 @@ const STATIC_DATA = {
         "coffre": "",
         "cylindree": "",
         "cylindres": "",
-        "turbo": "PORSCHE Panamera\n      \n                4 E-Hybrid",
+        "turbo": "",
         "vitesse_max": "",
         "acceleration": "",
         "conso_urbaine": "",
@@ -3020,7 +3653,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": "{\"Équipements\":[]}"
       },
       "images": [
         {
@@ -3069,7 +3703,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 761,
+          "id": 1182,
           "model_id": "bmw-x1",
           "version": "BMW X1",
           "moteur": "À préciser",
@@ -3099,7 +3733,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -3148,7 +3783,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 762,
+          "id": 1183,
           "model_id": "bmw-x2",
           "version": "BMW X2",
           "moteur": "À préciser",
@@ -3192,14 +3827,14 @@ const STATIC_DATA = {
     {
       "id": "bmw-x3",
       "marque": "BMW",
-      "nom": "X3",
+      "nom": "BMW X3",
       "slug": "x3",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 620000,
-      "prix_max": 950000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/bmw/BMW-X3-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 579000,
+      "prix_max": 715000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/bmw-x3.jpg",
       "fiche_url": "/neuf/bmw/x3/",
       "created_at": "2026-06-28 20:31:42",
       "fuels": "Essence,Essence",
@@ -3244,7 +3879,8 @@ const STATIC_DATA = {
         "emission_co2": "157 g/km",
         "reservoir": "65 L",
         "roues": "18 pouces",
-        "pneus": "225/60 R18"
+        "pneus": "225/60 R18",
+        "options": null
       },
       "images": [
         {
@@ -3272,7 +3908,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 764,
+          "id": 1184,
           "model_id": "bmw-x4",
           "version": "BMW X4",
           "moteur": "À préciser",
@@ -3329,7 +3965,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 765,
+          "id": 1185,
           "model_id": "bmw-x5",
           "version": "BMW X5",
           "moteur": "À préciser",
@@ -3386,7 +4022,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 766,
+          "id": 1186,
           "model_id": "bmw-x5-phev",
           "version": "BMW X5 PHEV",
           "moteur": "À préciser",
@@ -3443,7 +4079,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 767,
+          "id": 1187,
           "model_id": "bmw-x6",
           "version": "BMW X6",
           "moteur": "À préciser",
@@ -3473,7 +4109,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -3522,7 +4159,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 768,
+          "id": 1188,
           "model_id": "bmw-x7",
           "version": "BMW X7",
           "moteur": "À préciser",
@@ -3579,7 +4216,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 770,
+          "id": 1190,
           "model_id": "bmw-xm",
           "version": "BMW XM",
           "moteur": "À préciser",
@@ -3636,7 +4273,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 771,
+          "id": 1191,
           "model_id": "bmw-z4",
           "version": "BMW Z4",
           "moteur": "À préciser",
@@ -3693,7 +4330,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 579,
+          "id": 1321,
           "model_id": "byd-atto-2-phev",
           "version": "BYD ATTO 2 PHEV",
           "moteur": "À préciser",
@@ -3750,7 +4387,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 580,
+          "id": 1322,
           "model_id": "byd-atto-3",
           "version": "BYD ATTO 3",
           "moteur": "À préciser",
@@ -3807,7 +4444,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 581,
+          "id": 1323,
           "model_id": "byd-atto-3-evo",
           "version": "BYD ATTO 3 EVO",
           "moteur": "À préciser",
@@ -3837,7 +4474,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "313 et 449 ch avec transmission 2 et 4  motrices.",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -3925,7 +4563,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "60.5 kWh",
         "roues": "18 pouces",
-        "pneus": "235/50 R18"
+        "pneus": "235/50 R18",
+        "options": null
       },
       "images": [
         {
@@ -3992,7 +4631,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "60.4 kWh",
         "roues": "17 pouces",
-        "pneus": "205/55 R17"
+        "pneus": "205/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -4020,7 +4660,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 578,
+          "id": 1320,
           "model_id": "byd-han",
           "version": "BYD HAN",
           "moteur": "À préciser",
@@ -4050,7 +4690,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -4099,7 +4740,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 575,
+          "id": 1318,
           "model_id": "byd-seagull",
           "version": "BYD Seagull",
           "moteur": "À préciser",
@@ -4143,14 +4784,14 @@ const STATIC_DATA = {
     {
       "id": "byd-seal",
       "marque": "BYD",
-      "nom": "Seal",
+      "nom": "BYD SEAL",
       "slug": "seal",
-      "annee": 2024,
-      "categorie": "Berline",
-      "carrosserie": "Berline",
-      "prix_min": 419000,
-      "prix_max": 549000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/byd/BYD-Seal-2024-Neuve-Maroc-01.jpg",
+      "annee": 2025,
+      "categorie": "SUV",
+      "carrosserie": "SUV",
+      "prix_min": 469900,
+      "prix_max": 529900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/byd-seal.jpg",
       "fiche_url": "/neuf/byd/seal/",
       "created_at": "2026-06-28 20:31:43",
       "fuels": "Électrique,Électrique",
@@ -4195,7 +4836,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "82.5 kWh",
         "roues": "19 pouces",
-        "pneus": "235/45 R19"
+        "pneus": "235/45 R19",
+        "options": null
       },
       "images": [
         {
@@ -4223,7 +4865,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 576,
+          "id": 1319,
           "model_id": "byd-seal-5-phev",
           "version": "BYD SEAL 5 PHEV",
           "moteur": "À préciser",
@@ -4280,7 +4922,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 584,
+          "id": 1326,
           "model_id": "byd-seal-u-phev",
           "version": "BYD SEAL U PHEV",
           "moteur": "À préciser",
@@ -4310,7 +4952,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -4359,7 +5002,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 582,
+          "id": 1324,
           "model_id": "byd-sealion-5-phev",
           "version": "BYD SEALION 5 PHEV",
           "moteur": "À préciser",
@@ -4416,7 +5059,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 583,
+          "id": 1325,
           "model_id": "byd-sealion-7",
           "version": "BYD SEALION 7",
           "moteur": "À préciser",
@@ -4446,7 +5089,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -4482,14 +5126,14 @@ const STATIC_DATA = {
     {
       "id": "byd-tang",
       "marque": "BYD",
-      "nom": "Tang",
+      "nom": "BYD TANG",
       "slug": "tang",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 569000,
-      "prix_max": 679000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/byd/BYD-Tang-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 709900,
+      "prix_max": 709900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/byd-tang.jpg",
       "fiche_url": "/neuf/byd/tang/",
       "created_at": "2026-06-28 20:31:43",
       "fuels": "Électrique",
@@ -4525,7 +5169,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "108.8 kWh",
         "roues": "22 pouces",
-        "pneus": "265/45 R22"
+        "pneus": "265/45 R22",
+        "options": null
       },
       "images": [
         {
@@ -4553,7 +5198,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 601,
+          "id": 1342,
           "model_id": "changan-alsvin",
           "version": "CHANGAN Alsvin",
           "moteur": "À préciser",
@@ -4610,7 +5255,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 602,
+          "id": 1343,
           "model_id": "changan-cs15",
           "version": "CHANGAN CS15",
           "moteur": "À préciser",
@@ -4667,7 +5312,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 603,
+          "id": 1344,
           "model_id": "changan-cs35",
           "version": "CHANGAN CS35+",
           "moteur": "À préciser",
@@ -4697,7 +5342,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -4746,7 +5392,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 604,
+          "id": 1345,
           "model_id": "changan-cs55",
           "version": "CHANGAN CS55+",
           "moteur": "À préciser",
@@ -4776,7 +5422,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -4825,7 +5472,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 605,
+          "id": 1346,
           "model_id": "changan-uni-k",
           "version": "CHANGAN UNI-K",
           "moteur": "À préciser",
@@ -4855,7 +5502,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -4904,7 +5552,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 586,
+          "id": 1327,
           "model_id": "chery-arrizo-6",
           "version": "CHERY Arrizo 6",
           "moteur": "À préciser",
@@ -4934,7 +5582,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -5022,7 +5671,8 @@ const STATIC_DATA = {
         "emission_co2": "154 g/km",
         "reservoir": "50 L",
         "roues": "18 pouces",
-        "pneus": "235/50 R18"
+        "pneus": "235/50 R18",
+        "options": null
       },
       "images": [
         {
@@ -5050,7 +5700,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 587,
+          "id": 1328,
           "model_id": "chery-tiggo-2-pro",
           "version": "CHERY Tiggo 2 Pro",
           "moteur": "À préciser",
@@ -5107,7 +5757,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 588,
+          "id": 1329,
           "model_id": "chery-tiggo-3-x",
           "version": "CHERY Tiggo 3 X",
           "moteur": "À préciser",
@@ -5137,7 +5787,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -5225,7 +5876,8 @@ const STATIC_DATA = {
         "emission_co2": "149 g/km",
         "reservoir": "50 L",
         "roues": "17 pouces",
-        "pneus": "215/55 R17"
+        "pneus": "215/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -5253,7 +5905,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 590,
+          "id": 1331,
           "model_id": "chery-tiggo-4-cross-hev",
           "version": "CHERY Tiggo 4 Cross HEV",
           "moteur": "À préciser",
@@ -5310,7 +5962,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 589,
+          "id": 1330,
           "model_id": "chery-tiggo-4-pro",
           "version": "CHERY Tiggo 4 Pro",
           "moteur": "À préciser",
@@ -5397,7 +6049,8 @@ const STATIC_DATA = {
         "emission_co2": "163 g/km",
         "reservoir": "60 L",
         "roues": "18 pouces",
-        "pneus": "235/55 R18"
+        "pneus": "235/55 R18",
+        "options": null
       },
       "images": [
         {
@@ -5425,7 +6078,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 591,
+          "id": 1332,
           "model_id": "chery-tiggo-7-pro-phev",
           "version": "CHERY Tiggo 7 Pro PHEV",
           "moteur": "À préciser",
@@ -5482,7 +6135,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 592,
+          "id": 1333,
           "model_id": "chery-tiggo-8-pro-phev",
           "version": "CHERY Tiggo 8 Pro PHEV",
           "moteur": "À préciser",
@@ -5539,7 +6192,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 719,
+          "id": 1148,
           "model_id": "citroen-ami",
           "version": "CITROËN AMI",
           "moteur": "À préciser",
@@ -5583,14 +6236,14 @@ const STATIC_DATA = {
     {
       "id": "citroen-berlingo",
       "marque": "Citroën",
-      "nom": "Berlingo",
+      "nom": "CITROËN Berlingo",
       "slug": "berlingo",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Monospace",
       "carrosserie": "Monospace",
-      "prix_min": 189900,
-      "prix_max": 259900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-Berlingo-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 195900,
+      "prix_max": 238900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen-berlingo.jpg",
       "fiche_url": "/neuf/citroen/berlingo/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Essence,Diesel",
@@ -5635,7 +6288,8 @@ const STATIC_DATA = {
         "emission_co2": "138 g/km",
         "reservoir": "50 L",
         "roues": "16 pouces",
-        "pneus": "195/65 R16"
+        "pneus": "195/65 R16",
+        "options": null
       },
       "images": [
         {
@@ -5650,14 +6304,14 @@ const STATIC_DATA = {
     {
       "id": "citroen-c3",
       "marque": "Citroën",
-      "nom": "C3",
+      "nom": "CITROËN C3",
       "slug": "c3",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Citadine",
       "carrosserie": "Berline",
-      "prix_min": 119900,
-      "prix_max": 179900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-C3-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 149900,
+      "prix_max": 205900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen-c3.jpg",
       "fiche_url": "/neuf/citroen/c3/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Essence,Essence",
@@ -5702,7 +6356,8 @@ const STATIC_DATA = {
         "emission_co2": "114 g/km",
         "reservoir": "44 L",
         "roues": "16 pouces",
-        "pneus": "195/55 R16"
+        "pneus": "195/55 R16",
+        "options": null
       },
       "images": [
         {
@@ -5730,7 +6385,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 723,
+          "id": 1150,
           "model_id": "citroen-c3-aircross",
           "version": "CITROËN C3 AirCross",
           "moteur": "À préciser",
@@ -5774,14 +6429,14 @@ const STATIC_DATA = {
     {
       "id": "citroen-c4",
       "marque": "Citroën",
-      "nom": "C4",
+      "nom": "CITROËN C4",
       "slug": "c4",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Berline",
       "carrosserie": "Berline",
-      "prix_min": 219900,
-      "prix_max": 340000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-C4-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 223900,
+      "prix_max": 270400,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen-c4.jpg",
       "fiche_url": "/neuf/citroen/c4/",
       "created_at": "2026-06-28 20:31:40",
       "fuels": "Essence,Essence,Électrique",
@@ -5835,7 +6490,8 @@ const STATIC_DATA = {
         "emission_co2": "126 g/km",
         "reservoir": "50 L",
         "roues": "17 pouces",
-        "pneus": "215/55 R17"
+        "pneus": "215/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -5863,7 +6519,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 722,
+          "id": 1149,
           "model_id": "citroen-c4-x",
           "version": "CITROËN C4 X",
           "moteur": "À préciser",
@@ -5907,14 +6563,14 @@ const STATIC_DATA = {
     {
       "id": "citroen-c5-aircross",
       "marque": "Citroën",
-      "nom": "C5 Aircross",
+      "nom": "CITROËN C5 AirCross",
       "slug": "c5-aircross",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 249900,
-      "prix_max": 340000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-C5-Aircross-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 299900,
+      "prix_max": 338400,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen-c5-aircross.jpg",
       "fiche_url": "/neuf/citroen/c5-aircross/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Essence,Essence,Hybride",
@@ -5968,7 +6624,8 @@ const STATIC_DATA = {
         "emission_co2": "137 g/km",
         "reservoir": "53 L",
         "roues": "18 pouces",
-        "pneus": "225/50 R18"
+        "pneus": "225/50 R18",
+        "options": null
       },
       "images": [
         {
@@ -5996,7 +6653,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 625,
+          "id": 1366,
           "model_id": "cupra-formentor",
           "version": "CUPRA Formentor",
           "moteur": "À préciser",
@@ -6053,7 +6710,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 626,
+          "id": 1367,
           "model_id": "cupra-formentor-phev",
           "version": "CUPRA Formentor PHEV",
           "moteur": "À préciser",
@@ -6110,7 +6767,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 624,
+          "id": 1365,
           "model_id": "cupra-leon",
           "version": "CUPRA  Leon",
           "moteur": "À préciser",
@@ -6167,7 +6824,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 627,
+          "id": 1368,
           "model_id": "cupra-terramar",
           "version": "CUPRA Terramar",
           "moteur": "À préciser",
@@ -6224,7 +6881,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 628,
+          "id": 1369,
           "model_id": "cupra-terramar-phev",
           "version": "CUPRA Terramar PHEV",
           "moteur": "À préciser",
@@ -6281,7 +6938,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 707,
+          "id": 1141,
           "model_id": "dacia-bigster",
           "version": "DACIA Bigster",
           "moteur": "À préciser",
@@ -6311,7 +6968,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": "J’ai un bigster expression  \n          Mounir - le"
+        "pneus": "J’ai un bigster expression  \n          Mounir - le",
+        "options": null
       },
       "images": [
         {
@@ -6360,7 +7018,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 708,
+          "id": 1142,
           "model_id": "dacia-bigster-hev",
           "version": "DACIA Bigster HEV",
           "moteur": "À préciser",
@@ -6404,14 +7062,14 @@ const STATIC_DATA = {
     {
       "id": "dacia-duster",
       "marque": "Dacia",
-      "nom": "Duster",
+      "nom": "DACIA Duster",
       "slug": "duster",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 179900,
-      "prix_max": 249900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Duster-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 226900,
+      "prix_max": 260500,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia-duster.jpg",
       "fiche_url": "/neuf/dacia/duster/",
       "created_at": "2026-06-28 20:31:38",
       "fuels": "Essence,Essence,Essence",
@@ -6465,7 +7123,8 @@ const STATIC_DATA = {
         "emission_co2": "145 g/km",
         "reservoir": "50 L",
         "roues": "17 pouces",
-        "pneus": "215/60 R17"
+        "pneus": "215/60 R17",
+        "options": null
       },
       "images": [
         {
@@ -6480,14 +7139,14 @@ const STATIC_DATA = {
     {
       "id": "dacia-jogger",
       "marque": "Dacia",
-      "nom": "Jogger",
+      "nom": "DACIA Jogger",
       "slug": "jogger",
-      "annee": 2024,
-      "categorie": "Monospace",
-      "carrosserie": "Monospace",
-      "prix_min": 159900,
-      "prix_max": 229900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Jogger-2024-Neuve-Maroc-01.jpg",
+      "annee": 2025,
+      "categorie": "SUV",
+      "carrosserie": "SUV",
+      "prix_min": 195900,
+      "prix_max": 227900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia-jogger.jpg",
       "fiche_url": "/neuf/dacia/jogger/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Essence,Essence",
@@ -6532,7 +7191,8 @@ const STATIC_DATA = {
         "emission_co2": "140 g/km",
         "reservoir": "50 L",
         "roues": "16 pouces",
-        "pneus": "205/60 R16"
+        "pneus": "205/60 R16",
+        "options": null
       },
       "images": [
         {
@@ -6560,7 +7220,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 705,
+          "id": 1140,
           "model_id": "dacia-jogger-hev",
           "version": "DACIA Jogger HEV",
           "moteur": "À préciser",
@@ -6590,7 +7250,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -6639,7 +7300,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 703,
+          "id": 1139,
           "model_id": "dacia-logan",
           "version": "DACIA Logan",
           "moteur": "À préciser",
@@ -6744,7 +7405,8 @@ const STATIC_DATA = {
         "emission_co2": "120 g/km",
         "reservoir": "50 L",
         "roues": "15 pouces",
-        "pneus": "185/65 R15"
+        "pneus": "185/65 R15",
+        "options": null
       },
       "images": [
         {
@@ -6772,7 +7434,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 702,
+          "id": 1138,
           "model_id": "dacia-sandero-stepway",
           "version": "DACIA Sandero Stepway",
           "moteur": "À préciser",
@@ -6829,7 +7491,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 701,
+          "id": 1137,
           "model_id": "dacia-sandero-streetway",
           "version": "DACIA Sandero Streetway",
           "moteur": "À préciser",
@@ -6873,14 +7535,14 @@ const STATIC_DATA = {
     {
       "id": "dacia-spring",
       "marque": "Dacia",
-      "nom": "Spring",
+      "nom": "DACIA Spring",
       "slug": "spring",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Citadine",
       "carrosserie": "Citadine",
-      "prix_min": 139900,
-      "prix_max": 169900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Spring-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 215000,
+      "prix_max": 215000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia-spring.jpg",
       "fiche_url": "/neuf/dacia/spring/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Électrique,Électrique",
@@ -6925,7 +7587,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "26.8 kWh",
         "roues": "15 pouces",
-        "pneus": "165/70 R15"
+        "pneus": "165/70 R15",
+        "options": null
       },
       "images": [
         {
@@ -6953,7 +7616,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 665,
+          "id": 1406,
           "model_id": "deepal-g318",
           "version": "DEEPAL G318",
           "moteur": "À préciser",
@@ -6983,7 +7646,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -7032,7 +7696,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 663,
+          "id": 1404,
           "model_id": "deepal-s05-reev",
           "version": "DEEPAL S05 REEV",
           "moteur": "À préciser",
@@ -7089,7 +7753,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 664,
+          "id": 1405,
           "model_id": "deepal-s07-reev",
           "version": "DEEPAL S07 REEV",
           "moteur": "À préciser",
@@ -7146,7 +7810,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 623,
+          "id": 1364,
           "model_id": "dfsk-e5",
           "version": "DFSK E5",
           "moteur": "À préciser",
@@ -7203,7 +7867,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 622,
+          "id": 1363,
           "model_id": "dfsk-glory-500",
           "version": "DFSK Glory 500",
           "moteur": "À préciser",
@@ -7260,7 +7924,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 650,
+          "id": 1391,
           "model_id": "dongfeng-box",
           "version": "DONGFENG BOX",
           "moteur": "À préciser",
@@ -7317,7 +7981,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 654,
+          "id": 1395,
           "model_id": "dongfeng-huge",
           "version": "DONGFENG HUGE",
           "moteur": "À préciser",
@@ -7374,7 +8038,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 653,
+          "id": 1394,
           "model_id": "dongfeng-mage",
           "version": "DONGFENG MAGE",
           "moteur": "À préciser",
@@ -7431,7 +8095,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 651,
+          "id": 1392,
           "model_id": "dongfeng-shine",
           "version": "DONGFENG SHINE",
           "moteur": "À préciser",
@@ -7488,7 +8152,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 652,
+          "id": 1393,
           "model_id": "dongfeng-shine-max",
           "version": "DONGFENG SHINE MAX",
           "moteur": "À préciser",
@@ -7545,7 +8209,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 629,
+          "id": 1370,
           "model_id": "ds-ds-4",
           "version": "DS DS 4",
           "moteur": "À préciser",
@@ -7602,7 +8266,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 631,
+          "id": 1372,
           "model_id": "ds-ds-7",
           "version": "DS DS 7",
           "moteur": "À préciser",
@@ -7659,7 +8323,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 632,
+          "id": 1373,
           "model_id": "ds-ds-7-e-tense",
           "version": "DS DS 7 E-Tense",
           "moteur": "À préciser",
@@ -7716,7 +8380,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 630,
+          "id": 1371,
           "model_id": "ds-n4",
           "version": "DS N°4",
           "moteur": "À préciser",
@@ -7773,7 +8437,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 525,
+          "id": 1268,
           "model_id": "fiat-500x",
           "version": "FIAT 500X",
           "moteur": "À préciser",
@@ -7830,7 +8494,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 526,
+          "id": 1269,
           "model_id": "fiat-600",
           "version": "FIAT 600",
           "moteur": "À préciser",
@@ -7887,7 +8551,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 527,
+          "id": 1270,
           "model_id": "fiat-600e",
           "version": "FIAT 600e",
           "moteur": "À préciser",
@@ -7944,7 +8608,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 528,
+          "id": 1271,
           "model_id": "fiat-doblo",
           "version": "FIAT Doblo",
           "moteur": "À préciser",
@@ -7988,14 +8652,14 @@ const STATIC_DATA = {
     {
       "id": "ford-kuga",
       "marque": "Ford",
-      "nom": "Kuga",
+      "nom": "FORD Kuga",
       "slug": "kuga",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 329000,
-      "prix_max": 450000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/ford/Ford-Kuga-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 420000,
+      "prix_max": 470000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/ford-kuga.jpg",
       "fiche_url": "/neuf/ford/kuga/",
       "created_at": "2026-06-28 20:31:42",
       "fuels": "Essence,Hybride,Hybride",
@@ -8049,7 +8713,8 @@ const STATIC_DATA = {
         "emission_co2": "139 g/km",
         "reservoir": "52 L",
         "roues": "18 pouces",
-        "pneus": "235/50 R18"
+        "pneus": "235/50 R18",
+        "options": null
       },
       "images": [
         {
@@ -8116,7 +8781,8 @@ const STATIC_DATA = {
         "emission_co2": "270 g/km",
         "reservoir": "61 L",
         "roues": "19 pouces",
-        "pneus": "255/40 R19"
+        "pneus": "255/40 R19",
+        "options": null
       },
       "images": [
         {
@@ -8183,7 +8849,8 @@ const STATIC_DATA = {
         "emission_co2": "120 g/km",
         "reservoir": "42 L",
         "roues": "17 pouces",
-        "pneus": "215/55 R17"
+        "pneus": "215/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -8211,7 +8878,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 837,
+          "id": 1245,
           "model_id": "ford-ranger",
           "version": "FORD Ranger",
           "moteur": "À préciser",
@@ -8241,7 +8908,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "En 2020, Le FORD Ranger a été épaulé par une versi",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -8290,7 +8958,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 836,
+          "id": 1244,
           "model_id": "ford-territory",
           "version": "FORD Territory",
           "moteur": "À préciser",
@@ -8347,7 +9015,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 598,
+          "id": 1339,
           "model_id": "geely-cityray",
           "version": "GEELY CITYRAY",
           "moteur": "À préciser",
@@ -8404,7 +9072,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 596,
+          "id": 1337,
           "model_id": "geely-coolray",
           "version": "GEELY Coolray",
           "moteur": "À préciser",
@@ -8434,7 +9102,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -8483,7 +9152,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 595,
+          "id": 1336,
           "model_id": "geely-emgrand",
           "version": "GEELY Emgrand",
           "moteur": "À préciser",
@@ -8540,7 +9209,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 594,
+          "id": 1335,
           "model_id": "geely-ex2",
           "version": "GEELY EX2",
           "moteur": "À préciser",
@@ -8597,7 +9266,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 599,
+          "id": 1340,
           "model_id": "geely-ex5-phev",
           "version": "GEELY EX5 PHEV",
           "moteur": "À préciser",
@@ -8654,7 +9323,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 597,
+          "id": 1338,
           "model_id": "geely-geometry-c",
           "version": "GEELY Geometry C",
           "moteur": "À préciser",
@@ -8711,7 +9380,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 593,
+          "id": 1334,
           "model_id": "geely-gx3-pro",
           "version": "GEELY GX3 Pro",
           "moteur": "À préciser",
@@ -8768,7 +9437,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 600,
+          "id": 1341,
           "model_id": "geely-riddara-rd6-phev",
           "version": "GEELY Riddara RD6 PHEV",
           "moteur": "À préciser",
@@ -8825,7 +9494,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 609,
+          "id": 1350,
           "model_id": "gwm-haval-h6",
           "version": "GWM HAVAL H6",
           "moteur": "À préciser",
@@ -8882,7 +9551,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 610,
+          "id": 1351,
           "model_id": "gwm-haval-h6-phev",
           "version": "GWM HAVAL H6 PHEV",
           "moteur": "À préciser",
@@ -8939,7 +9608,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 611,
+          "id": 1352,
           "model_id": "gwm-haval-h7",
           "version": "GWM HAVAL H7",
           "moteur": "À préciser",
@@ -8996,7 +9665,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 608,
+          "id": 1349,
           "model_id": "gwm-haval-jolion",
           "version": "GWM HAVAL Jolion",
           "moteur": "À préciser",
@@ -9053,7 +9722,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 607,
+          "id": 1348,
           "model_id": "gwm-haval-jolion-pro",
           "version": "GWM HAVAL Jolion Pro",
           "moteur": "À préciser",
@@ -9110,7 +9779,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 606,
+          "id": 1347,
           "model_id": "gwm-ora-03",
           "version": "GWM ORA 03",
           "moteur": "À préciser",
@@ -9167,7 +9836,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 615,
+          "id": 1356,
           "model_id": "gwm-poer-dc",
           "version": "GWM POER DC",
           "moteur": "À préciser",
@@ -9224,7 +9893,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 613,
+          "id": 1354,
           "model_id": "gwm-tank-300",
           "version": "GWM TANK 300",
           "moteur": "À préciser",
@@ -9281,7 +9950,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 614,
+          "id": 1355,
           "model_id": "gwm-tank-500",
           "version": "GWM TANK 500",
           "moteur": "À préciser",
@@ -9311,7 +9980,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -9360,7 +10030,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 612,
+          "id": 1353,
           "model_id": "gwm-wey-05",
           "version": "GWM WEY 05",
           "moteur": "À préciser",
@@ -9417,7 +10087,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 565,
+          "id": 1308,
           "model_id": "honda-accord",
           "version": "HONDA Accord",
           "moteur": "À préciser",
@@ -9474,7 +10144,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 564,
+          "id": 1307,
           "model_id": "honda-cr-v",
           "version": "HONDA CR-V",
           "moteur": "À préciser",
@@ -9531,7 +10201,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 563,
+          "id": 1306,
           "model_id": "honda-hr-v",
           "version": "HONDA HR-V",
           "moteur": "À préciser",
@@ -9588,7 +10258,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 562,
+          "id": 1305,
           "model_id": "honda-jazz",
           "version": "HONDA Jazz",
           "moteur": "À préciser",
@@ -9645,7 +10315,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 813,
+          "id": 1227,
           "model_id": "hyundai-accent",
           "version": "HYUNDAI Accent",
           "moteur": "À préciser",
@@ -9675,7 +10345,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -9724,7 +10395,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 812,
+          "id": 1226,
           "model_id": "hyundai-creta",
           "version": "HYUNDAI Creta",
           "moteur": "À préciser",
@@ -9754,7 +10425,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": "CRETA_USB_DEFFECTUEX_ Très déçu \n          Salam  "
+        "pneus": "CRETA_USB_DEFFECTUEX_ Très déçu \n          Salam  ",
+        "options": null
       },
       "images": [
         {
@@ -9803,7 +10475,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 814,
+          "id": 1228,
           "model_id": "hyundai-elantra",
           "version": "HYUNDAI Elantra",
           "moteur": "À préciser",
@@ -9833,7 +10505,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -9882,7 +10555,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 809,
+          "id": 1225,
           "model_id": "hyundai-grand-i10-sedan",
           "version": "HYUNDAI Grand i10 Sedan",
           "moteur": "À préciser",
@@ -9912,7 +10585,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -9961,7 +10635,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 808,
+          "id": 1224,
           "model_id": "hyundai-i10",
           "version": "HYUNDAI i10",
           "moteur": "À préciser",
@@ -9991,7 +10665,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -10027,14 +10702,14 @@ const STATIC_DATA = {
     {
       "id": "hyundai-i20",
       "marque": "Hyundai",
-      "nom": "i20",
+      "nom": "HYUNDAI i20",
       "slug": "i20",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Citadine",
       "carrosserie": "Berline",
-      "prix_min": 149900,
-      "prix_max": 219900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/Hyundai-i20-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 194900,
+      "prix_max": 236900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai-i20.jpg",
       "fiche_url": "/neuf/hyundai/i20/",
       "created_at": "2026-06-28 20:31:40",
       "fuels": "Essence,Essence,Essence",
@@ -10088,7 +10763,8 @@ const STATIC_DATA = {
         "emission_co2": "108 g/km",
         "reservoir": "40 L",
         "roues": "16 pouces",
-        "pneus": "195/55 R16"
+        "pneus": "195/55 R16",
+        "options": null
       },
       "images": [
         {
@@ -10116,7 +10792,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 820,
+          "id": 1233,
           "model_id": "hyundai-ioniq-5",
           "version": "HYUNDAI IONIQ 5",
           "moteur": "À préciser",
@@ -10146,7 +10822,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -10195,7 +10872,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 821,
+          "id": 1234,
           "model_id": "hyundai-ioniq-6",
           "version": "HYUNDAI IONIQ 6",
           "moteur": "À préciser",
@@ -10225,7 +10902,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -10322,7 +11000,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "77.4 kWh",
         "roues": "20 pouces",
-        "pneus": "255/45 R20"
+        "pneus": "255/45 R20",
+        "options": null
       },
       "images": [
         {
@@ -10337,14 +11016,14 @@ const STATIC_DATA = {
     {
       "id": "hyundai-kona",
       "marque": "Hyundai",
-      "nom": "Kona",
+      "nom": "HYUNDAI Kona",
       "slug": "kona",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 219000,
-      "prix_max": 349000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/Hyundai-Kona-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 337900,
+      "prix_max": 399900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai-kona.jpg",
       "fiche_url": "/neuf/hyundai/kona/",
       "created_at": "2026-06-28 20:31:41",
       "fuels": "Essence,Électrique",
@@ -10389,7 +11068,8 @@ const STATIC_DATA = {
         "emission_co2": "121 g/km",
         "reservoir": "50 L",
         "roues": "17 pouces",
-        "pneus": "215/55 R17"
+        "pneus": "215/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -10456,7 +11136,8 @@ const STATIC_DATA = {
         "emission_co2": "175 g/km",
         "reservoir": "67 L",
         "roues": "20 pouces",
-        "pneus": "255/45 R20"
+        "pneus": "255/45 R20",
+        "options": null
       },
       "images": [
         {
@@ -10484,7 +11165,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 819,
+          "id": 1232,
           "model_id": "hyundai-santa-fe-hev",
           "version": "HYUNDAI Santa Fe HEV",
           "moteur": "À préciser",
@@ -10514,7 +11195,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -10563,7 +11245,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 815,
+          "id": 1229,
           "model_id": "hyundai-sonata",
           "version": "HYUNDAI Sonata",
           "moteur": "À préciser",
@@ -10593,7 +11275,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -10629,14 +11312,14 @@ const STATIC_DATA = {
     {
       "id": "hyundai-tucson",
       "marque": "Hyundai",
-      "nom": "Tucson",
+      "nom": "HYUNDAI Tucson",
       "slug": "tucson",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 289000,
-      "prix_max": 420000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/Hyundai-Tucson-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 359900,
+      "prix_max": 464900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai-tucson.jpg",
       "fiche_url": "/neuf/hyundai/tucson/",
       "created_at": "2026-06-28 20:31:41",
       "fuels": "Diesel,Essence,Hybride",
@@ -10690,7 +11373,8 @@ const STATIC_DATA = {
         "emission_co2": "138 g/km",
         "reservoir": "54 L",
         "roues": "18 pouces",
-        "pneus": "235/50 R18"
+        "pneus": "235/50 R18",
+        "options": null
       },
       "images": [
         {
@@ -10718,7 +11402,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 817,
+          "id": 1230,
           "model_id": "hyundai-tucson-hev",
           "version": "HYUNDAI Tucson HEV",
           "moteur": "À préciser",
@@ -10748,7 +11432,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -10797,7 +11482,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 818,
+          "id": 1231,
           "model_id": "hyundai-tucson-phev",
           "version": "HYUNDAI Tucson PHEV",
           "moteur": "À préciser",
@@ -10827,7 +11512,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -10876,7 +11562,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 672,
+          "id": 1413,
           "model_id": "jac-e30x",
           "version": "JAC E30X",
           "moteur": "À préciser",
@@ -10933,7 +11619,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 673,
+          "id": 1414,
           "model_id": "jac-t8",
           "version": "JAC T8",
           "moteur": "À préciser",
@@ -10963,7 +11649,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -11012,7 +11699,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 674,
+          "id": 1415,
           "model_id": "jac-t8-pro",
           "version": "JAC T8 PRO",
           "moteur": "À préciser",
@@ -11042,7 +11729,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -11091,7 +11779,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 616,
+          "id": 1357,
           "model_id": "jaecoo-j7",
           "version": "JAECOO J7",
           "moteur": "À préciser",
@@ -11148,7 +11836,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 617,
+          "id": 1358,
           "model_id": "jaecoo-j7-phev",
           "version": "JAECOO J7 PHEV",
           "moteur": "À préciser",
@@ -11205,7 +11893,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 633,
+          "id": 1374,
           "model_id": "jaguar-f-pace",
           "version": "JAGUAR F-Pace",
           "moteur": "À préciser",
@@ -11262,7 +11950,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 529,
+          "id": 1272,
           "model_id": "jeep-avenger",
           "version": "JEEP Avenger",
           "moteur": "À préciser",
@@ -11319,7 +12007,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 530,
+          "id": 1273,
           "model_id": "jeep-compass",
           "version": "JEEP Compass",
           "moteur": "À préciser",
@@ -11349,7 +12037,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -11398,7 +12087,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 531,
+          "id": 1274,
           "model_id": "jeep-wrangler",
           "version": "JEEP Wrangler",
           "moteur": "À préciser",
@@ -11455,7 +12144,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 829,
+          "id": 1239,
           "model_id": "kia-carnival",
           "version": "KIA Carnival",
           "moteur": "À préciser",
@@ -11512,7 +12201,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 830,
+          "id": 1240,
           "model_id": "kia-ev3",
           "version": "KIA EV3",
           "moteur": "À préciser",
@@ -11542,7 +12231,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -11591,7 +12281,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 831,
+          "id": 1241,
           "model_id": "kia-ev5",
           "version": "KIA EV5",
           "moteur": "À préciser",
@@ -11635,14 +12325,14 @@ const STATIC_DATA = {
     {
       "id": "kia-ev6",
       "marque": "Kia",
-      "nom": "EV6",
+      "nom": "KIA EV6",
       "slug": "ev6",
-      "annee": 2024,
-      "categorie": "SUV",
-      "carrosserie": "SUV",
-      "prix_min": 429000,
-      "prix_max": 480000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia/Kia-EV6-2024-Neuve-Maroc-01.jpg",
+      "annee": 2025,
+      "categorie": "Non spécifiée",
+      "carrosserie": "Berline",
+      "prix_min": 637000,
+      "prix_max": 718500,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia-ev6.jpg",
       "fiche_url": "/neuf/kia/ev6/",
       "created_at": "2026-06-28 20:31:41",
       "fuels": "Électrique,Électrique",
@@ -11687,7 +12377,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "77.4 kWh",
         "roues": "20 pouces",
-        "pneus": "255/45 R20"
+        "pneus": "255/45 R20",
+        "options": null
       },
       "images": [
         {
@@ -11715,7 +12406,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 833,
+          "id": 1242,
           "model_id": "kia-ev9",
           "version": "KIA EV9",
           "moteur": "À préciser",
@@ -11759,14 +12450,14 @@ const STATIC_DATA = {
     {
       "id": "kia-picanto",
       "marque": "Kia",
-      "nom": "Picanto",
+      "nom": "KIA Picanto",
       "slug": "picanto",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Citadine",
       "carrosserie": "Berline",
-      "prix_min": 159900,
-      "prix_max": 219900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia/Kia-Picanto-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 142900,
+      "prix_max": 176500,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia-picanto.jpg",
       "fiche_url": "/neuf/kia/picanto/",
       "created_at": "2026-06-28 20:31:41",
       "fuels": "Essence,Essence",
@@ -11811,7 +12502,8 @@ const STATIC_DATA = {
         "emission_co2": "103 g/km",
         "reservoir": "35 L",
         "roues": "14 pouces",
-        "pneus": "165/65 R14"
+        "pneus": "165/65 R14",
+        "options": null
       },
       "images": [
         {
@@ -11839,7 +12531,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 824,
+          "id": 1236,
           "model_id": "kia-seltos",
           "version": "KIA Seltos",
           "moteur": "À préciser",
@@ -11896,7 +12588,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 823,
+          "id": 1235,
           "model_id": "kia-sonet",
           "version": "KIA Sonet",
           "moteur": "À préciser",
@@ -11940,14 +12632,14 @@ const STATIC_DATA = {
     {
       "id": "kia-sorento",
       "marque": "Kia",
-      "nom": "Sorento",
+      "nom": "KIA Sorento",
       "slug": "sorento",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 389000,
-      "prix_max": 480000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia/Kia-Sorento-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 399900,
+      "prix_max": 565900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia-sorento.jpg",
       "fiche_url": "/neuf/kia/sorento/",
       "created_at": "2026-06-28 20:31:41",
       "fuels": "Essence,Hybride",
@@ -11992,7 +12684,8 @@ const STATIC_DATA = {
         "emission_co2": "179 g/km",
         "reservoir": "67 L",
         "roues": "20 pouces",
-        "pneus": "255/45 R20"
+        "pneus": "255/45 R20",
+        "options": null
       },
       "images": [
         {
@@ -12020,7 +12713,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 828,
+          "id": 1238,
           "model_id": "kia-sorento-hev",
           "version": "KIA Sorento HEV",
           "moteur": "À préciser",
@@ -12064,14 +12757,14 @@ const STATIC_DATA = {
     {
       "id": "kia-sportage",
       "marque": "Kia",
-      "nom": "Sportage",
+      "nom": "KIA Sportage",
       "slug": "sportage",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 289000,
-      "prix_max": 420000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia/Kia-Sportage-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 309900,
+      "prix_max": 465300,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia-sportage.jpg",
       "fiche_url": "/neuf/kia/sportage/",
       "created_at": "2026-06-28 20:31:41",
       "fuels": "Diesel,Essence,Hybride",
@@ -12125,7 +12818,8 @@ const STATIC_DATA = {
         "emission_co2": "141 g/km",
         "reservoir": "54 L",
         "roues": "18 pouces",
-        "pneus": "235/55 R18"
+        "pneus": "235/55 R18",
+        "options": null
       },
       "images": [
         {
@@ -12153,7 +12847,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 826,
+          "id": 1237,
           "model_id": "kia-sportage-hev",
           "version": "KIA Sportage HEV",
           "moteur": "À préciser",
@@ -12210,7 +12904,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 834,
+          "id": 1243,
           "model_id": "kia-tasman",
           "version": "KIA Tasman",
           "moteur": "À préciser",
@@ -12267,7 +12961,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 534,
+          "id": 1277,
           "model_id": "land-rover-defender-110",
           "version": "LAND ROVER Defender 110",
           "moteur": "À préciser",
@@ -12324,7 +13018,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 535,
+          "id": 1278,
           "model_id": "land-rover-defender-110-phev",
           "version": "LAND ROVER Defender 110 PHEV",
           "moteur": "À préciser",
@@ -12381,7 +13075,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 538,
+          "id": 1281,
           "model_id": "land-rover-range-rover",
           "version": "LAND ROVER Range Rover",
           "moteur": "À préciser",
@@ -12411,7 +13105,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -12460,7 +13155,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 532,
+          "id": 1275,
           "model_id": "land-rover-range-rover-evoque",
           "version": "LAND ROVER Range Rover Evoque",
           "moteur": "À préciser",
@@ -12517,7 +13212,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 539,
+          "id": 1282,
           "model_id": "land-rover-range-rover-phev",
           "version": "LAND ROVER Range Rover PHEV",
           "moteur": "À préciser",
@@ -12574,7 +13269,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 536,
+          "id": 1279,
           "model_id": "land-rover-range-rover-sport",
           "version": "LAND ROVER Range Rover Sport",
           "moteur": "À préciser",
@@ -12604,7 +13299,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -12653,7 +13349,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 537,
+          "id": 1280,
           "model_id": "land-rover-range-rover-sport-phev",
           "version": "LAND ROVER Range Rover Sport PHEV",
           "moteur": "À préciser",
@@ -12710,7 +13406,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 533,
+          "id": 1276,
           "model_id": "land-rover-range-rover-velar",
           "version": "LAND ROVER Range Rover Velar",
           "moteur": "À préciser",
@@ -12767,7 +13463,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 557,
+          "id": 1300,
           "model_id": "lexus-es",
           "version": "LEXUS ES",
           "moteur": "À préciser",
@@ -12824,7 +13520,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 559,
+          "id": 1302,
           "model_id": "lexus-nx",
           "version": "LEXUS NX",
           "moteur": "À préciser",
@@ -12881,7 +13577,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 560,
+          "id": 1303,
           "model_id": "lexus-rx",
           "version": "LEXUS RX",
           "moteur": "À préciser",
@@ -12938,7 +13634,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 561,
+          "id": 1304,
           "model_id": "lexus-rz",
           "version": "LEXUS RZ",
           "moteur": "À préciser",
@@ -12968,7 +13664,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -13017,7 +13714,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 558,
+          "id": 1301,
           "model_id": "lexus-ux",
           "version": "LEXUS UX",
           "moteur": "À préciser",
@@ -13074,7 +13771,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 676,
+          "id": 1417,
           "model_id": "lynk-et-co-01",
           "version": "LYNK & CO 01",
           "moteur": "À préciser",
@@ -13131,7 +13828,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 677,
+          "id": 1418,
           "model_id": "lynk-et-co-02",
           "version": "LYNK & CO 02",
           "moteur": "À préciser",
@@ -13188,7 +13885,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 675,
+          "id": 1416,
           "model_id": "lynk-et-co-06",
           "version": "LYNK & CO 06",
           "moteur": "À préciser",
@@ -13245,7 +13942,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 678,
+          "id": 1419,
           "model_id": "lynk-et-co-08",
           "version": "LYNK & CO 08",
           "moteur": "À préciser",
@@ -13275,7 +13972,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -13324,7 +14022,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 642,
+          "id": 1383,
           "model_id": "mahindra-kuv-100",
           "version": "MAHINDRA KUV 100",
           "moteur": "À préciser",
@@ -13381,7 +14079,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 644,
+          "id": 1385,
           "model_id": "mahindra-pik-up",
           "version": "MAHINDRA Pik-up",
           "moteur": "À préciser",
@@ -13438,7 +14136,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 643,
+          "id": 1384,
           "model_id": "mahindra-xuv-3xo",
           "version": "MAHINDRA XUV 3XO",
           "moteur": "À préciser",
@@ -13468,7 +14166,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -13517,7 +14216,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 647,
+          "id": 1388,
           "model_id": "maserati-ghibli",
           "version": "MASERATI Ghibli",
           "moteur": "À préciser",
@@ -13574,7 +14273,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 645,
+          "id": 1386,
           "model_id": "maserati-granturismo",
           "version": "MASERATI GranTurismo",
           "moteur": "À préciser",
@@ -13631,7 +14330,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 648,
+          "id": 1389,
           "model_id": "maserati-grecale",
           "version": "MASERATI Grecale",
           "moteur": "À préciser",
@@ -13688,7 +14387,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 649,
+          "id": 1390,
           "model_id": "maserati-levante",
           "version": "MASERATI Levante",
           "moteur": "À préciser",
@@ -13745,7 +14444,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 646,
+          "id": 1387,
           "model_id": "maserati-mc20",
           "version": "MASERATI MC20",
           "moteur": "À préciser",
@@ -13802,7 +14501,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 568,
+          "id": 1311,
           "model_id": "mazda-3",
           "version": "MAZDA 3",
           "moteur": "À préciser",
@@ -13859,7 +14558,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 569,
+          "id": 1312,
           "model_id": "mazda-3-berline",
           "version": "MAZDA 3 Berline",
           "moteur": "À préciser",
@@ -13916,7 +14615,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 570,
+          "id": 1313,
           "model_id": "mazda-6",
           "version": "MAZDA 6",
           "moteur": "À préciser",
@@ -13973,7 +14672,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 571,
+          "id": 1314,
           "model_id": "mazda-cx-3",
           "version": "MAZDA CX-3",
           "moteur": "À préciser",
@@ -14030,7 +14729,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 572,
+          "id": 1315,
           "model_id": "mazda-cx-5",
           "version": "MAZDA CX-5",
           "moteur": "À préciser",
@@ -14087,7 +14786,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 775,
+          "id": 1193,
           "model_id": "mercedes-cla",
           "version": "MERCEDES CLA",
           "moteur": "À préciser",
@@ -14117,7 +14816,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -14166,7 +14866,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 777,
+          "id": 1195,
           "model_id": "mercedes-cla-coupe",
           "version": "MERCEDES CLA Coupé",
           "moteur": "À préciser",
@@ -14223,7 +14923,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 776,
+          "id": 1194,
           "model_id": "mercedes-cla-ev",
           "version": "MERCEDES CLA EV",
           "moteur": "À préciser",
@@ -14267,14 +14967,14 @@ const STATIC_DATA = {
     {
       "id": "mercedes-classe-a",
       "marque": "Mercedes-Benz",
-      "nom": "Classe A",
+      "nom": "MERCEDES Classe A",
       "slug": "classe-a",
-      "annee": 2024,
-      "categorie": "Citadine",
+      "annee": 2025,
+      "categorie": "Berline",
       "carrosserie": "Berline",
-      "prix_min": 375000,
-      "prix_max": 530000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/Mercedes-Classe-A-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 399000,
+      "prix_max": 514000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-classe-a.jpg",
       "fiche_url": "/neuf/mercedes/classe-a/",
       "created_at": "2026-06-28 20:31:43",
       "fuels": "Essence,Essence",
@@ -14319,7 +15019,8 @@ const STATIC_DATA = {
         "emission_co2": "130 g/km",
         "reservoir": "43 L",
         "roues": "17 pouces",
-        "pneus": "225/45 R17"
+        "pneus": "225/45 R17",
+        "options": null
       },
       "images": [
         {
@@ -14347,7 +15048,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 773,
+          "id": 1192,
           "model_id": "mercedes-classe-a-berline",
           "version": "MERCEDES Classe A Berline",
           "moteur": "À préciser",
@@ -14391,14 +15092,14 @@ const STATIC_DATA = {
     {
       "id": "mercedes-classe-c",
       "marque": "Mercedes-Benz",
-      "nom": "Classe C",
+      "nom": "MERCEDES Classe C",
       "slug": "classe-c",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Berline",
       "carrosserie": "Berline",
-      "prix_min": 530000,
-      "prix_max": 850000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/Mercedes-Classe-C-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 529000,
+      "prix_max": 824000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-classe-c.jpg",
       "fiche_url": "/neuf/mercedes/classe-c/",
       "created_at": "2026-06-28 20:31:43",
       "fuels": "Hybride,Essence,Hybride",
@@ -14452,7 +15153,8 @@ const STATIC_DATA = {
         "emission_co2": "134 g/km",
         "reservoir": "66 L",
         "roues": "18 pouces",
-        "pneus": "225/55 R18"
+        "pneus": "225/55 R18",
+        "options": null
       },
       "images": [
         {
@@ -14467,14 +15169,14 @@ const STATIC_DATA = {
     {
       "id": "mercedes-classe-e",
       "marque": "Mercedes-Benz",
-      "nom": "Classe E",
+      "nom": "MERCEDES Classe E",
       "slug": "classe-e",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Berline",
       "carrosserie": "Berline",
-      "prix_min": 850000,
-      "prix_max": 1500000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/Mercedes-Classe-E-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 639000,
+      "prix_max": 979000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-classe-e.jpg",
       "fiche_url": "/neuf/mercedes/classe-e/",
       "created_at": "2026-06-28 20:31:43",
       "fuels": "Hybride,Essence",
@@ -14519,7 +15221,8 @@ const STATIC_DATA = {
         "emission_co2": "141 g/km",
         "reservoir": "66 L",
         "roues": "19 pouces",
-        "pneus": "245/45 R19"
+        "pneus": "245/45 R19",
+        "options": null
       },
       "images": [
         {
@@ -14547,7 +15250,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 779,
+          "id": 1196,
           "model_id": "mercedes-classe-e-phev",
           "version": "MERCEDES Classe E PHEV",
           "moteur": "À préciser",
@@ -14577,7 +15280,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -14626,7 +15330,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 791,
+          "id": 1207,
           "model_id": "mercedes-classe-g",
           "version": "MERCEDES Classe G",
           "moteur": "À préciser",
@@ -14683,7 +15387,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 782,
+          "id": 1199,
           "model_id": "mercedes-classe-s",
           "version": "MERCEDES Classe S",
           "moteur": "À préciser",
@@ -14740,7 +15444,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 783,
+          "id": 1200,
           "model_id": "mercedes-classe-s-phev",
           "version": "MERCEDES Classe S PHEV",
           "moteur": "À préciser",
@@ -14797,7 +15501,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 781,
+          "id": 1198,
           "model_id": "mercedes-cle-cabriolet",
           "version": "MERCEDES CLE Cabriolet",
           "moteur": "À préciser",
@@ -14854,7 +15558,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 780,
+          "id": 1197,
           "model_id": "mercedes-cle-coupe",
           "version": "MERCEDES CLE Coupé",
           "moteur": "À préciser",
@@ -14911,7 +15615,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 792,
+          "id": 1208,
           "model_id": "mercedes-eqa",
           "version": "MERCEDES EQA",
           "moteur": "À préciser",
@@ -14968,7 +15672,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 793,
+          "id": 1209,
           "model_id": "mercedes-eqb",
           "version": "MERCEDES EQB",
           "moteur": "À préciser",
@@ -15025,7 +15729,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 794,
+          "id": 1210,
           "model_id": "mercedes-eqe",
           "version": "MERCEDES EQE",
           "moteur": "À préciser",
@@ -15082,7 +15786,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 796,
+          "id": 1212,
           "model_id": "mercedes-eqe-suv",
           "version": "MERCEDES EQE SUV",
           "moteur": "À préciser",
@@ -15139,7 +15843,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 795,
+          "id": 1211,
           "model_id": "mercedes-eqs",
           "version": "MERCEDES EQS",
           "moteur": "À préciser",
@@ -15196,7 +15900,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 797,
+          "id": 1213,
           "model_id": "mercedes-eqs-suv",
           "version": "MERCEDES EQS SUV",
           "moteur": "À préciser",
@@ -15253,7 +15957,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 784,
+          "id": 1201,
           "model_id": "mercedes-gla",
           "version": "MERCEDES GLA",
           "moteur": "À préciser",
@@ -15297,14 +16001,14 @@ const STATIC_DATA = {
     {
       "id": "mercedes-glc",
       "marque": "Mercedes-Benz",
-      "nom": "GLC",
+      "nom": "MERCEDES GLC",
       "slug": "glc",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 720000,
-      "prix_max": 1100000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-benz/Mercedes-GLC-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 639000,
+      "prix_max": 914000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mercedes-glc.jpg",
       "fiche_url": "/neuf/mercedes/glc/",
       "created_at": "2026-06-28 20:31:43",
       "fuels": "Hybride,Essence,Hybride",
@@ -15358,7 +16062,8 @@ const STATIC_DATA = {
         "emission_co2": "150 g/km",
         "reservoir": "70 L",
         "roues": "19 pouces",
-        "pneus": "235/55 R19"
+        "pneus": "235/55 R19",
+        "options": null
       },
       "images": [
         {
@@ -15386,7 +16091,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 787,
+          "id": 1203,
           "model_id": "mercedes-glc-coupe",
           "version": "MERCEDES GLC Coupé",
           "moteur": "À préciser",
@@ -15443,7 +16148,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 786,
+          "id": 1202,
           "model_id": "mercedes-glc-phev",
           "version": "MERCEDES GLC PHEV",
           "moteur": "À préciser",
@@ -15500,7 +16205,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 788,
+          "id": 1204,
           "model_id": "mercedes-gle",
           "version": "MERCEDES GLE",
           "moteur": "À préciser",
@@ -15530,7 +16235,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -15579,7 +16285,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 789,
+          "id": 1205,
           "model_id": "mercedes-gle-coupe",
           "version": "MERCEDES GLE Coupé",
           "moteur": "À préciser",
@@ -15636,7 +16342,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 790,
+          "id": 1206,
           "model_id": "mercedes-gls",
           "version": "MERCEDES GLS",
           "moteur": "À préciser",
@@ -15693,7 +16399,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 686,
+          "id": 1126,
           "model_id": "mg-cyberster",
           "version": "MG Cyberster",
           "moteur": "À préciser",
@@ -15723,7 +16429,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -15759,14 +16466,14 @@ const STATIC_DATA = {
     {
       "id": "mg-hs",
       "marque": "MG",
-      "nom": "HS",
+      "nom": "MG HS",
       "slug": "hs",
       "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
       "prix_min": 270000,
-      "prix_max": 312900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg/MG-HS-2025-Neuve-Maroc-12.jpg",
+      "prix_max": 270000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg-hs.jpg",
       "fiche_url": "/neuf/mg/hs/",
       "created_at": "2026-06-28 20:31:40",
       "fuels": "Essence,Essence,Hybride,Hybride",
@@ -15829,7 +16536,8 @@ const STATIC_DATA = {
         "emission_co2": "155 g/km",
         "reservoir": "55 L",
         "roues": "18 pouces",
-        "pneus": "235/50 R18"
+        "pneus": "235/50 R18",
+        "options": null
       },
       "images": [
         {
@@ -15857,7 +16565,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 684,
+          "id": 1124,
           "model_id": "mg-hs-hev",
           "version": "MG HS HEV",
           "moteur": "À préciser",
@@ -15887,7 +16595,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -15936,7 +16645,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 685,
+          "id": 1125,
           "model_id": "mg-marvel-r",
           "version": "MG Marvel-R",
           "moteur": "À préciser",
@@ -15993,7 +16702,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 680,
+          "id": 1122,
           "model_id": "mg-mg-5",
           "version": "MG MG 5",
           "moteur": "À préciser",
@@ -16023,7 +16732,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -16059,14 +16769,14 @@ const STATIC_DATA = {
     {
       "id": "mg-mg3",
       "marque": "MG",
-      "nom": "MG3",
+      "nom": "MG MG3",
       "slug": "mg3",
       "annee": 2025,
       "categorie": "Citadine",
       "carrosserie": "Berline",
       "prix_min": 169000,
-      "prix_max": 189000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg/MG-3-HEV-2025-Neuve-Maroc-01.jpg",
+      "prix_max": 169000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg-mg3.jpg",
       "fiche_url": "/neuf/mg/mg3/",
       "created_at": "2026-06-28 20:31:40",
       "fuels": "Hybride,Hybride",
@@ -16111,7 +16821,8 @@ const STATIC_DATA = {
         "emission_co2": "115 g/km",
         "reservoir": "40 L",
         "roues": "17 pouces",
-        "pneus": "205/55 R17"
+        "pneus": "205/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -16178,7 +16889,8 @@ const STATIC_DATA = {
         "emission_co2": "144 g/km",
         "reservoir": "50 L",
         "roues": "17 pouces",
-        "pneus": "215/55 R17"
+        "pneus": "215/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -16193,14 +16905,14 @@ const STATIC_DATA = {
     {
       "id": "mg-zs-ev",
       "marque": "MG",
-      "nom": "ZS EV",
+      "nom": "MG ZS EV",
       "slug": "zs-ev",
       "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
       "prix_min": 231750,
       "prix_max": 263000,
-      "image": "https://www.wandaloo.com/files/2023/03/MG-Motors-MG-ZS-EV-2023-Neuve-Maroc-video.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg-zs-ev.jpg",
       "fiche_url": "/neuf/mg/zs-ev/",
       "created_at": "2026-06-28 20:31:40",
       "fuels": "Électrique,Électrique",
@@ -16245,7 +16957,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "72 kWh",
         "roues": "17 pouces",
-        "pneus": "215/55 R17"
+        "pneus": "215/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -16273,7 +16986,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 682,
+          "id": 1123,
           "model_id": "mg-zs-hev",
           "version": "MG ZS HEV",
           "moteur": "À préciser",
@@ -16303,7 +17016,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -16352,7 +17066,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 554,
+          "id": 1297,
           "model_id": "mini-aceman",
           "version": "MINI Aceman",
           "moteur": "À préciser",
@@ -16409,7 +17123,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 551,
+          "id": 1294,
           "model_id": "mini-cooper-3-portes",
           "version": "MINI Cooper 3 portes",
           "moteur": "À préciser",
@@ -16466,7 +17180,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 552,
+          "id": 1295,
           "model_id": "mini-cooper-3-portes-electric",
           "version": "MINI Cooper 3 portes Electric",
           "moteur": "À préciser",
@@ -16523,7 +17237,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 553,
+          "id": 1296,
           "model_id": "mini-cooper-5-portes",
           "version": "MINI Cooper 5 portes",
           "moteur": "À préciser",
@@ -16580,7 +17294,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 555,
+          "id": 1298,
           "model_id": "mini-countryman",
           "version": "MINI Countryman",
           "moteur": "À préciser",
@@ -16637,7 +17351,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 556,
+          "id": 1299,
           "model_id": "mini-countryman-electric",
           "version": "MINI Countryman Electric",
           "moteur": "À préciser",
@@ -16694,7 +17408,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 573,
+          "id": 1316,
           "model_id": "mitsubishi-outlander",
           "version": "MITSUBISHI Outlander",
           "moteur": "À préciser",
@@ -16751,7 +17465,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 574,
+          "id": 1317,
           "model_id": "mitsubishi-pajero-sport",
           "version": "MITSUBISHI Pajero Sport",
           "moteur": "À préciser",
@@ -16808,7 +17522,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 504,
+          "id": 1247,
           "model_id": "nissan-juke",
           "version": "NISSAN Juke",
           "moteur": "À préciser",
@@ -16865,7 +17579,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 503,
+          "id": 1246,
           "model_id": "nissan-magnite",
           "version": "NISSAN Magnite",
           "moteur": "À préciser",
@@ -16922,7 +17636,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 505,
+          "id": 1248,
           "model_id": "nissan-qashqai-hev",
           "version": "NISSAN Qashqai HEV",
           "moteur": "À préciser",
@@ -16979,7 +17693,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 506,
+          "id": 1249,
           "model_id": "nissan-x-trail",
           "version": "NISSAN X-Trail",
           "moteur": "À préciser",
@@ -17009,7 +17723,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -17058,7 +17773,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 618,
+          "id": 1359,
           "model_id": "omoda-3",
           "version": "OMODA  3",
           "moteur": "À préciser",
@@ -17115,7 +17830,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 621,
+          "id": 1362,
           "model_id": "omoda-5-shs-h",
           "version": "OMODA 5 SHS-H",
           "moteur": "À préciser",
@@ -17172,7 +17887,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 619,
+          "id": 1360,
           "model_id": "omoda-c5",
           "version": "OMODA C5",
           "moteur": "À préciser",
@@ -17229,7 +17944,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 620,
+          "id": 1361,
           "model_id": "omoda-e5",
           "version": "OMODA E5",
           "moteur": "À préciser",
@@ -17286,7 +18001,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 509,
+          "id": 1252,
           "model_id": "opel-astra",
           "version": "OPEL Astra",
           "moteur": "À préciser",
@@ -17343,7 +18058,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 508,
+          "id": 1251,
           "model_id": "opel-corsa",
           "version": "OPEL Corsa",
           "moteur": "À préciser",
@@ -17400,7 +18115,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 511,
+          "id": 1254,
           "model_id": "opel-frontera",
           "version": "OPEL Frontera",
           "moteur": "À préciser",
@@ -17457,7 +18172,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 512,
+          "id": 1255,
           "model_id": "opel-frontera-ev",
           "version": "OPEL Frontera EV",
           "moteur": "À préciser",
@@ -17514,7 +18229,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 513,
+          "id": 1256,
           "model_id": "opel-grandland",
           "version": "OPEL Grandland",
           "moteur": "À préciser",
@@ -17544,7 +18259,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -17593,7 +18309,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 510,
+          "id": 1253,
           "model_id": "opel-mokka",
           "version": "OPEL Mokka",
           "moteur": "À préciser",
@@ -17650,7 +18366,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 507,
+          "id": 1250,
           "model_id": "opel-rocks-e",
           "version": "OPEL Rocks-e",
           "moteur": "À préciser",
@@ -17694,14 +18410,14 @@ const STATIC_DATA = {
     {
       "id": "peugeot-2008",
       "marque": "Peugeot",
-      "nom": "2008",
+      "nom": "PEUGEOT 2008",
       "slug": "2008",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 199900,
-      "prix_max": 329900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-2008-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 289900,
+      "prix_max": 369900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot-2008.jpg",
       "fiche_url": "/neuf/peugeot/2008/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Essence,Essence,Électrique",
@@ -17755,7 +18471,8 @@ const STATIC_DATA = {
         "emission_co2": "130 g/km",
         "reservoir": "47 L",
         "roues": "17 pouces",
-        "pneus": "215/55 R17"
+        "pneus": "215/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -17770,14 +18487,14 @@ const STATIC_DATA = {
     {
       "id": "peugeot-208",
       "marque": "Peugeot",
-      "nom": "208",
+      "nom": "PEUGEOT 208",
       "slug": "208",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Citadine",
       "carrosserie": "Berline",
-      "prix_min": 139900,
-      "prix_max": 229900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-208-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 214100,
+      "prix_max": 278100,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot-208.jpg",
       "fiche_url": "/neuf/peugeot/208/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Essence,Essence,Essence,Électrique",
@@ -17840,7 +18557,8 @@ const STATIC_DATA = {
         "emission_co2": "116 g/km",
         "reservoir": "44 L",
         "roues": "16 pouces",
-        "pneus": "205/45 R16"
+        "pneus": "205/45 R16",
+        "options": null
       },
       "images": [
         {
@@ -17855,14 +18573,14 @@ const STATIC_DATA = {
     {
       "id": "peugeot-3008",
       "marque": "Peugeot",
-      "nom": "3008",
+      "nom": "PEUGEOT 3008",
       "slug": "3008",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 299900,
-      "prix_max": 420000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-3008-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 380000,
+      "prix_max": 490000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot-3008.jpg",
       "fiche_url": "/neuf/peugeot/3008/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Essence,Essence",
@@ -17907,7 +18625,8 @@ const STATIC_DATA = {
         "emission_co2": "142 g/km",
         "reservoir": "55 L",
         "roues": "19 pouces",
-        "pneus": "235/50 R19"
+        "pneus": "235/50 R19",
+        "options": null
       },
       "images": [
         {
@@ -17935,7 +18654,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 711,
+          "id": 1144,
           "model_id": "peugeot-308",
           "version": "PEUGEOT 308",
           "moteur": "À préciser",
@@ -17992,7 +18711,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 712,
+          "id": 1145,
           "model_id": "peugeot-408",
           "version": "PEUGEOT 408",
           "moteur": "À préciser",
@@ -18036,14 +18755,14 @@ const STATIC_DATA = {
     {
       "id": "peugeot-5008",
       "marque": "Peugeot",
-      "nom": "5008",
+      "nom": "PEUGEOT 5008",
       "slug": "5008",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 369000,
-      "prix_max": 490000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-5008-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 415000,
+      "prix_max": 495000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot-5008.jpg",
       "fiche_url": "/neuf/peugeot/5008/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Essence,Essence",
@@ -18088,7 +18807,8 @@ const STATIC_DATA = {
         "emission_co2": "146 g/km",
         "reservoir": "60 L",
         "roues": "19 pouces",
-        "pneus": "235/50 R19"
+        "pneus": "235/50 R19",
+        "options": null
       },
       "images": [
         {
@@ -18103,14 +18823,14 @@ const STATIC_DATA = {
     {
       "id": "peugeot-508",
       "marque": "Peugeot",
-      "nom": "508",
+      "nom": "PEUGEOT 508",
       "slug": "508",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Berline",
       "carrosserie": "Berline",
-      "prix_min": 349000,
-      "prix_max": 490000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-508-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 484000,
+      "prix_max": 484000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot-508.jpg",
       "fiche_url": "/neuf/peugeot/508/",
       "created_at": "2026-06-28 20:31:39",
       "fuels": "Essence,Essence",
@@ -18155,7 +18875,8 @@ const STATIC_DATA = {
         "emission_co2": "145 g/km",
         "reservoir": "62 L",
         "roues": "18 pouces",
-        "pneus": "235/45 R18"
+        "pneus": "235/45 R18",
+        "options": null
       },
       "images": [
         {
@@ -18183,7 +18904,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 710,
+          "id": 1143,
           "model_id": "peugeot-e-208",
           "version": "PEUGEOT e-208",
           "moteur": "À préciser",
@@ -18240,7 +18961,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 718,
+          "id": 1147,
           "model_id": "peugeot-partner",
           "version": "PEUGEOT Partner",
           "moteur": "À préciser",
@@ -18297,7 +19018,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 717,
+          "id": 1146,
           "model_id": "peugeot-rifter",
           "version": "PEUGEOT Rifter",
           "moteur": "À préciser",
@@ -18354,7 +19075,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 541,
+          "id": 1284,
           "model_id": "porsche-718-boxster",
           "version": "PORSCHE 718 Boxster",
           "moteur": "À préciser",
@@ -18384,7 +19105,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -18433,7 +19155,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 540,
+          "id": 1283,
           "model_id": "porsche-718-cayman",
           "version": "PORSCHE 718 Cayman",
           "moteur": "À préciser",
@@ -18463,7 +19185,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -18512,7 +19235,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 542,
+          "id": 1285,
           "model_id": "porsche-911",
           "version": "PORSCHE 911",
           "moteur": "À préciser",
@@ -18542,7 +19265,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -18591,7 +19315,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 543,
+          "id": 1286,
           "model_id": "porsche-911-cabriolet",
           "version": "PORSCHE 911 Cabriolet",
           "moteur": "À préciser",
@@ -18621,7 +19345,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -18670,7 +19395,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 544,
+          "id": 1287,
           "model_id": "porsche-911-targa",
           "version": "PORSCHE 911 Targa",
           "moteur": "À préciser",
@@ -18700,7 +19425,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -18749,7 +19475,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 549,
+          "id": 1292,
           "model_id": "porsche-cayenne",
           "version": "PORSCHE Cayenne",
           "moteur": "À préciser",
@@ -18779,7 +19505,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -18828,7 +19555,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 550,
+          "id": 1293,
           "model_id": "porsche-cayenne-coupe",
           "version": "PORSCHE Cayenne Coupé",
           "moteur": "À préciser",
@@ -18858,7 +19585,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -18907,7 +19635,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 548,
+          "id": 1291,
           "model_id": "porsche-macan",
           "version": "PORSCHE Macan",
           "moteur": "À préciser",
@@ -18937,7 +19665,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -18986,7 +19715,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 545,
+          "id": 1288,
           "model_id": "porsche-panamera",
           "version": "PORSCHE Panamera",
           "moteur": "À préciser",
@@ -19016,7 +19745,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -19065,7 +19795,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 546,
+          "id": 1289,
           "model_id": "porsche-taycan",
           "version": "PORSCHE Taycan",
           "moteur": "À préciser",
@@ -19095,7 +19825,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -19144,7 +19875,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 547,
+          "id": 1290,
           "model_id": "porsche-taycan-cross-turismo",
           "version": "PORSCHE Taycan Cross Turismo",
           "moteur": "À préciser",
@@ -19174,7 +19905,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -19223,7 +19955,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 690,
+          "id": 1129,
           "model_id": "renault-5-e-tech",
           "version": "RENAULT 5 E-Tech",
           "moteur": "À préciser",
@@ -19267,14 +19999,14 @@ const STATIC_DATA = {
     {
       "id": "renault-arkana",
       "marque": "Renault",
-      "nom": "Arkana",
+      "nom": "RENAULT Arkana",
       "slug": "arkana",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 229900,
-      "prix_max": 340000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Arkana-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 336000,
+      "prix_max": 356000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault-arkana.jpg",
       "fiche_url": "/neuf/renault/arkana/",
       "created_at": "2026-06-28 20:31:38",
       "fuels": "Essence,Hybride",
@@ -19319,7 +20051,8 @@ const STATIC_DATA = {
         "emission_co2": "120 g/km",
         "reservoir": "50 L",
         "roues": "18 pouces",
-        "pneus": "215/50 R18"
+        "pneus": "215/50 R18",
+        "options": null
       },
       "images": [
         {
@@ -19347,7 +20080,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 696,
+          "id": 1133,
           "model_id": "renault-austral",
           "version": "RENAULT Austral",
           "moteur": "À préciser",
@@ -19391,14 +20124,14 @@ const STATIC_DATA = {
     {
       "id": "renault-captur",
       "marque": "Renault",
-      "nom": "Captur",
+      "nom": "RENAULT Captur",
       "slug": "captur",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "SUV",
       "carrosserie": "SUV",
-      "prix_min": 199900,
-      "prix_max": 299900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Captur-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 255000,
+      "prix_max": 255000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault-captur.jpg",
       "fiche_url": "/neuf/renault/captur/",
       "created_at": "2026-06-28 20:31:38",
       "fuels": "Essence,Essence,Hybride",
@@ -19452,7 +20185,8 @@ const STATIC_DATA = {
         "emission_co2": "129 g/km",
         "reservoir": "48 L",
         "roues": "17 pouces",
-        "pneus": "215/55 R17"
+        "pneus": "215/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -19480,7 +20214,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 692,
+          "id": 1130,
           "model_id": "renault-captur-e-tech",
           "version": "RENAULT Captur E-Tech",
           "moteur": "À préciser",
@@ -19524,14 +20258,14 @@ const STATIC_DATA = {
     {
       "id": "renault-clio",
       "marque": "Renault",
-      "nom": "Clio",
+      "nom": "RENAULT Clio",
       "slug": "clio",
-      "annee": 2024,
+      "annee": 2025,
       "categorie": "Citadine",
       "carrosserie": "Berline",
-      "prix_min": 89900,
-      "prix_max": 179900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Clio-5-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 202000,
+      "prix_max": 270000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault-clio.jpg",
       "fiche_url": "/neuf/renault/clio/",
       "created_at": "2026-06-28 20:31:38",
       "fuels": "Essence,Essence,Essence,Hybride",
@@ -19594,7 +20328,8 @@ const STATIC_DATA = {
         "emission_co2": "115 g/km",
         "reservoir": "42 L",
         "roues": "16 pouces",
-        "pneus": "205/45 R16"
+        "pneus": "205/45 R16",
+        "options": null
       },
       "images": [
         {
@@ -19622,7 +20357,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 689,
+          "id": 1128,
           "model_id": "renault-clio-e-tech",
           "version": "RENAULT Clio E-Tech",
           "moteur": "À préciser",
@@ -19679,7 +20414,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 698,
+          "id": 1135,
           "model_id": "renault-express",
           "version": "RENAULT Express",
           "moteur": "À préciser",
@@ -19736,7 +20471,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 697,
+          "id": 1134,
           "model_id": "renault-express-van",
           "version": "RENAULT Express VAN",
           "moteur": "À préciser",
@@ -19793,7 +20528,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 699,
+          "id": 1136,
           "model_id": "renault-kangoo",
           "version": "RENAULT Kangoo",
           "moteur": "À préciser",
@@ -19850,7 +20585,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 687,
+          "id": 1127,
           "model_id": "renault-kardian",
           "version": "RENAULT Kardian",
           "moteur": "À préciser",
@@ -19880,7 +20615,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": "Jumelle de stepway  \n          hey el arabia - le "
+        "pneus": "Jumelle de stepway  \n          hey el arabia - le ",
+        "options": null
       },
       "images": [
         {
@@ -19968,7 +20704,8 @@ const STATIC_DATA = {
         "emission_co2": "121 g/km",
         "reservoir": "50 L",
         "roues": "15 pouces",
-        "pneus": "185/65 R15"
+        "pneus": "185/65 R15",
+        "options": null
       },
       "images": [
         {
@@ -20035,7 +20772,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "60 kWh",
         "roues": "18 pouces",
-        "pneus": "215/50 R18"
+        "pneus": "215/50 R18",
+        "options": null
       },
       "images": [
         {
@@ -20063,7 +20801,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 694,
+          "id": 1132,
           "model_id": "renault-megane-e-tech",
           "version": "RENAULT Mégane E-Tech",
           "moteur": "À préciser",
@@ -20093,7 +20831,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "Corps de berline compacte, style crossover, arrièr",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -20142,7 +20881,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 693,
+          "id": 1131,
           "model_id": "renault-megane-sedan",
           "version": "RENAULT Mégane Sedan",
           "moteur": "À préciser",
@@ -20199,7 +20938,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 515,
+          "id": 1258,
           "model_id": "seat-arona",
           "version": "SEAT Arona",
           "moteur": "À préciser",
@@ -20256,7 +20995,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 517,
+          "id": 1260,
           "model_id": "seat-ateca",
           "version": "SEAT Ateca",
           "moteur": "À préciser",
@@ -20313,7 +21052,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 514,
+          "id": 1257,
           "model_id": "seat-ibiza",
           "version": "SEAT Ibiza",
           "moteur": "À préciser",
@@ -20370,7 +21109,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 516,
+          "id": 1259,
           "model_id": "seat-leon",
           "version": "SEAT Leon",
           "moteur": "À préciser",
@@ -20427,7 +21166,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 518,
+          "id": 1261,
           "model_id": "skoda-fabia",
           "version": "ŠKODA Fabia",
           "moteur": "À préciser",
@@ -20484,7 +21223,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 522,
+          "id": 1265,
           "model_id": "skoda-kamiq",
           "version": "ŠKODA Kamiq",
           "moteur": "À préciser",
@@ -20541,7 +21280,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 523,
+          "id": 1266,
           "model_id": "skoda-karoq",
           "version": "ŠKODA Karoq",
           "moteur": "À préciser",
@@ -20598,7 +21337,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 524,
+          "id": 1267,
           "model_id": "skoda-kodiaq",
           "version": "ŠKODA Kodiaq",
           "moteur": "À préciser",
@@ -20655,7 +21394,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 520,
+          "id": 1263,
           "model_id": "skoda-octavia",
           "version": "ŠKODA Octavia",
           "moteur": "À préciser",
@@ -20712,7 +21451,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 519,
+          "id": 1262,
           "model_id": "skoda-scala",
           "version": "ŠKODA Scala",
           "moteur": "À préciser",
@@ -20769,7 +21508,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 521,
+          "id": 1264,
           "model_id": "skoda-superb",
           "version": "ŠKODA Superb",
           "moteur": "À préciser",
@@ -20799,7 +21538,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -20848,7 +21588,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 666,
+          "id": 1407,
           "model_id": "soueast-s05-ice",
           "version": "SOUEAST S05 ICE",
           "moteur": "À préciser",
@@ -20905,7 +21645,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 668,
+          "id": 1409,
           "model_id": "soueast-s06-dm",
           "version": "SOUEAST S06 DM",
           "moteur": "À préciser",
@@ -20962,7 +21702,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 667,
+          "id": 1408,
           "model_id": "soueast-s06-ice",
           "version": "SOUEAST S06 ICE",
           "moteur": "À préciser",
@@ -21019,7 +21759,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 669,
+          "id": 1410,
           "model_id": "soueast-s07",
           "version": "SOUEAST S07",
           "moteur": "À préciser",
@@ -21076,7 +21816,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 670,
+          "id": 1411,
           "model_id": "soueast-s08-dm",
           "version": "SOUEAST S08 DM",
           "moteur": "À préciser",
@@ -21106,7 +21846,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -21155,7 +21896,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 671,
+          "id": 1412,
           "model_id": "soueast-s09",
           "version": "SOUEAST S09",
           "moteur": "À préciser",
@@ -21212,7 +21953,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 567,
+          "id": 1310,
           "model_id": "suzuki-jimny",
           "version": "SUZUKI Jimny",
           "moteur": "À préciser",
@@ -21242,7 +21983,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "le plaisir grandeur nature !",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -21291,7 +22033,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 566,
+          "id": 1309,
           "model_id": "suzuki-swift",
           "version": "SUZUKI Swift",
           "moteur": "À préciser",
@@ -21348,7 +22090,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 804,
+          "id": 1220,
           "model_id": "toyota-bz4x",
           "version": "TOYOTA bZ4X",
           "moteur": "À préciser",
@@ -21405,7 +22147,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 802,
+          "id": 1218,
           "model_id": "toyota-c-hr",
           "version": "TOYOTA C-HR",
           "moteur": "À préciser",
@@ -21435,7 +22177,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -21523,7 +22266,8 @@ const STATIC_DATA = {
         "emission_co2": "104 g/km",
         "reservoir": "43 L",
         "roues": "17 pouces",
-        "pneus": "205/55 R17"
+        "pneus": "205/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -21551,7 +22295,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 799,
+          "id": 1215,
           "model_id": "toyota-corolla-prestige",
           "version": "TOYOTA Corolla Prestige",
           "moteur": "À préciser",
@@ -21608,7 +22352,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 800,
+          "id": 1216,
           "model_id": "toyota-corolla-sport",
           "version": "TOYOTA Corolla Sport",
           "moteur": "À préciser",
@@ -21665,7 +22409,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 803,
+          "id": 1219,
           "model_id": "toyota-corolla-x-suv",
           "version": "TOYOTA Corolla X SUV",
           "moteur": "À préciser",
@@ -21722,7 +22466,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 807,
+          "id": 1223,
           "model_id": "toyota-fortuner",
           "version": "TOYOTA Fortuner",
           "moteur": "À préciser",
@@ -21818,7 +22562,8 @@ const STATIC_DATA = {
         "emission_co2": "208 g/km",
         "reservoir": "80 L",
         "roues": "17 pouces",
-        "pneus": "265/65 R17"
+        "pneus": "265/65 R17",
+        "options": null
       },
       "images": [
         {
@@ -21885,7 +22630,8 @@ const STATIC_DATA = {
         "emission_co2": "221 g/km",
         "reservoir": "110 L",
         "roues": "21 pouces",
-        "pneus": "275/50 R21"
+        "pneus": "275/50 R21",
+        "options": null
       },
       "images": [
         {
@@ -21913,7 +22659,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 806,
+          "id": 1222,
           "model_id": "toyota-land-cruiser-prado",
           "version": "TOYOTA Land Cruiser Prado",
           "moteur": "À préciser",
@@ -21970,7 +22716,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 805,
+          "id": 1221,
           "model_id": "toyota-rav-4",
           "version": "TOYOTA RAV 4",
           "moteur": "À préciser",
@@ -22000,7 +22746,8 @@ const STATIC_DATA = {
         "emission_co2": "",
         "reservoir": "",
         "roues": "Le nouveau TOYOTA RAV 4 adopte un design plus expr",
-        "pneus": ""
+        "pneus": "",
+        "options": null
       },
       "images": [
         {
@@ -22088,7 +22835,8 @@ const STATIC_DATA = {
         "emission_co2": "115 g/km",
         "reservoir": "55 L",
         "roues": "18 pouces",
-        "pneus": "225/60 R18"
+        "pneus": "225/60 R18",
+        "options": null
       },
       "images": [
         {
@@ -22155,7 +22903,8 @@ const STATIC_DATA = {
         "emission_co2": "103 g/km",
         "reservoir": "42 L",
         "roues": "16 pouces",
-        "pneus": "195/50 R16"
+        "pneus": "195/50 R16",
+        "options": null
       },
       "images": [
         {
@@ -22183,7 +22932,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 801,
+          "id": 1217,
           "model_id": "toyota-yaris-cross",
           "version": "TOYOTA Yaris Cross",
           "moteur": "À préciser",
@@ -22240,7 +22989,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 798,
+          "id": 1214,
           "model_id": "toyota-yaris-hev",
           "version": "TOYOTA Yaris HEV",
           "moteur": "À préciser",
@@ -22297,7 +23046,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 732,
+          "id": 1157,
           "model_id": "volkswagen-caddy",
           "version": "VOLKSWAGEN Caddy",
           "moteur": "À préciser",
@@ -22354,7 +23103,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 726,
+          "id": 1151,
           "model_id": "volkswagen-golf",
           "version": "VOLKSWAGEN Golf",
           "moteur": "À préciser",
@@ -22411,7 +23160,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 727,
+          "id": 1152,
           "model_id": "volkswagen-t-cross",
           "version": "VOLKSWAGEN T-Cross",
           "moteur": "À préciser",
@@ -22468,7 +23217,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 728,
+          "id": 1153,
           "model_id": "volkswagen-t-roc",
           "version": "VOLKSWAGEN T-ROC",
           "moteur": "À préciser",
@@ -22525,7 +23274,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 729,
+          "id": 1154,
           "model_id": "volkswagen-taigo",
           "version": "VOLKSWAGEN Taigo",
           "moteur": "À préciser",
@@ -22582,7 +23331,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 730,
+          "id": 1155,
           "model_id": "volkswagen-tiguan",
           "version": "VOLKSWAGEN Tiguan",
           "moteur": "À préciser",
@@ -22639,7 +23388,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 731,
+          "id": 1156,
           "model_id": "volkswagen-touareg",
           "version": "VOLKSWAGEN Touareg",
           "moteur": "À préciser",
@@ -22696,7 +23445,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 638,
+          "id": 1379,
           "model_id": "volvo-ex30",
           "version": "VOLVO EX30",
           "moteur": "À préciser",
@@ -22753,7 +23502,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 639,
+          "id": 1380,
           "model_id": "volvo-xc40",
           "version": "VOLVO XC40",
           "moteur": "À préciser",
@@ -22810,7 +23559,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 640,
+          "id": 1381,
           "model_id": "volvo-xc60-phev",
           "version": "VOLVO XC60 PHEV",
           "moteur": "À préciser",
@@ -22867,7 +23616,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 641,
+          "id": 1382,
           "model_id": "volvo-xc90-phev",
           "version": "VOLVO XC90 PHEV",
           "moteur": "À préciser",
@@ -22972,7 +23721,8 @@ const STATIC_DATA = {
         "emission_co2": "123 g/km",
         "reservoir": "50 L",
         "roues": "17 pouces",
-        "pneus": "215/55 R17"
+        "pneus": "215/55 R17",
+        "options": null
       },
       "images": [
         {
@@ -23039,7 +23789,8 @@ const STATIC_DATA = {
         "emission_co2": "0 g/km",
         "reservoir": "77 kWh",
         "roues": "20 pouces",
-        "pneus": "235/50 R20"
+        "pneus": "235/50 R20",
+        "options": null
       },
       "images": [
         {
@@ -23106,7 +23857,8 @@ const STATIC_DATA = {
         "emission_co2": "116 g/km",
         "reservoir": "40 L",
         "roues": "15 pouces",
-        "pneus": "195/65 R15"
+        "pneus": "195/65 R15",
+        "options": null
       },
       "images": [
         {
@@ -23173,7 +23925,8 @@ const STATIC_DATA = {
         "emission_co2": "140 g/km",
         "reservoir": "60 L",
         "roues": "18 pouces",
-        "pneus": "235/50 R18"
+        "pneus": "235/50 R18",
+        "options": null
       },
       "images": [
         {
@@ -23201,7 +23954,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 661,
+          "id": 1402,
           "model_id": "zeekr-001",
           "version": "ZEEKR 001",
           "moteur": "À préciser",
@@ -23258,7 +24011,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 662,
+          "id": 1403,
           "model_id": "zeekr-7x",
           "version": "ZEEKR 7X",
           "moteur": "À préciser",
@@ -23315,7 +24068,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 660,
+          "id": 1401,
           "model_id": "zeekr-x",
           "version": "ZEEKR X",
           "moteur": "À préciser",
@@ -23394,7 +24147,7 @@ const STATIC_DATA = {
       "fuels": "Électrique",
       "motorisations": [
         {
-          "id": 579,
+          "id": 1321,
           "model_id": "byd-atto-2-phev",
           "version": "BYD ATTO 2 PHEV",
           "moteur": "À préciser",
@@ -23417,8 +24170,8 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Logan-2024-Neuve-Maroc-01.jpg",
       "fiche_url": "/neuf/renault/logan/",
       "created_at": "2026-06-28 20:31:38",
-      "cat_avg_price": 624944,
-      "remise_pct": 82,
+      "cat_avg_price": 629148,
+      "remise_pct": 83,
       "fuels": "Essence",
       "motorisations": [
         {
@@ -23454,12 +24207,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia-logan.jpg",
       "fiche_url": "/neuf/dacia/logan/",
       "created_at": "2026-06-28 20:17:24",
-      "cat_avg_price": 624944,
+      "cat_avg_price": 629148,
       "remise_pct": 78,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 703,
+          "id": 1139,
           "model_id": "dacia-logan",
           "version": "DACIA Logan",
           "moteur": "À préciser",
@@ -23482,12 +24235,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/nissan-magnite.jpg",
       "fiche_url": "/neuf/nissan/magnite/",
       "created_at": "2026-06-28 17:07:16",
-      "cat_avg_price": 624944,
+      "cat_avg_price": 629148,
       "remise_pct": 76,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 503,
+          "id": 1246,
           "model_id": "nissan-magnite",
           "version": "NISSAN Magnite",
           "moteur": "À préciser",
@@ -23510,7 +24263,7 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Sandero-2024-Neuve-Maroc-01.jpg",
       "fiche_url": "/neuf/dacia/sandero/",
       "created_at": "2026-06-28 20:31:38",
-      "cat_avg_price": 357393,
+      "cat_avg_price": 364412,
       "remise_pct": 75,
       "fuels": "Essence",
       "motorisations": [
@@ -23544,61 +24297,6 @@ const STATIC_DATA = {
       ]
     },
     {
-      "id": "renault-clio",
-      "marque": "Renault",
-      "nom": "Clio",
-      "slug": "clio",
-      "annee": 2024,
-      "categorie": "Citadine",
-      "carrosserie": "Berline",
-      "prix_min": 89900,
-      "prix_max": 179900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Clio-5-2024-Neuve-Maroc-01.jpg",
-      "fiche_url": "/neuf/renault/clio/",
-      "created_at": "2026-06-28 20:31:38",
-      "cat_avg_price": 357393,
-      "remise_pct": 75,
-      "fuels": "Essence,Hybride",
-      "motorisations": [
-        {
-          "id": 980,
-          "model_id": "renault-clio",
-          "version": "Clio Zen 1.0L SCe",
-          "moteur": "1.0L SCe 3 cyl.",
-          "puissance": "65 ch",
-          "transmission": "Manuelle 5",
-          "carburant": "Essence"
-        },
-        {
-          "id": 981,
-          "model_id": "renault-clio",
-          "version": "Clio Zen 1.0L TCe",
-          "moteur": "1.0L TCe Turbo",
-          "puissance": "90 ch",
-          "transmission": "Manuelle 6",
-          "carburant": "Essence"
-        },
-        {
-          "id": 982,
-          "model_id": "renault-clio",
-          "version": "Clio Techno 1.0L TCe",
-          "moteur": "1.0L TCe Turbo",
-          "puissance": "90 ch",
-          "transmission": "CVT",
-          "carburant": "Essence"
-        },
-        {
-          "id": 983,
-          "model_id": "renault-clio",
-          "version": "Clio E-Tech Hybrid",
-          "moteur": "1.6L + Moteur électrique",
-          "puissance": "143 ch",
-          "transmission": "Automatique",
-          "carburant": "Hybride"
-        }
-      ]
-    },
-    {
       "id": "changan-alsvin",
       "marque": "Changan",
       "nom": "CHANGAN Alsvin",
@@ -23611,12 +24309,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/changan-alsvin.jpg",
       "fiche_url": "/neuf/changan/alsvin/",
       "created_at": "2026-06-28 17:07:50",
-      "cat_avg_price": 624944,
+      "cat_avg_price": 629148,
       "remise_pct": 75,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 601,
+          "id": 1342,
           "model_id": "changan-alsvin",
           "version": "CHANGAN Alsvin",
           "moteur": "À préciser",
@@ -23639,12 +24337,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault-express-van.jpg",
       "fiche_url": "/neuf/renault/express-van/",
       "created_at": "2026-06-28 20:17:22",
-      "cat_avg_price": 624944,
+      "cat_avg_price": 629148,
       "remise_pct": 75,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 697,
+          "id": 1134,
           "model_id": "renault-express-van",
           "version": "RENAULT Express VAN",
           "moteur": "À préciser",
@@ -23667,12 +24365,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/geely-gx3-pro.jpg",
       "fiche_url": "/neuf/geely/gx3-pro/",
       "created_at": "2026-06-28 17:07:48",
-      "cat_avg_price": 460501,
+      "cat_avg_price": 463856,
       "remise_pct": 72,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 593,
+          "id": 1334,
           "model_id": "geely-gx3-pro",
           "version": "GEELY GX3 Pro",
           "moteur": "À préciser",
@@ -23695,12 +24393,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault-express.jpg",
       "fiche_url": "/neuf/renault/express/",
       "created_at": "2026-06-28 20:17:22",
-      "cat_avg_price": 624944,
+      "cat_avg_price": 629148,
       "remise_pct": 72,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 698,
+          "id": 1135,
           "model_id": "renault-express",
           "version": "RENAULT Express",
           "moteur": "À préciser",
@@ -23760,12 +24458,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/changan-cs15.jpg",
       "fiche_url": "/neuf/changan/cs15/",
       "created_at": "2026-06-28 17:07:50",
-      "cat_avg_price": 460501,
+      "cat_avg_price": 463856,
       "remise_pct": 70,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 602,
+          "id": 1343,
           "model_id": "changan-cs15",
           "version": "CHANGAN CS15",
           "moteur": "À préciser",
@@ -23788,12 +24486,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/chery-tiggo-2-pro.jpg",
       "fiche_url": "/neuf/chery/tiggo-2-pro/",
       "created_at": "2026-06-28 17:07:46",
-      "cat_avg_price": 460501,
+      "cat_avg_price": 463856,
       "remise_pct": 69,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 587,
+          "id": 1328,
           "model_id": "chery-tiggo-2-pro",
           "version": "CHERY Tiggo 2 Pro",
           "moteur": "À préciser",
@@ -23816,79 +24514,14 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg-mg-5.jpg",
       "fiche_url": "/neuf/mg/mg-5/",
       "created_at": "2026-06-28 20:17:19",
-      "cat_avg_price": 624944,
+      "cat_avg_price": 629148,
       "remise_pct": 69,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 680,
+          "id": 1122,
           "model_id": "mg-mg-5",
           "version": "MG MG 5",
-          "moteur": "À préciser",
-          "puissance": "À préciser",
-          "transmission": "À préciser",
-          "carburant": "Essence"
-        }
-      ]
-    },
-    {
-      "id": "citroen-c3",
-      "marque": "Citroën",
-      "nom": "C3",
-      "slug": "c3",
-      "annee": 2024,
-      "categorie": "Citadine",
-      "carrosserie": "Berline",
-      "prix_min": 119900,
-      "prix_max": 179900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-C3-2024-Neuve-Maroc-01.jpg",
-      "fiche_url": "/neuf/citroen/c3/",
-      "created_at": "2026-06-28 20:31:39",
-      "cat_avg_price": 357393,
-      "remise_pct": 66,
-      "fuels": "Essence",
-      "motorisations": [
-        {
-          "id": 1016,
-          "model_id": "citroen-c3",
-          "version": "C3 You 1.2L PureTech 83",
-          "moteur": "1.2L PureTech 3 cyl.",
-          "puissance": "83 ch",
-          "transmission": "Manuelle 5",
-          "carburant": "Essence"
-        },
-        {
-          "id": 1017,
-          "model_id": "citroen-c3",
-          "version": "C3 Plus 1.2L PureTech 110",
-          "moteur": "1.2L PureTech Turbo",
-          "puissance": "110 ch",
-          "transmission": "Automatique 6",
-          "carburant": "Essence"
-        }
-      ]
-    },
-    {
-      "id": "citroen-c4-x",
-      "marque": "Citroën",
-      "nom": "CITROËN C4 X",
-      "slug": "c4-x",
-      "annee": 2025,
-      "categorie": "Berline",
-      "carrosserie": "Berline",
-      "prix_min": 213900,
-      "prix_max": 282900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen-c4-x.jpg",
-      "fiche_url": "/neuf/citroen/c4-x/",
-      "created_at": "2026-06-28 20:17:28",
-      "cat_avg_price": 624944,
-      "remise_pct": 66,
-      "fuels": "Essence",
-      "motorisations": [
-        {
-          "id": 722,
-          "model_id": "citroen-c4-x",
-          "version": "CITROËN C4 X",
           "moteur": "À préciser",
           "puissance": "À préciser",
           "transmission": "À préciser",
@@ -23909,12 +24542,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/chery-tiggo-3-x.jpg",
       "fiche_url": "/neuf/chery/tiggo-3-x/",
       "created_at": "2026-06-28 17:07:46",
-      "cat_avg_price": 460501,
-      "remise_pct": 65,
+      "cat_avg_price": 463856,
+      "remise_pct": 66,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 588,
+          "id": 1329,
           "model_id": "chery-tiggo-3-x",
           "version": "CHERY Tiggo 3 X",
           "moteur": "À préciser",
@@ -23937,8 +24570,8 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/chery/Chery-Tiggo-4-Pro-2024-Neuve-Maroc-01.jpg",
       "fiche_url": "/neuf/chery/tiggo-4-pro/",
       "created_at": "2026-06-28 20:31:44",
-      "cat_avg_price": 460501,
-      "remise_pct": 65,
+      "cat_avg_price": 463856,
+      "remise_pct": 66,
       "fuels": "Essence",
       "motorisations": [
         {
@@ -23962,20 +24595,132 @@ const STATIC_DATA = {
       ]
     },
     {
-      "id": "citroen-c4",
+      "id": "citroen-c4-x",
       "marque": "Citroën",
-      "nom": "C4",
-      "slug": "c4",
-      "annee": 2024,
+      "nom": "CITROËN C4 X",
+      "slug": "c4-x",
+      "annee": 2025,
       "categorie": "Berline",
       "carrosserie": "Berline",
-      "prix_min": 219900,
-      "prix_max": 340000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen/Citroen-C4-2024-Neuve-Maroc-01.jpg",
+      "prix_min": 213900,
+      "prix_max": 282900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen-c4-x.jpg",
+      "fiche_url": "/neuf/citroen/c4-x/",
+      "created_at": "2026-06-28 20:17:28",
+      "cat_avg_price": 629148,
+      "remise_pct": 66,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 1149,
+          "model_id": "citroen-c4-x",
+          "version": "CITROËN C4 X",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
+          "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "dacia-sandero-streetway",
+      "marque": "Dacia",
+      "nom": "DACIA Sandero Streetway",
+      "slug": "sandero-streetway",
+      "annee": 2025,
+      "categorie": "Citadine",
+      "carrosserie": "Berline",
+      "prix_min": 132000,
+      "prix_max": 173000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia-sandero-streetway.jpg",
+      "fiche_url": "/neuf/dacia/sandero-streetway/",
+      "created_at": "2026-06-28 20:17:24",
+      "cat_avg_price": 364412,
+      "remise_pct": 64,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 1137,
+          "model_id": "dacia-sandero-streetway",
+          "version": "DACIA Sandero Streetway",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
+          "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "chery-tiggo-4-pro",
+      "marque": "Chery",
+      "nom": "CHERY Tiggo 4 Pro",
+      "slug": "tiggo-4-pro",
+      "annee": 2025,
+      "categorie": "SUV",
+      "carrosserie": "SUV",
+      "prix_min": 165000,
+      "prix_max": 179000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/chery-tiggo-4-pro.jpg",
+      "fiche_url": "/neuf/chery/tiggo-4-pro/",
+      "created_at": "2026-06-28 17:07:46",
+      "cat_avg_price": 463856,
+      "remise_pct": 64,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 1330,
+          "model_id": "chery-tiggo-4-pro",
+          "version": "CHERY Tiggo 4 Pro",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
+          "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "baic-x35",
+      "marque": "BAIC",
+      "nom": "BAIC X35",
+      "slug": "x35",
+      "annee": 2025,
+      "categorie": "SUV",
+      "carrosserie": "SUV",
+      "prix_min": 169000,
+      "prix_max": 195000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/baic-x35.jpg",
+      "fiche_url": "/neuf/baic/x35/",
+      "created_at": "2026-06-28 17:08:15",
+      "cat_avg_price": 463856,
+      "remise_pct": 64,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 1397,
+          "model_id": "baic-x35",
+          "version": "BAIC X35",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
+          "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "citroen-c4",
+      "marque": "Citroën",
+      "nom": "CITROËN C4",
+      "slug": "c4",
+      "annee": 2025,
+      "categorie": "Berline",
+      "carrosserie": "Berline",
+      "prix_min": 223900,
+      "prix_max": 270400,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen-c4.jpg",
       "fiche_url": "/neuf/citroen/c4/",
       "created_at": "2026-06-28 20:31:40",
-      "cat_avg_price": 624944,
-      "remise_pct": 65,
+      "cat_avg_price": 629148,
+      "remise_pct": 64,
       "fuels": "Essence,Électrique",
       "motorisations": [
         {
@@ -24008,118 +24753,6 @@ const STATIC_DATA = {
       ]
     },
     {
-      "id": "chery-tiggo-4-pro",
-      "marque": "Chery",
-      "nom": "CHERY Tiggo 4 Pro",
-      "slug": "tiggo-4-pro",
-      "annee": 2025,
-      "categorie": "SUV",
-      "carrosserie": "SUV",
-      "prix_min": 165000,
-      "prix_max": 179000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/chery-tiggo-4-pro.jpg",
-      "fiche_url": "/neuf/chery/tiggo-4-pro/",
-      "created_at": "2026-06-28 17:07:46",
-      "cat_avg_price": 460501,
-      "remise_pct": 64,
-      "fuels": "Essence",
-      "motorisations": [
-        {
-          "id": 589,
-          "model_id": "chery-tiggo-4-pro",
-          "version": "CHERY Tiggo 4 Pro",
-          "moteur": "À préciser",
-          "puissance": "À préciser",
-          "transmission": "À préciser",
-          "carburant": "Essence"
-        }
-      ]
-    },
-    {
-      "id": "audi-a5",
-      "marque": "Audi",
-      "nom": "AUDI A5",
-      "slug": "a5",
-      "annee": 2025,
-      "categorie": "Coupé",
-      "carrosserie": "Coupé",
-      "prix_min": 589000,
-      "prix_max": 704000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/audi-a5.jpg",
-      "fiche_url": "/neuf/audi/a5/",
-      "created_at": "2026-06-28 20:17:32",
-      "cat_avg_price": 1625414,
-      "remise_pct": 64,
-      "fuels": "Essence",
-      "motorisations": [
-        {
-          "id": 736,
-          "model_id": "audi-a5",
-          "version": "AUDI A5",
-          "moteur": "À préciser",
-          "puissance": "À préciser",
-          "transmission": "À préciser",
-          "carburant": "Essence"
-        }
-      ]
-    },
-    {
-      "id": "dacia-sandero-streetway",
-      "marque": "Dacia",
-      "nom": "DACIA Sandero Streetway",
-      "slug": "sandero-streetway",
-      "annee": 2025,
-      "categorie": "Citadine",
-      "carrosserie": "Berline",
-      "prix_min": 132000,
-      "prix_max": 173000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia-sandero-streetway.jpg",
-      "fiche_url": "/neuf/dacia/sandero-streetway/",
-      "created_at": "2026-06-28 20:17:24",
-      "cat_avg_price": 357393,
-      "remise_pct": 63,
-      "fuels": "Essence",
-      "motorisations": [
-        {
-          "id": 701,
-          "model_id": "dacia-sandero-streetway",
-          "version": "DACIA Sandero Streetway",
-          "moteur": "À préciser",
-          "puissance": "À préciser",
-          "transmission": "À préciser",
-          "carburant": "Essence"
-        }
-      ]
-    },
-    {
-      "id": "baic-x35",
-      "marque": "BAIC",
-      "nom": "BAIC X35",
-      "slug": "x35",
-      "annee": 2025,
-      "categorie": "SUV",
-      "carrosserie": "SUV",
-      "prix_min": 169000,
-      "prix_max": 195000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/baic-x35.jpg",
-      "fiche_url": "/neuf/baic/x35/",
-      "created_at": "2026-06-28 17:08:15",
-      "cat_avg_price": 460501,
-      "remise_pct": 63,
-      "fuels": "Essence",
-      "motorisations": [
-        {
-          "id": 656,
-          "model_id": "baic-x35",
-          "version": "BAIC X35",
-          "moteur": "À préciser",
-          "puissance": "À préciser",
-          "transmission": "À préciser",
-          "carburant": "Essence"
-        }
-      ]
-    },
-    {
       "id": "toyota-corolla",
       "marque": "Toyota",
       "nom": "Corolla",
@@ -24132,8 +24765,8 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/toyota/Toyota-Corolla-2024-Neuve-Maroc-01.jpg",
       "fiche_url": "/neuf/toyota/corolla/",
       "created_at": "2026-06-28 20:31:41",
-      "cat_avg_price": 624944,
-      "remise_pct": 63,
+      "cat_avg_price": 629148,
+      "remise_pct": 64,
       "fuels": "Hybride",
       "motorisations": [
         {
@@ -24157,94 +24790,67 @@ const STATIC_DATA = {
       ]
     },
     {
-      "id": "dacia-spring",
-      "marque": "Dacia",
-      "nom": "Spring",
-      "slug": "spring",
-      "annee": 2024,
-      "categorie": "Citadine",
-      "carrosserie": "Citadine",
-      "prix_min": 139900,
-      "prix_max": 169900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Spring-2024-Neuve-Maroc-01.jpg",
-      "fiche_url": "/neuf/dacia/spring/",
-      "created_at": "2026-06-28 20:31:39",
-      "cat_avg_price": 357393,
-      "remise_pct": 61,
-      "fuels": "Électrique",
+      "id": "audi-a5",
+      "marque": "Audi",
+      "nom": "AUDI A5",
+      "slug": "a5",
+      "annee": 2025,
+      "categorie": "Coupé",
+      "carrosserie": "Coupé",
+      "prix_min": 589000,
+      "prix_max": 704000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/audi-a5.jpg",
+      "fiche_url": "/neuf/audi/a5/",
+      "created_at": "2026-06-28 20:17:32",
+      "cat_avg_price": 1625414,
+      "remise_pct": 64,
+      "fuels": "Essence",
       "motorisations": [
         {
-          "id": 1001,
-          "model_id": "dacia-spring",
-          "version": "Spring Expression 45 ch",
-          "moteur": "Électrique 26.8 kWh",
-          "puissance": "45 ch",
-          "transmission": "Automatique 1 rapport",
-          "carburant": "Électrique"
-        },
-        {
-          "id": 1002,
-          "model_id": "dacia-spring",
-          "version": "Spring Extreme 65 ch",
-          "moteur": "Électrique 26.8 kWh",
-          "puissance": "65 ch",
-          "transmission": "Automatique 1 rapport",
-          "carburant": "Électrique"
+          "id": 1161,
+          "model_id": "audi-a5",
+          "version": "AUDI A5",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
+          "carburant": "Essence"
         }
       ]
     },
     {
-      "id": "peugeot-208",
-      "marque": "Peugeot",
-      "nom": "208",
-      "slug": "208",
-      "annee": 2024,
+      "id": "kia-picanto",
+      "marque": "Kia",
+      "nom": "KIA Picanto",
+      "slug": "picanto",
+      "annee": 2025,
       "categorie": "Citadine",
       "carrosserie": "Berline",
-      "prix_min": 139900,
-      "prix_max": 229900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-208-2024-Neuve-Maroc-01.jpg",
-      "fiche_url": "/neuf/peugeot/208/",
-      "created_at": "2026-06-28 20:31:39",
-      "cat_avg_price": 357393,
+      "prix_min": 142900,
+      "prix_max": 176500,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia-picanto.jpg",
+      "fiche_url": "/neuf/kia/picanto/",
+      "created_at": "2026-06-28 20:31:41",
+      "cat_avg_price": 364412,
       "remise_pct": 61,
-      "fuels": "Essence,Électrique",
+      "fuels": "Essence",
       "motorisations": [
         {
-          "id": 1003,
-          "model_id": "peugeot-208",
-          "version": "208 Like 1.2L PureTech 75",
-          "moteur": "1.2L PureTech 3 cyl.",
-          "puissance": "75 ch",
+          "id": 1061,
+          "model_id": "kia-picanto",
+          "version": "Picanto Trend 1.0L MPi 67",
+          "moteur": "1.0L MPi 3 cyl.",
+          "puissance": "67 ch",
           "transmission": "Manuelle 5",
           "carburant": "Essence"
         },
         {
-          "id": 1004,
-          "model_id": "peugeot-208",
-          "version": "208 Active 1.2L PureTech 100",
-          "moteur": "1.2L PureTech Turbo",
+          "id": 1062,
+          "model_id": "kia-picanto",
+          "version": "Picanto GT Line 1.0L T-GDi 100",
+          "moteur": "1.0L T-GDi 3 cyl.",
           "puissance": "100 ch",
-          "transmission": "Manuelle 6",
+          "transmission": "DCT7",
           "carburant": "Essence"
-        },
-        {
-          "id": 1005,
-          "model_id": "peugeot-208",
-          "version": "208 Allure 1.2L PureTech 130",
-          "moteur": "1.2L PureTech Turbo",
-          "puissance": "130 ch",
-          "transmission": "EAT8",
-          "carburant": "Essence"
-        },
-        {
-          "id": 1006,
-          "model_id": "peugeot-208",
-          "version": "e-208 136 ch",
-          "moteur": "Électrique 51 kWh",
-          "puissance": "136 ch",
-          "transmission": "Automatique 1 rapport",
-          "carburant": "Électrique"
         }
       ]
     },
@@ -24261,12 +24867,12 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault-kardian.jpg",
       "fiche_url": "/neuf/renault/kardian/",
       "created_at": "2026-06-28 20:17:21",
-      "cat_avg_price": 460501,
+      "cat_avg_price": 463856,
       "remise_pct": 61,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 687,
+          "id": 1127,
           "model_id": "renault-kardian",
           "version": "RENAULT Kardian",
           "moteur": "À préciser",
@@ -24277,93 +24883,38 @@ const STATIC_DATA = {
       ]
     },
     {
-      "id": "dacia-duster",
-      "marque": "Dacia",
-      "nom": "Duster",
-      "slug": "duster",
-      "annee": 2024,
-      "categorie": "SUV",
-      "carrosserie": "SUV",
-      "prix_min": 179900,
-      "prix_max": 249900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia/Dacia-Duster-2024-Neuve-Maroc-01.jpg",
-      "fiche_url": "/neuf/dacia/duster/",
-      "created_at": "2026-06-28 20:31:38",
-      "cat_avg_price": 460501,
-      "remise_pct": 61,
-      "fuels": "Essence",
-      "motorisations": [
-        {
-          "id": 996,
-          "model_id": "dacia-duster",
-          "version": "Duster Expression 1.0L TCe 90 2WD",
-          "moteur": "1.0L TCe Turbo",
-          "puissance": "90 ch",
-          "transmission": "Manuelle 6",
-          "carburant": "Essence"
-        },
-        {
-          "id": 997,
-          "model_id": "dacia-duster",
-          "version": "Duster Extreme 1.3L TCe 130 2WD",
-          "moteur": "1.3L TCe Turbo",
-          "puissance": "130 ch",
-          "transmission": "Manuelle 6",
-          "carburant": "Essence"
-        },
-        {
-          "id": 998,
-          "model_id": "dacia-duster",
-          "version": "Duster Extreme 1.3L TCe 130 4WD",
-          "moteur": "1.3L TCe Turbo",
-          "puissance": "130 ch",
-          "transmission": "4WD Manuelle 6",
-          "carburant": "Essence"
-        }
-      ]
-    },
-    {
-      "id": "hyundai-i20",
-      "marque": "Hyundai",
-      "nom": "i20",
-      "slug": "i20",
-      "annee": 2024,
+      "id": "citroen-c3",
+      "marque": "Citroën",
+      "nom": "CITROËN C3",
+      "slug": "c3",
+      "annee": 2025,
       "categorie": "Citadine",
       "carrosserie": "Berline",
       "prix_min": 149900,
-      "prix_max": 219900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai/Hyundai-i20-2024-Neuve-Maroc-01.jpg",
-      "fiche_url": "/neuf/hyundai/i20/",
-      "created_at": "2026-06-28 20:31:40",
-      "cat_avg_price": 357393,
-      "remise_pct": 58,
+      "prix_max": 205900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/citroen-c3.jpg",
+      "fiche_url": "/neuf/citroen/c3/",
+      "created_at": "2026-06-28 20:31:39",
+      "cat_avg_price": 364412,
+      "remise_pct": 59,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 1045,
-          "model_id": "hyundai-i20",
-          "version": "i20 Pure 1.2L MPi 84",
-          "moteur": "1.2L MPi 4 cyl.",
-          "puissance": "84 ch",
+          "id": 1016,
+          "model_id": "citroen-c3",
+          "version": "C3 You 1.2L PureTech 83",
+          "moteur": "1.2L PureTech 3 cyl.",
+          "puissance": "83 ch",
           "transmission": "Manuelle 5",
           "carburant": "Essence"
         },
         {
-          "id": 1046,
-          "model_id": "hyundai-i20",
-          "version": "i20 Trend 1.0L T-GDi 100",
-          "moteur": "1.0L T-GDi 3 cyl.",
-          "puissance": "100 ch",
-          "transmission": "Manuelle 6",
-          "carburant": "Essence"
-        },
-        {
-          "id": 1047,
-          "model_id": "hyundai-i20",
-          "version": "i20 N Line 1.0L T-GDi 100",
-          "moteur": "1.0L T-GDi Turbo",
-          "puissance": "100 ch",
-          "transmission": "DCT7",
+          "id": 1017,
+          "model_id": "citroen-c3",
+          "version": "C3 Plus 1.2L PureTech 110",
+          "moteur": "1.2L PureTech Turbo",
+          "puissance": "110 ch",
+          "transmission": "Automatique 6",
           "carburant": "Essence"
         }
       ]
@@ -24381,14 +24932,79 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/dfsk-glory-500.jpg",
       "fiche_url": "/neuf/dfsk/glory-500/",
       "created_at": "2026-06-28 17:07:58",
-      "cat_avg_price": 460501,
+      "cat_avg_price": 463856,
       "remise_pct": 58,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 622,
+          "id": 1363,
           "model_id": "dfsk-glory-500",
           "version": "DFSK Glory 500",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
+          "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "dacia-jogger",
+      "marque": "Dacia",
+      "nom": "DACIA Jogger",
+      "slug": "jogger",
+      "annee": 2025,
+      "categorie": "SUV",
+      "carrosserie": "SUV",
+      "prix_min": 195900,
+      "prix_max": 227900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia-jogger.jpg",
+      "fiche_url": "/neuf/dacia/jogger/",
+      "created_at": "2026-06-28 20:31:39",
+      "cat_avg_price": 463856,
+      "remise_pct": 58,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 999,
+          "model_id": "dacia-jogger",
+          "version": "Jogger Essential 1.0L TCe 110",
+          "moteur": "1.0L TCe Turbo",
+          "puissance": "110 ch",
+          "transmission": "Manuelle 6",
+          "carburant": "Essence"
+        },
+        {
+          "id": 1000,
+          "model_id": "dacia-jogger",
+          "version": "Jogger Extreme 1.0L TCe 110 Bi-Fuel",
+          "moteur": "1.0L TCe",
+          "puissance": "100 ch",
+          "transmission": "Manuelle 6",
+          "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "dacia-sandero-stepway",
+      "marque": "Dacia",
+      "nom": "DACIA Sandero Stepway",
+      "slug": "sandero-stepway",
+      "annee": 2025,
+      "categorie": "Citadine",
+      "carrosserie": "Berline",
+      "prix_min": 158000,
+      "prix_max": 187000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia-sandero-stepway.jpg",
+      "fiche_url": "/neuf/dacia/sandero-stepway/",
+      "created_at": "2026-06-28 20:17:24",
+      "cat_avg_price": 364412,
+      "remise_pct": 57,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 1138,
+          "model_id": "dacia-sandero-stepway",
+          "version": "DACIA Sandero Stepway",
           "moteur": "À préciser",
           "puissance": "À préciser",
           "transmission": "À préciser",
@@ -24409,7 +25025,7 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/ford/Ford-Puma-2024-Neuve-Maroc-01.jpg",
       "fiche_url": "/neuf/ford/puma/",
       "created_at": "2026-06-28 20:31:42",
-      "cat_avg_price": 460501,
+      "cat_avg_price": 463856,
       "remise_pct": 57,
       "fuels": "Essence,Hybride",
       "motorisations": [
@@ -24446,7 +25062,7 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/backoffice/uploads/images/modeles/photos/mg-zs-face.jpg",
       "fiche_url": "/neuf/mg/zs/",
       "created_at": "2026-06-28 20:31:40",
-      "cat_avg_price": 460501,
+      "cat_avg_price": 463856,
       "remise_pct": 57,
       "fuels": "Essence",
       "motorisations": [
@@ -24483,110 +25099,18 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/gwm-haval-jolion.jpg",
       "fiche_url": "/neuf/gwm/haval-jolion/",
       "created_at": "2026-06-28 17:07:52",
-      "cat_avg_price": 460501,
+      "cat_avg_price": 463856,
       "remise_pct": 57,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 608,
+          "id": 1349,
           "model_id": "gwm-haval-jolion",
           "version": "GWM HAVAL Jolion",
           "moteur": "À préciser",
           "puissance": "À préciser",
           "transmission": "À préciser",
           "carburant": "Essence"
-        }
-      ]
-    },
-    {
-      "id": "peugeot-2008",
-      "marque": "Peugeot",
-      "nom": "2008",
-      "slug": "2008",
-      "annee": 2024,
-      "categorie": "SUV",
-      "carrosserie": "SUV",
-      "prix_min": 199900,
-      "prix_max": 329900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/peugeot/Peugeot-2008-2024-Neuve-Maroc-01.jpg",
-      "fiche_url": "/neuf/peugeot/2008/",
-      "created_at": "2026-06-28 20:31:39",
-      "cat_avg_price": 460501,
-      "remise_pct": 57,
-      "fuels": "Essence,Électrique",
-      "motorisations": [
-        {
-          "id": 1007,
-          "model_id": "peugeot-2008",
-          "version": "2008 Active 1.2L PureTech 100",
-          "moteur": "1.2L PureTech Turbo",
-          "puissance": "100 ch",
-          "transmission": "Manuelle 6",
-          "carburant": "Essence"
-        },
-        {
-          "id": 1008,
-          "model_id": "peugeot-2008",
-          "version": "2008 Allure 1.2L PureTech 130",
-          "moteur": "1.2L PureTech Turbo",
-          "puissance": "130 ch",
-          "transmission": "EAT8",
-          "carburant": "Essence"
-        },
-        {
-          "id": 1009,
-          "model_id": "peugeot-2008",
-          "version": "e-2008 136 ch",
-          "moteur": "Électrique 51 kWh",
-          "puissance": "136 ch",
-          "transmission": "Automatique 1 rapport",
-          "carburant": "Électrique"
-        }
-      ]
-    },
-    {
-      "id": "renault-captur",
-      "marque": "Renault",
-      "nom": "Captur",
-      "slug": "captur",
-      "annee": 2024,
-      "categorie": "SUV",
-      "carrosserie": "SUV",
-      "prix_min": 199900,
-      "prix_max": 299900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/renault/Renault-Captur-2024-Neuve-Maroc-01.jpg",
-      "fiche_url": "/neuf/renault/captur/",
-      "created_at": "2026-06-28 20:31:38",
-      "cat_avg_price": 460501,
-      "remise_pct": 57,
-      "fuels": "Essence,Hybride",
-      "motorisations": [
-        {
-          "id": 986,
-          "model_id": "renault-captur",
-          "version": "Captur Zen 1.0L TCe 90",
-          "moteur": "1.0L TCe Turbo",
-          "puissance": "90 ch",
-          "transmission": "Manuelle 6",
-          "carburant": "Essence"
-        },
-        {
-          "id": 987,
-          "model_id": "renault-captur",
-          "version": "Captur Techno 1.3L TCe 130",
-          "moteur": "1.3L TCe Turbo",
-          "puissance": "130 ch",
-          "transmission": "EDC7",
-          "carburant": "Essence"
-        },
-        {
-          "id": 988,
-          "model_id": "renault-captur",
-          "version": "Captur E-Tech Hybrid 145",
-          "moteur": "1.6L + 2 moteurs élec.",
-          "puissance": "145 ch",
-          "transmission": "Automatique",
-          "carburant": "Hybride"
         }
       ]
     },
@@ -24603,7 +25127,7 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/volkswagen/Volkswagen-Golf-2024-Neuve-Maroc-01.jpg",
       "fiche_url": "/neuf/volkswagen/golf/",
       "created_at": "2026-06-28 20:31:40",
-      "cat_avg_price": 624944,
+      "cat_avg_price": 629148,
       "remise_pct": 57,
       "fuels": "Essence,Hybride",
       "motorisations": [
@@ -24649,42 +25173,14 @@ const STATIC_DATA = {
       "image": "https://www.wandaloo.com/files/Voiture-Neuve/toyota-corolla-prestige.jpg",
       "fiche_url": "/neuf/toyota/corolla-prestige/",
       "created_at": "2026-06-28 20:17:41",
-      "cat_avg_price": 624944,
+      "cat_avg_price": 629148,
       "remise_pct": 57,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 799,
+          "id": 1215,
           "model_id": "toyota-corolla-prestige",
           "version": "TOYOTA Corolla Prestige",
-          "moteur": "À préciser",
-          "puissance": "À préciser",
-          "transmission": "À préciser",
-          "carburant": "Essence"
-        }
-      ]
-    },
-    {
-      "id": "dacia-sandero-stepway",
-      "marque": "Dacia",
-      "nom": "DACIA Sandero Stepway",
-      "slug": "sandero-stepway",
-      "annee": 2025,
-      "categorie": "Citadine",
-      "carrosserie": "Berline",
-      "prix_min": 158000,
-      "prix_max": 187000,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/dacia-sandero-stepway.jpg",
-      "fiche_url": "/neuf/dacia/sandero-stepway/",
-      "created_at": "2026-06-28 20:17:24",
-      "cat_avg_price": 357393,
-      "remise_pct": 56,
-      "fuels": "Essence",
-      "motorisations": [
-        {
-          "id": 702,
-          "model_id": "dacia-sandero-stepway",
-          "version": "DACIA Sandero Stepway",
           "moteur": "À préciser",
           "puissance": "À préciser",
           "transmission": "À préciser",
@@ -24710,7 +25206,7 @@ const STATIC_DATA = {
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 567,
+          "id": 1310,
           "model_id": "suzuki-jimny",
           "version": "SUZUKI Jimny",
           "moteur": "À préciser",
@@ -24721,38 +25217,178 @@ const STATIC_DATA = {
       ]
     },
     {
-      "id": "kia-picanto",
-      "marque": "Kia",
-      "nom": "Picanto",
-      "slug": "picanto",
-      "annee": 2024,
+      "id": "hyundai-grand-i10-sedan",
+      "marque": "Hyundai",
+      "nom": "HYUNDAI Grand i10 Sedan",
+      "slug": "grand-i10-sedan",
+      "annee": 2025,
       "categorie": "Citadine",
-      "carrosserie": "Berline",
-      "prix_min": 159900,
-      "prix_max": 219900,
-      "image": "https://www.wandaloo.com/files/Voiture-Neuve/kia/Kia-Picanto-2024-Neuve-Maroc-01.jpg",
-      "fiche_url": "/neuf/kia/picanto/",
-      "created_at": "2026-06-28 20:31:41",
-      "cat_avg_price": 357393,
+      "carrosserie": "Citadine",
+      "prix_min": 162900,
+      "prix_max": 174900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai-grand-i10-sedan.jpg",
+      "fiche_url": "/neuf/hyundai/grand-i10-sedan/",
+      "created_at": "2026-06-28 20:17:43",
+      "cat_avg_price": 364412,
       "remise_pct": 55,
       "fuels": "Essence",
       "motorisations": [
         {
-          "id": 1061,
-          "model_id": "kia-picanto",
-          "version": "Picanto Trend 1.0L MPi 67",
-          "moteur": "1.0L MPi 3 cyl.",
-          "puissance": "67 ch",
-          "transmission": "Manuelle 5",
+          "id": 1225,
+          "model_id": "hyundai-grand-i10-sedan",
+          "version": "HYUNDAI Grand i10 Sedan",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
           "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "hyundai-i10",
+      "marque": "Hyundai",
+      "nom": "HYUNDAI i10",
+      "slug": "i10",
+      "annee": 2025,
+      "categorie": "Citadine",
+      "carrosserie": "Citadine",
+      "prix_min": 162900,
+      "prix_max": 183900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/hyundai-i10.jpg",
+      "fiche_url": "/neuf/hyundai/i10/",
+      "created_at": "2026-06-28 20:17:43",
+      "cat_avg_price": 364412,
+      "remise_pct": 55,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 1224,
+          "model_id": "hyundai-i10",
+          "version": "HYUNDAI i10",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
+          "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "omoda-3",
+      "marque": "Omoda",
+      "nom": "OMODA  3",
+      "slug": "3",
+      "annee": 2025,
+      "categorie": "SUV",
+      "carrosserie": "SUV",
+      "prix_min": 209000,
+      "prix_max": 209000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/omoda-3.jpg",
+      "fiche_url": "/neuf/omoda/3/",
+      "created_at": "2026-06-28 17:07:56",
+      "cat_avg_price": 463856,
+      "remise_pct": 55,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 1359,
+          "model_id": "omoda-3",
+          "version": "OMODA  3",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
+          "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "geely-coolray",
+      "marque": "Geely",
+      "nom": "GEELY Coolray",
+      "slug": "coolray",
+      "annee": 2025,
+      "categorie": "SUV",
+      "carrosserie": "SUV",
+      "prix_min": 209900,
+      "prix_max": 275000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/geely-coolray.jpg",
+      "fiche_url": "/neuf/geely/coolray/",
+      "created_at": "2026-06-28 17:07:48",
+      "cat_avg_price": 463856,
+      "remise_pct": 55,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 1337,
+          "model_id": "geely-coolray",
+          "version": "GEELY Coolray",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
+          "carburant": "Essence"
+        }
+      ]
+    },
+    {
+      "id": "mg-mg3",
+      "marque": "MG",
+      "nom": "MG MG3",
+      "slug": "mg3",
+      "annee": 2025,
+      "categorie": "Citadine",
+      "carrosserie": "Berline",
+      "prix_min": 169000,
+      "prix_max": 169000,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/mg-mg3.jpg",
+      "fiche_url": "/neuf/mg/mg3/",
+      "created_at": "2026-06-28 20:31:40",
+      "cat_avg_price": 364412,
+      "remise_pct": 54,
+      "fuels": "Hybride",
+      "motorisations": [
+        {
+          "id": 1034,
+          "model_id": "mg-mg3",
+          "version": "MG3 Hybrid+ Comfort",
+          "moteur": "1.5L + Moteur élec.",
+          "puissance": "195 ch",
+          "transmission": "Automatique",
+          "carburant": "Hybride"
         },
         {
-          "id": 1062,
-          "model_id": "kia-picanto",
-          "version": "Picanto GT Line 1.0L T-GDi 100",
-          "moteur": "1.0L T-GDi 3 cyl.",
-          "puissance": "100 ch",
-          "transmission": "DCT7",
+          "id": 1035,
+          "model_id": "mg-mg3",
+          "version": "MG3 Hybrid+ Luxury",
+          "moteur": "1.5L + Moteur élec.",
+          "puissance": "195 ch",
+          "transmission": "Automatique",
+          "carburant": "Hybride"
+        }
+      ]
+    },
+    {
+      "id": "seat-ibiza",
+      "marque": "Seat",
+      "nom": "SEAT Ibiza",
+      "slug": "ibiza",
+      "annee": 2025,
+      "categorie": "Citadine",
+      "carrosserie": "Berline",
+      "prix_min": 169000,
+      "prix_max": 245900,
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/seat-ibiza.jpg",
+      "fiche_url": "/neuf/seat/ibiza/",
+      "created_at": "2026-06-28 17:07:20",
+      "cat_avg_price": 364412,
+      "remise_pct": 54,
+      "fuels": "Essence",
+      "motorisations": [
+        {
+          "id": 1257,
+          "model_id": "seat-ibiza",
+          "version": "SEAT Ibiza",
+          "moteur": "À préciser",
+          "puissance": "À préciser",
+          "transmission": "À préciser",
           "carburant": "Essence"
         }
       ]
