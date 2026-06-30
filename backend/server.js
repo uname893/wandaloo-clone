@@ -320,6 +320,27 @@ app.post('/api/admin/scraper/run', requireAuth, (req, res) => {
   }).catch(err => res.status(500).json({ error: err.message }));
 });
 
+// ========== PUBLISH TO FIREBASE & GITHUB ==========
+app.post('/api/admin/publish', requireAuth, (req, res) => {
+  const { exec } = require('child_process');
+  console.log('🚀 [Publish] Committing modifications and deploying to Firebase...');
+  
+  // Re-build data.js first, just in case
+  buildStaticData((err) => {
+    if (err) return res.status(500).json({ error: 'Erreur lors de la compilation statique: ' + err.message });
+    
+    // Execute git and firebase deployment
+    exec('git add . && git commit -m "Data Update: Auto-saved admin modifications" && git push origin main && firebase deploy --only hosting', (execErr, stdout, stderr) => {
+      if (execErr) {
+        console.error('❌ Erreur de publication:', execErr.message);
+        return res.status(500).json({ error: execErr.message, details: stderr });
+      }
+      console.log('✅ Publication et déploiement terminés avec succès !');
+      res.json({ success: true, stdout, stderr });
+    });
+  });
+});
+
 // ========== AGENT IA ASSISTANT PANEL ==========
 app.post('/api/admin/ai-assistant', requireAuth, (req, res) => {
   const { query } = req.body;

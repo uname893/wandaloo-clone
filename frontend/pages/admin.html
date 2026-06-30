@@ -238,7 +238,8 @@
         <div class="nav-item" onclick="showSection('newsSection')">📰 Articles d'actualités</div>
         <div class="nav-item" onclick="showSection('auditSection')">🛡️ Agent IA Audit</div>
         <div class="nav-item" onclick="showSection('trendsSection')">📈 Veille Ventes Monde</div>
-        <div class="nav-item" onclick="logout()" style="margin-top:40px;color:#ef4444;">🚪 Déconnexion</div>
+        <div class="nav-item" onclick="publishSite()" style="margin-top:20px;background:rgba(34,197,94,0.1);color:#22c55e;border:1px solid rgba(34,197,94,0.2);font-weight:700;">🚀 Publier le site en ligne</div>
+        <div class="nav-item" onclick="logout()" style="margin-top:20px;color:#ef4444;">🚪 Déconnexion</div>
       </div>
 
       <div class="admin-main">
@@ -606,6 +607,38 @@
         } else {
           logout();
         }
+      }
+    }
+
+    async function publishSite() {
+      if (!confirm('Voulez-vous enregistrer toutes les modifications en base de données, les pousser sur GitHub et les publier sur Firebase Hosting ? Cela prendra environ 15-20 secondes.')) {
+        return;
+      }
+      
+      const btn = document.querySelector('div[onclick="publishSite()"]');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = '⏳ Publication en cours...';
+      btn.style.pointerEvents = 'none';
+      btn.style.opacity = '0.6';
+
+      try {
+        const res = await fetch(`${ADMIN_API}/publish`, {
+          method: 'POST',
+          headers: { 'Authorization': 'Bearer ' + adminToken }
+        });
+        const data = await res.json();
+        
+        if (res.ok) {
+          alert('🎉 Félicitations ! Vos modifications ont été enregistrées sur Git et déployées en direct sur Firebase Hosting avec succès !');
+        } else {
+          alert('❌ Erreur de publication : ' + (data.error || 'Erreur inconnue'));
+        }
+      } catch(e) {
+        alert('❌ Erreur réseau lors de la publication : ' + e.message);
+      } finally {
+        btn.innerHTML = originalText;
+        btn.style.pointerEvents = 'auto';
+        btn.style.opacity = '1';
       }
     }
 

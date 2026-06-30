@@ -1163,6 +1163,11 @@ async function loadNewsPage() {
         </div>
       `;
     }).join('');
+  } catch(err) {
+    console.error('Error loading news:', err);
+    container.innerHTML = '<p>Impossible de charger les actualités.</p>';
+  }
+}
 // ========== ARTICLE DETAIL PAGE ==========
 async function loadArticlePage() {
   const params = new URLSearchParams(window.location.search);
