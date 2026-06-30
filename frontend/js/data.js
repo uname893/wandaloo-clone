@@ -30997,8 +30997,9 @@ const STATIC_DATA = {
     }
   ],
   "settings": {
-    "hero_title": "Trouvez votre voiture neuve\\nau meilleur prix",
-    "hero_subtitle": "Prix officiels, fiches techniques et comparateur de toutes les marques disponibles au Maroc"
+    "hero_title": "Trouvez votre voiture neuve\\ au meilleur prix",
+    "hero_subtitle": "Prix officiels, fiches techniques et comparateur de toutes les marques disponibles au Maroc",
+    "gemini_api_key": ""
   },
   "auditReports": [
     {

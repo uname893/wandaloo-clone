@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const axios = require('axios');
 const path = require('path');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
@@ -293,6 +294,108 @@ app.put('/api/admin/models/:id/specs', requireAuth, (req, res) => {
 });
 
 // 3. ARTICLES D'ACTUALITÉS
+app.post('/api/admin/news/generate', requireAuth, (req, res) => {
+  const { topic } = req.body;
+  if (!topic) return res.status(400).json({ error: 'Sujet requis pour la génération.' });
+
+  const db = getDB();
+  db.get(`SELECT * FROM settings WHERE id = 1`, [], async (err, row) => {
+    let apiKey = process.env.GEMINI_API_KEY;
+    if (row) {
+      try {
+        const settings = JSON.parse(row.value);
+        if (settings.gemini_api_key) {
+          apiKey = settings.gemini_api_key;
+        }
+      } catch (e) {}
+    }
+
+    if (!apiKey) {
+      db.close();
+      return res.status(400).json({ error: 'Clé API Gemini manquante. Veuillez configurer votre clé dans les paramètres de la page d\'accueil de l\'administration.' });
+    }
+
+    try {
+      const prompt = `Rédige un article d'actualité automobile professionnel et complet en français.
+Sujet ou mot-clé: "${topic}"
+Réponds UNIQUEMENT sous forme d'un objet JSON contenant exactement ces clés:
+- "titre": Le titre de l'article, accrocheur, sans crochets de tag.
+- "resume": Un résumé court (2-3 phrases) de l'article.
+- "tag": Un tag pertinent parmi "Nouveauté Maroc", "Marché", "Essai", "Nouveauté", "Actu France".
+- "contenu_complet": Le corps complet de l'article rédigé, d'environ 400 à 600 mots. Utilise des paragraphes HTML (<p>...</p>) et des intertitres (<h2>...</h2>) pour structurer le texte de manière très propre. N'ajoute AUCUN code CSS, JavaScript ni markdown à l'intérieur.`;
+
+      const response = await axios.post(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
+        {
+          contents: [{
+            parts: [{ text: prompt }]
+          }],
+          generationConfig: {
+            responseMimeType: "application/json"
+          }
+        }
+      );
+
+      const resultText = response.data?.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!resultText) throw new Error('Aucune réponse générée par l\'IA.');
+
+      const articleData = JSON.parse(resultText);
+      
+      // Choix de l'image de marque
+      let finalImage = 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80'; // fallback
+      const topicLower = topic.toLowerCase();
+      const imagesMap = {
+        audi: 'https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&q=80',
+        bmw: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
+        mercedes: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
+        porsche: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
+        tesla: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&q=80',
+        peugeot: 'https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?w=800&q=80',
+        dacia: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&q=80',
+        toyota: 'https://images.unsplash.com/photo-1629897048514-3dd7414fe72a?w=800&q=80',
+        renault: 'https://images.unsplash.com/photo-1554744512-d6c603f27c54?w=800&q=80',
+        byd: 'https://images.unsplash.com/photo-1707474402685-612a433a7ad1?w=800&q=80',
+        hyundai: 'https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&q=80',
+        kia: 'https://images.unsplash.com/photo-1623998021450-85c24c626a5a?w=800&q=80'
+      };
+
+      for (const [brand, url] of Object.entries(imagesMap)) {
+        if (topicLower.includes(brand)) {
+          finalImage = url;
+          break;
+        }
+      }
+
+      const cleanTitle = `[${articleData.tag || 'Actu'}] ${articleData.titre}`;
+      const newArticle = {
+        titre: cleanTitle,
+        resume: articleData.resume,
+        image: finalImage,
+        date_publication: new Date().toLocaleDateString('fr-FR'),
+        lien_article: `ai-article-${Date.now()}`,
+        contenu_complet: articleData.contenu_complet
+      };
+
+      db.run(
+        `INSERT INTO news (titre, resume, image, date_publication, lien_article, contenu_complet) VALUES (?, ?, ?, ?, ?, ?)`,
+        [newArticle.titre, newArticle.resume, newArticle.image, newArticle.date_publication, newArticle.lien_article, newArticle.contenu_complet],
+        function(insertErr) {
+          db.close();
+          if (insertErr) return res.status(500).json({ error: insertErr.message });
+          
+          buildStaticData(() => {
+            res.json({ success: true, article: { id: this.lastID, ...newArticle } });
+          });
+        }
+      );
+    } catch(apiErr) {
+      db.close();
+      console.error('❌ Gemini generation error:', apiErr.message);
+      res.status(500).json({ error: 'Erreur lors de la génération avec l\'IA Gemini : ' + (apiErr.response?.data?.error?.message || apiErr.message) });
+    }
+  });
+});
+
 app.post('/api/admin/news', requireAuth, (req, res) => {
   const article = req.body;
   insertNews(article, (err) => {
