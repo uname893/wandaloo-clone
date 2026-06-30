@@ -143,30 +143,76 @@ function insertBrand(brand, callback) {
 function insertModel(model, callback) {
   const db = getDB();
   
-  // Check if model already exists
   db.get(`SELECT * FROM models WHERE id = ?`, [model.id], (err, existing) => {
     if (err) { db.close(); callback(err); return; }
     
+    const saveSpecsAndMotors = (dbInstance, modelId, cb) => {
+      // 1. Sauvegarder les motorisations si présentes
+      const nextStep = () => {
+        if (model.specifications) {
+          dbInstance.run(`DELETE FROM specifications WHERE model_id = ?`, [modelId], (errSpecsDel) => {
+            const s = model.specifications;
+            const stmtSpec = dbInstance.prepare(`INSERT INTO specifications 
+              (model_id, longueur, largeur, hauteur, empattement, poids, coffre,
+               cylindree, cylindres, turbo, vitesse_max, acceleration,
+               conso_urbaine, conso_extra, conso_mixte, emission_co2, reservoir, roues, pneus, options)
+              VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
+            stmtSpec.run(
+              modelId,
+              s.longueur || '', s.largeur || '', s.hauteur || '', s.empattement || '', s.poids || '', s.coffre || '',
+              s.cylindree || '', s.cylindres || '', s.turbo || '', s.vitesse_max || '', s.acceleration || '',
+              s.conso_urbaine || '', s.conso_extra || '', s.conso_mixte || '', s.emission_co2 || '', s.reservoir || '',
+              s.roues || '', s.pneus || '', s.options || '',
+              (errSpecIns) => {
+                stmtSpec.finalize();
+                dbInstance.close();
+                cb(errSpecIns || null);
+              }
+            );
+          });
+        } else {
+          dbInstance.close();
+          cb(null);
+        }
+      };
+
+      if (model.motorisations && model.motorisations.length > 0) {
+        dbInstance.run(`DELETE FROM motorisations WHERE model_id = ?`, [modelId], (errDel) => {
+          const motStmt = dbInstance.prepare(`INSERT INTO motorisations 
+            (model_id, version, moteur, puissance, transmission, carburant)
+            VALUES (?, ?, ?, ?, ?, ?)`);
+          for (const mot of model.motorisations) {
+            motStmt.run(modelId, mot.version || '', mot.moteur || '', mot.puissance || '',
+              mot.transmission || '', mot.carburant || '');
+          }
+          motStmt.finalize();
+          nextStep();
+        });
+      } else {
+        nextStep();
+      }
+    };
+
     if (existing) {
-      // Model exists: update it but preserve fields if the incoming ones are empty
+      // Model existant: mise à jour complète des champs
       const stmt = db.prepare(`UPDATE models SET 
         marque = ?, 
         nom = ?, 
         slug = ?, 
-        annee = COALESCE(NULLIF(?, 0), annee), 
-        categorie = COALESCE(NULLIF(?, ''), categorie), 
-        carrosserie = COALESCE(NULLIF(?, ''), carrosserie), 
-        prix_min = COALESCE(NULLIF(?, 0), prix_min), 
-        prix_max = COALESCE(NULLIF(?, 0), prix_max), 
-        image = COALESCE(NULLIF(?, ''), image), 
-        fiche_url = COALESCE(NULLIF(?, ''), fiche_url)
+        annee = ?, 
+        categorie = ?, 
+        carrosserie = ?, 
+        prix_min = ?, 
+        prix_max = ?, 
+        image = ?, 
+        fiche_url = ?
         WHERE id = ?`);
       
       stmt.run(
         model.marque, 
         model.nom, 
         model.slug || existing.slug, 
-        model.annee || 0,
+        model.annee || existing.annee || 2025,
         model.categorie || '', 
         model.carrosserie || '', 
         model.prix_min || 0, 
@@ -177,39 +223,11 @@ function insertModel(model, callback) {
         function(err2) {
           stmt.finalize();
           if (err2) { db.close(); callback(err2); return; }
-          
-          // Only overwrite motorisations if new ones are richer
-          if (model.motorisations && model.motorisations.length > 0) {
-            // Check if existing motorisations are detailed
-            db.get(`SELECT COUNT(*) as cnt FROM motorisations WHERE model_id = ? AND moteur != 'À préciser'`, [model.id], (err3, countRow) => {
-              // If incoming motorisation has detailed info, or we have no detailed info, update it
-              const incomingIsDetailed = model.motorisations.some(m => m.moteur && m.moteur !== 'À préciser');
-              if (incomingIsDetailed || !countRow || countRow.cnt === 0) {
-                db.run(`DELETE FROM motorisations WHERE model_id = ?`, [model.id], (err4) => {
-                  const motStmt = db.prepare(`INSERT INTO motorisations 
-                    (model_id, version, moteur, puissance, transmission, carburant)
-                    VALUES (?, ?, ?, ?, ?, ?)`);
-                  for (const mot of model.motorisations) {
-                    motStmt.run(model.id, mot.version || '', mot.moteur || '', mot.puissance || '',
-                      mot.transmission || '', mot.carburant || '');
-                  }
-                  motStmt.finalize();
-                  db.close();
-                  callback(null);
-                });
-              } else {
-                db.close();
-                callback(null);
-              }
-            });
-          } else {
-            db.close();
-            callback(null);
-          }
+          saveSpecsAndMotors(db, model.id, callback);
         }
       );
     } else {
-      // Model doesn't exist: insert it
+      // Nouveau modèle: insertion
       const stmt = db.prepare(`INSERT INTO models 
         (id, marque, nom, slug, annee, categorie, carrosserie, prix_min, prix_max, image, fiche_url)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
@@ -218,19 +236,7 @@ function insertModel(model, callback) {
         model.image || '', model.fiche_url || '', function(err2) {
           stmt.finalize();
           if (err2) { db.close(); callback(err2); return; }
-          
-          if (model.motorisations && model.motorisations.length > 0) {
-            const motStmt = db.prepare(`INSERT INTO motorisations 
-              (model_id, version, moteur, puissance, transmission, carburant)
-              VALUES (?, ?, ?, ?, ?, ?)`);
-            for (const mot of model.motorisations) {
-              motStmt.run(model.id, mot.version || '', mot.moteur || '', mot.puissance || '',
-                mot.transmission || '', mot.carburant || '');
-            }
-            motStmt.finalize();
-          }
-          db.close();
-          callback(null);
+          saveSpecsAndMotors(db, model.id, callback);
         });
     }
   });

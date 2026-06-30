@@ -312,8 +312,35 @@
         <div id="brands" class="section">
           <div class="admin-header">
             <h1>Gestion des marques</h1>
-            <button class="admin-btn admin-btn-primary" onclick="addBrandPrompt()">+ Ajouter une marque</button>
+            <button class="admin-btn admin-btn-primary" onclick="openBrandForm()">+ Ajouter une marque</button>
           </div>
+          
+          <!-- BRAND FORM -->
+          <div class="admin-card" id="brandFormCard" style="display:none;margin-bottom:32px;border-left:4px solid var(--primary);">
+            <h3 id="brandFormTitle">Ajouter une nouvelle marque</h3>
+            <input type="hidden" id="brandId">
+            <div class="form-group">
+              <label>Nom de la marque</label>
+              <input type="text" id="brandNom" placeholder="Ex: Dacia, Audi, Tesla">
+            </div>
+            <div class="form-group">
+              <label>Pays d'origine</label>
+              <input type="text" id="brandPays" placeholder="Ex: France, Allemagne, USA">
+            </div>
+            <div class="form-group">
+              <label>Logo de la marque (URL ou chemin local)</label>
+              <input type="text" id="brandLogo" placeholder="Ex: /images/logos/audi.jpg ou URL externe">
+            </div>
+            <div class="form-group">
+              <label>Site officiel (Optionnel)</label>
+              <input type="text" id="brandSite" placeholder="Ex: https://www.audi.ma">
+            </div>
+            <div style="display:flex;gap:12px;">
+              <button class="admin-btn admin-btn-success" onclick="saveBrand()">💾 Enregistrer la marque</button>
+              <button class="admin-btn admin-btn-secondary" onclick="closeBrandForm()">Annuler</button>
+            </div>
+          </div>
+
           <div class="admin-card">
             <div id="brandsTableWrap"></div>
           </div>
@@ -323,8 +350,92 @@
         <div id="models" class="section">
           <div class="admin-header">
             <h1>Gestion des modèles</h1>
-            <button class="admin-btn admin-btn-primary" onclick="addModelPrompt()">+ Ajouter un modèle</button>
+            <button class="admin-btn admin-btn-primary" onclick="openModelForm()">+ Ajouter un modèle</button>
           </div>
+
+          <!-- MODEL/CAR FORM -->
+          <div class="admin-card" id="modelFormCard" style="display:none;margin-bottom:32px;border-left:4px solid var(--primary);">
+            <h3 id="modelFormTitle">Ajouter un nouveau modèle de véhicule</h3>
+            <input type="hidden" id="modelId">
+            
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+              <div class="form-group">
+                <label>Nom du modèle</label>
+                <input type="text" id="modelNom" placeholder="Ex: Dolphin, A3 Berline, Clio 6">
+              </div>
+              <div class="form-group">
+                <label>Marque</label>
+                <select id="modelMarque">
+                  <!-- Dynamically populated -->
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Catégorie</label>
+                <select id="modelCategorie">
+                  <option value="Citadine">Citadine</option>
+                  <option value="SUV">SUV</option>
+                  <option value="Berline">Berline</option>
+                  <option value="Familiale">Familiale</option>
+                  <option value="Coupé / Cabri">Coupé / Cabriolet</option>
+                  <option value="Utilitaire">Utilitaire</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Année</label>
+                <input type="number" id="modelAnnee" value="2026">
+              </div>
+              <div class="form-group">
+                <label>Prix Minimum (DH)</label>
+                <input type="number" id="modelPrixMin" placeholder="Ex: 240000">
+              </div>
+              <div class="form-group">
+                <label>Prix Maximum (DH)</label>
+                <input type="number" id="modelPrixMax" placeholder="Ex: 280000">
+              </div>
+              <div class="form-group" style="grid-column: span 2;">
+                <label>Image principale (URL)</label>
+                <input type="text" id="modelImage" placeholder="https://images.unsplash.com/... ou URL du véhicule">
+              </div>
+            </div>
+
+            <!-- FICHE TECHNIQUE COMPLÈTE -->
+            <h4 style="margin:24px 0 12px;font-weight:800;border-bottom:2px solid var(--border);padding-bottom:8px;color:var(--primary);">🔧 Fiche Technique (Spécifications)</h4>
+            <div style="display:grid;grid-template-columns:repeat(3, 1fr);gap:16px;">
+              <div class="form-group"><label>Longueur (m)</label><input type="text" id="specLongueur" placeholder="Ex: 4.34 m"></div>
+              <div class="form-group"><label>Largeur (m)</label><input type="text" id="specLargeur" placeholder="Ex: 1.80 m"></div>
+              <div class="form-group"><label>Hauteur (m)</label><input type="text" id="specHauteur" placeholder="Ex: 1.57 m"></div>
+              <div class="form-group"><label>Poids (kg)</label><input type="text" id="specPoids" placeholder="Ex: 1350 kg"></div>
+              <div class="form-group"><label>Coffre (Litres)</label><input type="text" id="specCoffre" placeholder="Ex: 380 L"></div>
+              <div class="form-group"><label>Consommation Mixte</label><input type="text" id="specConso" placeholder="Ex: 4.8 L/100 km"></div>
+              <div class="form-group"><label>Cylindrée</label><input type="text" id="specCylindree" placeholder="Ex: 1498 cc"></div>
+              <div class="form-group"><label>Vitesse Max</label><input type="text" id="specVitesseMax" placeholder="Ex: 190 km/h"></div>
+              <div class="form-group"><label>Accélération (0-100 km/h)</label><input type="text" id="specAcceleration" placeholder="Ex: 8.5 s"></div>
+              <div class="form-group" style="grid-column: span 3;">
+                <label>Options incluses notables</label>
+                <textarea id="specOptions" rows="2" placeholder="Ex: Écran tactile 10', Caméra de recul, Climatisation automatique, Toit ouvrant..."></textarea>
+              </div>
+            </div>
+
+            <!-- MOTORISATIONS ET FINITIONS -->
+            <h4 style="margin:24px 0 12px;font-weight:800;border-bottom:2px solid var(--border);padding-bottom:8px;color:var(--primary);">⚙️ Versions & Motorisations</h4>
+            <div style="margin-bottom:16px;">
+              <table class="admin-table" id="motorsTable" style="font-size:12px;">
+                <thead>
+                  <tr><th>Version / Finition</th><th>Moteur</th><th>Puissance (CV)</th><th>Transmission</th><th>Carburant</th><th>Action</th></tr>
+                </thead>
+                <tbody id="motorsTableBody">
+                  <!-- Dynamic rows -->
+                </tbody>
+              </table>
+              <button class="admin-btn admin-btn-secondary" style="margin-top:12px;padding:6px 12px;font-size:12px;" onclick="addMotorRow()">+ Ajouter une version</button>
+            </div>
+
+            <div style="display:flex;gap:12px;margin-top:24px;">
+              <button class="admin-btn admin-btn-success" onclick="saveModel()">💾 Enregistrer le véhicule</button>
+              <button class="admin-btn admin-btn-secondary" onclick="closeModelForm()">Annuler</button>
+            </div>
+          </div>
+
           <div class="admin-card">
             <div id="modelsTableWrap"></div>
           </div>
@@ -573,7 +684,7 @@
                 <td>${b.pays}</td>
                 <td>${b.nb_modeles}</td>
                 <td>
-                  <button class="admin-btn admin-btn-secondary" style="padding:6px 12px;" onclick="editBrandPrompt('${b.id}')">✏️ Éditer</button>
+                  <button class="admin-btn admin-btn-secondary" style="padding:6px 12px;" onclick="editBrand('${b.id}')">✏️ Éditer</button>
                 </td>
               </tr>
             `).join('')}
@@ -582,20 +693,61 @@
       `;
     }
 
-    async function addBrandPrompt() {
-      const name = prompt('Nom de la nouvelle marque :');
-      if (!name) return;
-      const country = prompt('Pays d\'origine :', 'Maroc');
-      
+    function openBrandForm() {
+      document.getElementById('brandFormCard').style.display = 'block';
+      document.getElementById('brandId').value = '';
+      document.getElementById('brandNom').value = '';
+      document.getElementById('brandPays').value = '';
+      document.getElementById('brandLogo').value = '';
+      document.getElementById('brandSite').value = '';
+      document.getElementById('brandFormTitle').textContent = "Ajouter une nouvelle marque";
+    }
+
+    function editBrand(id) {
+      const brand = STATIC_DATA.brands.find(b => b.id === id);
+      if (!brand) return;
+      document.getElementById('brandFormCard').style.display = 'block';
+      document.getElementById('brandId').value = brand.id;
+      document.getElementById('brandNom').value = brand.nom;
+      document.getElementById('brandPays').value = brand.pays || '';
+      document.getElementById('brandLogo').value = brand.logo || '';
+      document.getElementById('brandSite').value = brand.site_officiel || '';
+      document.getElementById('brandFormTitle').textContent = `Éditer la marque : ${brand.nom}`;
+      document.getElementById('brandFormCard').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function closeBrandForm() {
+      document.getElementById('brandFormCard').style.display = 'none';
+    }
+
+    async function saveBrand() {
+      const id = document.getElementById('brandId').value;
+      const nom = document.getElementById('brandNom').value;
+      const pays = document.getElementById('brandPays').value;
+      const logo = document.getElementById('brandLogo').value;
+      const site_officiel = document.getElementById('brandSite').value;
+
+      if (!nom || !pays || !logo) {
+        alert('Veuillez remplir le nom, pays et le logo de la marque.');
+        return;
+      }
+
+      const targetId = id || nom.toLowerCase().replace(/\s+/g, '-');
+      const body = { nom, pays, logo, site_officiel };
+
       try {
-        const res = await fetch(API_URL + '/admin/brands/' + name.toLowerCase().replace(/\s+/g, '-'), {
+        const res = await fetch(`${API_URL}/admin/brands/${targetId}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + adminToken },
-          body: JSON.stringify({ nom: name, pays: country, logo: `/images/logos/${name.toLowerCase().replace(/\s+/g, '-')}.jpg` })
+          body: JSON.stringify(body)
         });
-        if (res.ok) alert('Marque ajoutée avec succès !');
+        if (res.ok) {
+          alert('Marque enregistrée avec succès et site rebâti !');
+          closeBrandForm();
+        }
       } catch(e) {
-        alert('Mode Démo : ajouté localement');
+        alert('Enregistré localement (Mode Démo)');
+        closeBrandForm();
       }
     }
 
@@ -607,7 +759,7 @@
         <table class="admin-table">
           <thead><tr><th>Image</th><th>Nom</th><th>Marque</th><th>Catégorie</th><th>Prix Min</th><th>Actions</th></tr></thead>
           <tbody>
-            ${models.slice(0, 50).map(m => `
+            ${models.slice(0, 100).map(m => `
               <tr>
                 <td><img src="${m.image}" style="height:40px;width:60px;object-fit:cover;border-radius:4px;" onerror="this.src='https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=60'"></td>
                 <td><strong>${m.nom}</strong></td>
@@ -615,7 +767,7 @@
                 <td>${m.categorie}</td>
                 <td>${m.prix_min.toLocaleString('fr-MA')} DH</td>
                 <td>
-                  <button class="admin-btn admin-btn-secondary" style="padding:6px 12px;" onclick="editModelPrompt('${m.id}')">✏️ Prix</button>
+                  <button class="admin-btn admin-btn-secondary" style="padding:6px 12px;" onclick="editModel('${m.id}')">✏️ Fiche & Moteurs</button>
                   <button class="admin-btn admin-btn-danger" style="padding:6px 12px;" onclick="deleteModelConfirm('${m.id}')">🗑️</button>
                 </td>
               </tr>
@@ -625,21 +777,209 @@
       `;
     }
 
-    async function editModelPrompt(id) {
+    function populateBrandDropdown() {
+      const select = document.getElementById('modelMarque');
+      if (!select) return;
+      const brands = STATIC_DATA.brands || [];
+      select.innerHTML = brands.map(b => `<option value="${b.nom}">${b.nom}</option>`).join('');
+    }
+
+    function openModelForm() {
+      document.getElementById('modelFormCard').style.display = 'block';
+      populateBrandDropdown();
+      document.getElementById('modelId').value = '';
+      document.getElementById('modelNom').value = '';
+      document.getElementById('modelAnnee').value = '2026';
+      document.getElementById('modelPrixMin').value = '';
+      document.getElementById('modelPrixMax').value = '';
+      document.getElementById('modelImage').value = '';
+      
+      // Vider specs
+      document.getElementById('specLongueur').value = '';
+      document.getElementById('specLargeur').value = '';
+      document.getElementById('specHauteur').value = '';
+      document.getElementById('specPoids').value = '';
+      document.getElementById('specCoffre').value = '';
+      document.getElementById('specConso').value = '';
+      document.getElementById('specCylindree').value = '';
+      document.getElementById('specVitesseMax').value = '';
+      document.getElementById('specAcceleration').value = '';
+      document.getElementById('specOptions').value = '';
+
+      // Vider motorisations
+      document.getElementById('motorsTableBody').innerHTML = '';
+      document.getElementById('modelFormTitle').textContent = "Ajouter un nouveau modèle de véhicule";
+    }
+
+    function addMotorRow(version = '', moteur = '', puissance = '', transmission = 'Manuelle', carburant = 'Essence') {
+      const tbody = document.getElementById('motorsTableBody');
+      const rowId = 'motor-row-' + Date.now() + Math.random().toString(36).substr(2, 5);
+      const rowHtml = `
+        <tr id="${rowId}" class="motor-row">
+          <td><input type="text" class="motor-version" value="${version}" placeholder="Ex: Expression, Elegance" style="padding:6px;font-size:12px;"></td>
+          <td><input type="text" class="motor-moteur" value="${moteur}" placeholder="Ex: 1.5 Blue dCi, EV40" style="padding:6px;font-size:12px;"></td>
+          <td><input type="text" class="motor-puissance" value="${puissance}" placeholder="Ex: 6 CV / 115 ch" style="padding:6px;font-size:12px;"></td>
+          <td>
+            <select class="motor-transmission" style="padding:6px;font-size:12px;width:auto;">
+              <option value="Manuelle" ${transmission === 'Manuelle' ? 'selected' : ''}>Manuelle</option>
+              <option value="Automatique" ${transmission === 'Automatique' ? 'selected' : ''}>Automatique</option>
+            </select>
+          </td>
+          <td>
+            <select class="motor-carburant" style="padding:6px;font-size:12px;width:auto;">
+              <option value="Essence" ${carburant === 'Essence' ? 'selected' : ''}>Essence</option>
+              <option value="Diesel" ${carburant === 'Diesel' ? 'selected' : ''}>Diesel</option>
+              <option value="Hybride" ${carburant === 'Hybride' ? 'selected' : ''}>Hybride</option>
+              <option value="Électrique" ${carburant === 'Électrique' ? 'selected' : ''}>Électrique</option>
+            </select>
+          </td>
+          <td><button class="admin-btn admin-btn-danger" style="padding:4px 8px;font-size:11px;" onclick="document.getElementById('${rowId}').remove()">🗑️</button></td>
+        </tr>
+      `;
+      tbody.insertAdjacentHTML('beforeend', rowHtml);
+    }
+
+    function editModel(id) {
       const m = STATIC_DATA.models.find(x => x.id === id);
       if (!m) return;
-      const newPrice = parseInt(prompt(`Nouveau prix pour ${m.marque} ${m.nom} (DH) :`, m.prix_min));
-      if (!newPrice) return;
+      document.getElementById('modelFormCard').style.display = 'block';
+      populateBrandDropdown();
+      
+      document.getElementById('modelId').value = m.id;
+      document.getElementById('modelNom').value = m.nom;
+      document.getElementById('modelMarque').value = m.marque;
+      document.getElementById('modelCategorie').value = m.categorie || 'SUV';
+      document.getElementById('modelAnnee').value = m.annee || 2026;
+      document.getElementById('modelPrixMin').value = m.prix_min || '';
+      document.getElementById('modelPrixMax').value = m.prix_max || '';
+      document.getElementById('modelImage').value = m.image || '';
+
+      // Charger specifications (fiche technique)
+      const s = m.specifications || {};
+      document.getElementById('specLongueur').value = s.longueur || '';
+      document.getElementById('specLargeur').value = s.largeur || '';
+      document.getElementById('specHauteur').value = s.hauteur || '';
+      document.getElementById('specPoids').value = s.poids || '';
+      document.getElementById('specCoffre').value = s.coffre || '';
+      document.getElementById('specConso').value = s.conso_mixte || '';
+      document.getElementById('specCylindree').value = s.cylindree || '';
+      document.getElementById('specVitesseMax').value = s.vitesse_max || '';
+      document.getElementById('specAcceleration').value = s.acceleration || '';
+      document.getElementById('specOptions').value = s.options || '';
+
+      // Charger motorisations
+      const tbody = document.getElementById('motorsTableBody');
+      tbody.innerHTML = '';
+      if (m.motorisations && m.motorisations.length > 0) {
+        m.motorisations.forEach(mot => {
+          addMotorRow(mot.version, mot.moteur, mot.puissance, mot.transmission, mot.carburant);
+        });
+      } else {
+        addMotorRow('Standard', '1.5L', '6 CV', 'Manuelle', 'Essence');
+      }
+
+      document.getElementById('modelFormTitle').textContent = `Éditer la fiche technique : ${m.marque} ${m.nom}`;
+      document.getElementById('modelFormCard').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function closeModelForm() {
+      document.getElementById('modelFormCard').style.display = 'none';
+    }
+
+    async function saveModel() {
+      const id = document.getElementById('modelId').value;
+      const nom = document.getElementById('modelNom').value;
+      const marque = document.getElementById('modelMarque').value;
+      const categorie = document.getElementById('modelCategorie').value;
+      const annee = parseInt(document.getElementById('modelAnnee').value) || 2026;
+      const prix_min = parseInt(document.getElementById('modelPrixMin').value) || 0;
+      const prix_max = parseInt(document.getElementById('modelPrixMax').value) || 0;
+      const image = document.getElementById('modelImage').value;
+
+      if (!nom || !marque) {
+        alert('Veuillez remplir au moins le nom et la marque du modèle.');
+        return;
+      }
+
+      const targetId = id || `${marque.toLowerCase().replace(/\s+/g, '-')}-${nom.toLowerCase().replace(/\s+/g, '-')}`;
+
+      // Rassembler specifications (fiche technique)
+      const specifications = {
+        longueur: document.getElementById('specLongueur').value,
+        largeur: document.getElementById('specLargeur').value,
+        hauteur: document.getElementById('specHauteur').value,
+        empattement: '',
+        poids: document.getElementById('specPoids').value,
+        coffre: document.getElementById('specCoffre').value,
+        cylindree: document.getElementById('specCylindree').value,
+        cylindres: '',
+        turbo: '',
+        vitesse_max: document.getElementById('specVitesseMax').value,
+        acceleration: document.getElementById('specAcceleration').value,
+        conso_urbaine: '',
+        conso_extra: '',
+        conso_mixte: document.getElementById('specConso').value,
+        emission_co2: '',
+        reservoir: '',
+        roues: '',
+        pneus: '',
+        options: document.getElementById('specOptions').value
+      };
+
+      // Rassembler motorisations
+      const motorisations = [];
+      const rows = document.querySelectorAll('.motor-row');
+      rows.forEach(r => {
+        const version = r.querySelector('.motor-version').value;
+        const moteur = r.querySelector('.motor-moteur').value;
+        const puissance = r.querySelector('.motor-puissance').value;
+        const transmission = r.querySelector('.motor-transmission').value;
+        const carburant = r.querySelector('.motor-carburant').value;
+        motorisations.push({ version, moteur, puissance, transmission, carburant });
+      });
+
+      const body = {
+        id: targetId,
+        marque,
+        nom,
+        slug: targetId,
+        annee,
+        categorie,
+        prix_min,
+        prix_max,
+        image,
+        specifications,
+        motorisations
+      };
 
       try {
-        const res = await fetch(API_URL + '/admin/models/' + id, {
+        const res = await fetch(`${API_URL}/admin/models/${targetId}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + adminToken },
-          body: JSON.stringify({ ...m, prix_min: newPrice, prix_max: Math.round(newPrice * 1.15) })
+          body: JSON.stringify(body)
         });
-        if (res.ok) alert('Modèle mis à jour !');
+        if (res.ok) {
+          alert('Fiche technique et modèle enregistrés avec succès !');
+          closeModelForm();
+        }
       } catch(e) {
-        alert('Mis à jour localement (Mode Démo)');
+        alert('Enregistré localement (Mode Démo)');
+        closeModelForm();
+      }
+    }
+
+    async function deleteModelConfirm(id) {
+      if (!confirm('Voulez-vous vraiment supprimer ce modèle ? Cette action est irréversible.')) return;
+      try {
+        const res = await fetch(`${API_URL}/admin/models/${id}`, {
+          method: 'DELETE',
+          headers: { 'Authorization': 'Bearer ' + adminToken }
+        });
+        if (res.ok) {
+          alert('Modèle supprimé avec succès !');
+        }
+      } catch(e) {
+        alert('Supprimé localement (Mode Démo)');
       }
     }
 
