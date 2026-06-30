@@ -238,5 +238,11 @@ async function scrapeAllDetails() {
   console.log('\n✅ Détails scraping terminé!');
 }
 
-const quick = process.argv.includes('--quick');
-scrapeAllDetails().catch(console.error);
+module.exports = {
+  scrapeAllDetails,
+  scrapeModelDetails
+};
+
+if (require.main === module) {
+  scrapeAllDetails().catch(console.error);
+}

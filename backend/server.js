@@ -13,14 +13,29 @@ const SIX_DAYS_MS = 6 * 24 * 60 * 60 * 1000;
 setInterval(() => {
   console.log('⏰ Auto-Scheduler: Starting automatic 6-day database update/scraper...');
   const { scrapeAllBrands } = require('./scraper');
+  const { scrapeAllDetails } = require('./scraper-details');
+  
   scrapeAllBrands()
     .then(() => {
-      console.log('⏰ Auto-Scheduler: 6-day update/scraper completed successfully.');
+      console.log('⏰ Auto-Scheduler: Brand scraper completed. Starting details/specs scraper...');
+      return scrapeAllDetails();
+    })
+    .then(() => {
+      console.log('⏰ Auto-Scheduler: 6-day full database update completed successfully.');
     })
     .catch(err => {
       console.error('⏰ Auto-Scheduler: Error running automatic update:', err);
     });
 }, SIX_DAYS_MS);
+
+// Trigger technical specifications scraper 5 minutes after startup to seed missing specs/options
+setTimeout(() => {
+  console.log('⏰ Auto-Scheduler: Running initial background specs/options details scraper...');
+  const { scrapeAllDetails } = require('./scraper-details');
+  scrapeAllDetails()
+    .then(() => console.log('⏰ Auto-Scheduler: Initial background details scraper completed.'))
+    .catch(err => console.error('⏰ Auto-Scheduler: Initial details scraper error:', err));
+}, 5 * 60 * 1000);
 
 const app = express();
 const PORT = process.env.PORT || 3001;
