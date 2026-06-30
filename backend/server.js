@@ -3,7 +3,7 @@ const cors = require('cors');
 const path = require('path');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const { initDB, getAllBrands, getBrandById, getAllModels, getModelById, getCategories, getCarburants, getModelsByIds, insertBrand, insertModel, insertImages, insertSpec, getPromos } = require('./db');
+const { initDB, getAllBrands, getBrandById, getAllModels, getModelById, getCategories, getCarburants, getModelsByIds, insertBrand, insertModel, insertImages, insertSpec, getPromos, insertNews, getNews } = require('./db');
 
 // Init database
 initDB();
@@ -14,11 +14,16 @@ setInterval(() => {
   console.log('⏰ Auto-Scheduler: Starting automatic 6-day database update/scraper...');
   const { scrapeAllBrands } = require('./scraper');
   const { scrapeAllDetails } = require('./scraper-details');
+  const { scrapeNews } = require('./scraper-news');
   
   scrapeAllBrands()
     .then(() => {
       console.log('⏰ Auto-Scheduler: Brand scraper completed. Starting details/specs scraper...');
       return scrapeAllDetails();
+    })
+    .then(() => {
+      console.log('⏰ Auto-Scheduler: Details scraper completed. Starting news scraper...');
+      return scrapeNews();
     })
     .then(() => {
       console.log('⏰ Auto-Scheduler: 6-day full database update completed successfully.');
@@ -28,13 +33,18 @@ setInterval(() => {
     });
 }, SIX_DAYS_MS);
 
-// Trigger technical specifications scraper 5 minutes after startup to seed missing specs/options
+// Trigger technical specifications scraper and news scraper 5 minutes after startup to seed missing specs/options/news
 setTimeout(() => {
-  console.log('⏰ Auto-Scheduler: Running initial background specs/options details scraper...');
+  console.log('⏰ Auto-Scheduler: Running initial background specs/options details and news scraper...');
   const { scrapeAllDetails } = require('./scraper-details');
+  const { scrapeNews } = require('./scraper-news');
   scrapeAllDetails()
-    .then(() => console.log('⏰ Auto-Scheduler: Initial background details scraper completed.'))
-    .catch(err => console.error('⏰ Auto-Scheduler: Initial details scraper error:', err));
+    .then(() => {
+      console.log('⏰ Auto-Scheduler: Initial background details scraper completed. Running news scraper...');
+      return scrapeNews();
+    })
+    .then(() => console.log('⏰ Auto-Scheduler: Initial news scraper completed.'))
+    .catch(err => console.error('⏰ Auto-Scheduler: Initial scraper error:', err));
 }, 5 * 60 * 1000);
 
 const app = express();
@@ -266,6 +276,14 @@ app.get('/api/promos', (req, res) => {
   getPromos((err, promos) => {
     if (err) return res.status(500).json({ error: err.message });
     res.json(promos);
+  });
+});
+
+app.get('/api/news', (req, res) => {
+  const limit = parseInt(req.query.limit) || 10;
+  getNews(limit, (err, newsItems) => {
+    if (err) return res.status(500).json({ error: err.message });
+    res.json(newsItems);
   });
 });
 

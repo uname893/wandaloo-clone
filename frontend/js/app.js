@@ -61,6 +61,9 @@ async function fetchAPI(endpoint) {
       if (endpoint === '/categories') return STATIC_DATA.categories;
       if (endpoint === '/carburants') return STATIC_DATA.carburants;
       if (endpoint === '/promos') return STATIC_DATA.promos;
+      if (endpoint.startsWith('/news')) {
+        return STATIC_DATA.news || [];
+      }
       if (endpoint.startsWith('/brands/')) {
         const brandId = endpoint.split('/')[2];
         const brand = STATIC_DATA.brands.find(b => b.id === brandId);
@@ -168,11 +171,12 @@ let globalModels = [];
 let globalBrands = [];
 
 async function loadHomeData() {
-  const [brands, models, categories, carburants] = await Promise.all([
+  const [brands, models, categories, carburants, news] = await Promise.all([
     fetchAPI('/brands'),
     fetchAPI('/models'),
     fetchAPI('/categories'),
-    fetchAPI('/carburants')
+    fetchAPI('/carburants'),
+    fetchAPI('/news?limit=3')
   ]);
   globalBrands = brands;
   globalModels = models;
@@ -180,6 +184,46 @@ async function loadHomeData() {
   renderModels(models);
   renderStats(models, brands);
   populateSelects(categories, carburants);
+  renderHomeNews(news);
+}
+
+function renderHomeNews(news) {
+  const container = document.getElementById('homeNewsGrid');
+  if (!container) return;
+  if (!news || !news.length) {
+    container.innerHTML = '<p style="color:var(--text-light);text-align:center;">Aucune actualité récente.</p>';
+    return;
+  }
+  container.innerHTML = news.map(item => {
+    let tag = 'Actu';
+    let titleClean = item.titre;
+    const tagMatch = item.titre.match(/^\[(.*?)\]\s*(.*)$/);
+    if (tagMatch) {
+      tag = tagMatch[1];
+      titleClean = tagMatch[2];
+    }
+
+    let tagClass = 'tag-default';
+    const tagLower = tag.toLowerCase();
+    if (tagLower.includes('essai')) tagClass = 'tag-essai';
+    else if (tagLower.includes('nouveauté maroc') || tagLower.includes('maroc')) tagClass = 'tag-maroc';
+    else if (tagLower.includes('nouveauté')) tagClass = 'tag-nouveaute';
+    else if (tagLower.includes('marché')) tagClass = 'tag-marche';
+
+    return `
+      <div class="news-card" onclick="window.open('${item.lien_article}', '_blank')">
+        <div class="news-image-wrapper">
+          <img class="news-img" src="${item.image}" alt="${titleClean}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60'">
+          <span class="news-tag ${tagClass}">${tag}</span>
+        </div>
+        <div class="news-body">
+          <span class="news-date">${item.date_publication}</span>
+          <h3 class="news-title">${titleClean}</h3>
+          <p class="news-excerpt" style="font-size: 13px; line-height: 1.5; color: var(--text-light); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 0;">${item.resume}</p>
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 function applyFilters() {
@@ -833,6 +877,56 @@ function inspectBrand(brandId) {
   `;
 }
 
+async function loadNewsPage() {
+  const grid = document.getElementById('newsGrid');
+  if (!grid) return;
+  
+  try {
+    const news = await fetchAPI('/news?limit=25');
+    if (!news || !news.length) {
+      grid.innerHTML = '<div class="empty-state"><div class="icon">📰</div><h3>Aucun article trouvé</h3><p>Veuillez revenir plus tard</p></div>';
+      return;
+    }
+    
+    grid.innerHTML = news.map(item => {
+      // Nettoyer le tag et le titre
+      let tag = 'Actu';
+      let titleClean = item.titre;
+      const tagMatch = item.titre.match(/^\[(.*?)\]\s*(.*)$/);
+      if (tagMatch) {
+        tag = tagMatch[1];
+        titleClean = tagMatch[2];
+      }
+
+      // Couleur de tag
+      let tagClass = 'tag-default';
+      const tagLower = tag.toLowerCase();
+      if (tagLower.includes('essai')) tagClass = 'tag-essai';
+      else if (tagLower.includes('nouveauté maroc') || tagLower.includes('maroc')) tagClass = 'tag-maroc';
+      else if (tagLower.includes('nouveauté')) tagClass = 'tag-nouveaute';
+      else if (tagLower.includes('marché')) tagClass = 'tag-marche';
+
+      return `
+        <div class="news-card">
+          <div class="news-image-wrapper">
+            <img class="news-img" src="${item.image}" alt="${titleClean}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60'">
+            <span class="news-tag ${tagClass}">${tag}</span>
+          </div>
+          <div class="news-body">
+            <span class="news-date">${item.date_publication}</span>
+            <h3 class="news-title">${titleClean}</h3>
+            <p class="news-excerpt">${item.resume}</p>
+            <a href="${item.lien_article}" target="_blank" class="news-link-btn">Lire l'article sur Wandaloo <i class="news-icon-arrow">→</i></a>
+          </div>
+        </div>
+      `;
+    }).join('');
+  } catch(err) {
+    console.error('Error loading news:', err);
+    grid.innerHTML = '<div class="empty-state"><div class="icon">⚠️</div><h3>Erreur de chargement</h3><p>Impossible de récupérer les actualités</p></div>';
+  }
+}
+
 // ========== INIT ==========
 document.addEventListener('DOMContentLoaded', () => {
   const page = document.body.dataset.page;
@@ -843,6 +937,7 @@ document.addEventListener('DOMContentLoaded', () => {
     case 'modele': loadModelePage(); break;
     case 'comparateur': loadComparateurPage(); break;
     case 'promos': loadPromosPage(); break;
+    case 'actu': loadNewsPage(); break;
     case 'analyse': loadAnalysePage(); break;
   }
 });

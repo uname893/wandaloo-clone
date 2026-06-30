@@ -29993,5 +29993,115 @@ const STATIC_DATA = {
         }
       ]
     }
+  ],
+  "news": [
+    {
+      "id": 12,
+      "titre": "[Essai] VW T-ROC 2026 : plus grand, plus malin, toujours leader ?",
+      "resume": "Le VW T-Roc, SUV urbain le plus vendu au Maroc depuis 2021, débarque dans une seconde génération entièrement repensée. Lors dans cet essai, on verra ensemble si cette mouture modernisée saura maintenir sa couronne et pro...",
+      "image": "https://www.wandaloo.com/files/2026/06/Essai-VW-T-ROC-2026-Neuve-Maroc-Avant.webp",
+      "date_publication": "20 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/volkswagen/t-roc/vw-t-roc-2026-plus-grand-plus-malin-toujours-leader/4886.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 11,
+      "titre": "[Nouveauté Maroc] DACIA Bigster 2026 : animation de gamme, l'hybride en renfort et des prix en baisse !",
+      "resume": "Un an après son lancement, DACIA Maroc procède à une vaste animation de gamme sur le Bigster. Le grand SUV passe à trois finitions, accueille pour la première fois la motorisation Hybrid 155 ch et voit ses tarifs revus à...",
+      "image": "https://www.wandaloo.com/files/2026/06/DACIA-Bigster-2026-Neuve-Maroc-Hybrid-155.webp",
+      "date_publication": "20 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/dacia/bigster-hev/dacia-bigster-2026-animation-de-gamme-l-hybride-en-renfort-et-des-prix-en-baisse/4884.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 10,
+      "titre": "[Marché] JETOUR et XPENG en mode « séduction » avec ARVAL Maroc",
+      "resume": "SMEIA a réuni clients et partenaires d'ARVAL Maroc autour de la mobilité d'entreprise. JETOUR et XPENG ont profité de l'occasion pour dévoiler leurs modèles phares, dont la P7+ en première marocaine.",
+      "image": "https://www.wandaloo.com/files/2026/06/JETOUR-XPENG-Partenaire-ARVAL-Maroc-2026.webp",
+      "date_publication": "22 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/jetour/t2-phev/jetour-et-xpeng-en-mode-seduction-avec-arval-maroc/4891.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 9,
+      "titre": "[Essai] JAGUAR F-Pace 90th Anniversary : le luxe anglais en série limitée !",
+      "resume": "Pour célébrer ses 90 ans, JAGUAR sort le grand jeu ! La marque britannique premium dévoile une édition limitée baptisée « 90th Anniversary Edition », déclinée sur le facelift de la première génération de son SUV familial...",
+      "image": "https://www.wandaloo.com/files/2026/06/JAGUAR-F-PACE-90th-Anniversary-Edition-2026-Neuve-Maroc-Essai.webp",
+      "date_publication": "22 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/jaguar/f-pace/jaguar-f-pace-90th-anniversary-le-luxe-anglais-en-serie-limitee/4889.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 8,
+      "titre": "[Nouveauté Maroc] Nouvelle Clio 6 : l'icône de RENAULT débarque au Maroc",
+      "resume": "La star des citadines polyvalentes entame sa carrière marocaine. La 6ème génération de la RENAULT Clio est désormais disponible dans tout le réseau RENAULT Maroc. Au menu : un design plus statutaire, une motorisation Ful...",
+      "image": "https://www.wandaloo.com/files/2026/06/Nouvelle-RENAULT-Clio-6-lancement-Maroc-2026.webp",
+      "date_publication": "24 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/renault/clio/nouvelle-clio-6-l-icone-de-renault-debarque-au-maroc/4874.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 7,
+      "titre": "[Actu. internationale] LEAPMOTOR franchit le cap des 1,5 million de véhicules livrés",
+      "resume": "La marque chinoise du giron STELLANTIS accélère. LEAPMOTOR vient de dépasser les 1,5 million de véhicules livrés dans le monde. Un palier atteint seulement huit mois après le million d'unités. La cadence confirme l'appét...",
+      "image": "https://www.wandaloo.com/files/2026/06/LEAPMOTOR-Maroc-Gamme-Vehicule-2026-STELLANTIS.webp",
+      "date_publication": "24 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/leapmotor/c10-reev/leapmotor-franchit-le-cap-des-1-5-million-de-vehicules-livres/4892.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 6,
+      "titre": "[Nouveauté Maroc] Nouveaux ATTO 3 EVO et SEALION 5 DM-i : le duo qui renforce la gamme BYD au Maroc",
+      "resume": "Numéro 1 des véhicules électrifiés au Maroc en 2025, BYD ne lève pas le pied. Via son importateur AUTO NEJMA, la marque chinoise a introduit deux nouveautés sur notre marché : l'ATTO 3 EVO 100% électrique, restylé et net...",
+      "image": "https://www.wandaloo.com/files/2026/06/byd-atto-3-sealion-5-2026-lancement-maroc.webp",
+      "date_publication": "25 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/byd/sealion-5-phev/nouveaux-atto-3-evo-et-sealion-5-dm-i-le-duo-qui-renforce-la-gamme-byd-au-maroc/4890.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 5,
+      "titre": "[Nouveauté] Nouvelle RENAULT Mégane E-Tech 2027 : sacré coup de jeune !",
+      "resume": "Pionnière de la vague électrique RENAULT en 2022, la Mégane E-Tech s'offre une mise à jour de mi-carrière. Au menu : une face avant redessinée, une nouvelle batterie LFP plus endurante et une gamme resserrée autour de de...",
+      "image": "https://www.wandaloo.com/files/2026/06/Nouvelle-RENAULT-Megane-E-Tech-2027-facelift-Maroc-Reveal.webp",
+      "date_publication": "26 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/renault/megane-e-tech/nouvelle-renault-megane-e-tech-2027-sacre-coup-de-jeune/4893.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 4,
+      "titre": "[Actu. internationale] MASERATI fête ses 100 ans par une gamme restylée !",
+      "resume": "MASERATI souffle les cent bougies de son logo au Trident en restylant ses trois modèles cœur de gamme. Le Grecale, la GranTurismo et la GranCabrio évoluent ensemble. Présentés le 18 juin 2026 à Modène, ils arriveront en ...",
+      "image": "https://www.wandaloo.com/files/2026/06/MASERATI-Anniversaire-100-ans-facelift-2026.webp",
+      "date_publication": "29 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/maserati/grecale/maserati-fete-ses-100-ans-par-une-gamme-restylee/4895.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 3,
+      "titre": "[Nouveauté] ŠKODA Epiq 2027 : le SUV électrique d'entrée de gamme se dévoile",
+      "resume": "SKODA lève le voile sur l'Epiq, son SUV urbain 100% électrique le plus abordable. Compact, il inaugure la plateforme MEB+ en traction avant et promet jusqu'à 440 km d'autonomie à un tarif aligné sur le Kamiq thermique. P...",
+      "image": "https://www.wandaloo.com/files/2026/06/SKODA-Epiq-2027-Neuve-Maroc-Reveal.webp",
+      "date_publication": "29 juin 2026",
+      "lien_article": "https://www.wandaloo.com/autonews/skoda/modele/skoda-epiq-2027-le-suv-electrique-d-entree-de-gamme-se-devoile/4896.html",
+      "created_at": "2026-06-30 01:41:15"
+    },
+    {
+      "id": 2,
+      "titre": "MARCHÉ",
+      "resume": "Découvrez les derniers essais, nouveautés et actualités automobiles au Maroc.",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60",
+      "date_publication": "30/06/2026",
+      "lien_article": "https://www.wandaloo.com/autonews-tag/7/",
+      "created_at": "2026-06-30 01:40:50"
+    },
+    {
+      "id": 1,
+      "titre": "ACTU",
+      "resume": "Découvrez les derniers essais, nouveautés et actualités automobiles au Maroc.",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60",
+      "date_publication": "30/06/2026",
+      "lien_article": "https://www.wandaloo.com/autonews/",
+      "created_at": "2026-06-30 01:40:50"
+    }
   ]
 };

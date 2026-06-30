@@ -95,6 +95,17 @@ function initDB() {
       FOREIGN KEY (model_id) REFERENCES models(id)
     )`);
 
+    // News table (Actualités Auto)
+    db.run(`CREATE TABLE IF NOT EXISTS news (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      titre TEXT NOT NULL,
+      resume TEXT,
+      image TEXT,
+      date_publication TEXT,
+      lien_article TEXT UNIQUE,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    )`);
+
     // Create indexes
     db.run(`CREATE INDEX IF NOT EXISTS idx_models_marque ON models(marque)`);
     db.run(`CREATE INDEX IF NOT EXISTS idx_models_categorie ON models(categorie)`);
@@ -103,10 +114,11 @@ function initDB() {
     db.run(`CREATE INDEX IF NOT EXISTS idx_motorisations_carburant ON motorisations(carburant)`);
     db.run(`CREATE INDEX IF NOT EXISTS idx_images_model ON images(model_id)`);
     db.run(`CREATE INDEX IF NOT EXISTS idx_specifications_model ON specifications(model_id)`);
+    db.run(`CREATE INDEX IF NOT EXISTS idx_news_date ON news(date_publication)`);
   });
 
   db.close();
-  console.log('✅ Database initialized with images + specs tables');
+  console.log('✅ Database initialized with images + specs + news tables');
 }
 
 // CRUD helpers
@@ -441,6 +453,27 @@ function getPromos(callback) {
   });
 }
 
+function insertNews(item, callback) {
+  const db = getDB();
+  const stmt = db.prepare(`INSERT OR REPLACE INTO news 
+    (titre, resume, image, date_publication, lien_article)
+    VALUES (?, ?, ?, ?, ?)`);
+  stmt.run(item.titre, item.resume || '', item.image || '', item.date_publication || '', item.lien_article, (err) => {
+    if (callback) callback(err);
+  });
+  stmt.finalize();
+  db.close();
+}
+
+function getNews(limit, callback) {
+  const db = getDB();
+  const sql = `SELECT * FROM news ORDER BY id DESC LIMIT ?`;
+  db.all(sql, [limit || 20], (err, rows) => {
+    db.close();
+    callback(err, rows || []);
+  });
+}
+
 module.exports = {
   initDB,
   insertBrand,
@@ -455,5 +488,7 @@ module.exports = {
   getCarburants,
   getModelsByIds,
   getPromos,
+  insertNews,
+  getNews,
   getDB,
 };
