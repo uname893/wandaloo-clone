@@ -352,7 +352,7 @@ async function scrapeNews() {
   // Exécuter les 3 scrappers (limité aux premières pages pour éviter les timeouts lors du crawl des détails de l'article)
   // On va réduire à 2 pages d'historique pour aller vite et ne pas surcharger les requêtes tout en ayant un historique complet
   await scrapeSourceWandaloo(articles);
-  await scrapeSourceAutonewsMa(articles);
+  // await scrapeSourceAutonewsMa(articles);
   await scrapeSourceLeBlogAuto(articles);
 
   console.log(`\n📦 Total articles collectés : ${articles.length}`);
