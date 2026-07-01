@@ -31801,12 +31801,6 @@ const STATIC_DATA = {
       "license": "Free CC"
     },
     {
-      "url": "https://w.wallhaven.cc/full/nk/wallhaven-nkee51.jpg",
-      "title": "Wallpaper Sport Car",
-      "author": "Wallhaven Contributor",
-      "license": "Free CC"
-    },
-    {
       "url": "https://w.wallhaven.cc/full/nm/wallhaven-nm28dk.jpg",
       "title": "Wallpaper Sport Car",
       "author": "Wallhaven Contributor",
