@@ -668,33 +668,15 @@ app.get('/api/wallpapers', (req, res) => {
   
   const CURATED_WALLPAPERS = [
     {
-      url: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=1600",
-      title: "Audi R8 V10 Plus",
-      author: "Campbell",
-      license: "Unsplash License"
-    },
-    {
       url: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1600",
       title: "Ferrari 488 GTB",
       author: "Alexander Mils",
       license: "Unsplash License"
     },
     {
-      url: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=1600",
-      title: "Porsche 911 GT3 RS",
-      author: "Campbell",
-      license: "Unsplash License"
-    },
-    {
       url: "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=1600",
       title: "Ford Mustang GT",
       author: "Joey Banks",
-      license: "Unsplash License"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1611245706915-d4de20042eb6?w=1600",
-      title: "Chevrolet Corvette C8",
-      author: "Campbell",
       license: "Unsplash License"
     },
     {
@@ -716,27 +698,9 @@ app.get('/api/wallpapers', (req, res) => {
       license: "Unsplash License"
     },
     {
-      url: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=1600",
-      title: "Aston Martin Vantage",
-      author: "Campbell",
-      license: "Unsplash License"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1600",
-      title: "Mercedes-AMG GT R",
-      author: "Campbell",
-      license: "Unsplash License"
-    },
-    {
       url: "https://images.unsplash.com/photo-1520050206274-a1ae446cb3cc?w=1600",
       title: "Mercedes-Benz G-Class",
       author: "Jan Kopřiva",
-      license: "Unsplash License"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1612468166542-a0b22a0179a6?w=1600",
-      title: "Ford Mustang 1969 Classic",
-      author: "Campbell",
       license: "Unsplash License"
     }
   ];
@@ -789,6 +753,24 @@ app.get('/api/wallpapers', (req, res) => {
       } catch(e) {
         console.warn('Unsplash API Error, falling back to curated list:', e.message);
       }
+    }
+
+    // Dynamic search via Wallhaven (Free & Keyless fallback)
+    try {
+      const wallhavenUrl = `https://wallhaven.cc/api/v1/search?q=${encodeURIComponent(query)}&categories=110&purity=100&sorting=views&order=desc`;
+      const response = await axios.get(wallhavenUrl);
+      const results = response.data.data || [];
+      if (results.length > 0) {
+        const wallpapers = results.map(p => ({
+          url: p.path,
+          title: (query.charAt(0).toUpperCase() + query.slice(1)) + ' Wallpaper',
+          author: 'Wallhaven',
+          license: 'Free CC'
+        }));
+        return res.json(wallpapers);
+      }
+    } catch(e) {
+      console.warn('Wallhaven API Error, falling back to curated list:', e.message);
     }
 
     // Curated Filter fallback

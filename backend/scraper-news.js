@@ -34,20 +34,24 @@ async function fetchArticleContent(url, source) {
         });
         contentHtml = paragraphs.join('');
       }
-    } else if (source === 'autonews.ma') {
-      // Autonews.ma : cible généralement .entry-content, .post-content, .content-article
-      const $main = $('.entry-content, .post-content, .content-article').first();
-      if ($main.length) {
-        $main.find('script, style, iframe, .ads, .advertisement, .social-sharing, .comments, form').remove();
-        contentHtml = $main.html().trim();
-      } else {
-        const paragraphs = [];
-        $('article p, .entry-content p').each((_, p) => {
-          const txt = $(p).text().trim();
-          if (txt.length > 50) paragraphs.push(`<p>${txt}</p>`);
-        });
-        contentHtml = paragraphs.join('');
-      }
+    } else if (source === 'moteur.ma') {
+      const paragraphs = [];
+      $('.card-body p').each((_, p) => {
+        const txt = $(p).text().trim();
+        if (txt.length > 40 && !txt.includes('Restez branchés') && !txt.includes('prix et versions')) {
+          paragraphs.push(`<p>${txt}</p>`);
+        }
+      });
+      contentHtml = paragraphs.join('');
+    } else if (source === 'autotrends') {
+      const paragraphs = [];
+      $('p').each((_, p) => {
+        const txt = $(p).text().trim();
+        if (txt.length > 50 && !txt.includes('lancements, innovations') && !txt.includes('décryptages approfondis')) {
+          paragraphs.push(`<p>${txt}</p>`);
+        }
+      });
+      contentHtml = paragraphs.join('');
     } else if (source === 'leblogauto') {
       // Le Blog Auto : cible .post-content, .entry-content
       const $main = $('.post-content, .entry-content, .post-entry').first();
@@ -59,6 +63,19 @@ async function fetchArticleContent(url, source) {
         $('.post-content p, article p').each((_, p) => {
           const txt = $(p).text().trim();
           if (txt.length > 40 && !txt.includes('Abonnez-vous')) paragraphs.push(`<p>${txt}</p>`);
+        });
+        contentHtml = paragraphs.join('');
+      }
+    } else {
+      const $main = $('article, .article-content, .entry-content, .post-content, .article__content').first();
+      if ($main.length) {
+        $main.find('script, style, iframe, .ads, .ad-box, .social-share, form, button').remove();
+        contentHtml = $main.html().trim();
+      } else {
+        const paragraphs = [];
+        $('p').each((_, p) => {
+          const txt = $(p).text().trim();
+          if (txt.length > 50) paragraphs.push(`<p>${txt}</p>`);
         });
         contentHtml = paragraphs.join('');
       }
@@ -187,81 +204,147 @@ async function scrapeSourceWandaloo(articles) {
   }
 }
 
-// SOURCE 2 : Autonews.ma (Maroc) - Pages 1 à 6
-async function scrapeSourceAutonewsMa(articles) {
-  console.log('📰 SOURCE 2 : Scraping Autonews.ma (Pages 1 à 6)...');
-  const BASE_URL = 'https://autonews.ma';
+// SOURCE 2 : Moteur.ma (Maroc)
+async function scrapeSourceMoteurMa(articles) {
+  console.log('📰 SOURCE 2 : Scraping Moteur.ma (Maroc)...');
+  const BASE_URL = 'https://www.moteur.ma';
+  const ACTU_URL = 'https://www.moteur.ma/fr/actualite/';
   
-  for (let page = 1; page <= 2; page++) {
-    const ACTU_URL = page === 1 
-      ? 'https://autonews.ma/actualite-auto/toute-l-actualite' 
-      : `https://autonews.ma/actualite-auto/toute-l-actualite/page/${page}`;
+  try {
+    const res = await axiosInstance.get(ACTU_URL);
+    const $ = cheerio.load(res.data);
+    let count = 0;
+    const tempArticles = [];
+
+    $('a.news-row').each((_, el) => {
+      const $el = $(el);
+      const link = $el.attr('href') || '';
+      if (!link) return;
+
+      const titre = $el.find('.news-title').text().trim();
+      const image = $el.find('.news-img-wrapper img').attr('src') || '';
+      const resume = $el.find('.news-summary').text().replace(/\s+/g, ' ').trim();
       
-    console.log(`   📄 Page ${page}...`);
-    try {
-      const res = await axiosInstance.get(ACTU_URL, {
-        headers: { 'Referer': 'https://autonews.ma/' }
-      });
-      const $ = cheerio.load(res.data);
-      let count = 0;
-      const tempArticles = [];
-
-      $('article, .item-article, .post-item, .post, .custom-card').each((_, el) => {
-        const $el = $(el);
-        const $titleLink = $el.find('h2 a, h3 a, h4 a, .title a, a[href*="/actualite-auto/"]').first();
-        if (!$titleLink.length) return;
-
-        const titre = $titleLink.text().trim();
-        let link = $titleLink.attr('href') || '';
-        if (!link || link.includes('toute-l-actualite') || link === BASE_URL || link === `${BASE_URL}/`) return;
-
-        if (!link.startsWith('http')) {
-          link = BASE_URL + (link.startsWith('/') ? '' : '/') + link;
-        }
-
-        const $img = $el.find('img').first();
-        let image = $img.attr('data-src') || $img.attr('src') || '';
-        if (image && !image.startsWith('http')) {
-          image = BASE_URL + (image.startsWith('/') ? '' : '/') + image;
-        }
-
-        if (!image || image.includes('lazy') || image.includes('placeholder')) {
-          image = 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60';
-        }
-
-        const $desc = $el.find('.desc, .excerpt, p, .text').first();
-        let resume = $desc.text().replace(/\s+/g, ' ').trim();
-        if (!resume || resume.length < 10) {
-          resume = 'Découvrez l\'actualité automobile nationale et internationale sur le magazine de référence.';
-        }
-
-        const $date = $el.find('.date, .time, .meta, span').first();
-        const date_publication = $date.text().trim() || new Date().toLocaleDateString('fr-FR');
-
-        if (titre && link && titre.length > 5 && !articles.some(a => a.lien_article === link)) {
-          tempArticles.push({
-            titre: `[Autonews] ${titre}`,
-            resume: resume.slice(0, 220) + (resume.length > 220 ? '...' : ''),
-            image,
-            date_publication,
-            lien_article: link
-          });
-        }
-      });
-
-      // Charger le contenu complet
-      for (const art of tempArticles) {
-        console.log(`      📄 Chargement de l'article complet: ${art.titre}...`);
-        art.contenu_complet = await fetchArticleContent(art.lien_article, 'autonews.ma');
-        articles.push(art);
-        count++;
-        await new Promise(r => setTimeout(r, 600));
+      const dateText = $el.find('.news-date').text().trim();
+      let date_publication = new Date().toLocaleDateString('fr-FR');
+      if (dateText) {
+        date_publication = dateText;
       }
 
-      console.log(`      ✅ Page ${page} terminée : ${count} articles récupérés.`);
-    } catch (e) {
-      console.error(`      ❌ Erreur Page ${page} Autonews.ma:`, e.message);
+      if (titre && link && !articles.some(a => a.lien_article === link)) {
+        tempArticles.push({
+          titre: `[Actu] ${titre}`,
+          resume: resume.slice(0, 220) + (resume.length > 220 ? '...' : ''),
+          image,
+          date_publication,
+          lien_article: link
+        });
+      }
+    });
+
+    for (const art of tempArticles.slice(0, 5)) {
+      console.log(`      📄 Chargement de l'article complet: ${art.titre}...`);
+      art.contenu_complet = await fetchArticleContent(art.lien_article, 'moteur.ma');
+      articles.push(art);
+      count++;
+      await new Promise(r => setTimeout(r, 600));
     }
+    console.log(`      ✅ Moteur.ma terminé : ${count} articles récupérés.`);
+  } catch (e) {
+    console.error(`      ❌ Erreur Moteur.ma:`, e.message);
+  }
+}
+
+// SOURCE 3 : AutoTrends (Maroc)
+async function scrapeSourceAutoTrends(articles) {
+  console.log('📰 SOURCE 3 : Scraping AutoTrends (Maroc)...');
+  const ACTU_URL = 'https://autotrends.ma/magazine/actualite/';
+  
+  try {
+    const res = await axiosInstance.get(ACTU_URL);
+    const $ = cheerio.load(res.data);
+    let count = 0;
+    const tempArticles = [];
+
+    $('a').each((_, el) => {
+      const $el = $(el);
+      const href = $el.attr('href') || '';
+      if (href && href.includes('magazine/actualite/') && href.length > 50 && !tempArticles.some(t => t.lien_article === href)) {
+        const titre = $el.text().replace(/\s+/g, ' ').trim() || 'Actualité AutoTrends';
+        if (titre.length < 15) return;
+
+        tempArticles.push({
+          titre: `[AutoTrends] ${titre}`,
+          resume: 'Découvrez l\'actualité de l\'industrie et de la culture automobile au Maroc sur AutoTrends.',
+          image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&auto=format&fit=crop&q=60',
+          date_publication: new Date().toLocaleDateString('fr-FR'),
+          lien_article: href
+        });
+      }
+    });
+
+    for (const art of tempArticles.slice(0, 5)) {
+      console.log(`      📄 Chargement de l'article complet: ${art.titre}...`);
+      art.contenu_complet = await fetchArticleContent(art.lien_article, 'autotrends');
+      articles.push(art);
+      count++;
+      await new Promise(r => setTimeout(r, 600));
+    }
+    console.log(`      ✅ AutoTrends terminé : ${count} articles récupérés.`);
+  } catch (e) {
+    console.error(`      ❌ Erreur AutoTrends:`, e.message);
+  }
+}
+
+// SOURCE GENERIQUE : RSS Feeds (France & Maroc)
+async function scrapeRSSFeed(feedUrl, sourceName, articles) {
+  console.log(`📰 SOURCE RSS : Scraping ${sourceName}...`);
+  try {
+    const res = await axiosInstance.get(feedUrl);
+    const $ = cheerio.load(res.data, { xmlMode: true });
+    let count = 0;
+    const tempArticles = [];
+    
+    $('item').each((_, el) => {
+      const $el = $(el);
+      const title = $el.find('title').text().trim();
+      const link = $el.find('link').text().trim();
+      const pubDate = $el.find('pubDate').text().trim();
+      
+      let image = 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800';
+      const enclosure = $el.find('enclosure');
+      if (enclosure.length && enclosure.attr('url')) {
+        image = enclosure.attr('url');
+      } else {
+        const mediaContent = $el.find('media\\:content, content');
+        if (mediaContent.length && mediaContent.attr('url')) {
+          image = mediaContent.attr('url');
+        }
+      }
+      
+      const description = $el.find('description').text().replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim().slice(0, 220) + '...';
+
+      if (title && link && !articles.some(a => a.lien_article === link)) {
+        tempArticles.push({
+          titre: `[${sourceName}] ${title}`,
+          resume: description,
+          image,
+          date_publication: new Date(pubDate || Date.now()).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }),
+          lien_article: link
+        });
+      }
+    });
+
+    for (const art of tempArticles.slice(0, 5)) {
+      console.log(`      📄 Chargement de l'article complet: ${art.titre}...`);
+      art.contenu_complet = await fetchArticleContent(art.lien_article, 'rss-generic');
+      articles.push(art);
+      count++;
+      await new Promise(r => setTimeout(r, 600));
+    }
+    console.log(`      ✅ RSS ${sourceName} terminé : ${count} articles récupérés.`);
+  } catch(e) {
+    console.error(`      ❌ Erreur RSS ${sourceName}:`, e.message);
   }
 }
 
@@ -349,11 +432,17 @@ async function scrapeNews() {
   
   const articles = [];
 
-  // Exécuter les 3 scrappers (limité aux premières pages pour éviter les timeouts lors du crawl des détails de l'article)
-  // On va réduire à 2 pages d'historique pour aller vite et ne pas surcharger les requêtes tout en ayant un historique complet
+  // Exécuter l'ensemble des sources d'actualités (10 sources au total)
   await scrapeSourceWandaloo(articles);
-  // await scrapeSourceAutonewsMa(articles);
   await scrapeSourceLeBlogAuto(articles);
+  await scrapeSourceMoteurMa(articles);
+  await scrapeSourceAutoTrends(articles);
+  
+  // RSS Feeds France
+  await scrapeRSSFeed('https://www.caradisiac.com/rss.xml', 'Caradisiac', articles);
+  await scrapeRSSFeed('https://www.turbo.fr/global.xml', 'Turbo', articles);
+  await scrapeRSSFeed('https://www.automobile-magazine.fr/toute-l-actualite/rss.xml', 'L\'Automobile Mag', articles);
+  await scrapeRSSFeed('https://www.lemonde.fr/automobile/rss_full.xml', 'Le Monde', articles);
 
   console.log(`\n📦 Total articles collectés : ${articles.length}`);
 
