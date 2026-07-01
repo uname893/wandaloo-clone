@@ -1241,13 +1241,13 @@ async function loadWallpapersPage() {
   if (!grid) return;
   
   // Load default wallpapers
-  fetchWallpapersFromWikimedia('supercar wallpaper');
+  fetchWallpapers('supercar');
 }
 
 async function searchWallpapers() {
   const query = document.getElementById('wallSearchInput').value.trim();
   if (!query) return;
-  fetchWallpapersFromWikimedia(query + ' car');
+  fetchWallpapers(query);
 }
 
 function filterWallpapers(query, btn) {
@@ -1256,10 +1256,10 @@ function filterWallpapers(query, btn) {
   btn.classList.add('active');
   
   document.getElementById('wallSearchInput').value = '';
-  fetchWallpapersFromWikimedia(query);
+  fetchWallpapers(query);
 }
 
-async function fetchWallpapersFromWikimedia(query) {
+async function fetchWallpapers(query) {
   const grid = document.getElementById('wallpapersGrid');
   grid.innerHTML = `
     <div class="wall-card"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:70%;margin-bottom:8px;"></div><div class="skeleton" style="height:12px;width:40%;margin-bottom:16px;"></div><div class="skeleton" style="height:36px;width:100%;"></div></div></div>
@@ -1268,28 +1268,10 @@ async function fetchWallpapersFromWikimedia(query) {
   `;
 
   try {
-    const url = `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&generator=search&gsrnamespace=6&gsrsearch=${encodeURIComponent(query)}&gsrlimit=24&iiprop=url|extmetadata&origin=*`;
-    const res = await fetch(url);
-    const data = await res.json();
-    
-    const pages = data.query ? Object.values(data.query.pages) : [];
-    const wallpapers = pages.map(p => {
-      const info = p.imageinfo ? p.imageinfo[0] : null;
-      if (!info) return null;
-      
-      const title = info.extmetadata.ObjectName ? info.extmetadata.ObjectName.value.replace(/<\/?[^>]+(>|$)/g, "") : p.title.replace('File:', '').replace(/\.[^/.]+$/, "");
-      const author = info.extmetadata.Artist ? info.extmetadata.Artist.value.replace(/<\/?[^>]+(>|$)/g, "") : 'Wikimedia Contributor';
-      const license = info.extmetadata.LicenseShortName ? info.extmetadata.LicenseShortName.value : 'CC BY-SA';
-      
-      return {
-        url: info.url,
-        title: title.length > 40 ? title.slice(0, 37) + '...' : title,
-        author: author.length > 25 ? author.slice(0, 22) + '...' : author,
-        license: license
-      };
-    }).filter(Boolean);
+    const res = await fetch(`${API_URL}/wallpapers?q=${encodeURIComponent(query)}`);
+    const wallpapers = await res.json();
 
-    if (wallpapers.length === 0) {
+    if (!wallpapers || wallpapers.length === 0) {
       grid.innerHTML = `
         <div class="no-results">
           <h3>Aucun fond d'écran trouvé</h3>
@@ -1319,7 +1301,7 @@ async function fetchWallpapersFromWikimedia(query) {
     grid.innerHTML = `
       <div class="no-results">
         <h3>Erreur de chargement</h3>
-        <p>Impossible de se connecter à la banque d'images de Wikimedia.</p>
+        <p>Impossible de charger les fonds d'écran depuis le serveur.</p>
       </div>
     `;
   }

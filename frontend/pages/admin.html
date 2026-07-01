@@ -338,6 +338,17 @@
               <input type="password" id="geminiApiKeyInput" placeholder="Entrez votre clé API Gemini (AIzaSy...) pour générer des articles réels">
               <p style="color:var(--text-light);font-size:12px;margin-top:4px;">Cette clé permet d'alimenter le générateur d'articles automatique d'actualité auto.</p>
             </div>
+            <h3 style="margin-top:32px;border-top:1px solid var(--border);padding-top:24px;">🖼️ API Fonds d'écran (Optionnel - Recherche Dynamique)</h3>
+            <div class="form-group">
+              <label>Clé API Unsplash (Access Key)</label>
+              <input type="password" id="unsplashAccessKeyInput" placeholder="Entrez votre clé d'accès Unsplash (Access Key)">
+              <p style="color:var(--text-light);font-size:12px;margin-top:4px;">Facultatif. Utilisé pour rechercher des photos de qualité professionnelle sur Unsplash.</p>
+            </div>
+            <div class="form-group">
+              <label>Clé API Pexels</label>
+              <input type="password" id="pexelsApiKeyInput" placeholder="Entrez votre clé API Pexels">
+              <p style="color:var(--text-light);font-size:12px;margin-top:4px;">Facultatif. Utilisé pour rechercher des photos de qualité professionnelle sur Pexels.</p>
+            </div>
             <button class="admin-btn admin-btn-primary" onclick="saveHomepageSettings()" style="margin-top:16px;">💾 Sauvegarder et actualiser le site</button>
           </div>
         </div>
@@ -935,22 +946,28 @@
       const title = STATIC_DATA.settings?.hero_title || 'Trouvez votre voiture neuve au meilleur prix';
       const subtitle = STATIC_DATA.settings?.hero_subtitle || 'Prix officiels, fiches techniques et comparateur de toutes les marques disponibles au Maroc';
       const geminiKey = STATIC_DATA.settings?.gemini_api_key || '';
+      const unsplashKey = STATIC_DATA.settings?.unsplash_access_key || '';
+      const pexelsKey = STATIC_DATA.settings?.pexels_api_key || '';
       
       document.getElementById('heroTitleInput').value = title;
       document.getElementById('heroSubtitleInput').value = subtitle;
       document.getElementById('geminiApiKeyInput').value = geminiKey;
+      document.getElementById('unsplashAccessKeyInput').value = unsplashKey;
+      document.getElementById('pexelsApiKeyInput').value = pexelsKey;
     }
 
     async function saveHomepageSettings() {
       const hero_title = document.getElementById('heroTitleInput').value;
       const hero_subtitle = document.getElementById('heroSubtitleInput').value;
       const gemini_api_key = document.getElementById('geminiApiKeyInput').value;
+      const unsplash_access_key = document.getElementById('unsplashAccessKeyInput').value;
+      const pexels_api_key = document.getElementById('pexelsApiKeyInput').value;
       
       try {
         const res = await fetch(ADMIN_API + '/settings', {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + adminToken },
-          body: JSON.stringify({ hero_title, hero_subtitle, gemini_api_key })
+          body: JSON.stringify({ hero_title, hero_subtitle, gemini_api_key, unsplash_access_key, pexels_api_key })
         });
         if (res.ok) {
           alert('Configuration enregistrée et site actualisé !');

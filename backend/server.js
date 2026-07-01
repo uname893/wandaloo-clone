@@ -663,6 +663,154 @@ app.get('/api/compare', (req, res) => {
   });
 });
 
+app.get('/api/wallpapers', (req, res) => {
+  const query = req.query.q || 'supercar';
+  
+  const CURATED_WALLPAPERS = [
+    {
+      url: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=1600",
+      title: "Audi R8 V10 Plus",
+      author: "Campbell",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1600",
+      title: "Ferrari 488 GTB",
+      author: "Alexander Mils",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=1600",
+      title: "Porsche 911 GT3 RS",
+      author: "Campbell",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=1600",
+      title: "Ford Mustang GT",
+      author: "Joey Banks",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1611245706915-d4de20042eb6?w=1600",
+      title: "Chevrolet Corvette C8",
+      author: "Campbell",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=1600",
+      title: "Lamborghini Aventador SVJ",
+      author: "Dhruva Reddy",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=1600",
+      title: "Tesla Model S Plaid",
+      author: "Vlad Tchompalov",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1600",
+      title: "BMW M8 Competition",
+      author: "Jan Kopřiva",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=1600",
+      title: "Aston Martin Vantage",
+      author: "Campbell",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1600",
+      title: "Mercedes-AMG GT R",
+      author: "Campbell",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1520050206274-a1ae446cb3cc?w=1600",
+      title: "Mercedes-Benz G-Class",
+      author: "Jan Kopřiva",
+      license: "Unsplash License"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1612468166542-a0b22a0179a6?w=1600",
+      title: "Ford Mustang 1969 Classic",
+      author: "Campbell",
+      license: "Unsplash License"
+    }
+  ];
+
+  const db = getDB();
+  db.get('SELECT value FROM settings WHERE id = 1', [], async (err, row) => {
+    db.close();
+    
+    let pexelsApiKey = '';
+    let unsplashAccessKey = '';
+    
+    if (!err && row) {
+      try {
+        const settings = JSON.parse(row.value);
+        pexelsApiKey = settings.pexels_api_key || '';
+        unsplashAccessKey = settings.unsplash_access_key || '';
+      } catch(e) {}
+    }
+
+    // Try dynamic search if keys are present
+    if (pexelsApiKey) {
+      try {
+        const response = await axios.get(`https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=24`, {
+          headers: { 'Authorization': pexelsApiKey }
+        });
+        const wallpapers = response.data.photos.map(p => ({
+          url: p.src.large2x || p.src.original,
+          title: p.alt || 'Car Wallpaper',
+          author: p.photographer,
+          license: 'Pexels License'
+        }));
+        return res.json(wallpapers);
+      } catch(e) {
+        console.warn('Pexels API Error, falling back to curated list:', e.message);
+      }
+    }
+
+    if (unsplashAccessKey) {
+      try {
+        const response = await axios.get(`https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=24`, {
+          headers: { 'Authorization': `Client-ID ${unsplashAccessKey}` }
+        });
+        const wallpapers = response.data.results.map(r => ({
+          url: r.urls.regular,
+          title: r.description || r.alt_description || 'Car Wallpaper',
+          author: r.user.name,
+          license: 'Unsplash License'
+        }));
+        return res.json(wallpapers);
+      } catch(e) {
+        console.warn('Unsplash API Error, falling back to curated list:', e.message);
+      }
+    }
+
+    // Curated Filter fallback
+    const qLower = query.toLowerCase();
+    const filtered = CURATED_WALLPAPERS.filter(w => 
+      w.title.toLowerCase().includes(qLower) || 
+      w.author.toLowerCase().includes(qLower) ||
+      (qLower.includes('ferrari') && w.title.toLowerCase().includes('ferrari')) ||
+      (qLower.includes('audi') && w.title.toLowerCase().includes('audi')) ||
+      (qLower.includes('porsche') && w.title.toLowerCase().includes('porsche')) ||
+      (qLower.includes('mustang') && w.title.toLowerCase().includes('mustang')) ||
+      (qLower.includes('tesla') && w.title.toLowerCase().includes('tesla')) ||
+      (qLower.includes('bmw') && w.title.toLowerCase().includes('bmw')) ||
+      (qLower.includes('mercedes') && w.title.toLowerCase().includes('mercedes')) ||
+      (qLower.includes('lamborghini') && w.title.toLowerCase().includes('lamborghini'))
+    );
+
+    // If query is too specific and returns nothing, return the whole curated list
+    res.json(filtered.length > 0 ? filtered : CURATED_WALLPAPERS);
+  });
+});
+
 app.get('/api/health', (req, res) => {
   const db = getDB();
   db.get('SELECT COUNT(*) as nb_models FROM models', [], (err, row) => {
