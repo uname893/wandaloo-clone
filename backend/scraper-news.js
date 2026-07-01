@@ -67,6 +67,7 @@ async function fetchArticleContent(url, source) {
     // Nettoyer les balises de liens qui pourraient indiquer la provenance ou des pubs
     if (contentHtml) {
       const $clean = cheerio.load(contentHtml);
+      
       // Supprimer les mentions explicites de liens externes Wandaloo / Autonews
       $clean('a').each((_, a) => {
         const $a = $clean(a);
@@ -74,11 +75,30 @@ async function fetchArticleContent(url, source) {
         if (linkTxt.includes('lire aussi') || linkTxt.includes('fiche technique') || linkTxt.includes('wandaloo') || linkTxt.includes('autonews')) {
           $a.remove();
         } else {
-          // Transformer le lien en texte pour ne pas sortir du site
           $a.replaceWith($a.text());
         }
       });
-      return $clean.html().trim();
+
+      // Supprimer les paragraphes et blocs contenant des mentions de la source ou pub
+      $clean('p, div, li, span').each((_, el) => {
+        const $el = $clean(el);
+        const txt = $el.text().toLowerCase();
+        if (
+          txt.includes('wandaloo') || 
+          txt.includes('autonews') || 
+          txt.includes('leblogauto') || 
+          txt.includes('newsletter') || 
+          txt.includes('abonnez-vous') ||
+          txt.includes('restez branchés') ||
+          txt.includes('immatriculations au maroc') ||
+          txt.includes('lire aussi')
+        ) {
+          $el.remove();
+        }
+      });
+
+      // Si le corps de la balise est vide après nettoyage, renvoyer du vide
+      return $clean('body').html() ? $clean('body').html().trim() : '';
     }
     return '';
   } catch (e) {

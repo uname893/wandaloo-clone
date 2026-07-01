@@ -1204,7 +1204,7 @@ async function loadArticlePage() {
         <h2>Équipements et Nouveautés</h2>
         <p>Ce véhicule intègre les dernières fonctionnalités d'aides à la conduite et d'info-divertissement. Les constructeurs misent désormais sur des habitacles connectés et une sécurité passive renforcée afin de séduire une clientèle toujours plus exigeante.</p>
         <h2>Disponibilité et Tarifs</h2>
-        <p>Retrouvez toutes les fiches techniques, les essais et les tarifs officiels pour l'ensemble des finitions disponibles sur notre portail d'achat AutoGuide Maroc.</p>
+        <p>Retrouvez toutes les fiches techniques, les essais et les tarifs officiels pour l'ensemble des finitions disponibles sur notre portail d'achat.</p>
       `;
     }
 
