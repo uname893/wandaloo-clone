@@ -450,6 +450,96 @@ app.post('/api/admin/scraper/run', requireAuth, (req, res) => {
   }).catch(err => res.status(500).json({ error: err.message }));
 });
 
+// ========== WALLPAPERS MANAGEMENT ==========
+// GET wallpapers listing
+app.get('/api/admin/wallpapers', requireAuth, (req, res) => {
+  try {
+    const wPath = path.join(__dirname, 'data/wallpapers.json');
+    let wallpapers = [];
+    if (fs.existsSync(wPath)) {
+      wallpapers = JSON.parse(fs.readFileSync(wPath, 'utf8'));
+    }
+    res.json(wallpapers);
+  } catch(e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST add a wallpaper
+app.post('/api/admin/wallpapers', requireAuth, (req, res) => {
+  try {
+    const { url, title, author, license } = req.body;
+    if (!url) return res.status(400).json({ error: 'L\'URL de l\'image est obligatoire.' });
+
+    const wPath = path.join(__dirname, 'data/wallpapers.json');
+    let wallpapers = [];
+    if (fs.existsSync(wPath)) {
+      wallpapers = JSON.parse(fs.readFileSync(wPath, 'utf8'));
+    }
+
+    wallpapers.unshift({
+      url,
+      title: title || 'Wallpaper Sport Car',
+      author: author || 'Admin Upload',
+      license: license || 'Free CC'
+    });
+
+    fs.writeFileSync(wPath, JSON.stringify(wallpapers, null, 2));
+
+    // Rebuild data.js
+    buildStaticData((err) => {
+      if (err) return res.status(500).json({ error: 'Reconstruction échouée: ' + err.message });
+      res.json({ success: true, message: 'Wallpaper ajouté avec succès !' });
+    });
+  } catch(e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// DELETE a wallpaper
+app.delete('/api/admin/wallpapers', requireAuth, (req, res) => {
+  try {
+    const { url } = req.body;
+    if (!url) return res.status(400).json({ error: 'L\'URL de l\'image à supprimer est obligatoire.' });
+
+    const wPath = path.join(__dirname, 'data/wallpapers.json');
+    if (!fs.existsSync(wPath)) return res.status(404).json({ error: 'Aucun wallpaper enregistré.' });
+
+    let wallpapers = JSON.parse(fs.readFileSync(wPath, 'utf8'));
+    const initialLen = wallpapers.length;
+    wallpapers = wallpapers.filter(w => w.url !== url);
+
+    if (wallpapers.length === initialLen) {
+      return res.status(404).json({ error: 'Wallpaper non trouvé.' });
+    }
+
+    fs.writeFileSync(wPath, JSON.stringify(wallpapers, null, 2));
+
+    // Rebuild data.js
+    buildStaticData((err) => {
+      if (err) return res.status(500).json({ error: 'Reconstruction échouée: ' + err.message });
+      res.json({ success: true, message: 'Wallpaper supprimé avec succès !' });
+    });
+  } catch(e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST reimport wallpapers
+app.post('/api/admin/wallpapers/reimport', requireAuth, (req, res) => {
+  const { exec } = require('child_process');
+  exec('node backend/scripts/fetch-global-wallpapers.js', (err, stdout, stderr) => {
+    if (err) {
+      return res.status(500).json({ error: 'Échec de l\'importation: ' + (stderr || err.message) });
+    }
+    // Rebuild data.js
+    buildStaticData((errBuild) => {
+      if (errBuild) return res.status(500).json({ error: 'Reconstruction échouée: ' + errBuild.message });
+      res.json({ success: true, message: 'Fonds d\'écran réimportés et mis à jour !' });
+    });
+  });
+});
+
 // ========== PUBLISH TO FIREBASE & GITHUB ==========
 app.post('/api/admin/publish', requireAuth, (req, res) => {
   const { exec } = require('child_process');
