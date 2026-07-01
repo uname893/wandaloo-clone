@@ -450,6 +450,27 @@ app.post('/api/admin/scraper/run', requireAuth, (req, res) => {
   }).catch(err => res.status(500).json({ error: err.message }));
 });
 
+// ========== PREMIUM ENRICHMENT ==========
+app.post('/api/admin/enrich/run', requireAuth, (req, res) => {
+  const { brandId, modelId, limit } = req.body;
+  const { runEnrichment } = require('./scripts/enrich-premium');
+  
+  console.log(`🚀 Enrichissement premium lancé : brandId=${brandId}, modelId=${modelId}, limit=${limit}`);
+  
+  // Exécuter de manière asynchrone pour éviter les timeouts côté client
+  runEnrichment({ brandId, modelId, limit })
+    .then(() => {
+      buildStaticData(() => {
+        console.log('✅ Enrichissement premium et compilation data.js terminés !');
+      });
+    })
+    .catch(err => {
+      console.error('❌ Erreur lors de l\'enrichissement premium:', err.message);
+    });
+
+  res.json({ success: true, message: 'Enrichissement Premium lancé en arrière-plan. Les données se mettront à jour automatiquement.' });
+});
+
 // ========== WALLPAPERS MANAGEMENT ==========
 // GET wallpapers listing
 app.get('/api/admin/wallpapers', requireAuth, (req, res) => {

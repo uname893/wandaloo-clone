@@ -285,6 +285,7 @@
             <div style="display:flex;gap:12px;flex-wrap:wrap;">
               <button class="admin-btn admin-btn-primary" onclick="showSection('aiAssistantSection')">🤖 Parler à l'Agent IA</button>
               <button class="admin-btn admin-btn-success" onclick="runScraperManual()">🔄 Lancer Scraping Actus</button>
+              <button class="admin-btn admin-btn-secondary" style="background:linear-gradient(135deg, #7c3aed, #4f46e5);color:white;" onclick="triggerPremiumEnrichmentGlobal()">✨ Enrichissement Premium (Specs & HD)</button>
               <button class="admin-btn admin-btn-secondary" onclick="runAuditManual()">🛡️ Inspecter avec l'Agent d'Audit</button>
             </div>
           </div>
@@ -1620,9 +1621,10 @@
                 <td>${m.marque}</td>
                 <td>${m.categorie}</td>
                 <td>${m.prix_min.toLocaleString('fr-MA')} DH</td>
-                <td>
-                  <button class="admin-btn admin-btn-secondary" style="padding:6px 12px;" onclick="editModel('${m.id}')">✏️ Fiche & Galerie</button>
-                  <button class="admin-btn admin-btn-danger" style="padding:6px 12px;" onclick="deleteModelConfirm('${m.id}')">🗑️</button>
+                <td style="display:flex;gap:6px;align-items:center;">
+                  <button class="admin-btn admin-btn-secondary" style="padding:6px 10px;font-size:11px;" onclick="editModel('${m.id}')">✏️ Fiche</button>
+                  <button class="admin-btn admin-btn-primary" style="padding:6px 10px;font-size:11px;background:linear-gradient(135deg, #7c3aed, #4f46e5);border:none;color:white;" onclick="triggerPremiumEnrichmentSingle('${m.id}')">✨ Enrichir</button>
+                  <button class="admin-btn admin-btn-danger" style="padding:6px 10px;font-size:11px;" onclick="deleteModelConfirm('${m.id}')">🗑️</button>
                 </td>
               </tr>
             `).join('')}
@@ -1644,9 +1646,10 @@
           <td>${m.marque}</td>
           <td>${m.categorie}</td>
           <td>${m.prix_min.toLocaleString('fr-MA')} DH</td>
-          <td>
-            <button class="admin-btn admin-btn-secondary" style="padding:6px 12px;" onclick="editModel('${m.id}')">✏️ Fiche & Galerie</button>
-            <button class="admin-btn admin-btn-danger" style="padding:6px 12px;" onclick="deleteModelConfirm('${m.id}')">🗑️</button>
+          <td style="display:flex;gap:6px;align-items:center;">
+            <button class="admin-btn admin-btn-secondary" style="padding:6px 10px;font-size:11px;" onclick="editModel('${m.id}')">✏️ Fiche</button>
+            <button class="admin-btn admin-btn-primary" style="padding:6px 10px;font-size:11px;background:linear-gradient(135deg, #7c3aed, #4f46e5);border:none;color:white;" onclick="triggerPremiumEnrichmentSingle('${m.id}')">✨ Enrichir</button>
+            <button class="admin-btn admin-btn-danger" style="padding:6px 10px;font-size:11px;" onclick="deleteModelConfirm('${m.id}')">🗑️</button>
           </td>
         </tr>
       `).join('');
@@ -2281,6 +2284,61 @@
       } finally {
         btn.disabled = false;
         btn.textContent = originalText;
+      }
+    async function triggerPremiumEnrichmentGlobal() {
+      const limit = prompt("Combien de véhicules voulez-vous enrichir ? (Laissez vide pour TOUS, ou entrez un nombre, ex: 10)", "10");
+      if (limit === null) return; // Annulé
+
+      if (!confirm("Voulez-vous lancer l'enrichissement premium ? Cette opération s'exécute en arrière-plan, télécharge des images HD et utilise l'IA Gemini pour les fiches techniques (sans toucher aux prix).")) return;
+      
+      const btn = document.querySelector('[onclick="triggerPremiumEnrichmentGlobal()"]');
+      const originalText = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = "⏳ Enrichissement lancé...";
+
+      try {
+        const res = await fetch(API_URL + '/admin/enrich/run', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + adminToken
+          },
+          body: JSON.stringify({ limit: limit ? parseInt(limit) : null })
+        });
+        const result = await res.json();
+        if (res.ok) {
+          alert('Enrichissement premium lancé en tâche de fond ! Les fiches techniques, options et images HD vont se mettre à jour progressivement.');
+        } else {
+          alert('Erreur: ' + result.error);
+        }
+      } catch(e) {
+        alert('Erreur réseau lors de la requête.');
+      } finally {
+        btn.disabled = false;
+        btn.textContent = originalText;
+      }
+    }
+
+    async function triggerPremiumEnrichmentSingle(modelId) {
+      if (!confirm("Voulez-vous enrichir ce modèle spécifique (Image HD sans filigrane + Fiche technique Gemini) ? Les prix marocains actuels seront conservés.")) return;
+
+      try {
+        const res = await fetch(API_URL + '/admin/enrich/run', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + adminToken
+          },
+          body: JSON.stringify({ modelId })
+        });
+        const result = await res.json();
+        if (res.ok) {
+          alert('Enrichissement du modèle lancé ! La fiche technique et l\'image HD seront prêtes d\'ici quelques secondes.');
+        } else {
+          alert('Erreur: ' + result.error);
+        }
+      } catch(e) {
+        alert('Erreur réseau.');
       }
     }
   </script>
