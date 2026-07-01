@@ -31817,12 +31817,6 @@ const STATIC_DATA = {
       "title": "Wallpaper Sport Car",
       "author": "Wallhaven Contributor",
       "license": "Free CC"
-    },
-    {
-      "url": "https://w.wallhaven.cc/full/49/wallhaven-49y9pk.jpg",
-      "title": "Wallpaper Sport Car",
-      "author": "Wallhaven Contributor",
-      "license": "Free CC"
     }
   ]
 };
