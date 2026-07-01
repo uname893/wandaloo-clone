@@ -4,540 +4,540 @@ const STATIC_DATA = {
       "id": "alfa-romeo",
       "nom": "Alfa Romeo",
       "pays": "Non spécifié",
-      "logo": "/images/logos/alfa-romeo.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Alfa-Romeo-b.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 299000,
       "prix_max": 485400,
-      "created_at": "2026-06-30 01:00:44"
+      "created_at": "2026-07-01 21:33:39"
     },
     {
       "id": "audi",
       "nom": "Audi",
       "pays": "Non spécifié",
-      "logo": "/images/logos/audi.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Audi-b.png",
       "site_officiel": "",
       "nb_modeles": 17,
       "prix_min": 299900,
       "prix_max": 1459000,
-      "created_at": "2026-06-30 00:59:37"
+      "created_at": "2026-07-01 21:32:32"
     },
     {
       "id": "baic",
       "nom": "BAIC",
       "pays": "Non spécifié",
-      "logo": "/images/logos/baic.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-BAIC-b.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 165000,
       "prix_max": 330000,
-      "created_at": "2026-06-30 01:00:54"
+      "created_at": "2026-07-01 21:33:49"
     },
     {
       "id": "bmw",
       "nom": "BMW",
       "pays": "Non spécifié",
-      "logo": "/images/logos/bmw.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-BMW-b.png",
       "site_officiel": "",
       "nb_modeles": 22,
       "prix_min": 334000,
       "prix_max": 2354000,
-      "created_at": "2026-06-30 00:59:39"
+      "created_at": "2026-07-01 21:32:34"
     },
     {
       "id": "byd",
       "nom": "BYD",
       "pays": "Non spécifié",
-      "logo": "/images/logos/byd.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-BYD-b.png",
       "site_officiel": "",
       "nb_modeles": 11,
       "prix_min": 199900,
       "prix_max": 709900,
-      "created_at": "2026-06-30 01:00:21"
+      "created_at": "2026-07-01 21:33:17"
     },
     {
       "id": "changan",
       "nom": "Changan",
       "pays": "Non spécifié",
-      "logo": "/images/logos/changan.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Changan-b.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 139900,
       "prix_max": 459900,
-      "created_at": "2026-06-30 01:00:28"
+      "created_at": "2026-07-01 21:33:23"
     },
     {
       "id": "chery",
       "nom": "Chery",
       "pays": "Non spécifié",
-      "logo": "/images/logos/chery.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Chery-b.png",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 145000,
       "prix_max": 359000,
-      "created_at": "2026-06-30 01:00:24"
+      "created_at": "2026-07-01 21:33:19"
     },
     {
       "id": "citroen",
       "nom": "Citroën",
       "pays": "Non spécifié",
-      "logo": "/images/logos/citroen.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Citroën-b.png",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 90900,
       "prix_max": 338400,
-      "created_at": "2026-06-30 00:59:33"
+      "created_at": "2026-07-01 21:32:28"
     },
     {
       "id": "cupra",
       "nom": "Cupra",
       "pays": "Non spécifié",
-      "logo": "data:image/jpeg;base64,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",
+      "logo": "https://www.wandaloo.com/imgs/logo-Cupra-b.png",
       "site_officiel": "",
-      "nb_modeles": 0,
-      "prix_min": 0,
-      "prix_max": 0,
-      "created_at": "2026-06-30 22:02:16"
+      "nb_modeles": 5,
+      "prix_min": 349900,
+      "prix_max": 507900,
+      "created_at": "2026-07-01 21:33:33"
     },
     {
       "id": "dfsk",
       "nom": "DFSK",
       "pays": "Non spécifié",
-      "logo": "/images/logos/dfsk.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-DFSK-b.png",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 195000,
       "prix_max": 305000,
-      "created_at": "2026-06-30 01:00:36"
+      "created_at": "2026-07-01 21:33:31"
     },
     {
       "id": "ds",
       "nom": "DS",
       "pays": "Non spécifié",
-      "logo": "/images/logos/ds.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-DS-b.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 329900,
       "prix_max": 519900,
-      "created_at": "2026-06-30 01:00:40"
+      "created_at": "2026-07-01 21:33:35"
     },
     {
       "id": "dacia",
       "nom": "Dacia",
       "pays": "Non spécifié",
-      "logo": "/images/logos/dacia.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Dacia-b.png",
       "site_officiel": "",
       "nb_modeles": 9,
       "prix_min": 132000,
       "prix_max": 310000,
-      "created_at": "2026-06-30 00:59:28"
+      "created_at": "2026-07-01 21:32:23"
     },
     {
       "id": "deepal",
       "nom": "Deepal",
       "pays": "Non spécifié",
-      "logo": "/images/logos/deepal.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Deepal-b.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 329900,
       "prix_max": 449900,
-      "created_at": "2026-06-30 01:00:57"
+      "created_at": "2026-07-01 21:33:52"
     },
     {
       "id": "dongfeng",
       "nom": "Dongfeng",
       "pays": "Non spécifié",
-      "logo": "/images/logos/dongfeng.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Dongfeng-b.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 179000,
       "prix_max": 339000,
-      "created_at": "2026-06-30 01:00:52"
+      "created_at": "2026-07-01 21:33:47"
     },
     {
       "id": "fiat",
       "nom": "Fiat",
       "pays": "Non spécifié",
-      "logo": "/images/logos/fiat.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Fiat-b.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 230000,
       "prix_max": 482900,
-      "created_at": "2026-06-30 01:00:01"
+      "created_at": "2026-07-01 21:32:57"
     },
     {
       "id": "ford",
       "nom": "Ford",
       "pays": "Non spécifié",
-      "logo": "/images/logos/ford.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Ford-b.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 315000,
       "prix_max": 770000,
-      "created_at": "2026-06-30 00:59:51"
+      "created_at": "2026-07-01 21:32:47"
     },
     {
       "id": "gwm",
       "nom": "GWM",
       "pays": "Non spécifié",
-      "logo": "/images/logos/gwm.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-GWM-b.png",
       "site_officiel": "",
       "nb_modeles": 10,
       "prix_min": 199900,
       "prix_max": 679900,
-      "created_at": "2026-06-30 01:00:30"
+      "created_at": "2026-07-01 21:33:25"
     },
     {
       "id": "geely",
       "nom": "Geely",
       "pays": "Non spécifié",
-      "logo": "/images/logos/geely.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Geely-b.png",
       "site_officiel": "",
       "nb_modeles": 8,
       "prix_min": 129900,
       "prix_max": 399900,
-      "created_at": "2026-06-30 01:00:26"
+      "created_at": "2026-07-01 21:33:21"
     },
     {
       "id": "honda",
       "nom": "Honda",
       "pays": "Non spécifié",
-      "logo": "/images/logos/honda.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Honda-b.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 215000,
       "prix_max": 465000,
-      "created_at": "2026-06-30 01:00:14"
+      "created_at": "2026-07-01 21:33:09"
     },
     {
       "id": "hyundai",
       "nom": "Hyundai",
       "pays": "Non spécifié",
-      "logo": "/images/logos/hyundai.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Hyundai-b.png",
       "site_officiel": "",
       "nb_modeles": 14,
       "prix_min": 162900,
       "prix_max": 695900,
-      "created_at": "2026-06-30 00:59:47"
+      "created_at": "2026-07-01 21:32:42"
     },
     {
       "id": "jac",
       "nom": "JAC",
       "pays": "Non spécifié",
-      "logo": "/images/logos/jac.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-JAC-b.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 198000,
       "prix_max": 289000,
-      "created_at": "2026-06-30 01:01:01"
+      "created_at": "2026-07-01 21:33:56"
     },
     {
       "id": "jaecoo",
       "nom": "Jaecoo",
       "pays": "Non spécifié",
-      "logo": "/images/logos/jaecoo.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Jaecoo-b.png",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 369000,
       "prix_max": 389000,
-      "created_at": "2026-06-30 01:00:32"
+      "created_at": "2026-07-01 21:33:27"
     },
     {
       "id": "jaguar",
       "nom": "Jaguar",
       "pays": "Non spécifié",
-      "logo": "/images/logos/jaguar.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Jaguar-b.png",
       "site_officiel": "",
       "nb_modeles": 1,
       "prix_min": 786360,
       "prix_max": 786360,
-      "created_at": "2026-06-30 01:00:42"
+      "created_at": "2026-07-01 21:33:37"
     },
     {
       "id": "jeep",
       "nom": "Jeep",
       "pays": "Non spécifié",
-      "logo": "/images/logos/jeep.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Jeep-b.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 262400,
       "prix_max": 884000,
-      "created_at": "2026-06-30 01:00:03"
+      "created_at": "2026-07-01 21:32:59"
     },
     {
       "id": "kia",
       "nom": "Kia",
       "pays": "Non spécifié",
-      "logo": "/images/logos/kia.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Kia-b.png",
       "site_officiel": "",
       "nb_modeles": 13,
       "prix_min": 142900,
       "prix_max": 899000,
-      "created_at": "2026-06-30 00:59:49"
+      "created_at": "2026-07-01 21:32:44"
     },
     {
       "id": "land-rover",
       "nom": "Land Rover",
       "pays": "Non spécifié",
-      "logo": "/images/logos/land-rover.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Land-Rover-b.png",
       "site_officiel": "",
       "nb_modeles": 8,
       "prix_min": 559000,
       "prix_max": 2059320,
-      "created_at": "2026-06-30 01:00:05"
+      "created_at": "2026-07-01 21:33:01"
     },
     {
       "id": "lexus",
       "nom": "Lexus",
       "pays": "Non spécifié",
-      "logo": "/images/logos/lexus.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Lexus-b.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 409900,
       "prix_max": 856000,
-      "created_at": "2026-06-30 01:00:12"
+      "created_at": "2026-07-01 21:33:07"
     },
     {
       "id": "lynk-et-co",
       "nom": "Lynk & Co",
       "pays": "Non spécifié",
-      "logo": "/images/logos/lynk-et-co.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Lynk-&-Co-b.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 259000,
       "prix_max": 429000,
-      "created_at": "2026-06-30 01:01:05"
+      "created_at": "2026-07-01 21:34:00"
     },
     {
       "id": "mg",
       "nom": "MG",
       "pays": "Non spécifié",
-      "logo": "/images/logos/mg.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-MG-b.png",
       "site_officiel": "",
       "nb_modeles": 8,
       "prix_min": 169000,
       "prix_max": 680000,
-      "created_at": "2026-06-30 00:59:24"
+      "created_at": "2026-07-01 21:32:19"
     },
     {
       "id": "mahindra",
       "nom": "Mahindra",
       "pays": "Non spécifié",
-      "logo": "/images/logos/mahindra.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Mahindra-b.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 116900,
       "prix_max": 239000,
-      "created_at": "2026-06-30 01:00:48"
+      "created_at": "2026-07-01 21:33:43"
     },
     {
       "id": "maserati",
       "nom": "Maserati",
       "pays": "Non spécifié",
-      "logo": "/images/logos/maserati.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Maserati-b.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 769000,
       "prix_max": 3900000,
-      "created_at": "2026-06-30 01:00:50"
+      "created_at": "2026-07-01 21:33:45"
     },
     {
       "id": "mazda",
       "nom": "Mazda",
       "pays": "Non spécifié",
-      "logo": "/images/logos/mazda.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Mazda-b.png",
       "site_officiel": "",
       "nb_modeles": 5,
       "prix_min": 295000,
       "prix_max": 453000,
-      "created_at": "2026-06-30 01:00:18"
+      "created_at": "2026-07-01 21:33:13"
     },
     {
       "id": "mercedes",
       "nom": "Mercedes-Benz",
       "pays": "Non spécifié",
-      "logo": "/images/logos/mercedes.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Mercedes-Benz-b.png",
       "site_officiel": "",
       "nb_modeles": 26,
       "prix_min": 399000,
       "prix_max": 2299000,
-      "created_at": "2026-06-30 00:59:42"
+      "created_at": "2026-07-01 21:32:37"
     },
     {
       "id": "mini",
       "nom": "Mini",
       "pays": "Non spécifié",
-      "logo": "/images/logos/mini.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Mini-b.png",
       "site_officiel": "",
       "nb_modeles": 6,
       "prix_min": 325000,
       "prix_max": 628000,
-      "created_at": "2026-06-30 01:00:10"
+      "created_at": "2026-07-01 21:33:05"
     },
     {
       "id": "mitsubishi",
       "nom": "Mitsubishi",
       "pays": "Non spécifié",
-      "logo": "/images/logos/mitsubishi.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Mitsubishi-b.png",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 289900,
       "prix_max": 474000,
-      "created_at": "2026-06-30 01:00:20"
+      "created_at": "2026-07-01 21:33:15"
     },
     {
       "id": "nissan",
       "nom": "Nissan",
       "pays": "Non spécifié",
-      "logo": "/images/logos/nissan.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Nissan-b.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 149900,
       "prix_max": 499900,
-      "created_at": "2026-06-30 00:59:53"
+      "created_at": "2026-07-01 21:32:49"
     },
     {
       "id": "omoda",
       "nom": "Omoda",
       "pays": "Non spécifié",
-      "logo": "/images/logos/omoda.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Omoda-b.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 209000,
       "prix_max": 420000,
-      "created_at": "2026-06-30 01:00:34"
+      "created_at": "2026-07-01 21:33:29"
     },
     {
       "id": "opel",
       "nom": "Opel",
       "pays": "Non spécifié",
-      "logo": "/images/logos/opel.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Opel-b.png",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 99000,
       "prix_max": 355000,
-      "created_at": "2026-06-30 00:59:55"
+      "created_at": "2026-07-01 21:32:51"
     },
     {
       "id": "peugeot",
       "nom": "Peugeot",
       "pays": "Non spécifié",
-      "logo": "/images/logos/peugeot.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Peugeot-b.png",
       "site_officiel": "",
       "nb_modeles": 10,
       "prix_min": 214100,
       "prix_max": 495000,
-      "created_at": "2026-06-30 00:59:31"
+      "created_at": "2026-07-01 21:32:25"
     },
     {
       "id": "porsche",
       "nom": "Porsche",
       "pays": "Non spécifié",
-      "logo": "/images/logos/porsche.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Porsche-b.png",
       "site_officiel": "",
       "nb_modeles": 11,
       "prix_min": 940000,
       "prix_max": 2890000,
-      "created_at": "2026-06-30 01:00:07"
+      "created_at": "2026-07-01 21:33:03"
     },
     {
       "id": "renault",
       "nom": "Renault",
       "pays": "Non spécifié",
-      "logo": "/images/logos/renault.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Renault-b.png",
       "site_officiel": "",
       "nb_modeles": 13,
       "prix_min": 155000,
       "prix_max": 422000,
-      "created_at": "2026-06-30 00:59:26"
+      "created_at": "2026-07-01 21:32:21"
     },
     {
       "id": "seat",
       "nom": "Seat",
       "pays": "Non spécifié",
-      "logo": "/images/logos/seat.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Seat-b.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 169000,
       "prix_max": 387900,
-      "created_at": "2026-06-30 00:59:57"
+      "created_at": "2026-07-01 21:32:53"
     },
     {
       "id": "skoda",
       "nom": "Skoda",
       "pays": "Non spécifié",
-      "logo": "/images/logos/skoda.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Skoda-b.png",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 171900,
       "prix_max": 493000,
-      "created_at": "2026-06-30 00:59:59"
+      "created_at": "2026-07-01 21:32:55"
     },
     {
       "id": "soueast",
       "nom": "Soueast",
       "pays": "Non spécifié",
-      "logo": "/images/logos/soueast.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Soueast-b.png",
       "site_officiel": "",
       "nb_modeles": 6,
       "prix_min": 193900,
       "prix_max": 349900,
-      "created_at": "2026-06-30 01:00:59"
+      "created_at": "2026-07-01 21:33:54"
     },
     {
       "id": "suzuki",
       "nom": "Suzuki",
       "pays": "Non spécifié",
-      "logo": "/images/logos/suzuki.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Suzuki-b.png",
       "site_officiel": "",
       "nb_modeles": 2,
       "prix_min": 189000,
       "prix_max": 240000,
-      "created_at": "2026-06-30 01:00:16"
+      "created_at": "2026-07-01 21:33:11"
     },
     {
       "id": "toyota",
       "nom": "Toyota",
       "pays": "Non spécifié",
-      "logo": "/images/logos/toyota.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Toyota-b.png",
       "site_officiel": "",
       "nb_modeles": 10,
       "prix_min": 220200,
       "prix_max": 813900,
-      "created_at": "2026-06-30 00:59:45"
+      "created_at": "2026-07-01 21:32:40"
     },
     {
       "id": "volkswagen",
       "nom": "Volkswagen",
       "pays": "Non spécifié",
-      "logo": "/images/logos/volkswagen.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Volkswagen-b.png",
       "site_officiel": "",
       "nb_modeles": 7,
       "prix_min": 253000,
       "prix_max": 879000,
-      "created_at": "2026-06-30 00:59:35"
+      "created_at": "2026-07-01 21:32:30"
     },
     {
       "id": "volvo",
       "nom": "Volvo",
       "pays": "Non spécifié",
-      "logo": "/images/logos/volvo.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Volvo-b.png",
       "site_officiel": "",
       "nb_modeles": 4,
       "prix_min": 380000,
       "prix_max": 900000,
-      "created_at": "2026-06-30 01:00:46"
+      "created_at": "2026-07-01 21:33:41"
     },
     {
       "id": "zeekr",
       "nom": "Zeekr",
       "pays": "Non spécifié",
-      "logo": "/images/logos/zeekr.jpg",
+      "logo": "https://www.wandaloo.com/imgs/logo-Zeekr-b.png",
       "site_officiel": "",
       "nb_modeles": 3,
       "prix_min": 359000,
       "prix_max": 755000,
-      "created_at": "2026-06-30 01:00:56"
+      "created_at": "2026-07-01 21:33:51"
     }
   ],
   "models": [
@@ -551,7 +551,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 149900,
       "prix_max": 199900,
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/nissan-magnite.jpg",
       "fiche_url": "/neuf/nissan/magnite/",
       "created_at": "2026-06-28 17:07:16",
       "specifications": {
@@ -654,7 +654,7 @@ const STATIC_DATA = {
       "carrosserie": "SUV",
       "prix_min": 249900,
       "prix_max": 299900,
-      "image": "https://w.wallhaven.cc/full/49/wallhaven-49mgqd.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/nissan-juke.jpg",
       "fiche_url": "/neuf/nissan/juke/",
       "created_at": "2026-06-28 17:07:16",
       "specifications": {
@@ -752,7 +752,7 @@ const STATIC_DATA = {
       "carrosserie": "SUV",
       "prix_min": 279900,
       "prix_max": 349900,
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/nissan-qashqai-hev.jpg",
       "fiche_url": "/neuf/nissan/qashqai-hev/",
       "created_at": "2026-06-28 17:07:16",
       "specifications": {
@@ -855,7 +855,7 @@ const STATIC_DATA = {
       "carrosserie": "SUV",
       "prix_min": 459900,
       "prix_max": 499900,
-      "image": "https://live.staticflickr.com/3285/2600017885_c94e18ed22_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/nissan-x-trail.jpg",
       "fiche_url": "/neuf/nissan/x-trail/",
       "created_at": "2026-06-28 17:07:16",
       "specifications": {
@@ -960,7 +960,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 99000,
       "prix_max": 99000,
-      "image": "https://live.staticflickr.com/65535/52264649972_1a598e0d95_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-rocks-e.jpg",
       "fiche_url": "/neuf/opel/rocks-e/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -1058,7 +1058,7 @@ const STATIC_DATA = {
       "carrosserie": "Citadine",
       "prix_min": 192000,
       "prix_max": 202000,
-      "image": "https://live.staticflickr.com/22/35198867_a1924a7972_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-corsa.jpg",
       "fiche_url": "/neuf/opel/corsa/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -1157,7 +1157,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 269000,
       "prix_max": 307000,
-      "image": "https://w.wallhaven.cc/full/4y/wallhaven-4ym6zx.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-astra.jpg",
       "fiche_url": "/neuf/opel/astra/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -1258,7 +1258,7 @@ const STATIC_DATA = {
       "carrosserie": "SUV",
       "prix_min": 245000,
       "prix_max": 276000,
-      "image": "https://w.wallhaven.cc/full/47/wallhaven-472lyv.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-mokka.jpg",
       "fiche_url": "/neuf/opel/mokka/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -1359,7 +1359,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 229000,
       "prix_max": 247000,
-      "image": "https://live.staticflickr.com/6142/5948835610_efa33c71e5_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-frontera.jpg",
       "fiche_url": "/neuf/opel/frontera/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -1461,7 +1461,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 289000,
       "prix_max": 289000,
-      "image": "https://live.staticflickr.com/65535/54033535975_54b9598294_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-frontera-ev.jpg",
       "fiche_url": "/neuf/opel/frontera-ev/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -34198,7 +34198,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 149900,
       "prix_max": 199900,
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/nissan-magnite.jpg",
       "fiche_url": "/neuf/nissan/magnite/",
       "created_at": "2026-06-28 17:07:16",
       "specifications": {
@@ -34301,7 +34301,7 @@ const STATIC_DATA = {
       "carrosserie": "SUV",
       "prix_min": 249900,
       "prix_max": 299900,
-      "image": "https://w.wallhaven.cc/full/49/wallhaven-49mgqd.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/nissan-juke.jpg",
       "fiche_url": "/neuf/nissan/juke/",
       "created_at": "2026-06-28 17:07:16",
       "specifications": {
@@ -34399,7 +34399,7 @@ const STATIC_DATA = {
       "carrosserie": "SUV",
       "prix_min": 279900,
       "prix_max": 349900,
-      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/nissan-qashqai-hev.jpg",
       "fiche_url": "/neuf/nissan/qashqai-hev/",
       "created_at": "2026-06-28 17:07:16",
       "specifications": {
@@ -34502,7 +34502,7 @@ const STATIC_DATA = {
       "carrosserie": "SUV",
       "prix_min": 459900,
       "prix_max": 499900,
-      "image": "https://live.staticflickr.com/3285/2600017885_c94e18ed22_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/nissan-x-trail.jpg",
       "fiche_url": "/neuf/nissan/x-trail/",
       "created_at": "2026-06-28 17:07:16",
       "specifications": {
@@ -34607,7 +34607,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 99000,
       "prix_max": 99000,
-      "image": "https://live.staticflickr.com/65535/52264649972_1a598e0d95_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-rocks-e.jpg",
       "fiche_url": "/neuf/opel/rocks-e/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -34705,7 +34705,7 @@ const STATIC_DATA = {
       "carrosserie": "Citadine",
       "prix_min": 192000,
       "prix_max": 202000,
-      "image": "https://live.staticflickr.com/22/35198867_a1924a7972_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-corsa.jpg",
       "fiche_url": "/neuf/opel/corsa/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -34804,7 +34804,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 269000,
       "prix_max": 307000,
-      "image": "https://w.wallhaven.cc/full/4y/wallhaven-4ym6zx.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-astra.jpg",
       "fiche_url": "/neuf/opel/astra/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -34905,7 +34905,7 @@ const STATIC_DATA = {
       "carrosserie": "SUV",
       "prix_min": 245000,
       "prix_max": 276000,
-      "image": "https://w.wallhaven.cc/full/47/wallhaven-472lyv.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-mokka.jpg",
       "fiche_url": "/neuf/opel/mokka/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -35006,7 +35006,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 229000,
       "prix_max": 247000,
-      "image": "https://live.staticflickr.com/6142/5948835610_efa33c71e5_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-frontera.jpg",
       "fiche_url": "/neuf/opel/frontera/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
@@ -35108,7 +35108,7 @@ const STATIC_DATA = {
       "carrosserie": "Berline",
       "prix_min": 289000,
       "prix_max": 289000,
-      "image": "https://live.staticflickr.com/65535/54033535975_54b9598294_b.jpg",
+      "image": "https://www.wandaloo.com/files/Voiture-Neuve/opel-frontera-ev.jpg",
       "fiche_url": "/neuf/opel/frontera-ev/",
       "created_at": "2026-06-28 17:07:18",
       "specifications": {
