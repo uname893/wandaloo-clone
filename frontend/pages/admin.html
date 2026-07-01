@@ -2285,6 +2285,8 @@
         btn.disabled = false;
         btn.textContent = originalText;
       }
+    }
+
     async function triggerPremiumEnrichmentGlobal() {
       const limit = prompt("Combien de véhicules voulez-vous enrichir ? (Laissez vide pour TOUS, ou entrez un nombre, ex: 10)", "10");
       if (limit === null) return; // Annulé
