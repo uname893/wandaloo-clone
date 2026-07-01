@@ -1298,10 +1298,41 @@ async function fetchWallpapers(query) {
     `).join('');
 
   } catch(e) {
+    console.warn('API Error, falling back to static database wallpapers:', e.message);
+    if (typeof STATIC_DATA !== 'undefined' && STATIC_DATA.wallpapers && STATIC_DATA.wallpapers.length > 0) {
+      const qLower = query.toLowerCase();
+      const filtered = qLower === 'supercar' 
+        ? STATIC_DATA.wallpapers 
+        : STATIC_DATA.wallpapers.filter(w => 
+            w.title.toLowerCase().includes(qLower) || 
+            w.author.toLowerCase().includes(qLower) ||
+            qLower.split(' ').some(word => w.title.toLowerCase().includes(word))
+          );
+      
+      if (filtered.length > 0) {
+        grid.innerHTML = filtered.map(w => `
+          <div class="wall-card">
+            <div class="wall-img-wrap">
+              <img src="${w.url}" alt="${w.title}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600'">
+              <span class="res-badge">HD Wallpaper</span>
+            </div>
+            <div class="wall-info">
+              <div>
+                <h3>${w.title}</h3>
+                <p class="wall-author">👤 ${w.author} (${w.license})</p>
+              </div>
+              <a href="${w.url}" target="_blank" class="btn-download" download>📥 Télécharger HD</a>
+            </div>
+          </div>
+        `).join('');
+        return;
+      }
+    }
+    
     grid.innerHTML = `
       <div class="no-results">
         <h3>Erreur de chargement</h3>
-        <p>Impossible de charger les fonds d'écran depuis le serveur.</p>
+        <p>Impossible de charger les fonds d'écran.</p>
       </div>
     `;
   }

@@ -329,6 +329,11 @@ function runRebuild() {
                 try { settings = JSON.parse(settingsRow.value); } catch(e) {}
               }
 
+              let wallpapers = [];
+              try {
+                wallpapers = JSON.parse(fs.readFileSync(path.join(__dirname, '../../../../backend/data/wallpapers.json'), 'utf8'));
+              } catch(e) {}
+
               const finalData = {
                 brands,
                 models,
@@ -336,7 +341,8 @@ function runRebuild() {
                 carburants: ['Essence', 'Diesel', 'Hybride', 'Électrique'],
                 promos: models.slice(0, 12), // default promos
                 news,
-                settings
+                settings,
+                wallpapers
               };
 
               fs.writeFileSync(STATIC_DATA_PATH, 'const STATIC_DATA = ' + JSON.stringify(finalData, null, 2) + ';');

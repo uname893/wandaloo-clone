@@ -109,7 +109,12 @@ function buildStaticData(callback) {
                         } catch(e) {}
                       }
 
-                      const data = { brands, models, categories, carburants, promos, news, settings, auditReports, trends };
+                      let wallpapers = [];
+                      try {
+                        wallpapers = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/wallpapers.json'), 'utf8'));
+                      } catch(e) {}
+
+                      const data = { brands, models, categories, carburants, promos, news, settings, auditReports, trends, wallpapers };
                       const targetPath = path.join(__dirname, '../frontend/js/data.js');
                       
                       fs.writeFileSync(targetPath, 'const STATIC_DATA = ' + JSON.stringify(data, null, 2) + ';');
@@ -666,44 +671,49 @@ app.get('/api/compare', (req, res) => {
 app.get('/api/wallpapers', (req, res) => {
   const query = req.query.q || 'supercar';
   
-  const CURATED_WALLPAPERS = [
-    {
-      url: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1600",
-      title: "Ferrari 488 GTB",
-      author: "Alexander Mils",
-      license: "Unsplash License"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=1600",
-      title: "Ford Mustang GT",
-      author: "Joey Banks",
-      license: "Unsplash License"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=1600",
-      title: "Lamborghini Aventador SVJ",
-      author: "Dhruva Reddy",
-      license: "Unsplash License"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=1600",
-      title: "Tesla Model S Plaid",
-      author: "Vlad Tchompalov",
-      license: "Unsplash License"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1600",
-      title: "BMW M8 Competition",
-      author: "Jan Kopřiva",
-      license: "Unsplash License"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1520050206274-a1ae446cb3cc?w=1600",
-      title: "Mercedes-Benz G-Class",
-      author: "Jan Kopřiva",
-      license: "Unsplash License"
-    }
-  ];
+  let CURATED_WALLPAPERS = [];
+  try {
+    CURATED_WALLPAPERS = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/wallpapers.json'), 'utf8'));
+  } catch(e) {
+    CURATED_WALLPAPERS = [
+      {
+        url: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1600",
+        title: "Ferrari 488 GTB",
+        author: "Alexander Mils",
+        license: "Unsplash License"
+      },
+      {
+        url: "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=1600",
+        title: "Ford Mustang GT",
+        author: "Joey Banks",
+        license: "Unsplash License"
+      },
+      {
+        url: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=1600",
+        title: "Lamborghini Aventador SVJ",
+        author: "Dhruva Reddy",
+        license: "Unsplash License"
+      },
+      {
+        url: "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=1600",
+        title: "Tesla Model S Plaid",
+        author: "Vlad Tchompalov",
+        license: "Unsplash License"
+      },
+      {
+        url: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1600",
+        title: "BMW M8 Competition",
+        author: "Jan Kopřiva",
+        license: "Unsplash License"
+      },
+      {
+        url: "https://images.unsplash.com/photo-1520050206274-a1ae446cb3cc?w=1600",
+        title: "Mercedes-Benz G-Class",
+        author: "Jan Kopřiva",
+        license: "Unsplash License"
+      }
+    ];
+  }
 
   const db = getDB();
   db.get('SELECT value FROM settings WHERE id = 1', [], async (err, row) => {
