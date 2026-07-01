@@ -176,17 +176,153 @@ function renderStats(models, brands) {
   `;
 }
 
+let activeCategoryTab = '';
+
 function populateSelects(categories, carburants) {
-  const catSelect = document.getElementById('categoryFilter');
+  const catTabs = document.getElementById('categoryTabs');
   const fuelSelect = document.getElementById('fuelFilter');
-  if (catSelect) {
-    catSelect.innerHTML = '<option value="">Toutes catégories</option>' + 
-      categories.map(c => `<option value="${c}">${c}</option>`).join('');
+  
+  if (catTabs) {
+    let tabsHTML = `<button class="tab-btn active" onclick="selectCategoryTab(this, '')">📂 Tout</button>`;
+    categories.forEach(c => {
+      tabsHTML += `<button class="tab-btn" onclick="selectCategoryTab(this, '${c}')">${c}</button>`;
+    });
+    catTabs.innerHTML = tabsHTML;
   }
+  
   if (fuelSelect) {
-    fuelSelect.innerHTML = '<option value="">Tous carburants</option>' + 
+    fuelSelect.innerHTML = '<option value="">⛽ Tous carburants</option>' + 
       carburants.map(c => `<option value="${c}">${c}</option>`).join('');
   }
+}
+
+function selectCategoryTab(btnElement, category) {
+  const tabs = document.querySelectorAll('.tab-btn');
+  tabs.forEach(t => t.classList.remove('active'));
+  btnElement.classList.add('active');
+  activeCategoryTab = category;
+  applyFilters();
+}
+
+// ========== DYNAMIC SEARCH SUGGESTIONS ==========
+function handleSearchInput(e) {
+  const query = e.target.value.toLowerCase().trim();
+  const suggestionsDiv = document.getElementById('searchSuggestions');
+  if (!suggestionsDiv) return;
+  
+  if (e.key === 'Enter') {
+    search();
+    suggestionsDiv.style.display = 'none';
+    return;
+  }
+  
+  if (!query || query.length < 2) {
+    suggestionsDiv.style.display = 'none';
+    return;
+  }
+  
+  const matchingBrands = globalBrands.filter(b => b.nom.toLowerCase().includes(query)).slice(0, 3);
+  const matchingModels = globalModels.filter(m => m.nom.toLowerCase().includes(query) || m.marque.toLowerCase().includes(query)).slice(0, 5);
+  
+  if (matchingBrands.length === 0 && matchingModels.length === 0) {
+    suggestionsDiv.style.display = 'none';
+    return;
+  }
+  
+  const isSubpage = window.location.pathname.includes('/pages/');
+  const pathPrefix = isSubpage ? '../' : '';
+  
+  let html = '';
+  matchingBrands.forEach(b => {
+    html += `
+      <div class="suggestion-item" onclick="selectSuggestion('${pathPrefix}pages/marque.html?id=${b.id}')">
+        <span>${b.nom}</span>
+        <span class="suggestion-type">Marque</span>
+      </div>
+    `;
+  });
+  
+  matchingModels.forEach(m => {
+    html += `
+      <div class="suggestion-item" onclick="selectSuggestion('${pathPrefix}pages/modele.html?id=${m.id}')">
+        <span>${m.marque} ${m.nom}</span>
+        <span class="suggestion-type">Modèle</span>
+      </div>
+    `;
+  });
+  
+  suggestionsDiv.innerHTML = html;
+  suggestionsDiv.style.display = 'block';
+}
+
+function selectSuggestion(url) {
+  window.location.href = url;
+}
+
+// Close suggestions on click outside
+document.addEventListener('click', (e) => {
+  const suggestionsDiv = document.getElementById('searchSuggestions');
+  const searchInput = document.getElementById('searchInput');
+  if (suggestionsDiv && e.target !== searchInput && e.target !== suggestionsDiv) {
+    suggestionsDiv.style.display = 'none';
+  }
+});
+
+// ========== BRANDS MARQUEE ==========
+function renderBrandsMarquee(brands) {
+  const marquee = document.getElementById('brandsMarquee');
+  if (!marquee) return;
+  
+  // Duplicate brands list 3 times for a seamless loop
+  const duplicatedBrands = [...brands, ...brands, ...brands];
+  const isSubpage = window.location.pathname.includes('/pages/');
+  const pathPrefix = isSubpage ? '../' : '';
+  
+  marquee.innerHTML = duplicatedBrands.map(b => {
+    let logoPath = b.logo || '';
+    if (logoPath.startsWith('/')) {
+      logoPath = logoPath.substring(1);
+    }
+    const finalLogo = pathPrefix + logoPath;
+    const linkPath = isSubpage ? `marque.html?id=${b.id}` : `pages/marque.html?id=${b.id}`;
+    
+    return `
+      <a href="${linkPath}" class="marquee-item">
+        <img src="${finalLogo}" alt="${b.nom}" class="marquee-logo" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=64&auto=format&fit=crop&q=60'">
+        <span class="marquee-name">${b.nom}</span>
+      </a>
+    `;
+  }).join('');
+}
+
+// ========== QUICK COMPARATOR ==========
+function initQuickComp(models) {
+  const select1 = document.getElementById('quickCompCar1');
+  const select2 = document.getElementById('quickCompCar2');
+  if (!select1 || !select2) return;
+  
+  const sortedModels = [...models].sort((a, b) => (a.marque + ' ' + a.nom).localeCompare(b.marque + ' ' + b.nom));
+  const options = sortedModels.map(m => `<option value="${m.id}">${m.marque} ${m.nom}</option>`).join('');
+  select1.innerHTML = '<option value="">Choisissez le premier modèle</option>' + options;
+  select2.innerHTML = '<option value="">Choisissez le second modèle</option>' + options;
+}
+
+function compareQuick() {
+  const id1 = document.getElementById('quickCompCar1')?.value;
+  const id2 = document.getElementById('quickCompCar2')?.value;
+  
+  if (!id1 || !id2) {
+    alert('Veuillez sélectionner deux véhicules à comparer.');
+    return;
+  }
+  if (id1 === id2) {
+    alert('Veuillez sélectionner deux véhicules différents.');
+    return;
+  }
+  
+  const isSubpage = window.location.pathname.includes('/pages/');
+  const linkPath = isSubpage ? 'comparateur.html' : 'pages/comparateur.html';
+  window.location.href = `${linkPath}?ids=${id1},${id2}`;
 }
 
 // ========== FILTERS ==========
@@ -221,7 +357,8 @@ async function loadHomeData() {
   if (heroTitle) heroTitle.innerHTML = settings.hero_title.replace(/\n/g, '<br>');
   if (heroSubtitle) heroSubtitle.textContent = settings.hero_subtitle;
 
-  renderBrands(brands);
+  renderBrandsMarquee(brands);
+  initQuickComp(models);
   renderModels(models);
   renderStats(models, brands);
   populateSelects(categories, carburants);
@@ -235,44 +372,82 @@ function renderHomeNews(news) {
     container.innerHTML = '<p style="color:var(--text-light);text-align:center;">Aucune actualité récente.</p>';
     return;
   }
-  container.innerHTML = news.map(item => {
+  
+  const isSubpage = window.location.pathname.includes('/pages/');
+  const linkPrefix = isSubpage ? '' : 'pages/';
+  
+  const featuredItem = news[0];
+  const rightItems = news.slice(1);
+  
+  let html = '';
+  
+  if (featuredItem) {
     let tag = 'Actu';
-    let titleClean = item.titre;
-    const tagMatch = item.titre.match(/^\[(.*?)\]\s*(.*)$/);
+    let titleClean = featuredItem.titre;
+    const tagMatch = featuredItem.titre.match(/^\[(.*?)\]\s*(.*)$/);
     if (tagMatch) {
       tag = tagMatch[1];
       titleClean = tagMatch[2];
     }
-
     let tagClass = 'tag-default';
     const tagLower = tag.toLowerCase();
     if (tagLower.includes('essai')) tagClass = 'tag-essai';
     else if (tagLower.includes('actu fr')) tagClass = 'tag-france';
-    else if (tagLower.includes('nouveauté maroc') || tagLower.includes('maroc')) tagClass = 'tag-maroc';
-    else if (tagLower.includes('nouveauté')) tagClass = 'tag-nouveaute';
-    else if (tagLower.includes('marché')) tagClass = 'tag-marche';
-
-    // Correction du chemin pour rediriger localement vers l'article
-    const localLink = `/pages/article.html?id=${item.id}`;
-
-    return `
-      <div class="news-card" onclick="location.href='${localLink}'">
+    
+    html += `
+      <div class="news-card featured" onclick="location.href='/${linkPrefix}article.html?id=${featuredItem.id}'">
         <div class="news-image-wrapper">
-          <img class="news-img" src="${item.image}" alt="${titleClean}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60'">
+          <img class="news-img" src="${featuredItem.image}" alt="${titleClean}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60'">
           <span class="news-tag ${tagClass}">${tag}</span>
         </div>
-        <div class="news-body">
-          <span class="news-date">${item.date_publication}</span>
+        <div class="news-content-wrapper">
+          <span class="news-date">${featuredItem.date_publication}</span>
           <h3 class="news-title">${titleClean}</h3>
-          <p class="news-excerpt" style="font-size: 13px; line-height: 1.5; color: var(--text-light); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 0;">${item.resume}</p>
+          <p class="news-excerpt" style="font-size: 14px; line-height: 1.6; color: var(--text-light); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 24px;">${featuredItem.resume}</p>
+          <a class="news-link-btn" href="/${linkPrefix}article.html?id=${featuredItem.id}">Lire la suite <i class="news-icon-arrow">→</i></a>
         </div>
       </div>
     `;
-  }).join('');
+  }
+  
+  if (rightItems.length > 0) {
+    html += `<div class="news-grid-asym-right">`;
+    rightItems.forEach(item => {
+      let tag = 'Actu';
+      let titleClean = item.titre;
+      const tagMatch = item.titre.match(/^\[(.*?)\]\s*(.*)$/);
+      if (tagMatch) {
+        tag = tagMatch[1];
+        titleClean = tagMatch[2];
+      }
+      let tagClass = 'tag-default';
+      const tagLower = tag.toLowerCase();
+      if (tagLower.includes('essai')) tagClass = 'tag-essai';
+      else if (tagLower.includes('actu fr')) tagClass = 'tag-france';
+      
+      html += `
+        <div class="news-card mini" onclick="location.href='/${linkPrefix}article.html?id=${item.id}'">
+          <div class="news-image-wrapper">
+            <img class="news-img" src="${item.image}" alt="${titleClean}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60'">
+            <span class="news-tag ${tagClass}">${tag}</span>
+          </div>
+          <div class="news-content-wrapper">
+            <span class="news-date">${item.date_publication}</span>
+            <h3 class="news-title">${titleClean}</h3>
+            <p class="news-excerpt" style="font-size: 13px; line-height: 1.5; color: var(--text-light); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 12px;">${item.resume}</p>
+            <a class="news-link-btn" href="/${linkPrefix}article.html?id=${item.id}">Lire la suite <i class="news-icon-arrow">→</i></a>
+          </div>
+        </div>
+      `;
+    });
+    html += `</div>`;
+  }
+  
+  container.innerHTML = html;
 }
 
 function applyFilters() {
-  const category = document.getElementById('categoryFilter')?.value;
+  const category = document.getElementById('categoryFilter')?.value || activeCategoryTab;
   const fuel = document.getElementById('fuelFilter')?.value;
   const budget = document.getElementById('budgetFilter')?.value;
   
@@ -288,7 +463,18 @@ function applyFilters() {
 
 function filterByCategory(cat) {
   const el = document.getElementById('categoryFilter');
-  if (el) el.value = cat;
+  if (el) {
+    el.value = cat;
+  } else {
+    // Find category tab button and activate it
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    tabBtns.forEach(btn => {
+      const textClean = btn.textContent.replace(/[^a-zA-Z0-9\s]/g, '').trim().toLowerCase();
+      if (textClean.includes(cat.toLowerCase())) {
+        selectCategoryTab(btn, cat);
+      }
+    });
+  }
   applyFilters();
   document.getElementById('modelsGrid')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }

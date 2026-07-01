@@ -40,8 +40,9 @@
       <p id="heroSubtitle">Prix officiels, fiches techniques et comparateur de toutes les marques disponibles au Maroc</p>
       
       <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Rechercher une marque, un modèle..." onkeyup="if(event.key==='Enter') search()">
+        <input type="text" id="searchInput" placeholder="Rechercher une marque, un modèle..." onkeyup="handleSearchInput(event)" autocomplete="off">
         <button onclick="search()">Rechercher</button>
+        <div class="search-suggestions" id="searchSuggestions" style="display:none;"></div>
       </div>
       
       <div class="quick-filters">
@@ -66,24 +67,42 @@
     </div>
   </div>
 
-  <!-- Brands Section -->
-  <section class="section">
+  <!-- Brands Marquee Section -->
+  <section class="section" style="padding: 40px 0 20px;">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header" style="margin-bottom: 20px;">
         <div>
           <h2>Marques disponibles</h2>
           <p>Toutes les marques automobiles neuves au Maroc</p>
         </div>
         <a href="pages/marques.html" class="see-all">Voir toutes →</a>
       </div>
-      <div class="brands-grid" id="brandsGrid">
-        <!-- Loading skeletons -->
-        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
-        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
-        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
-        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
-        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
-        <div class="brand-card"><div class="skeleton" style="height:40px;width:60%;margin:0 auto 12px;"></div><div class="skeleton" style="height:14px;width:80%;margin:0 auto;"></div></div>
+    </div>
+    <div class="marquee-container">
+      <div class="marquee-content" id="brandsMarquee">
+        <div style="padding: 20px; text-align: center; color: var(--text-light); width: 100%;">Chargement des logos...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Comparison Section -->
+  <section class="quick-comp-section">
+    <div class="container">
+      <div class="quick-comp-box">
+        <div class="quick-comp-title">
+          <h3>Comparateur Rapide</h3>
+          <p>Sélectionnez deux modèles pour les comparer instantanément</p>
+        </div>
+        <div class="quick-comp-selectors">
+          <select id="quickCompCar1">
+            <option value="">Choisissez le premier modèle</option>
+          </select>
+          <span class="quick-comp-vs">VS</span>
+          <select id="quickCompCar2">
+            <option value="">Choisissez le second modèle</option>
+          </select>
+        </div>
+        <button class="btn-comp-quick" onclick="compareQuick()">Comparer</button>
       </div>
     </div>
   </section>
@@ -91,17 +110,17 @@
   <!-- Models Section -->
   <section class="section section-alt">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header" style="margin-bottom: 20px;">
         <div>
           <h2>Modèles populaires</h2>
           <p>Découvrez les dernières nouveautés et meilleures ventes</p>
         </div>
       </div>
       
+      <!-- Category Tabs instead of select dropdown -->
+      <div class="tabs-container" id="categoryTabs"></div>
+      
       <div class="filters-bar">
-        <select id="categoryFilter" onchange="applyFilters()">
-          <option value="">📂 Toutes catégories</option>
-        </select>
         <select id="fuelFilter" onchange="applyFilters()">
           <option value="">⛽ Tous carburants</option>
         </select>
@@ -133,11 +152,9 @@
         </div>
         <a href="pages/actu.html" class="see-all">Voir toute l'actu →</a>
       </div>
-      <div class="news-grid" id="homeNewsGrid">
+      <div class="news-grid-asym" id="homeNewsGrid">
         <!-- Loading skeletons -->
-        <div class="news-card-skeleton"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:40%;margin-bottom:8px;"></div><div class="skeleton" style="height:20px;width:80%;"></div></div></div>
-        <div class="news-card-skeleton"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:40%;margin-bottom:8px;"></div><div class="skeleton" style="height:20px;width:80%;"></div></div></div>
-        <div class="news-card-skeleton"><div class="skeleton" style="height:200px;"></div><div style="padding:16px;"><div class="skeleton" style="height:16px;width:40%;margin-bottom:8px;"></div><div class="skeleton" style="height:20px;width:80%;"></div></div></div>
+        <div class="news-card-skeleton" style="grid-column: span 2; height: 380px;"><div class="skeleton" style="height:100%;width:100%;"></div></div>
       </div>
     </div>
   </section>
