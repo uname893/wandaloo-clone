@@ -35,7 +35,28 @@ const PORT = process.env.PORT || 3001;
 const ADMIN_SECRET = process.env.ADMIN_SECRET || 'autoguide-admin-secret-2026';
 const ADMIN_PASSWORD_HASH = process.env.ADMIN_PASSWORD || bcrypt.hashSync('admin123', 10);
 
-app.use(cors());
+// Origines autorisées
+const ALLOWED_ORIGINS = [
+  'http://localhost:3001',
+  'http://localhost:3000',
+  'http://127.0.0.1:5500',
+  'https://wandaloo-clone-1.onrender.com',
+  'https://autoguide-maroc.web.app',
+  'https://autoguide-maroc.firebaseapp.com'
+];
+
+app.use(cors({
+  origin: function(origin, callback) {
+    // Accepter si pas d'origin (ex: Postman, curl) ou si dans la liste
+    if (!origin || ALLOWED_ORIGINS.includes(origin)) {
+      callback(null, true);
+    } else {
+      console.warn('[CORS] Rejet origine non autorisée:', origin);
+      callback(new Error('Origine non autorisée par la politique CORS'));
+    }
+  },
+  credentials: true
+}));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.static(path.join(__dirname, '../frontend')));
 
@@ -60,7 +81,7 @@ function triggerAutoPublish() {
   }, 5000); // 5 secondes de délai après la dernière modification
 }
 
-// ========== UTILS: REBUILD FRONTEND DATA.JS ==========
+// ========== UTILS: REBUILD FRONTEND DATA ==========
 function buildStaticData(callback) {
   getAllBrands((err, brands) => {
     if (err) return callback && callback(err);
@@ -72,15 +93,17 @@ function buildStaticData(callback) {
           if (err4) return callback && callback(err4);
           getPromos((err5, promos) => {
             if (err5) return callback && callback(err5);
-            getNews(100, (err6, news) => {
+            getNews(200, (err6, news) => {
               if (err6) return callback && callback(err6);
 
+              // Enrichir les modèles avec specs et images complètes
               const promises = models.map(m => {
                 return new Promise((resolve) => {
                   getModelById(m.id, (err7, detailedModel) => {
                     if (detailedModel) {
                       m.specifications = detailedModel.specifications;
                       m.images = detailedModel.images;
+                      m.motorisations = detailedModel.motorisations;
                     }
                     resolve();
                   });
@@ -88,25 +111,18 @@ function buildStaticData(callback) {
               });
 
               Promise.all(promises).then(() => {
-                // Charger également les paramètres du site (slogans, etc.)
                 const db = getDB();
                 db.get(`SELECT * FROM settings WHERE id = 1`, [], (errSettings, settingsRow) => {
                   let settings = { hero_title: 'Trouvez votre voiture neuve au meilleur prix', hero_subtitle: 'Prix officiels, fiches techniques et comparateur de toutes les marques disponibles au Maroc' };
                   if (settingsRow) {
-                    try {
-                      settings = JSON.parse(settingsRow.value);
-                    } catch(e) {}
+                    try { settings = JSON.parse(settingsRow.value); } catch(e) {}
                   }
-                  
-                  // Charger les rapports d'audit
+
                   db.all(`SELECT * FROM audit_reports ORDER BY id DESC LIMIT 5`, [], (errAudit, auditReports) => {
-                    // Charger les tendances de veille
                     db.all(`SELECT * FROM global_trends`, [], (errTrends, trendsRows) => {
                       const trends = {};
                       for (const t of trendsRows || []) {
-                        try {
-                          trends[t.pays] = JSON.parse(t.data_json);
-                        } catch(e) {}
+                        try { trends[t.pays] = JSON.parse(t.data_json); } catch(e) {}
                       }
 
                       let wallpapers = [];
@@ -114,14 +130,73 @@ function buildStaticData(callback) {
                         wallpapers = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/wallpapers.json'), 'utf8'));
                       } catch(e) {}
 
-                      const data = { brands, models, categories, carburants, promos, news, settings, auditReports, trends, wallpapers };
+                      // ====================================================
+                      // SYSTÈME DE PERSISTANCE : écriture des fichiers JSON
+                      // ====================================================
+                      const dataDir = path.join(__dirname, '../frontend/data');
+                      const modelsDir = path.join(dataDir, 'models');
+
+                      // Index léger des modèles (sans specs complètes)
+                      const modelsIndex = models.map(m => ({
+                        id: m.id,
+                        marque: m.marque,
+                        nom: m.nom,
+                        slug: m.slug,
+                        annee: m.annee,
+                        categorie: m.categorie,
+                        carrosserie: m.carrosserie,
+                        prix_min: m.prix_min,
+                        prix_max: m.prix_max,
+                        image: m.image,
+                        motorisations: m.motorisations
+                      }));
+
+                      try {
+                        // Créer les répertoires si nécessaire
+                        if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
+                        if (!fs.existsSync(modelsDir)) fs.mkdirSync(modelsDir, { recursive: true });
+
+                        // --- Fichiers de données globaux ---
+                        fs.writeFileSync(path.join(dataDir, 'brands.json'),       JSON.stringify(brands));
+                        fs.writeFileSync(path.join(dataDir, 'models-index.json'), JSON.stringify(modelsIndex));
+                        fs.writeFileSync(path.join(dataDir, 'categories.json'),   JSON.stringify(categories));
+                        fs.writeFileSync(path.join(dataDir, 'carburants.json'),   JSON.stringify(carburants));
+                        fs.writeFileSync(path.join(dataDir, 'promos.json'),       JSON.stringify(promos));
+                        fs.writeFileSync(path.join(dataDir, 'news.json'),         JSON.stringify(news));
+                        fs.writeFileSync(path.join(dataDir, 'wallpapers.json'),   JSON.stringify(wallpapers));
+                        fs.writeFileSync(path.join(dataDir, 'settings.json'),     JSON.stringify(settings));
+
+                        // --- Fichiers individuels par modèle (avec specs + images) ---
+                        for (const m of models) {
+                          fs.writeFileSync(path.join(modelsDir, `${m.id}.json`), JSON.stringify(m));
+                        }
+
+                        console.log(`✅ [Persistance] ${models.length} modèles + 8 collections écrits dans frontend/data/`);
+                      } catch (writeErr) {
+                        console.error('❌ [Persistance] Erreur écriture JSON:', writeErr.message);
+                      }
+
+                      // data.js compact pour fallback mémoire (index seulement, sans specs)
+                      const compactData = {
+                        brands,
+                        models: modelsIndex,
+                        categories,
+                        carburants,
+                        promos,
+                        news: news.slice(0, 20), // Seulement les 20 dernières pour limiter le poids
+                        settings,
+                        auditReports: auditReports || [],
+                        trends,
+                        wallpapers
+                      };
+
                       const targetPath = path.join(__dirname, '../frontend/js/data.js');
-                      
-                      fs.writeFileSync(targetPath, 'const STATIC_DATA = ' + JSON.stringify(data, null, 2) + ';');
-                      console.log('⚡ [Build] data.js régénéré en direct et mis à jour instantanément.');
+                      fs.writeFileSync(targetPath, '/* AutoGuide Maroc — Static index (compact) */\nconst STATIC_DATA = ' + JSON.stringify(compactData) + ';');
+                      console.log('⚡ [Build] data.js compact régénéré.');
+
                       db.close();
-                      triggerAutoPublish(); // Déclenche la publication Git + Firebase automatique
-                      if (callback) callback(null, data);
+                      triggerAutoPublish();
+                      if (callback) callback(null, compactData);
                     });
                   });
                 });
@@ -150,7 +225,8 @@ function requireAuth(req, res, next) {
 app.post('/api/admin/login', (req, res) => {
   const { password } = req.body;
   if (!password) return res.status(400).json({ error: 'Mot de passe requis' });
-  if (bcrypt.compareSync(password, ADMIN_PASSWORD_HASH) || password === 'admin123') {
+  // Sécurité : uniquement comparaison hash bcrypt, pas de fallback en clair
+  if (bcrypt.compareSync(password, ADMIN_PASSWORD_HASH)) {
     const token = jwt.sign({ role: 'admin' }, ADMIN_SECRET, { expiresIn: '24h' });
     res.json({ token, success: true });
   } else {
